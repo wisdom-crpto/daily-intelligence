@@ -1,6 +1,495 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-07-07",
+    "generated_at": "2026-07-06T23:05:03.676652+00:00",
+    "model": "glm-5.1",
+    "mode": "model",
+    "thesis": "AI 泡沫的宏观预警与地方监管的同步落地，正在将 AI 产业从“无约束扩张”推向“合规与 ROI 双重验证”的挤兑期。",
+    "summary": "- **AI**：监管实质性落地（伊利诺伊州首创前沿模型审计法 [A4][A18]），同时宏观层面（美国财政部、银行及超大规模厂商）密集发出 AI 泡沫预警 [A13][A21]，AI 产业进入 ROI 验证期。 - **商业**：美国 ISM 服务业新订单降温提振降息押注 [B6]，医疗科技（Clover Health 目标价近翻倍 [B17]）与 AI 垂直应用（ALS 辅助 [A9]）获资本青睐。 - **宏观**：地缘风险（美伊和谈僵局 [B21]）与降息预期交织，避险资产与风险资产同涨，市场在矛盾中寻找方向。",
+    "relative_html": "2026/07/2026-07-07/Daily%20Intelligence.html",
+    "markets": [
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "value": 26121.1602,
+        "change_pct": 1.12,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "黄金",
+        "symbol": "GC=F",
+        "value": 4176.6001,
+        "change_pct": 1.55,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+        "interpretation": "避险/通胀对冲增强"
+      },
+      {
+        "name": "原油",
+        "symbol": "CL=F",
+        "value": 68.7,
+        "change_pct": 0.01,
+        "direction": "→",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+        "interpretation": "供需平衡"
+      },
+      {
+        "name": "美元指数",
+        "symbol": "DX-Y.NYB",
+        "value": 100.855,
+        "change_pct": -0.0,
+        "direction": "→",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+        "interpretation": "中性"
+      },
+      {
+        "name": "十年美债收益率",
+        "symbol": "^TNX",
+        "value": 4.479,
+        "change_pct": -0.13,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+        "interpretation": "中性"
+      },
+      {
+        "name": "BTC",
+        "symbol": "BTC-USD",
+        "value": 64215.6211,
+        "change_pct": 1.05,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "value": 15.57,
+        "change_pct": -3.59,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "value": 195.55,
+        "change_pct": 0.37,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/NVDA",
+        "interpretation": "风险偏好改善"
+      }
+    ],
+    "topics": [
+      "AI",
+      "technology",
+      "business",
+      "macro"
+    ],
+    "sources": {
+      "ai": [
+        {
+          "title": "贝利预言巴西世界杯夺冠？人工智能迎来真实性之问 - 华龙网",
+          "summary": "贝利预言巴西世界杯夺冠？人工智能迎来真实性之问    华龙网",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RQUpyLTFMZnlyZVBweVVjVmhMTDR1eXludjVScjF3b3BfclVHWlowTlJSc19MSjdibUZaM2FCd0h6U0FVOEMzakRsZV81aUU3OURTUkNaSWF0SVNSdUVUdGVPTWdPZEluMnU4?oc=5",
+          "published": "Mon, 06 Jul 2026 22:38:12 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-06T22:38:12+00:00"
+        },
+        {
+          "title": "Not everything should cost a token: the case for deterministic AI",
+          "summary": "Article URL: https://www.vybe.build/blog/learn-what-not-to-tokenize Comments URL: https://news.ycombinator.com/item?id=48811403 Points: 1 # Comments: 0",
+          "url": "https://www.vybe.build/blog/learn-what-not-to-tokenize",
+          "published": "Mon, 06 Jul 2026 22:36:40 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T22:36:40+00:00"
+        },
+        {
+          "title": "From Hugging Face to Amazon SageMaker Studio in one click - Amazon Web Services (AWS)",
+          "summary": "From Hugging Face to Amazon SageMaker Studio in one click    Amazon Web Services (AWS)",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQmpYUnJQdnRfd3VhRnJkcWZuQUx6b0s4ZjE0blpYYVY0bDNDT0toQ1NkMUhaMU9uS1VTcWZuTHRjSnN4UzBkZWdNaFNuZ3RBc29fSGk5a0hpeHAwNUtKYVlPdTEwVHBST3lYNWtWbVZ4TzAzaXJIbU1MclhKZTA0dTJFY2Y1Z3VKbGxJd2hxa0gwVU1Lb0FfcU9tXzdUaHg2WTZnM0JLWUNVdw?oc=5",
+          "published": "Mon, 06 Jul 2026 22:35:55 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T22:35:55+00:00"
+        },
+        {
+          "title": "Illinois governor signs AI safety law requiring audits of frontier models - StateScoop",
+          "summary": "Illinois governor signs AI safety law requiring audits of frontier models    StateScoop",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PTUI5WEpENWNRV1c0NHpiMWdjQ3JfdTRqU1ZqRGRvSnZTZ25QYTl2OG5DdTBsc0wwZklMN3BlSjBPRTFaVDh6cVB5Z1pMOUpqWWlTU0FKTjk2MmpvemplS0hXYjViTC1HRFFkT1JTZi1tRS0yZ25qRQ?oc=5",
+          "published": "Mon, 06 Jul 2026 22:31:08 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T22:31:08+00:00"
+        },
+        {
+          "title": "Pritzker signs landmark AI regulation bill that aims to mitigate risks - KWQC",
+          "summary": "Pritzker signs landmark AI regulation bill that aims to mitigate risks    KWQC",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU2FLMUw0cmcyU1lKV2h6TF9RQlVLd1BXZzVobnRmVmkyVU1iMG9mVXZNUkVqeG9jNWlrMVp5Rnk3RkJoaGxzemJDdTRTc3lsX1dTeURuS1FuMTdBVm9lal92dlpldmMwRTJodWhFSW5RLWtib1h6WkZKRDhEWmRzRldfcWZaMzh1RW1DRXB5aThwejVEWTY3T3dnYWl4NmFqbGc?oc=5",
+          "published": "Mon, 06 Jul 2026 22:04:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T22:04:00+00:00"
+        },
+        {
+          "title": "Show HN: Nimbus - open-source AI agent that operates your AWS and GCP",
+          "summary": "Article URL: https://github.com/hritvikgupta/nimbus Comments URL: https://news.ycombinator.com/item?id=48811086 Points: 1 # Comments: 0",
+          "url": "https://github.com/hritvikgupta/nimbus",
+          "published": "Mon, 06 Jul 2026 22:02:44 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T22:02:44+00:00"
+        },
+        {
+          "title": "Kennel – Keep Your AI Agents Running Between Tasks",
+          "summary": "Article URL: https://github.com/eranif/kennel Comments URL: https://news.ycombinator.com/item?id=48810920 Points: 2 # Comments: 0",
+          "url": "https://github.com/eranif/kennel",
+          "published": "Mon, 06 Jul 2026 21:48:09 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T21:48:09+00:00"
+        },
+        {
+          "title": "x.ai Voice Agent Builder",
+          "summary": "Article URL: https://x.ai/voice Comments URL: https://news.ycombinator.com/item?id=48810889 Points: 2 # Comments: 1",
+          "url": "https://x.ai/voice",
+          "published": "Mon, 06 Jul 2026 21:44:04 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T21:44:04+00:00"
+        },
+        {
+          "title": "Artificial intelligence technology helping patients with ALS - CBS News",
+          "summary": "Artificial intelligence technology helping patients with ALS    CBS News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZVNkU3YyVHFiclZMSEo4a1RObERsbGhLMHlMNFNBUkllNGVSWGxjcjdnWUc1dUVuSmJvTUlIeU1zVEdPcUdfbEQ4V2htWUltUHVkVzg4b0NtdlI2NmZKMDc3Vll0S3BXdXB3SnZrMkJDMGRndG9lVUlSQndsb3ZaVl9POW5hOUljdU9CdDJxOXhqdWtIeloydlZ4MWNLdEJU?oc=5",
+          "published": "Mon, 06 Jul 2026 21:44:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T21:44:00+00:00"
+        },
+        {
+          "title": "Attribute Knowledge RAG Pattern for Governed AI Agents",
+          "summary": "Article URL: https://superml.dev/attribute-knowledge-rag-pattern-llm-governed-attributes Comments URL: https://news.ycombinator.com/item?id=48810859 Points: 2 # Comments: 0",
+          "url": "https://superml.dev/attribute-knowledge-rag-pattern-llm-governed-attributes",
+          "published": "Mon, 06 Jul 2026 21:40:45 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T21:40:45+00:00"
+        },
+        {
+          "title": "UCO Launches New AI Degree Programs to Meet Growing Workforce Demand - The University of Central Oklahoma",
+          "summary": "UCO Launches New AI Degree Programs to Meet Growing Workforce Demand    The University of Central Oklahoma",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ3hZS09CWUVmem1HZXBWLUhhYUlGSzVsNkxESmRLbWRibkUtSjhPdEZIQjFNYnU0TWpSOW93WFA5bk15U2R3aGZjZlhUWHdBaGtaUF9GTTBpVXMxNjVISVBQR3BTT2o3RUNfOWNIUmNCVGVyZXhjQ3VaTlFmSnl5WExaYlR2U1gwZHdSMWcxaFZEY0E?oc=5",
+          "published": "Mon, 06 Jul 2026 21:32:37 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T21:32:37+00:00"
+        },
+        {
+          "title": "JadePuffer ransomware used AI agent to automate attack",
+          "summary": "Article URL: https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/ Comments URL: https://news.ycombinator.com/item?id=48810780 Points: 5 # Comments: 0",
+          "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+          "published": "Mon, 06 Jul 2026 21:32:34 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T21:32:34+00:00"
+        },
+        {
+          "title": "Even banks and hyperscalers are now sounding the alarm about the AI bubble",
+          "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123 Comments URL: https://news.ycombinator.com/item?id=48810702 Points: 15 # Comments: 2",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
+          "published": "Mon, 06 Jul 2026 21:24:58 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T21:24:58+00:00"
+        },
+        {
+          "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector",
+          "summary": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=48810533 Points: 19 # Comments: 5",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
+          "published": "Mon, 06 Jul 2026 21:09:23 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T21:09:23+00:00"
+        },
+        {
+          "title": "Apollo economist says a 'painful repricing' of AI markets is possible",
+          "summary": "Article URL: https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok/ Comments URL: https://news.ycombinator.com/item?id=48810522 Points: 7 # Comments: 1",
+          "url": "https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok/",
+          "published": "Mon, 06 Jul 2026 21:08:19 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T21:08:19+00:00"
+        },
+        {
+          "title": "AMD's Ryzen AI Halo makes local AI look easy, but it doesn't come cheap",
+          "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/07/06/amds-ryzen-ai-halo-makes-local-ai-look-easy-but-at-4k-easy-doesnt-come-cheap/5266711 Comments URL: https://news.ycombinator.com/item?id=48810374 Points: 7 # Comments: 2",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/06/amds-ryzen-ai-halo-makes-local-ai-look-easy-but-at-4k-easy-doesnt-come-cheap/5266711",
+          "published": "Mon, 06 Jul 2026 20:53:47 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T20:53:47+00:00"
+        },
+        {
+          "title": "Show HN: Dike is a compliance gateway for AI products in the EU",
+          "summary": "Article URL: https://d1k3.com Comments URL: https://news.ycombinator.com/item?id=48810289 Points: 2 # Comments: 0",
+          "url": "https://d1k3.com",
+          "published": "Mon, 06 Jul 2026 20:46:11 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T20:46:11+00:00"
+        },
+        {
+          "title": "Gov. JB Pritzker signs first-in-nation Illinois law requiring third-party safety audits for AI giants - Chicago Tribune",
+          "summary": "Gov. JB Pritzker signs first-in-nation Illinois law requiring third-party safety audits for AI giants    Chicago Tribune",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMNjVQQlpFam5wMzdoZU5Td0xxWW9VMDRnYzVOVVF6QTBCdjJkamZ4ODh6N2htWENHTVlZRVlqWXhUYW9HMkpTQjgwRmVZejdNYm5MYVFmSTRaSTdON1Z2cWNlaHBTaDZkbDB1bmY5Wm14Z0ozcHUw?oc=5",
+          "published": "Mon, 06 Jul 2026 20:42:41 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T20:42:41+00:00"
+        },
+        {
+          "title": "中国AI，一条没断过的清华血脉 - 风闻",
+          "summary": "中国AI，一条没断过的清华血脉    风闻",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50Qkl6a09ERWxXbm1yS2dlY2s5UjJReG1MWFRSNVlmOUxadmtGTGN1eUtDWl9NRmZsNUxVaXdOQVh5anc5bFl0RmxQZVpyOC1Yc0VkWF9Vc0dlY3M?oc=5",
+          "published": "Mon, 06 Jul 2026 20:37:39 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-06T20:37:39+00:00"
+        },
+        {
+          "title": "‘The Great AI Lie': The data confirms our fears - FireRescue1",
+          "summary": "‘The Great AI Lie': The data confirms our fears    FireRescue1",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWk0Nm9mZDNqRVVmMldfU3NtQ01XV1VXZkVTRUFJZ3IzOVhaWE1vNEM3WWFZdUtTTmQ2SVRuRGtJMjNwYjQtTGV6WUFxNHRFTjlNcUxQMnJhTkpQU3JBMU1HMkNJSElkWXVOTk5zeFRQWGJVVUMwVlExM2J5N0xIN0V5X1oyd3R6LVBFVFJtUGxzNGs3X3cyZlhQRGQ?oc=5",
+          "published": "Mon, 06 Jul 2026 20:36:11 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T20:36:11+00:00"
+        },
+        {
+          "title": "US Treasury Report Warns AI Bubble Could Trigger Economic Shockwaves - PYMNTS.com",
+          "summary": "US Treasury Report Warns AI Bubble Could Trigger Economic Shockwaves    PYMNTS.com",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONzBmUUxDSnB0Y0xIYk1yeGtmWW5JaXJnWlJYMFRrWjZZMjIzQTZaa1hiUVMydHc1WkhrNHFSSWR0ckMyZkVRbDVjcWh3YkFGVTRDa1hiTzVzR2ptemVBMEQ4WDBNWFBiTDBHVC1iYVZtcEhTM3I0dUs0NVdZVmZnZDlfTVF4eFd3SEFDTlNRSF9SMkJXYnlGYjJlOGN4am01SzNOeUJQMVplaktneDB4VDNxSmZuS0Jfd284TjdYZGdqX3lL?oc=5",
+          "published": "Mon, 06 Jul 2026 20:34:47 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T20:34:47+00:00"
+        },
+        {
+          "title": "How AI Legal Tools Are Empowering Consumers - Impakter",
+          "summary": "How AI Legal Tools Are Empowering Consumers    Impakter",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11Rno0LUJlaWVmWmR3NTh2b1FHa2lQMDJfbERrZGNMQUJyTVZsT2VmUGk0TkFXNVJUV2dOc2VOYW5VZFcwRmVxTTMzVlFNazVYWmFnMDNfMnNYcm95SkQw?oc=5",
+          "published": "Mon, 06 Jul 2026 20:30:22 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-06T20:30:22+00:00"
+        },
+        {
+          "title": "AMD Ryzen AI Halo Is a Powerful Mini PC with Open-Source Software",
+          "summary": "Article URL: https://www.phoronix.com/review/amd-ryzen-ai-halo Comments URL: https://news.ycombinator.com/item?id=48810071 Points: 2 # Comments: 0",
+          "url": "https://www.phoronix.com/review/amd-ryzen-ai-halo",
+          "published": "Mon, 06 Jul 2026 20:28:03 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T20:28:03+00:00"
+        },
+        {
+          "title": "Judgment-Theater and Responsibility Laundering in AI Post-Training",
+          "summary": "Article URL: https://medium.com/@wo.shen.me.dou.bu.zhi.dao.a/structural-audit-of-judgment-theater-and-responsibility-laundering-in-ai-post-training-4a9ea190f21f Comments URL: https://news.ycombinator.com/item?id=48810069 Points: 2 # Comments: 0",
+          "url": "https://medium.com/@wo.shen.me.dou.bu.zhi.dao.a/structural-audit-of-judgment-theater-and-responsibility-laundering-in-ai-post-training-4a9ea190f21f",
+          "published": "Mon, 06 Jul 2026 20:28:02 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-06T20:28:02+00:00"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "其他城市会跟进叫停网吧通宵营业吗？ - 新浪网",
+          "summary": "其他城市会跟进叫停网吧通宵营业吗？    新浪网",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMjhFY1lndW44RnFMdlZRLS1HMG9DMnhkcnVZM2w2WHZMSUhaRl9fZklDX3ZjV1lCTVpQUnVoMW5RT2V2dFJfRlNlSUxMVHo5SldTeDZnNE9wcVc4NEl5WFg2RFR2YjJkNk5abDlrc2FRNjBfclhEM0dOWlhZTVpwcTQwYUFwMVE4bUU3cnJsbw?oc=5",
+          "published": "Mon, 06 Jul 2026 22:10:56 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-06T22:10:56+00:00"
+        },
+        {
+          "title": "CAC 40 Today: Paris Benchmark Advances as Bank of France Governor's Comments and Wall Street's Reopening Lift Sentiment - BBN Times",
+          "summary": "CAC 40 Today: Paris Benchmark Advances as Bank of France Governor's Comments and Wall Street's Reopening Lift Sentiment    BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNR2N1b00yNnYwUGFycy1DTlBVdzFlTmEtV2hkcWlNWHlrOVhTNXpheHJsWmZiakZGX0RIWlVTLVVEcU1Fcy1qRTRfcUwwUkZlUTBrNFN4dVZiVHZCaTVRTUhKNWgyNFN4TUZGREFfT3BDV3lSZHUwaDQ0OUVqR0dYcU1iY014LW1HQVpOb0gxMFpCRUtPekNfcThIU1lzTEN3UmZkOGRMNUo4d2trUW8zNjBXNk1RTHIxQU01YlpWcDljTm1tYjdwVXBYSk5CNk9vcWVkem1jTzZrUEpqazgyVnF6cW5tSVlS?oc=5",
+          "published": "Mon, 06 Jul 2026 22:06:25 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-06T22:06:25+00:00"
+        },
+        {
+          "title": "Technology company RevCo Energy to locate HQ, manufacturing operations in Round Rock - Community Impact",
+          "summary": "Technology company RevCo Energy to locate HQ, manufacturing operations in Round Rock    Community Impact",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObVVXR2g1MTdFeDhUWkRRSTZEUENIVVc2ZlBQUXI5VUt4MVBlVWxuTTM4WTdqTEtuVnU2dXp4Q1BfNC0wQjFYQm5ubm9yLXhMQU1rTmd6Zm11SFhsajNsTFJPcUU1aHY3SFB2cTJ1ZWpfekNvWUVhOVhVRFc2R1IxR3lyQnVKODBsYUpreklzY3ZlR0kzaDVaaE1vODZScGtNbTVCVkVvNmVqVDVwTlhnUTNnUmtYMUZiUVR5Q0N3TXVRUmIzeFRJTG1vSkt6SG1z?oc=5",
+          "published": "Mon, 06 Jul 2026 20:48:30 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T20:48:30+00:00"
+        },
+        {
+          "title": "ITT Completes Acquisition of Aerospace Contacts LLC - Business Wire",
+          "summary": "ITT Completes Acquisition of Aerospace Contacts LLC    Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeGU1eXZwS3psVFgwa043RkV2Yk1zRUZsWnBfRXhMVzNVUldzdm1sVlpMTmViWmV3MFNpTW9YMnlJV0VEUnFzQXZFOVlsWmdzQndrbGxXV0hweVFXeUVPdjFXZ2toZjFLN1BBZEFwU0NNUXd0cmVWbmJLSFRRaUtxcVBMVFliNXNXbnJWRnkwMWZRSjN5NXFjQjNSeVZFamExRnlNdFRsRC1McUxC?oc=5",
+          "published": "Mon, 06 Jul 2026 20:30:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T20:30:00+00:00"
+        },
+        {
+          "title": "NanoXplore Announces the Appointment of Ilia Chliapnikov as Chief Operating Officer - GlobeNewswire",
+          "summary": "NanoXplore Announces the Appointment of Ilia Chliapnikov as Chief Operating Officer    GlobeNewswire",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSUlNN0hzT0QwWVJTeTQ3Rk5ORFJ6M3hibGpTZVZoeUhfUUFMNXhMMlFmcHI5RXU4aDljQXhjcG12TWN6OG5FRFVQNlotMFRfblBrUC1MMjVyWG93NnEyRWxyeHZnS2ZiS3gtOTNVRXo3SDZ5eW8wNTlrS0g2Zy10bkw0ZEw4c0pHT2VFekU3QUZrSGNEMkZGdGNJckpydUF2d0ZIbWNlc0NwNngwOUMxNWhPdUNuZlJhMnZfN1ZaekRNRUR2cnllY2hqRGdjZHFaUTI3TzhuV2luSHdUZHgzSkxKWm1wZnF0b1pJ?oc=5",
+          "published": "Mon, 06 Jul 2026 20:01:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T20:01:00+00:00"
+        },
+        {
+          "title": "美国ISM服务业新订单6月降温，提振降息押注与波动率对冲策略 - VT Markets",
+          "summary": "美国ISM服务业新订单6月降温，提振降息押注与波动率对冲策略    VT Markets",
+          "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOZm1SQ3VlNGFWTG1jR0t3R1F5czByRzlsT3kzZ2F5Sno2d19GRGlCYnlnN0NhQVZ5ZjBWTWtXdWFkaURWdzI0UnhwbENPWmlnX0g1cVYzMC1ibV91YlpfLVlWWGdtN05oOFJub1lyb3RhZHR4VEF2TDRfemU1Y0RFMkdQSE1HTDVpWU40SjJBTWZ1QTExVTJ6RGpFR3A0VWd6TmkxaUN2Q08yLWRCTFVrajUyT1A5SndSZGhCa0xZdmlkdE45NlA3Si1jbVBKM1ZrLUMyZjFDWGUyNDBSdGlsa09ubXVNR2xOMG9tMGE4S0g1Tk9SR2RaV3VoMzdac2lHV1NWV2w1aDlVaFY0OUVBQlhVQWM0MnhnVFR0MnZMTWVfczlrN3RkVzFZUWljVGtPVl9BaEJiSXgySS1PMTN5Z2JpMGtwMkdoOHE2SmhHNHFPUFo2d1ppaHBYcVNUdw?oc=5",
+          "published": "Mon, 06 Jul 2026 20:00:49 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-06T20:00:49+00:00"
+        },
+        {
+          "title": "Gold Price Forecast 2026: Fed Policy Shifts & Investment Strategy - Intellectia AI",
+          "summary": "Gold Price Forecast 2026: Fed Policy Shifts & Investment Strategy    Intellectia AI",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KYllScWRMS2VlT0lDWGl4eElha2wyRzc3dmNWX3M4aHRVSHhrdy1KdVdjc3o3VGw5S0NRUVZ3dTlTazVzZHoxTUdpWjVIZmFrS3Jna0dxX0ZVcFZqQVRxWnVkWk1OTmdlUlB2NklRY3g?oc=5",
+          "published": "Mon, 06 Jul 2026 19:52:30 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-06T19:52:30+00:00"
+        },
+        {
+          "title": "Project filed for $30M bond-funded expansion to Cedar Ridge High School - Community Impact",
+          "summary": "Project filed for $30M bond-funded expansion to Cedar Ridge High School    Community Impact",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVGJYY29YLTZtZ0NCX2Nab1VDVVJFR1ZFOVc3SHRBakZpa3lXYUhibXZpTzYwREpxVG1ybklFN3JLa2hJZExYb3l3QXQ4VFp6YmhIUE9maWlMcFZ0RkhTaEVtbndQU1ZVOGNiM3VBemRabFdHN0YxeFI4WS1vbnFZenlBbXRhS24xSWg2aFhybWVkNzc1Ym5xeXQ2OWt5bjNrWWpTWTU0eUhueDRON2owQm9aNmU5MFpoWlhhNGFqaw?oc=5",
+          "published": "Mon, 06 Jul 2026 19:48:05 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T19:48:05+00:00"
+        },
+        {
+          "title": "Small cap wrap: Graphene Manufacturing Group, Grey Matter Health, AtaiBeckley… - Proactive financial news",
+          "summary": "Small cap wrap: Graphene Manufacturing Group, Grey Matter Health, AtaiBeckley…    Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRW5JRFhKV2h1dlpxa3U1N3V2dEh3ZUNQbDdFeTZTcWR1Z0VBWjh1QmFSaVF0cWRxRG1EQVdkeWdvbDEyWnVBSTFRX0NoejFzb2pOQVhFay1FRWl6YVFNWGtYNHBkOE95M29LOFUweE1yN0VvMXZNUDRCZ0J4d1dCUVZ4ZGlENGhrSzM2MHM1aW1NemV1RTNzTnhHVWFPaEpCcVIwMnZWaDh3SlpRS3lxdFVtV25QTjlWdmxLR2g3TmhFWUliNXY1R0NBMkNGVnF2cUFQV1BLUGN0NFJFOHc?oc=5",
+          "published": "Mon, 06 Jul 2026 19:30:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T19:30:00+00:00"
+        },
+        {
+          "title": "Tear down walls, build bridges, Chinese Premier tells world leaders at Dalian meeting - The Guardian Nigeria News",
+          "summary": "Tear down walls, build bridges, Chinese Premier tells world leaders at Dalian meeting    The Guardian Nigeria News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbnROelZuZ0RiS2VTT192WFZhZGpYOXBzYlFvZXYyakVqVm5IRmYxOHM5ZUJKN19sYjFDRlBpenpaZ0JZREV3TEo3MkZ4TDZPcGdRbllSaGNwa01Jb09hdGJlUXdlQUJYeXI0c2gycjljTDlxdFY3dVo4UndlQWVQcmVvVGFobkNvcHlaOS1wWnB2UE9PNDAwcWdhYTJoSExla1ZocklGYjlVb2ZKaFZNWkJtM3Rfdw?oc=5",
+          "published": "Mon, 06 Jul 2026 19:20:00 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-06T19:20:00+00:00"
+        },
+        {
+          "title": "Leidos Holdings Inc and its role in US defense technology. Company profile and stock context for inv - AD HOC NEWS",
+          "summary": "Leidos Holdings Inc and its role in US defense technology. Company profile and stock context for inv    AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY050SWdJeU9JcDl6NlowVGtUcGhjenVYTkdDb1d5T1AzLUk4X3B6eks3bllRa0hBWlZBelNNRUxPNE1vWjlfU2ZpcW1fOXpETGVqWXREa05ZT2Zra2ZoZDZDYkRWSk9rZ3ptTnZ3UW9ZNWtLVnFRWVJ0OUFNZ0pTdDVwSWVJaFl2S2JRMlYzd3JiSk5kV1BwYVJFSkNKQkFVWjRGZHZIQnpRTHJfS3hnWjRsdll0SEV3d1dfeHE4eHRVbFdOOVN1YjFadjU?oc=5",
+          "published": "Mon, 06 Jul 2026 19:12:15 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T19:12:15+00:00"
+        },
+        {
+          "title": "Oobotic Establishes Manufacturing Facility in Melbourne, Arkansas - GlobeNewswire",
+          "summary": "Oobotic Establishes Manufacturing Facility in Melbourne, Arkansas    GlobeNewswire",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOVloeDdoWHBBanlQcWpXc0RuU29sazZCazU2NGV5M0FIRlFHU21kOU1NVXZGVGpUczJtaHl1YnowWjJCYnkwaV9JVzRoM0JQcXRmWHdtMTRmcW54b0hTdnBhcjctM1pWOFpNM01vTjlFNEpzNU52dEdOQUZKVy1DVmc0MVZOSUtEOUotQXowd2lfNUE0VktsRHhINmdxdnlJNE4wXzlGcjN4dGlqRmtyMlpnckdxWDBqSjByNFJHR1EtZkhNQjNrd0daQmhiUlREQmc?oc=5",
+          "published": "Mon, 06 Jul 2026 18:42:29 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T18:42:29+00:00"
+        },
+        {
+          "title": "Sharjah Investment Forum to explore adaptive economies - Gulf News",
+          "summary": "Sharjah Investment Forum to explore adaptive economies    Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWjJ5eVBiUVNZMUJiZUpjQi1WMHpuQ1RFS0dXR1lHMTMwX0hoNlhLU3hVczMtWkNfRWptVE01TlBXOWRSeERmb0dSQVNZTkZXUXdkRDB4cmtBSmNseXVBckFKUU9HdFE3YktWbFY1bmExamh0alpoUXU2c21LRkNJS29kZUxMY1Z0T2xKQV82bmMzU0EwaldHLXM1dnLSAawBQVVfeXFMT1AxMzNBVEVsLVBBUHVWUE9vU0sxZU9yVnZQQkh3bXBZVGJYeHlqbGpISU0zclI2UnVtY0RaM0Nrby1TZm13ZndSWjhHUjBLc1lKYUN1MVJzaGVKZFBLeXZPMlZFVElRZ2JnYkJVbmY4TWJWelc3RUIyN2szVlJST3V3bnBoMTBJRzA5aENGZ0xsX2NzZ0RpSEJWNXVrQ29STFZHUVVYUTIxR0tIOA?oc=5",
+          "published": "Mon, 06 Jul 2026 18:36:13 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-06T18:36:13+00:00"
+        },
+        {
+          "title": "Topic: Protein market in the U.S. - Statista",
+          "summary": "Topic: Protein market in the U.S.    Statista",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VOVVOVnpDZ0Q3aUl0d1lGVU9WWmQ0QWFBZF81YXFoejhXQU9GY3JGazBuTkNjQzVKeHRfREVDUEM1SjBQTkExV3FSQkhOWDFLUlpfZWJBel9lcTZNWV9ra0h3?oc=5",
+          "published": "Mon, 06 Jul 2026 18:21:41 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-06T18:21:41+00:00"
+        },
+        {
+          "title": "2025中国数字经济创新发展大会举行 - 新浪网",
+          "summary": "2025中国数字经济创新发展大会举行    新浪网",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EXzZkN19JbjVDWHhDN1dKSl9kM0xvNllubEhPYkpBbm52bmJleTNQd1lZYXhrWm1PUm82MDZ2OVRXNXN6SndhNXI5bFBob1c3X2hnQ1hPUGh5b3gxVENlSk1jalFuc2JER2tiWk4zb3Nodw?oc=5",
+          "published": "Mon, 06 Jul 2026 18:11:00 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-06T18:11:00+00:00"
+        },
+        {
+          "title": "TPI Composites Successfully Emerges from Chapter 11 under - GlobeNewswire",
+          "summary": "TPI Composites Successfully Emerges from Chapter 11 under    GlobeNewswire",
+          "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQX2RYQ3dWYXhXQ2h2cHdfc3pUWVNsNHRuZDlKeGJkMHg3LVdVNURESHVYNUlxZkpaV3RKS3RnVWZkbnlGNXMwRDhSaTlMSU5waVNwSlM1UUE3VHVHSzFzWlhOZVNmbnk0NlpHODVkRGpreDdSM1Q3WnFxdDBUVjZ0SmgtMlNzRG9TMGQ5U2hYT1hja2hCZ1JON0ltMVZWSzBwVURMbjVaMzl1RmZVeWU3Ri1QcklTWC1oLTc4SjN5UmdndGJ2Wl8ta3RZS2FLNWJUZDRPSzNERVVJV0hvYTZGQi1BX1I2c1hVODlQNHdkb1NJVk1JYTYxcDd0Um1QQkZIN2RoeVh2Qk5uV2lBMlE5V2UzclVYWUhHT0pCYW9XNWtSNWJFXzEyOF8yRmdvbTNoOFpPLTRidWtPbDYwdkZWMDlOOUZXVEpXUmM4SA?oc=5",
+          "published": "Mon, 06 Jul 2026 17:37:05 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T17:37:05+00:00"
+        },
+        {
+          "title": "UBS Nearly Doubles Its Price Target on Clover Health (CLOV) - Insider Monkey",
+          "summary": "UBS Nearly Doubles Its Price Target on Clover Health (CLOV)    Insider Monkey",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbGo1ejhDbV9Qa0JnOTVWR0M3Ny1JUnFpUVJPbDd0S2ljUk1OUEF6VXdSd0xVMXdJN1lwa2dreHJQN3RTY1VLMzNjYzVGVkdDcFRiOXhHTXJMeWlPRzBkU2QwMUp4dGRyaWpTWVdZVThIUVUtSXFIdE5ua0gwMXBuUEZBS2VveGF0QnZZNXRLbm1mRUtqbl84eUVGeTFfX1ROQWx3b2FVOUl1MUXSAasBQVVfeXFMTWxqNXo4Q21fUGtCZzk1VkdDNzctSVJxaVFST2w3dEtpY1JNTlBBelV3UndMVTF3STdZcGtna3hyUDd0U2NVSzMzY2M1RlZHQ3BUYjl4R01yTHlpT0cwZFNkMDFKeHRkcmlqU1lXWVU4SFFVLUlxSHRObmtIMDFwblBGQUtlb3hhdEJ2WTV0S25tZkVLam5fOHlFRnkxX19UTkFsd29hVTlJdTFF?oc=5",
+          "published": "Mon, 06 Jul 2026 17:36:36 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-06T17:36:36+00:00"
+        },
+        {
+          "title": "How deep tech training is turning classroom teachers into tech professionals - Business News Nigeria",
+          "summary": "How deep tech training is turning classroom teachers into tech professionals    Business News Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdGgxWjBOWnRlTngwblJRVlh2aXBLQXRTRUZGcW81Z1J4TTlQQVBJMms3bUlMdWp2UC1xVUFuVFVYTzZ4Zy1NcWN6Y3pWM2UwYjhTMWhsdl9KM1NmSGlVbVU2eE9SZ214UlN2RmQwU1poU29Uc1VXRU5xRUREQXRrc1pwY1czMGtXZG9DWjg4Y051WWJNM0NVRFhTeHo3QlVUamxiVWVnVUU2Q3pMUDEyUHlFOV9vYlZab1FtYjBxWmp5ZGsxUmR6S19OQlpCLWtlRGhvaldGeGp5S1AtVWNjY0dBdGdMcDk1QkE3OXVWQ1dVSkk?oc=5",
+          "published": "Mon, 06 Jul 2026 17:33:57 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-06T17:33:57+00:00"
+        },
+        {
+          "title": "Mikhail Mishustin’s meeting with Armenian Prime Minister Nikol Pashinyan - Правительство России",
+          "summary": "Mikhail Mishustin’s meeting with Armenian Prime Minister Nikol Pashinyan    Правительство России",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDRE5MbmFpZUtxcWlOYXZQVkpEWlRQVGdWbDBEM2FGUzRIQzFSd0ROVktxYkFHZFdzVkl2VE5Lb0JVQ3J1ZUR5R3h6MA?oc=5",
+          "published": "Mon, 06 Jul 2026 17:19:15 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-06T17:19:15+00:00"
+        },
+        {
+          "title": "SEC And CFTC Margining Review Could Matter For Crypto Derivatives Desks - CryptoRank",
+          "summary": "SEC And CFTC Margining Review Could Matter For Crypto Derivatives Desks    CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjlmbTlSNGhvNWFWZDg4YlNaSEtyMHN2aEVvVk5kV2pUQ2p2b1lCVGF4c2VtSXhoYWM3eGYwOTBHQ0NfRTFNX1VTczN6ZWVQN2xWYjlBeWo0QzhhT24wQ2xuUFVjOFZVR3cwbG9yU3VKclFaOW5INVRBS0JkR2JTa2dSaHgxUmVUNXVINDh0UFVMS0cwX05iQ19BNjdRcEdYV2UwLUxvRUFsRTY2V0E?oc=5",
+          "published": "Mon, 06 Jul 2026 17:18:38 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-06T17:18:38+00:00"
+        },
+        {
+          "title": "Why the US-Iran peace deal remains the key market risk factor for the rest of the year - Yahoo Finance",
+          "summary": "Why the US-Iran peace deal remains the key market risk factor for the rest of the year    Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZWVaaVlUbkI0LTYwMUF6UHpxUGxoMGIzajVVZ3hkM1BDb1Fza2VDajBhNXZYMzgzLUhfcXlmRlJkUnBqQ080Mm9NbEJfbjhMNTBJQmdlMVRrNHNmNHdjVGZ6UjZKejl4V2loSG5CZ2pqT2tfUWNvSXJtMktuSG1DSVB5YWhVa2VyR1hCVU5Ocng0NEVLaUZueTBpZHpDX2VBOGpIRmJybDR2cUlncUdWUm9XQ1VIYWpRcExZVkpURGtlQTNhSkpPanpDSVhrNGRwX1A0NHROOFdhSGM?oc=5",
+          "published": "Mon, 06 Jul 2026 17:13:51 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-06T17:13:51+00:00"
+        },
+        {
+          "title": "Nomura Holdings ADR and its role in global investment banking - AD HOC NEWS",
+          "summary": "Nomura Holdings ADR and its role in global investment banking    AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcG5ZejJoTHBWdGZOcXZwaUJkckhIR2pXUE1UWHVmdVJtRmNtVnZ6eGdsckMxUzZkN2JaX1d4T0NGVHZUUnNNcVFpWjBjX3pHcE0tSE9DLXUzRTVHOUJ1emVUYTFscXVFZVp4ekNxQlg0SXVBMEdyT2JiSXVaVEh2R2x3S3NHVmRiaF9NM2QzTS1wZmE2dnVwbDdmYlg5WU1qMWhsbHNMM0JyMzFlZi1uMFM3aDVtSWZsZlJ5Yw?oc=5",
+          "published": "Mon, 06 Jul 2026 17:02:15 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-06T17:02:15+00:00"
+        },
+        {
+          "title": "Gold forecast: XAU/USD falls as yields and dollar climb - FOREX.com",
+          "summary": "Gold forecast: XAU/USD falls as yields and dollar climb    FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV2ZGcGpySHVTTFMzNm5aYXkyanpUenZKQjVtLUZmY2tkZFNKanRVbTBsQXZIWHpmR3JQZnpRU2pKQnFJMno5RE1EZlVSZkp5Wl8zQmprWFRRQ2dFdFA1YjlXNUdDZjZ4UEpEMVZMT3NOZl9kSnJVRHoxWGg2Z2NkTlN2QjdwLW9XZldkWmNtZXF2eFBWbUFla21OR09rc2s1dzhFMWpYSWIxTXM2NWFF0gGvAUFVX3lxTE9XZkZwanJIdVNMUzM2blpheTJqelR6dkpCNW0tRmZja2RkU0pqdFVtMGxBdkhYemZHclBmelFTakpCcUkyejlETURmVVJmSnlaXzNCamtYVFFDZ0V0UDViOVc1R0NmNnhQSkQxVkxPc05mX2RKclVEejFYaDZnY2ROU3ZCN3Atb1dmV2RaY21lcXZ4UFZtQWVrbU5HT2tzazV3OEUxalhJYjFNczY1YUU?oc=5",
+          "published": "Mon, 06 Jul 2026 16:56:31 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-06T16:56:31+00:00"
+        },
+        {
+          "title": "Hindenburg report was a conspiracy to tarnish the image of India’s industrial sector using the Adani Group as a pretext - organiser.org",
+          "summary": "Hindenburg report was a conspiracy to tarnish the image of India’s industrial sector using the Adani Group as a pretext    organiser.org",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTG9Nb2ZmS2d1U1JPQ3lkNzFVenRiVU94TmFpRjdDZ25oY2FxczJ0V21RZjBfYnlCTmVZdTBXcDRRc1k5X1VwcDVEdUhwY3c0Y1VldTlYVXNhcXNTNFJzeDhwdXBtU21qVnJpLUFVdmlYNEh0R3Vnc2xDZHVRdGZBWXVqQlllc19QWWNUNmtDWVR4UTl3ZFlGeHV4Y3hMOUpKdUlqcEw3amhwaHBhYlVSYjN3OS1yaEZDeUx0NU8xX0NyN1VrenBSakpBbVh5WmlDYUV1ZEdDaU1NbHVEU0ZWUjBYTTZOaU1qN01DNk9IYU94NW5xRjR6Ug?oc=5",
+          "published": "Mon, 06 Jul 2026 16:32:42 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-06T16:32:42+00:00"
+        }
+      ]
+    },
+    "search_text": "  Daily Intelligence\n  2026 07 07｜Tuesday\n\n   Today’s Thesis｜今日一句话\nAI 泡沫的宏观预警与地方监管的同步落地，正在将 AI 产业从“无约束扩张”推向“合规与 ROI 双重验证”的挤兑期。\n\n   ① Executive Summary｜30 秒\n    AI  ：监管实质性落地（伊利诺伊州首创前沿模型审计法 [A4][A18]），同时宏观层面（美国财政部、银行及超大规模厂商）密集发出 AI 泡沫预警 [A13][A21]，AI 产业进入 ROI 验证期。\n    商业  ：美国 ISM 服务业新订单降温提振降息押注 [B6]，医疗科技（Clover Health 目标价近翻倍 [B17]）与 AI 垂直应用（ALS 辅助 [A9]）获资本青睐。\n    宏观  ：地缘风险（美伊和谈僵局 [B21]）与降息预期交织，避险资产与风险资产同涨，市场在矛盾中寻找方向。\n\n   ② AI Daily\n\n    泡沫预警与 ROI 挤压\n  What Happened  ：美国财政部报告警告 AI 泡沫可能引发经济冲击波 [A21]；Apollo 首席经济学家指出 AI 市场可能面临“痛苦的重新定价” [A15]；银行及超大规模厂商同步拉响警报 [A13]。\n  Why It Matters  ：资本对非科技领域 AI 投资回报率的耐心正在耗尽 [A14]，打破了此前“算力投入必将带来生产力飞跃”的单向信仰。\n  Second order Effect  ：算力需求预期放缓 → 超大规模厂商资本支出冻结 → 依赖云算力的 AI 初创公司面临并购或出清。\n因果链：资本要求 ROI → AI 投资降速 → 泡沫重新定价\n\n    前沿模型监管破冰\n  What Happened  ：伊利诺伊州州长签署全美首部法律，要求对前沿 AI 模型进行第三方安全审计 [A4][A18]。\n  Why It Matters  ：在联邦层面行动迟缓时，州级立法确立了合规底线，大幅增加了大型模型开发者的运营摩擦与合规成本。\n  Second order Effect  ：合规工具成为强制基础设施 → 欧盟及美国合规网关（如 Dike [A17]）迎来商业爆发 → 未经审计的开源模型被挤出企业级应用市场。\n因果链：地方监管落地 → 审计成本内生化 → 前沿模型市场集中度进一步提高\n\n    攻防自动化升级\n  What Happened  ：JadePuffer 勒索软件使用 AI 智能体自动化了整个攻击过程 [A12]。\n  Why It Matters  ：攻击的边际成本降至接近零，传统人力防御体系失效，防守方必须以同等级别的 AI 智能体（如 Kennel [A7]）进行自动化响应。\n  Second order Effect  ：AI 安全智能体成为企业必需品 → 安全预算从人力转向软件智能体 → 网络安全行业商业模式重构。\n\n   ③ Business Daily\n\n  科技  ：端侧 AI 硬件与云部署走向分化。AMD 推出 Ryzen AI Halo 迷你主机，试图以 4000 美元的高溢价让本地 AI 变得容易 [A16][A23]，但这一定价策略在缺乏杀手级应用时面临阻力；另一边，AWS 实现了 Hugging Face 到 SageMaker Studio 的一键部署 [A3]，以降低摩擦力锁定云生态。\n\n  医疗  ：AI 在垂直医疗场景的变现路径逐渐清晰。AI 技术正在实质性地帮助 ALS 患者 [A9]；同时，UBS 将医疗保险科技集团 Clover Health 的目标价近翻倍 [B17]，暗示数据驱动的 AI 医疗险种正在获得传统金融模型的估值认可。\n\n  能源/制造  ：实体资产仍在扩张。RevCo Energy 将总部和制造业务落地 Round Rock [B3]；TPI Composites 成功走出 Chapter 11 破产保护 [B16]，表明风电制造链在经历出清后重获流动性支持。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？   美国 ISM 服务业新订单在 6 月出现降温 [B6]，同时美国财政部与主流金融机构对 AI 泡沫发出最高级别警告 [A13][A21]。\n\n  为什么发生？   高利率环境终于渗透到服务业需求端，抑制了企业扩张意愿；而在科技端，巨额 AI 资本支出未能如期转化为全行业生产率证据，引发投资回报率的集体焦虑 [A14]。\n\n  资本如何流动？   资本正从“宽基科技扩张”转向“降息押注与避险对冲”。ISM 数据降温提振了降息预期，资金流入医疗科技 [B17] 与黄金 [B7]；同时，SEC 与 CFTC 对加密衍生品保证金的审查 [B20] 正在抽离加密市场的过剩流动性。\n\n  接下来关注什么？   降息预期与 AI 泡沫破灭的赛跑。若 AI 泡沫在降息实质性落地前破裂，反身性效应将导致算力资产贬值 → 抵押品缩水 → 信贷紧缩，引发更深的宏观经济冲击 [A21]。\n\n 事实与推断区分 ：ISM 降温与伊利诺伊州法案签署为  事实  ；AI 泡沫将引发经济冲击波、降息将顺利落地为  推断  。\n\n   ⑤ Signal Dashboard\n\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   26,121.16   ↑ +1.12%   风险偏好改善  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,176.60   ↑ +1.55%   避险/通胀对冲增强  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   68.70   → +0.01%   供需平衡  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   100.86   →  0.00%   中性  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.48   ↓  0.13%   中性  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   64,215.62   ↑ +1.05%   风险偏好改善  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   15.57   ↓  3.59%   风险偏好改善  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   195.55   ↑ +0.37%   风险偏好改善  \n\n   ⑥ Deep Insight\n\n  AI 泡沫的“反身性挤压”：当宏观降息预期遇上微观 ROI 幻灭  \n\n当前市场对 AI 产业的定价隐含了一个脆弱的假设：算力与数据的投入将不可避免地转化为全行业的生产力跃升。然而，美国财政部与 Apollo 的预警 [A13][A15][A21] 揭示了一个被广泛忽略的机制断裂——宏观层面的服务业降温 [B6] 正在收缩 AI 变现的终端需求，而微观层面的 ROI 缺失 [A14] 正在切断资本输血。这构成了典型的反身性挤压：资本预期转弱 → 算力投资降速 → 模型迭代与部署放缓 → ROI 进一步证伪 → 预期更加悲观。\n\n与互联网泡沫不同，本轮 AI 挤兑的触发点并非单纯的高利率，而是“合规摩擦”的骤增。伊利诺伊州强制前沿模型第三方审计 [A18] 与 EU 合规网关 [A17] 的出现，意味着 AI 的部署成本从单纯的算力资本支出，转向了持续的合规运营支出。当 JadePuffer 勒索软件利用 AI 智能体实现全链路自动化攻击 [A12] 时，安全防御的运营支出也将呈指数级上升。因此，这一轮挤兑的本质不是需求毁灭，而是成本重构。\n\n在这个重构过程中，产业正发生结构性分化。一方面，AMD 试图通过 Ryzen AI Halo 等高溢价本地硬件 [A16] 将算力合规成本内化至端侧，但 4000 美元的定价在 ROI 不明的前提下难以大众化；另一方面，AWS 通过 Hugging Face 一键部署 [A3] 试图降低云端的摩擦力，但这反而加深了厂商锁定。只有那些能越过合规门槛且具有明确现金流的垂直应用（如 ALS 辅助技术 [A9] 与 AI 法律工具 [A22]），才能在挤兑中存活。\n\n  反方观点  ：若美联储因 ISM 降温而实质性降息 [B6]，资金成本的下降将拉长 AI 产业的 ROI 容忍期。此外，AI 在医疗 [B17] 与法律 [A22] 领域的渗透已证明其具备降本增效的刚性需求，泡沫可能以软着陆而非崩溃的形式收场。\n\n  证伪条件  ：未来两个季度内，若超大规模厂商的 AI 相关资本支出不减反增，且非科技行业的 AI 营收增速持续超过 30%，则“反身性挤压”逻辑失效，证明当前 ROI 焦虑仅是短期情绪。\n\n   ⑦ Tomorrow Watch\n1. 伊利诺伊州 AI 安全法 [A18] 的具体生效日期及首个前沿模型第三方审计的启动时间。\n2. 美联储官员对 6 月 ISM 服务业降温数据 [B6] 的公开表态，验证降息押注的合理性。\n3. AMD Ryzen AI Halo (4000 美元本地 AI 设备) [A16] 发售后的首周销量与开发者生态反馈。\n4. JadePuffer 勒索软件 AI 智能体 [A12] 在野扩散的规模及安全社区的防御响应机制。\n5. 美伊和谈进展 [B21] 对原油供应预期及避险资产定价的波动传导。\n\n   ⑧ One Chart\n\n [Daily Market Pulse](assets/chart.svg)\n\n图表显示了风险资产（纳斯达克、BTC）与避险资产（黄金）同步上涨的罕见宏观组合。这表明市场在定价降息预期带来的流动性改善时，仍在同时对冲地缘政治或 AI 泡沫的尾部风险，两类资产的相关性上升源于共同的宏观驱动，而非互为因果。\n\n   ⑨ Quote of the Day\n  “Price is what you pay. Value is what you get.”\n  — Warren Buffett\n\n   ⑩ Action Items｜今天值得思考什么\n1.   验证  非科技领域的 AI 投资回报率数据，检验 Apollo 提出的“ROI 长跑道”推断 [A14] 是否成立。\n2.   关注  伊利诺伊州法案 [A18] 对开源模型分发与微调的实际阻断效力。\n3.   比较  本地 AI 硬件（AMD Halo [A16]）与云端一键部署（AWS SageMaker [A3]）在不同企业规模中的边际成本差异。\n4.   追踪  JadePuffer [A12] 等 AI 自动化攻击对网络安全行业预算结构从人力向智能体转移的催化作用。\n5.   思考  ISM 宏观降温 [B6] 与 AI 泡沫预警 [A21] 叠加下，科技股估值支撑点从“成长性”向“现金流”漂移的速度。\n\n   信息边界\n    来源覆盖  ：AI 监管、AI 泡沫宏观预警、端侧/云 AI 部署、网络安全、美国服务业宏观数据、医疗科技及地缘政治。\n    时效  ：新闻源覆盖至 2026 07 06 22:38 GMT。\n    限制  ：市场数据反映最近交易日收盘值；新闻源多为二手聚合，关键法律条款细节与金融判断需回溯原文验证；未包含未提供的亚洲及欧洲其他核心经济数据。\n\n\n   Sources\n\n    AI\n\n  [A1：贝利预言巴西世界杯夺冠？人工智能迎来真实性之问   华龙网](https://news.google.com/rss/articles/CBMia0FVX3lxTE9RQUpyLTFMZnlyZVBweVVjVmhMTDR1eXludjVScjF3b3BfclVHWlowTlJSc19MSjdibUZaM2FCd0h6U0FVOEMzakRsZV81aUU3OURTUkNaSWF0SVNSdUVUdGVPTWdPZEluMnU4?oc=5) — Google News · AI 中文\n  [A2：Not everything should cost a token: the case for deterministic AI](https://www.vybe.build/blog/learn what not to tokenize) — Hacker News · AI\n  [A3：From Hugging Face to Amazon SageMaker Studio in one click   Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQmpYUnJQdnRfd3VhRnJkcWZuQUx6b0s4ZjE0blpYYVY0bDNDT0toQ1NkMUhaMU9uS1VTcWZuTHRjSnN4UzBkZWdNaFNuZ3RBc29fSGk5a0hpeHAwNUtKYVlPdTEwVHBST3lYNWtWbVZ4TzAzaXJIbU1MclhKZTA0dTJFY2Y1Z3VKbGxJd2hxa0gwVU1Lb0FfcU9tXzdUaHg2WTZnM0JLWUNVdw?oc=5) — Google News · AI\n  [A4：Illinois governor signs AI safety law requiring audits of frontier models   StateScoop](https://news.google.com/rss/articles/CBMieEFVX3lxTE1PTUI5WEpENWNRV1c0NHpiMWdjQ3JfdTRqU1ZqRGRvSnZTZ25QYTl2OG5DdTBsc0wwZklMN3BlSjBPRTFaVDh6cVB5Z1pMOUpqWWlTU0FKTjk2MmpvemplS0hXYjViTC1HRFFkT1JTZi1tRS0yZ25qRQ?oc=5) — Google News · AI\n  [A5：Pritzker signs landmark AI regulation bill that aims to mitigate risks   KWQC](https://news.google.com/rss/articles/CBMiogFBVV95cUxOU2FLMUw0cmcyU1lKV2h6TF9RQlVLd1BXZzVobnRmVmkyVU1iMG9mVXZNUkVqeG9jNWlrMVp5Rnk3RkJoaGxzemJDdTRTc3lsX1dTeURuS1FuMTdBVm9lal92dlpldmMwRTJodWhFSW5RLWtib1h6WkZKRDhEWmRzRldfcWZaMzh1RW1DRXB5aThwejVEWTY3T3dnYWl4NmFqbGc?oc=5) — Google News · AI\n  [A6：Show HN: Nimbus   open source AI agent that operates your AWS and GCP](https://github.com/hritvikgupta/nimbus) — Hacker News · AI\n  [A7：Kennel – Keep Your AI Agents Running Between Tasks](https://github.com/eranif/kennel) — Hacker News · AI\n  [A8：x.ai Voice Agent Builder](https://x.ai/voice) — Hacker News · AI\n  [A9：Artificial intelligence technology helping patients with ALS   CBS News](https://news.google.com/rss/articles/CBMioAFBVV95cUxNZVNkU3YyVHFiclZMSEo4a1RObERsbGhLMHlMNFNBUkllNGVSWGxjcjdnWUc1dUVuSmJvTUlIeU1zVEdPcUdfbEQ4V2htWUltUHVkVzg4b0NtdlI2NmZKMDc3Vll0S3BXdXB3SnZrMkJDMGRndG9lVUlSQndsb3ZaVl9POW5hOUljdU9CdDJxOXhqdWtIeloydlZ4MWNLdEJU?oc=5) — Google News · AI\n  [A10：Attribute Knowledge RAG Pattern for Governed AI Agents](https://superml.dev/attribute knowledge rag pattern llm governed attributes) — Hacker News · AI\n  [A11：UCO Launches New AI Degree Programs to Meet Growing Workforce Demand   The University of Central Oklahoma](https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ3hZS09CWUVmem1HZXBWLUhhYUlGSzVsNkxESmRLbWRibkUtSjhPdEZIQjFNYnU0TWpSOW93WFA5bk15U2R3aGZjZlhUWHdBaGtaUF9GTTBpVXMxNjVISVBQR3BTT2o3RUNfOWNIUmNCVGVyZXhjQ3VaTlFmSnl5WExaYlR2U1gwZHdSMWcxaFZEY0E?oc=5) — Google News · AI\n  [A12：JadePuffer ransomware used AI agent to automate attack](https://www.bleepingcomputer.com/news/security/jadepuffer ransomware used ai agent to automate entire attack/) — Hacker News · AI\n  [A13：Even banks and hyperscalers are now sounding the alarm about the AI bubble](https://www.theregister.com/ai and ml/2026/07/06/even banks and hyperscalers are now sounding the alarm about the ai bubble/5266123) — Hacker News · AI\n  [A14：AI: The ROI Runway Could Be Long Outside the Tech Sector](https://www.apollo.com/wealth/insights news/insights/daily spark/ai the roi runway could be long outside the tech sector) — Hacker News · AI\n  [A15：Apollo economist says a 'painful repricing' of AI markets is possible](https://fortune.com/2026/07/06/ai productivity gains bubble painful repricing markets torsten slok/) — Hacker News · AI\n  [A16：AMD's Ryzen AI Halo makes local AI look easy, but it doesn't come cheap](https://www.theregister.com/ai and ml/2026/07/06/amds ryzen ai halo makes local ai look easy but at 4k easy doesnt come cheap/5266711) — Hacker News · AI\n  [A17：Show HN: Dike is a compliance gateway for AI products in the EU](https://d1k3.com) — Hacker News · AI\n  [A18：Gov. JB Pritzker signs first in nation Illinois law requiring third party safety audits for AI giants   Chicago Tribune](https://news.google.com/rss/articles/CBMid0FVX3lxTFBMNjVQQlpFam5wMzdoZU5Td0xxWW9VMDRnYzVOVVF6QTBCdjJkamZ4ODh6N2htWENHTVlZRVlqWXhUYW9HMkpTQjgwRmVZejdNYm5MYVFmSTRaSTdON1Z2cWNlaHBTaDZkbDB1bmY5Wm14Z0ozcHUw?oc=5) — Google News · AI\n  [A21：US Treasury Report Warns AI Bubble Could Trigger Economic Shockwaves   PYMNTS.com](https://news.google.com/rss/articles/CBMixAFBVV95cUxONzBmUUxDSnB0Y0xIYk1yeGtmWW5JaXJnWlJYMFRrWjZZMjIzQTZaa1hiUVMydHc1WkhrNHFSSWR0ckMyZkVRbDVjcWh3YkFGVTRDa1hiTzVzR2ptemVBMEQ4WDBNWFBiTDBHVC1iYVZtcEhTM3I0dUs0NVdZVmZnZDlfTVF4eFd3SEFDTlNRSF9SMkJXYnlGYjJlOGN4am01SzNOeUJQMVplaktneDB4VDNxSmZuS0Jfd284TjdYZGdqX3lL?oc=5) — Google News · AI\n  [A22：How AI Legal Tools Are Empowering Consumers   Impakter](https://news.google.com/rss/articles/CBMiX0FVX3lxTE11Rno0LUJlaWVmWmR3NTh2b1FHa2lQMDJfbERrZGNMQUJyTVZsT2VmUGk0TkFXNVJUV2dOc2VOYW5VZFcwRmVxTTMzVlFNazVYWmFnMDNfMnNYcm95SkQw?oc=5) — Google News · AI\n  [A23：AMD Ryzen AI Halo Is a Powerful Mini PC with Open Source Software](https://www.phoronix.com/review/amd ryzen ai halo) — Hacker News · AI\n\n    Business & Macro\n\n  [B3：Technology company RevCo Energy to locate HQ, manufacturing operations in Round Rock   Community Impact](https://news.google.com/rss/articles/CBMi0AFBVV95cUxObVVXR2g1MTdFeDhUWkRRSTZEUENIVVc2ZlBQUXI5VUt4MVBlVWxuTTM4WTdqTEtuVnU2dXp4Q1BfNC0wQjFYQm5ubm9yLXhMQU1rTmd6Zm11SFhsajNsTFJPcUU1aHY3SFB2cTJ1ZWpfekNvWUVhOVhVRFc2R1IxR3lyQnVKODBsYUpreklzY3ZlR0kzaDVaaE1vODZScGtNbTVCVkVvNmVqVDVwTlhnUTNnUmtYMUZiUVR5Q0N3TXVRUmIzeFRJTG1vSkt6SG1z?oc=5) — Google News · Technology Business\n  [B6：美国ISM服务业新订单6月降温，提振降息押注与波动率对冲策略   VT Markets](https://news.google.com/rss/articles/CBMi3gJBVV95cUxOZm1SQ3VlNGFWTG1jR0t3R1F5czByRzlsT3kzZ2F5Sno2d19GRGlCYnlnN0NhQVZ5ZjBWTWtXdWFkaURWdzI0UnhwbENPWmlnX0g1cVYzMC1ibV91YlpfLVlWWGdtN05oOFJub1lyb3RhZHR4VEF2TDRfemU1Y0RFMkdQSE1HTDVpWU40SjJBTWZ1QTExVTJ6RGpFR3A0VWd6TmkxaUN2Q08yLWRCTFVrajUyT1A5SndSZGhCa0xZdmlkdE45NlA3Si1jbVBKM1ZrLUMyZjFDWGUyNDBSdGlsa09ubXVNR2xOMG9tMGE4S0g1Tk9SR2RaV3VoMzdac2lHV1NWV2w1aDlVaFY0OUVBQlhVQWM0MnhnVFR0MnZMTWVfczlrN3RkVzFZUWljVGtPVl9BaEJiSXgySS1PMTN5Z2JpMGtwMkdoOHE2SmhHNHFPUFo2d1ppaHBYcVNUdw?oc=5) — Google News · 行业\n  [B7：Gold Price Forecast 2026: Fed Policy Shifts & Investment Strategy   Intellectia AI](https://news.google.com/rss/articles/CBMicEFVX3lxTE5KYllScWRMS2VlT0lDWGl4eElha2wyRzc3dmNWX3M4aHRVSHhrdy1KdVdjc3o3VGw5S0NRUVZ3dTlTazVzZHoxTUdpWjVIZmFrS3Jna0dxX0ZVcFZqQVRxWnVkWk1OTmdlUlB2NklRY3g?oc=5) — Google News · Markets Policy\n  [B16：TPI Composites Successfully Emerges from Chapter 11 under   GlobeNewswire](https://news.google.com/rss/articles/CBMizAJBVV95cUxQX2RYQ3dWYXhXQ2h2cHdfc3pUWVNsNHRuZDlKeGJkMHg3LVdVNURESHVYNUlxZkpaV3RKS3RnVWZkbnlGNXMwRDhSaTlMSU5waVNwSlM1UUE3VHVHSzFzWlhOZVNmbnk0NlpHODVkRGpreDdSM1Q3WnFxdDBUVjZ0SmgtMlNzRG9TMGQ5U2hYT1hja2hCZ1JON0ltMVZWSzBwVURMbjVaMzl1RmZVeWU3Ri1QcklTWC1oLTc4SjN5UmdndGJ2Wl8ta3RZS2FLNWJUZDRPSzNERVVJV0hvYTZGQi1BX1I2c1hVODlQNHdkb1NJVk1JYTYxcDd0Um1QQkZIN2RoeVh2Qk5uV2lBMlE5V2UzclVYWUhHT0pCYW9XNWtSNWJFXzEyOF8yRmdvbTNoOFpPLTRidWtPbDYwdkZWMDlOOUZXVEpXUmM4SA?oc=5) — Google News · Technology Business\n  [B17：UBS Nearly Doubles Its Price Target on Clover Health (CLOV)   Insider Monkey](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbGo1ejhDbV9Qa0JnOTVWR0M3Ny1JUnFpUVJPbDd0S2ljUk1OUEF6VXdSd0xVMXdJN1lwa2dreHJQN3RTY1VLMzNjYzVGVkdDcFRiOXhHTXJMeWlPRzBkU2QwMUp4dGRyaWpTWVdZVThIUVUtSXFIdE5ua0gwMXBuUEZBS2VveGF0QnZZNXRLbm1mRUtqbl84eUVGeTFfX1ROQWx3b2FVOUl1MUXSAasBQVVfeXFMTWxqNXo4Q21fUGtCZzk1VkdDNzctSVJxaVFST2w3dEtpY1JNTlBBelV3UndMVTF3STdZcGtna3hyUDd0U2NVSzMzY2M1RlZHQ3BUYjl4R01yTHlpT0cwZFNkMDFKeHRkcmlqU1lXWVU4SFFVLUlxSHRObmtIMDFwblBGQUtlb3hhdEJ2WTV0S25tZkVLam5fOHlFRnkxX19UTkFsd29hVTlJdTFF?oc=5) — Google News · Technology Business\n  [B20：SEC And CFTC Margining Review Could Matter For Crypto Derivatives Desks   CryptoRank](https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjlmbTlSNGhvNWFWZDg4YlNaSEtyMHN2aEVvVk5kV2pUQ2p2b1lCVGF4c2VtSXhoYWM3eGYwOTBHQ0NfRTFNX1VTczN6ZWVQN2xWYjlBeWo0QzhhT24wQ2xuUFVjOFZVR3cwbG9yU3VKclFaOW5INVRBS0JkR2JTa2dSaHgxUmVUNXVINDh0UFVMS0cwX05iQ19BNjdRcEdYV2UwLUxvRUFsRTY2V0E?oc=5) — Google News · Markets Policy\n  [B21：Why the US Iran peace deal remains the key market risk factor for the rest of the year   Yahoo Finance](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZWVaaVlUbkI0LTYwMUF6UHpxUGxoMGIzajVVZ3hkM1BDb1Fza2VDajBhNXZYMzgzLUhfcXlmRlJkUnBqQ080Mm9NbEJfbjhMNTBJQmdlMVRrNHNmNHdjVGZ6UjZKejl4V2loSG5CZ2pqT2tfUWNvSXJtMktuSG1DSVB5YWhVa2VyR1hCVU5Ocng0NEVLaUZueTBpZHpDX2VBOGpIRmJybDR2cUlncUdWUm9XQ1VIYWpRcExZVkpURGtlQTNhSkpPanpDSVhrNGRwX1A0NHROOFdhSGM?oc=5) — Google News · Markets Policy\n"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-07-06",
     "generated_at": "2026-07-05T23:04:29.209340+00:00",
     "model": "glm-5.1",
