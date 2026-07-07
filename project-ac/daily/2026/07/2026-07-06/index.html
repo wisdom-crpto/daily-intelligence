@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-06 ACM-AC Intelligence</title>
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#667085; --accent:#155eef; --paper:#fff; --bg:#f4f7fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; }
+    main { max-width:860px; margin:32px auto; padding:48px 64px; background:var(--paper); border-radius:18px; box-shadow:0 12px 40px rgba(16,24,40,.08); }
+    h1 { font-size:2.2rem; line-height:1.25; margin:0 0 1rem; }
+    h2 { margin-top:2.2rem; padding-bottom:.35rem; border-bottom:1px solid #e4e7ec; }
+    h3 { margin-top:1.6rem; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    blockquote { margin:1rem 0; padding:.8rem 1rem; color:var(--muted); background:#f8fafc; border-left:4px solid #84adff; }
+    .table-wrap { overflow-x:auto; margin:1.2rem 0; }
+    table { width:100%; border-collapse:collapse; font-size:.94rem; }
+    th, td { padding:.7rem .75rem; border-bottom:1px solid #e4e7ec; text-align:left; }
+    th { background:#f8fafc; }
+    .numbered { padding-left:.25rem; }
+    footer { max-width:860px; margin:0 auto 32px; color:var(--muted); text-align:center; font-size:.85rem; }
+    @media (max-width:700px) { main { margin:0; padding:28px 20px; border-radius:0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>ACM-AC Intelligence</h1>
+    <blockquote>2026-07-06｜Monday</blockquote>
+
+    <h2>Today’s Thesis｜今日一句话</h2>
+    <p>一句话结论：</p>
+
+    <h2>① Executive Summary｜30 秒</h2>
+    <p class="numbered">一句话结论：</p><p class="numbered">今日关注：</p><p class="numbered">今日目标：</p>
+
+    <h2>② Project Snapshot</h2>
+    <p>项目名称：</p><p>汇报类型：工作日晨间简报</p><p>汇报日期：</p><p>当前状态：</p>
+
+    <h2>③ Progress Dashboard</h2>
+    
+
+    <h2>④ New Dialogue Summary</h2>
+    <div class="table-wrap"><table><thead><tr><th>主题</th><th>总结</th></tr></thead><tbody><tr><td>新增问题背景</td><td>创建电桩时，仅按型号在 stationmodellist 检索会出现多个模糊匹配，导致系统误判“未创建”并继续执行创建</td></tr><tr><td>关键判断</td><td>如果品牌不存在，即使型号看似匹配，也不能视为已存在；因此校验条件必须从“型号唯一”升级为“品牌 + 型号精确匹配”</td></tr><tr><td>已完成动作</td><td>已按该方向修正代码逻辑，并补查案例日志，确认问题核心不是“创建逻辑错乱”，而是前置精确匹配失效</td></tr><tr><td>当前价值</td><td>这次修复把 AC售后的重复创建风险前移到了校验阶段，减少了误创建、误报错和人工复核成本</td></tr><tr><td>后续关注</td><td>继续用真实品牌样本验证精确匹配稳定性，尤其关注历史已有数据、脏数据和大小写/空格差异</td></tr></tbody></table></div>
+
+    <h2>⑤ Risks & Blockers</h2>
+    <div class="table-wrap"><table><thead><tr><th>风险</th><th>影响</th><th>当前应对</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table></div>
+
+    <h2>⑥ Action Items｜今天值得跟进什么</h2>
+    <p class="numbered">P0：</p><p class="numbered">P1：</p>
+
+    <h2>⑦ Reading Context</h2>
+    <p>项目名称：</p>
+    <p>当前状态：</p>
+    <p>源文件：<code>/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-06-morning-brief-ACM-AC.md</code></p>
+  </main>
+  <footer>Project Intelligence · 基于本地晨报模板自动生成</footer>
+</body>
+</html>
