@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-08 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-08</h1>
+    <p class="subtitle">当前主线从修复推进进入验证收口阶段，ACM售后 继续关注慢任务、锁竞争和回填一致性，AC售后新增对话 重点验证品牌+型号双校验在真实样本下是否稳定命中。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-28/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 验证与收口中</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">5</span><span class="meta">已完成 1 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">3</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">5</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">4</span><span class="meta">P0 2 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：当前主线从修复推进进入验证收口阶段，ACM售后 继续关注慢任务、锁竞争和回填一致性，AC售后新增对话 重点验证品牌+型号双校验在真实样本下是否稳定命中。</li><li>今日关注：避免“链路已执行但状态未回填”和“同型号跨品牌误匹配”两类问题重新出现。</li><li>今日目标：把已形成结论的修复项沉淀为可复用检查清单，减少后续重复排查成本。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">ACM售后稳定性验证</span><span class="desc">继续围绕车队上下线、价格配置、流量限制等链路观察修复后表现，重点确认失败点是否已被准确定位</span><div class="pill-row"><span class="pill">推进中</span></div></div><div class="card"><span class="title">ACM售后调度治理</span><span class="desc">慢任务、锁等待和阻塞任务仍作为运行守护重点，后续需要持续看真实吞吐和等待时间</span><div class="pill-row"><span class="pill">推进中</span></div></div><div class="card"><span class="title">ACM售后回填一致性</span><span class="desc">已将真实业务失败与表单/钉钉回填失败分开看待，避免排查时误判问题层级</span><div class="pill-row"><span class="pill">已收口一轮</span></div></div><div class="card"><span class="title">AC售后新增对话</span><span class="desc">品牌+型号双校验已经成为当前判定标准，新增对话的核心结论已沉淀到项目晨报结构中</span><div class="pill-row"><span class="pill">✅ 已形成结论</span></div></div><div class="card"><span class="title">AC售后回归验证</span><span class="desc">继续关注历史脏数据、空格大小写差异、相似型号跨品牌等真实样本下的命中表现</span><div class="pill-row"><span class="pill">推进中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">新增问题背景</span><span class="desc">仅按型号判断是否存在会放大相似型号误匹配风险，尤其是在不同品牌共享相似型号命名时</span></div><div class="card"><span class="title">关键结论</span><span class="desc">创建前搜索和创建后回查都必须使用品牌+型号联合精确匹配，不能只看单一字段</span></div><div class="card"><span class="title">已完成动作</span><span class="desc">已将该结论纳入日更看板，并把校验链路作为后续回归验证重点</span></div><div class="card"><span class="title">当前价值</span><span class="desc">修复思路从“创建失败后补救”前移到“创建前准确判定”，能降低重复创建和误报错概率</span></div><div class="card"><span class="title">后续关注</span><span class="desc">继续用真实样本验证大小写、空格、历史脏数据和跨品牌同型号场景</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：ACM售后 / AC售后</li><li>汇报类型：工作日晨间简报</li><li>汇报日期：2026-07-08</li><li>当前状态：🟡 验证与收口中</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">ACM售后慢任务与锁竞争仍可能拖慢吞吐</span><span class="desc">持续观察调度窗口、锁等待时长和阻塞任务恢复情况</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">ACM售后回填状态与真实执行状态不一致</span><span class="desc">排查时优先定位链路位置，区分业务失败与回填失败</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">AC售后历史数据脏匹配</span><span class="desc">坚持品牌+型号双校验，并补真实样本回归验证</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：继续验证 ACM售后核心链路修复后的稳定性和吞吐表现</li><li>P0：跟踪锁等待、慢任务和任务阻塞是否仍对售后处理造成影响</li><li>P1：补充 AC售后品牌+型号双校验的真实样本回归记录</li><li>P1：将新增对话结论沉淀为后续周报可复用的进展条目</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-08-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

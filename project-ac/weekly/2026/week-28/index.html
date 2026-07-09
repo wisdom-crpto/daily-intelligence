@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Week 28 ACM-AC Weekly Board</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Weekly Board</div>
+    <h1>Week 28</h1>
+    <p class="subtitle">根据 reports 中的标准版与 Lite 版周报生成，覆盖 2026-07-06 至 2026-07-10。</p>
+    <div class="nav">
+      <a href="../../../index.html">总看板</a>
+      <a href="../../../latest.html">最新日报</a>
+      <a href="../../2026/week-28/index.html">当前周</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">覆盖日报</span><span class="value">5</span><span class="meta">2026-07-06 - 2026-07-10</span></div>
+    <div class="metric"><span class="label">周报来源</span><span class="value">2</span><span class="meta">standard / lite</span></div>
+    <div class="metric"><span class="label">汇报周</span><span class="value">W28</span><span class="meta">2026</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>标准版周报</h2>
+        <h2>项目周报</h2>
+<h2>1. 基本信息</h2>
+<ul class="mini-list"><li>项目名称：#W01-运营炒菜机ACM+AC</li><li>负责人：咸芝士</li><li>所属团队：运营团队</li><li>汇报周期：Week 28（2026-07-06 至 2026-07-10）</li><li>汇报日期：2026-07-10</li><li>当前状态：🟡方案收敛与联调准备中</li></ul>
+<h2>2. 本周重点 / CEO 速读</h2>
+<ul class="mini-list"><li>一句话结论：本周项目主线从 ACM/AC 售后单点修复，进一步收敛到“飞书表单 → 桥接层 → OMP”的统一接入方案，执行口径明确为 API 优先、浏览器自动化兑底。</li><li>已推进的协同：飞书侧提交入口、提交人隔离、桥接层同步、状态回写、字段映射与 OMP 执行路径已被拉到同一套方案里；原有 ACM/AC 售后稳定性与品牌+型号双校验结论继续作为方案输入保留。</li><li>下一个里程碑：补齐 OMP API 文档与凭证、冻结字段映射表，并完成 API 优先 / Playwright 兑底双路径联调清单。</li><li>CEO 关注：否</li></ul>
+<h2>3. 本周关键进展</h2>
+<div class="table-wrap"><table><thead><tr><th>模块/事项</th><th>本周进展</th><th>状态</th></tr></thead><tbody><tr><td>接入主线切换</td><td>本周晨报已将项目主线从零散售后问题跟进，收敛为飞书表单提交、桥接层处理、OMP 执行的统一接入链路</td><td>✅完成</td></tr><tr><td>飞书表单接入口径</td><td>已形成面对业务方的飞书接入说明，明确“飞书提交、系统自动处理、默认只看自己数据”的对外口径</td><td>✅完成</td></tr><tr><td>桥接层架构沉淀</td><td>feishu-backend-integration.md 已补齐飞书 Bitable、桥接层、OMP API / Playwright 兑底、状态回写与权限过滤整体链路</td><td>✅完成</td></tr><tr><td>OMP 执行路径明确</td><td>L2-design/action.md 已将设计重点切到浏览器自动化 Bot、页面流转、DOM 选择器与 Playwright/Selenium 脚本</td><td>✅完成</td></tr><tr><td>表单能力取舍收口</td><td>已确认飞书共享表单不支持预填充，方案转为 API 创建记录 + 可选 Playwright 自动填充的折中路径</td><td>✅完成</td></tr><tr><td>历史售后结论纳入新方案</td><td>ACM 售后稳定性、回填一致性，以及 AC 售后品牌+型号双校验等结论已持续沉淀为新接入方案的校验前提</td><td>推进中</td></tr></tbody></table></div>
+<h2>4. 关键数据</h2>
+<div class="table-wrap"><table><thead><tr><th>指标</th><th>本周</th><th>上周</th><th>变化</th><th>说明</th></tr></thead><tbody><tr><td>工作日晨报</td><td>5 份</td><td>0</td><td>+5</td><td>2026-07-06 至 2026-07-10 连续归档</td></tr><tr><td>本周主线模块</td><td>6 类</td><td>3 类</td><td>+3</td><td>接入主线、飞书、桥接层、OMP、表单取舍、历史售后结论</td></tr><tr><td>已形成方案/说明</td><td>4 项</td><td>1 项</td><td>+3</td><td>飞书说明、桥接层架构、OMP 执行路径、表单能力取舍</td></tr><tr><td>核心风险项</td><td>3 项</td><td>3 项</td><td>持平</td><td>文档/凭证、字段映射、降级切换验证</td></tr></tbody></table></div>
+<h2>5. 风险与应对</h2>
+<div class="table-wrap"><table><thead><tr><th>风险</th><th>影响</th><th>应对措施</th><th>责任人</th><th>状态</th></tr></thead><tbody><tr><td>OMP API 文档与凭证仍未完全到位</td><td>高</td><td>先按 API 优先方案建模，同时保留 Playwright 兑底链路，避免联调被单点阻塞</td><td>咸芝士</td><td>推进中</td></tr><tr><td>飞书字段到 OMP 参数的映射仍未最终冻结</td><td>高</td><td>先抽象字段映射层，并在联调前完成正式映射表确认</td><td>咸芝士</td><td>推进中</td></tr><tr><td>API 不可用或覆盖不全时的降级切换未实测</td><td>中</td><td>将 API → Playwright 自动切换路径纳入联调验证清单</td><td>咸芝士</td><td>推进中</td></tr></tbody></table></div>
+<h2>6. 协同推进中</h2>
+<div class="table-wrap"><table><thead><tr><th>事项</th><th>对接方</th><th>推进方式</th><th>目标时间</th></tr></thead><tbody><tr><td>OMP API 文档与凭证收口</td><td>工程 / 对接方</td><td>明确认证方式、接口范围与测试凭证</td><td>下周</td></tr><tr><td>字段映射表冻结</td><td>产品 / 工程</td><td>按飞书字段、OMP 参数、状态回写三层整理正式映射表</td><td>下周</td></tr><tr><td>双路径联调清单准备</td><td>产品 / 工程</td><td>形成 API 优先、Playwright 兑底的验证步骤与回退标准</td><td>下周</td></tr><tr><td>售后历史结论接入新方案</td><td>产品</td><td>将 ACM/AC 售后稳定性与双校验经验整理为接入前检查项</td><td>下周</td></tr></tbody></table></div>
+<h2>7. 下周计划</h2>
+<ul class="mini-list"><li>P0：推动 OMP API 文档、凭证和调用边界尽快收口</li><li>P0：确认飞书字段、状态回写与提交人隔离口径可以直接进入联调</li><li>P1：完成飞书字段到 OMP 参数的正式映射表</li><li>P1：准备并验证 API 优先 / Playwright 兑底双路径联调清单</li></ul>
+<h2>8. 与上周相比的变化</h2>
+<ul class="mini-list"><li>新增：项目主线已切到飞书表单接入、桥接层架构和 OMP 执行链路统一设计。</li><li>变化：关注点从售后单点修复，转向“提交入口、处理链路、权限隔离、执行兑底”一体化方案收敛。</li><li>关闭：飞书共享表单预填充是否可行这一分支已收口为不可依赖能力。</li><li>持续推进：ACM 售后稳定性验证、AC 售后品牌+型号双校验经验沉淀、联调前资料补齐。</li></ul>
+      </section>
+      
+      <section class="panel">
+        <h2>Lite 版</h2>
+        <h2>项目周报</h2>
+<ul class="mini-list"><li>项目名称：#W01-运营炒菜机ACM+AC</li><li>负责人：咸芝士</li><li>日期：W28（2026-07-06 至 2026-07-10）</li><li>状态：🟡方案收敛与联调准备中</li></ul>
+<h2>本周重点 / CEO 速读</h2>
+<ul class="mini-list"><li>一句话结论：本周项目主线从 ACM/AC 售后修复，收敛到“飞书表单 → 桥接层 → OMP”的统一接入方案，执行口径明确为 API 优先、浏览器自动化兑底。</li><li>已推进的协同：飞书侧提交入口、提交人隔离、桥接层同步、状态回写、字段映射与 OMP 执行路径已拉到同一套方案里；历史售后稳定性与双校验结论继续保留为方案输入。</li><li>下一个里程碑：补齐 OMP API 文档与凭证、冻结字段映射表，并完成 API 优先 / Playwright 兑底双路径联调清单。</li><li>CEO 关注：否</li></ul>
+<h2>本周进展</h2>
+<ul class="mini-list"><li><strong>接入主线已切换</strong>：本周晨报已将项目主线从零散售后问题跟进，收敛为飞书表单提交、桥接层处理、OMP 执行的统一接入链路。</li><li><strong>飞书表单接入口径已形成</strong>：已形成面向业务方的飞书接入说明，明确“飞书提交、系统自动处理、默认只看自己数据”的对外表达。</li><li><strong>桥接层架构已沉淀</strong>：feishu-backend-integration.md 已补齐飞书 Bitable、桥接层、OMP API / Playwright 兑底、状态回写与权限过滤整体链路。</li><li><strong>OMP 执行路径已明确</strong>：L2-design/action.md 已将设计重点切到浏览器自动化 Bot、页面流转、DOM 选择器与 Playwright/Selenium 脚本。</li><li><strong>表单能力取舍已收口</strong>：已确认飞书共享表单不支持预填充，方案转为 API 创建记录 + 可选 Playwright 自动填充。</li><li><strong>历史售后结论继续沉淀</strong>：ACM 售后稳定性、回填一致性，以及 AC 售后品牌+型号双校验等结论继续作为新方案的校验前提。</li></ul>
+<h2>关键数据</h2>
+<ul class="mini-list"><li>工作日晨报：5 份（2026-07-06 至 2026-07-10 连续归档）</li><li>本周主线模块：6 类（接入主线、飞书、桥接层、OMP、表单取舍、历史售后结论）</li><li>已形成方案/说明：4 项（飞书说明、桥接层架构、OMP 执行路径、表单能力取舍）</li><li>核心风险项：3 项（文档/凭证、字段映射、降级切换验证）</li></ul>
+<h2>风险与应对</h2>
+<ul class="mini-list"><li>OMP API 文档与凭证仍未完全到位（高）→ <strong>应对</strong>：先按 API 优先方案建模，同时保留 Playwright 兑底链路。</li><li>飞书字段到 OMP 参数的映射仍未最终冻结（高）→ <strong>应对</strong>：先抽象字段映射层，并在联调前完成正式映射表确认。</li><li>API 不可用或覆盖不全时的降级切换未实测（中）→ <strong>应对</strong>：将 API → Playwright 自动切换路径纳入联调验证清单。</li></ul>
+<h2>协同推进中</h2>
+<ul class="mini-list"><li>OMP API 文档与凭证 → 明确认证方式、接口范围与测试凭证</li><li>字段映射表冻结 → 按飞书字段、OMP 参数、状态回写三层整理正式映射表</li><li>双路径联调清单 → 形成 API 优先、Playwright 兑底的验证步骤与回退标准</li><li>售后历史结论接入新方案 → 将 ACM/AC 售后稳定性与双校验经验整理为接入前检查项</li></ul>
+<h2>下周计划</h2>
+<ul class="mini-list"><li>P0：推动 OMP API 文档、凭证和调用边界尽快收口</li><li>P0：确认飞书字段、状态回写与提交人隔离口径可以直接进入联调</li><li>P1：完成飞书字段到 OMP 参数的正式映射表</li><li>P1：准备并验证 API 优先 / Playwright 兑底双路径联调清单</li></ul>
+      </section>
+
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>周报源文件</h2>
+        <div class="cards"><a class="card" href="summary.md"><span class="title">标准版周报</span><span class="meta">weekly-report-ACM-w28-standard.md</span></a><a class="card" href="lite.md"><span class="title">Lite 版周报</span><span class="meta">weekly-report-ACM-w28-lite.md</span></a></div>
+      </section>
+      <section class="panel">
+        <h2>本周日报</h2>
+        <div class="cards"><a class="card" href="../../daily/2026/07/2026-07-06/index.html"><span class="title">2026-07-06 日看板</span><span class="meta">点击查看当天细节</span></a><a class="card" href="../../daily/2026/07/2026-07-07/index.html"><span class="title">2026-07-07 日看板</span><span class="meta">点击查看当天细节</span></a><a class="card" href="../../daily/2026/07/2026-07-08/index.html"><span class="title">2026-07-08 日看板</span><span class="meta">点击查看当天细节</span></a><a class="card" href="../../daily/2026/07/2026-07-09/index.html"><span class="title">2026-07-09 日看板</span><span class="meta">点击查看当天细节</span></a><a class="card" href="../../daily/2026/07/2026-07-10/index.html"><span class="title">2026-07-10 日看板</span><span class="meta">点击查看当天细节</span></a></div>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

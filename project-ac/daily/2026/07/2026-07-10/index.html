@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-10 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-10</h1>
+    <p class="subtitle">项目近期主线已从零散问题跟进进一步收敛到 飞书表单 → 桥接层 → OMP 的统一接入链路，OMP 侧执行明确为 API 优先、浏览器自动化兑底。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-28/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 方案收敛与联调准备中</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">5</span><span class="meta">已完成 2 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">3</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">5</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">4</span><span class="meta">P0 2 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：项目近期主线已从零散问题跟进进一步收敛到 飞书表单 → 桥接层 → OMP 的统一接入链路，OMP 侧执行明确为 API 优先、浏览器自动化兑底。</li><li>今日关注：把飞书侧提交流程、提交人隔离、字段映射和 OMP 执行路径统一到同一套可落地方案里，避免后续实现再次分叉。</li><li>今日目标：围绕浏览器自动化、桥接层同步和表单权限口径形成可直接进入联调的日更结论。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">OMP 接入路径</span><span class="desc">L2-design/action.md 已把设计重点切到浏览器自动化 Bot、页面流转梳理、DOM 选择器和 Playwright/Selenium 脚本</span><div class="pill-row"><span class="pill">推进中</span></div></div><div class="card"><span class="title">飞书表单接入</span><span class="desc">新增面向业务方的飞书接入说明，口径已明确为“飞书提交、系统自动处理、用户默认只看自己数据”</span><div class="pill-row"><span class="pill">✅ 已形成对外说明</span></div></div><div class="card"><span class="title">桥接层架构</span><span class="desc">feishu-backend-integration.md 已补齐飞书 Bitable、桥接层、OMP API / Playwright 兑底、状态回写和权限过滤整体链路</span><div class="pill-row"><span class="pill">✅ 已形成方案</span></div></div><div class="card"><span class="title">表单能力取舍</span><span class="desc">决策层已确认飞书共享表单不支持预填充，转为 API 创建记录 + 可选 Playwright 自动填充的折中路径</span><div class="pill-row"><span class="pill">已收口一轮</span></div></div><div class="card"><span class="title">联调准备项</span><span class="desc">OMP API 文档与凭证、字段映射表、状态回写和 API 降级验证仍是进入联调前的关键缺口</span><div class="pill-row"><span class="pill">持续跟踪</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">新增方向背景</span><span class="desc">项目近期不再只处理单点售后问题，而是把新增入口统一收敛到飞书表单 + 自有系统桥接处理</span></div><div class="card"><span class="title">关键结论</span><span class="desc">OMP 可用能力口径已明确为 API 优先、浏览器自动化兑底，避免继续押注不可控的 DB 或不稳定接口</span></div><div class="card"><span class="title">已完成动作</span><span class="desc">已沉淀飞书侧权限方案、桥接层同步流程、状态枚举、核心 API 端点和 Playwright 自动填充方案</span></div><div class="card"><span class="title">当前价值</span><span class="desc">这轮收敛把“数据从哪来、怎么处理、失败如何回写、谁能看见”放到同一方案里，减少后续重复设计</span></div><div class="card"><span class="title">后续关注</span><span class="desc">继续补齐 OMP API 文档、字段映射、降级切换验证和真实表单联调样本</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：ACM售后 / AC售后</li><li>汇报类型：工作日晨间简报</li><li>汇报日期：2026-07-10</li><li>当前状态：🟡 方案收敛与联调准备中</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">OMP API 文档与凭证仍未完全到位</span><span class="desc">先按 API 优先方案建模，同时保留 Playwright 兑底链路</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">飞书字段到 OMP 参数的映射仍未最终冻结</span><span class="desc">先抽象字段映射层，联调前完成映射表确认</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">API 不可用或覆盖不全时的降级切换未实测</span><span class="desc">将自动切换到 Playwright 的路径纳入联调验证清单</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：补齐当天项目晨报并刷新本地看板，保持归档连续性</li><li>P0：继续确认飞书侧字段、状态回写和提交人隔离口径能否直接进入联调</li><li>P1：推动 OMP API 文档、凭证和字段映射表尽快收口</li><li>P1：准备 API 优先 / Playwright 兑底双路径的验证清单</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-10-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
