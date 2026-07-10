@@ -1,6 +1,500 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-07-11",
+    "generated_at": "2026-07-10T23:04:58.904101+00:00",
+    "model": "glm-5.1",
+    "mode": "model",
+    "thesis": "AI 正从部署狂热步入治理与成本摩擦期，而宏观受制于关税驱动的粘性通胀，两者的交汇将重塑资本的风险偏好边界。",
+    "summary": "- **AI**：采用疲劳显现，超 40% 用户限制使用 [A13]；AI 运营成本甚至超过被替代人工 [A11]，智能体从概念走向保险等传统行业基础设施 [A9]。 - **商业**：Apple 起诉 OpenAI 窃取商业机密 [A3]，科技巨头从竞合走向法律战；音乐与社交平台加速推进 AI 内容标签与合规边界 [A19][A22]。 - **宏观**：美联储报告指出关税是顽固高通胀的关键驱动 [B10]，9 月加息预期升温压制黄金 [B17]，美元可能继续走强 [B5]。",
+    "relative_html": "2026/07/2026-07-11/Daily%20Intelligence.html",
+    "markets": [
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "value": 26281.6074,
+        "change_pct": 0.29,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+        "interpretation": "中性"
+      },
+      {
+        "name": "黄金",
+        "symbol": "GC=F",
+        "value": 4128.8999,
+        "change_pct": -0.04,
+        "direction": "→",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+        "interpretation": "中性"
+      },
+      {
+        "name": "原油",
+        "symbol": "CL=F",
+        "value": 71.51,
+        "change_pct": -0.79,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+        "interpretation": "通胀压力缓解"
+      },
+      {
+        "name": "美元指数",
+        "symbol": "DX-Y.NYB",
+        "value": 100.965,
+        "change_pct": 0.02,
+        "direction": "→",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+        "interpretation": "中性"
+      },
+      {
+        "name": "十年美债收益率",
+        "symbol": "^TNX",
+        "value": 4.569,
+        "change_pct": 0.66,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+        "interpretation": "成长估值承压"
+      },
+      {
+        "name": "BTC",
+        "symbol": "BTC-USD",
+        "value": 64073.7891,
+        "change_pct": 1.39,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "value": 15.03,
+        "change_pct": -5.11,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "value": 210.96,
+        "change_pct": 4.03,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/NVDA",
+        "interpretation": "风险偏好改善"
+      }
+    ],
+    "topics": [
+      "AI",
+      "technology",
+      "business",
+      "macro"
+    ],
+    "quote": {
+      "english": "The greatest danger in times of turbulence is not the turbulence; it is to act with yesterday’s logic.",
+      "speaker": "Peter Drucker",
+      "chinese": "动荡时期最大的危险不是动荡本身，而是继续用昨天的逻辑行动。"
+    },
+    "sources": {
+      "ai": [
+        {
+          "title": "University of Chicago cutting use of AI by banning technology in classrooms for first-year law students - CBS News",
+          "summary": "University of Chicago cutting use of AI by banning technology in classrooms for first-year law students    CBS News",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IeFh0cjhSM2NST0YzUjBLSHhfOXlPZkNpZTUzTXlOTDdMVXBoc2dlYnZHY01IbEl3ZzRtR2pwQk43VkNoVlJVc01jUFFrT3Y3dHFhSjZ3OVVYWVhGUnRiLVlqWTFwWHFi?oc=5",
+          "published": "Fri, 10 Jul 2026 22:55:04 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-10T22:55:04+00:00"
+        },
+        {
+          "title": "Show HN: I scrape an $8.5M-ARR company run by AI agents and chart it live",
+          "summary": "Article URL: https://maertspolsia.mzpx.ai Comments URL: https://news.ycombinator.com/item?id=48866244 Points: 1 # Comments: 0",
+          "url": "https://maertspolsia.mzpx.ai",
+          "published": "Fri, 10 Jul 2026 22:43:51 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T22:43:51+00:00"
+        },
+        {
+          "title": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets - The Guardian",
+          "summary": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets    The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeWtGRVlvQTA3OXBzNEI1YUZSN3duYzN1OXZQNGNDUmg1T1Z6eGNwbXNhQl81a3liMjAxQlB0QzlGZlBnZ3FWZ19waDZDZm9lczl4THlPTzAzdF9ja2haZkdGS1NKbmxrQ3FLZmlWdTRJVEVxczJKVnFEeG9OaUk5ekFGNEEwUjlwN0E?oc=5",
+          "published": "Fri, 10 Jul 2026 22:33:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-10T22:33:00+00:00"
+        },
+        {
+          "title": "中国AI，一条没断过的清华血脉 - 网易",
+          "summary": "中国AI，一条没断过的清华血脉    网易",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EeG0waDAtUnNIMlFVSjVVbkVYQ0ZNZ0pSSFdmZmZ4bkJFX0x1MXRwTkdwM1RRVWlQUUw3V3ZXSUJBSUI5ZkEwT0YxOWtBb2phQzB5a0pTdGFTRkQwSzh6dFBn?oc=5",
+          "published": "Fri, 10 Jul 2026 22:23:35 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-10T22:23:35+00:00"
+        },
+        {
+          "title": "The AI and observability gap for front end teams",
+          "summary": "Article URL: https://embrace.io/guides/ai-observability-gap-report/ Comments URL: https://news.ycombinator.com/item?id=48866067 Points: 2 # Comments: 0",
+          "url": "https://embrace.io/guides/ai-observability-gap-report/",
+          "published": "Fri, 10 Jul 2026 22:23:00 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T22:23:00+00:00"
+        },
+        {
+          "title": "North Carolina A&T researchers use robot dog to assess plant health - wfmynews2.com",
+          "summary": "North Carolina A&T researchers use robot dog to assess plant health    wfmynews2.com",
+          "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNVW52UEJCUGw5SXZUdTF4Z2RTTkRmUEhyRFBLZEp5MGRWel9PUVh5X3dIUC1iV0hYdDZmVkVaSXZOUDdLQUFacUFKNjU5Y05jZ3hNOTIwUER4Y2x3UEVMYlFNcHJoMmk5SVdEUGI2S1AzMU0zT2RyV1piZlVCbVpkWEppWFMzVlFiTEZZb3dlazN4NXVQV0J4cWMwQl9tTkRCSW43X05EX3hGcURSRjB3S3RJN0luQ21kenVyd1gyNlNXcG5lZ1J4NFNGQnh6ZEdoTUNLajZFd2NJTkNCX3IxUEo2VUZPa2tPUFVCdjlNcWMwV3ZZbmJEaTloTGIxb1E4UjJQZFN2SDZwYmlhb1RYOEZPOG5hSHdKbVZPZElCQmRsY2RncG11Vm5EbzVUcno3eHktOEdtZ3lCaEdERTN6UVRaY01rQQ?oc=5",
+          "published": "Fri, 10 Jul 2026 22:21:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-10T22:21:00+00:00"
+        },
+        {
+          "title": "Together AI, Apps Flyer lead list of Top dynamic companies for Q3 2026",
+          "summary": "Article URL: https://greenflagdigital.com/gfd-tech-100-ranking/ Comments URL: https://news.ycombinator.com/item?id=48865936 Points: 1 # Comments: 0",
+          "url": "https://greenflagdigital.com/gfd-tech-100-ranking/",
+          "published": "Fri, 10 Jul 2026 22:08:16 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T22:08:16+00:00"
+        },
+        {
+          "title": "AI Can't Recreate the Thrust Game (But It Can Help You Understand It)",
+          "summary": "Article URL: https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/ Comments URL: https://news.ycombinator.com/item?id=48865903 Points: 1 # Comments: 0",
+          "url": "https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/",
+          "published": "Fri, 10 Jul 2026 22:04:45 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T22:04:45+00:00"
+        },
+        {
+          "title": "Show HN: An MCP server that lets AI agents request disability insurance quotes",
+          "summary": "Hi HN. I own an online insurance agency, a painfully old-school industry. I am not a developer. I vibe-coded it all in Claude Code, then reviewed and tested before anything shipped. Which is part of the story I guess, that a small firm with curious and reasonably capable people can now operate agent infrastructure that would have required a contractor two years ago. I'm trying this because a growing share of our prospects start by asking their AI of choice what coverage to buy and who to get it from. Assistants can read my site, so like everyone else I'm trying to get recommendations via content. But the next natural step is agents actually taking actions on sites rather than just reading them, so I created seven tools, six read-only (a verified-facts knowledge base, carrier comparison, specialty and education guides, benefit-cap math, rider definitions) and one action, \"quote request,\" which writes a lead straight into our CRM through the same Salesforce web-to-lead path that our web form uses. Then it switches back to the \"normal\" process and a licensed broker follows up through traditional means. This is the best use case I could figure out at this point, but expect to find others as the space matures. To my knowledge it is the first agent-callable quote action in my corner of insurance. I had originally built it with an OAuth flow, but there was friction that kept killing the test interactions so I made it open, no auth. Unless there is something I'm missing the worst case scenario is junk leads and not a data leak since the read tools only contain published information and the quote request collects normal lead stuff like name, DOB, etc. According to Claude, spam \"gets handled in layers with strict input validation including a DNS-over-HTTPS check that the email domain can receive mail, per-IP rate limiting in Workers KV, and short-window duplicate suppression.\" Either way every agent-originated lead is tagged in my CRM so junk is easily filterable. The rate limit should in theory block you if you hammer it. But this is the sort of stuff I wouldn't mind some people playing around with since I'm learning on the fly and an experienced developer could probably find some holes. My setup is a single Cloudflare Worker (Streamable HTTP transport), KV for rate limiting and knowledge, knowledge compiled at deploy from the same source of truth that feeds our site chatbot, so the MCP and the site regenerate from the same file. Endpoint: https://mcp.seaworthy.io/mcp Human-readable reference: https://seaworthy.io/for-ai-agents/ The honest open question is whether or not this will ever accomplish anything. I have not yet received a lead through these means, and do not expect to for some time yet, but I do believe that rather than people asking agents where to get quotes, they will eventually just ask the agent to get the quotes on their behalf (and then eventually to just fully set up the coverage), and I want to be the first one in my niche who has the capability. Happy to answer questions, and would be open to input if anyone has anything to share. Comments URL: https://news.ycombinator.com/item?id=48865825 Points: 1 # Comments: 0",
+          "url": "https://github.com/seaworthy-io/seaworthy-mcp",
+          "published": "Fri, 10 Jul 2026 21:56:00 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T21:56:00+00:00"
+        },
+        {
+          "title": "人工智能学会“使坏”，我们怎么办（唠“科”） --经济·科技 - 人民网财经",
+          "summary": "人工智能学会“使坏”，我们怎么办（唠“科”） --经济·科技    人民网财经",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MdkFvN25ObG54cE5oeW5JX193bGE3bkIxZGt0bF9Fal8yYXFDSzBiaFhrNkJUT0VFRl9wbXhGbHo2SmV6SjNKSnZHU1BwNzFWNmN5amlsVmU3SWZSQlE5UkVLNmFrX3AtMjJvcG1R?oc=5",
+          "published": "Fri, 10 Jul 2026 21:53:00 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-10T21:53:00+00:00"
+        },
+        {
+          "title": "How AI Became More Expensive Than the Workers It Replaced [video]",
+          "summary": "Article URL: https://www.youtube.com/watch?v=cfaZZPjA3g0 Comments URL: https://news.ycombinator.com/item?id=48865719 Points: 3 # Comments: 0",
+          "url": "https://www.youtube.com/watch?v=cfaZZPjA3g0",
+          "published": "Fri, 10 Jul 2026 21:45:27 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T21:45:27+00:00"
+        },
+        {
+          "title": "China's Open AI Models Are Advancing Its Global Soft Power",
+          "summary": "Article URL: https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/ Comments URL: https://news.ycombinator.com/item?id=48865717 Points: 8 # Comments: 0",
+          "url": "https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/",
+          "published": "Fri, 10 Jul 2026 21:45:16 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T21:45:16+00:00"
+        },
+        {
+          "title": "Over 40% Of People Are Limiting AI Use, As Popularity Starts To Wane - Eurasia Review",
+          "summary": "Over 40% Of People Are Limiting AI Use, As Popularity Starts To Wane    Eurasia Review",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUFhmQzg5Qzlqd19uVXlEVlNpQ1JTcVJRRzI3akdMR2x3R1pOSlZmczVHM2d0QS1xTy1QOU9YbEtrX0FxcXQ4NHVKSXFuZHRsejlRR1lPb0lOLXlaU25BRnQxMG92NVhWLVJKWWFPUmxYNGg3cHBEM18xNzRRZ2dyZmhRck5RVnVOX1J0djl2YW44RmVGdFpETHpQcmxQdFRvd2tQY2prV25zUQ?oc=5",
+          "published": "Fri, 10 Jul 2026 21:13:44 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-10T21:13:44+00:00"
+        },
+        {
+          "title": "Ask HN: Would you play AI developed games?",
+          "summary": "I had children relatively recently so have gone into mobile games, and unfortunately every game I've tried is pretty much filled with ads and microtransactions - even ones that you can play entirely offline. With the frontier AI models I've been attempting to recreate some of these games and I've managed it with some of the simpler ones. I'm not going to release them and they're just for me with my preferences built into them but it got me thinking if there's possibly a \"good\" side to this, games without microtransactions and moneytization at every corner again because games don't cost as much to make? Again I'm just thinking simple mobile games here, I don't think AI generated games could touch the PC/A/AA/AAA market Comments URL: https://news.ycombinator.com/item?id=48865303 Points: 2 # Comments: 10",
+          "url": "https://news.ycombinator.com/item?id=48865303",
+          "published": "Fri, 10 Jul 2026 21:09:05 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T21:09:05+00:00"
+        },
+        {
+          "title": "Apple accuses OpenAI of using stolen trade secrets to create its AI gadgets",
+          "summary": "Article URL: https://www.cnn.com/2026/07/10/tech/apple-openai-devices-lawsuit Comments URL: https://news.ycombinator.com/item?id=48865252 Points: 17 # Comments: 0",
+          "url": "https://www.cnn.com/2026/07/10/tech/apple-openai-devices-lawsuit",
+          "published": "Fri, 10 Jul 2026 21:04:56 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T21:04:56+00:00"
+        },
+        {
+          "title": "Local-first agent governance: keeping an AI agent contained",
+          "summary": "Article URL: https://vektorgeist.com/blog/local-first-agent-governance Comments URL: https://news.ycombinator.com/item?id=48865189 Points: 1 # Comments: 0",
+          "url": "https://vektorgeist.com/blog/local-first-agent-governance",
+          "published": "Fri, 10 Jul 2026 20:59:35 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T20:59:35+00:00"
+        },
+        {
+          "title": "Needham's Laura Martin on why she prefers Reddit's 'human intelligence' to Meta's artificial intelligence - CNBC",
+          "summary": "Needham's Laura Martin on why she prefers Reddit's 'human intelligence' to Meta's artificial intelligence    CNBC",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYU9jZzhZdXk2OE43ZHktQ1hzZFQ1eHZCc0FYc0FNNlNZMHpibHFrZ1o5bHFTYW9QbTVBcERkVzNUSDhBZHhBcHRvMjRNbjVoZUFaWGhNMFprREI1MGc0ZWthdFQ4X0hQdmVhcTlzb3lKM3FYSmg0VmZpemNaMWI2QzFsWmFaeTVUcEsxSTd0TWpjN2pXaFplNjlTZktlcFJVUlpEMTBEUFotTElITUNKREJkbFpGRmZlMExMUjRScFMtU2puSDNZX1l2WUlEY01ERHZfNnBmZl94aE0?oc=5",
+          "published": "Fri, 10 Jul 2026 20:52:14 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-10T20:52:14+00:00"
+        },
+        {
+          "title": "Migrating a production AI agent to GPT 5.6",
+          "summary": "Article URL: https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6 Comments URL: https://news.ycombinator.com/item?id=48864950 Points: 7 # Comments: 0",
+          "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+          "published": "Fri, 10 Jul 2026 20:40:34 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T20:40:34+00:00"
+        },
+        {
+          "title": "Outcry as Meta lets users make AI images from public Instagram profile pics",
+          "summary": "Article URL: https://www.bbc.com/news/articles/cp9lee19y1yo Comments URL: https://news.ycombinator.com/item?id=48864930 Points: 5 # Comments: 3",
+          "url": "https://www.bbc.com/news/articles/cp9lee19y1yo",
+          "published": "Fri, 10 Jul 2026 20:38:53 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T20:38:53+00:00"
+        },
+        {
+          "title": "OpenAI Launches GPT-5.6 as Agentic AI Shifts ETF Outlook - ETF Database",
+          "summary": "OpenAI Launches GPT-5.6 as Agentic AI Shifts ETF Outlook    ETF Database",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZmRGMTJ2N1gxOWN2WDkwOURKUGNUUF93ZEVPelZSdUNQNzk4UER4VHBwcUNGZWxLS3FPUExpZUcxN054ZGxBRXdSQmtmYTZwdUVFZG1qYzk1eEN5ci1ob1FTcHhVdWZKWVdPTFJXRkstZjRCWlV3aGZtX3d3UFB2ak4wMkZTVW1YWThPNWtJbWE4SVVoRUkwQjFISGdkd1piZW1taUwzT0d1Q0Rn?oc=5",
+          "published": "Fri, 10 Jul 2026 20:37:30 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-10T20:37:30+00:00"
+        },
+        {
+          "title": "Ask HN: What data have the frontier AI companies not ingested yet?",
+          "summary": "Comments URL: https://news.ycombinator.com/item?id=48864896 Points: 2 # Comments: 2",
+          "url": "https://news.ycombinator.com/item?id=48864896",
+          "published": "Fri, 10 Jul 2026 20:36:29 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T20:36:29+00:00"
+        },
+        {
+          "title": "Music industry launches AI-generated content labels - France 24",
+          "summary": "Music industry launches AI-generated content labels    France 24",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkRTV1M2VWRJSVFMZFNCNUlKbDVTbXA2Yk1TWTk3d1ZPWl8zMVlyeUE3ZTZJN3owLVF0c2s5YTB0RVVJcVkwS1ktbnJRZUQtYjJOMlBaNndYNUZ4RUQwNWNqOXdLcGUtSUlIdmFNX0pHcDQxM2U4WEVCUmpvUHlOTWJmdE1PbEo2WlQzZDRyeFh4S0s2dHVVNXQ0eG9fSmc?oc=5",
+          "published": "Fri, 10 Jul 2026 20:33:09 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-10T20:33:09+00:00"
+        },
+        {
+          "title": "AI Fiction Is Easy to Detect Because It's Stupid and Bad, Research Finds",
+          "summary": "Article URL: https://www.404media.co/ai-fiction-is-easy-to-detect-because-its-stupid-and-bad-research-finds/ Comments URL: https://news.ycombinator.com/item?id=48864776 Points: 3 # Comments: 0",
+          "url": "https://www.404media.co/ai-fiction-is-easy-to-detect-because-its-stupid-and-bad-research-finds/",
+          "published": "Fri, 10 Jul 2026 20:25:03 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T20:25:03+00:00"
+        },
+        {
+          "title": "AI developers are buying up old books in Germany in large numbers",
+          "summary": "Article URL: https://logos-pres.md/en/news/ai-developers-are-buying-up-old-books-in-germany-in-large-numbers/ Comments URL: https://news.ycombinator.com/item?id=48864710 Points: 2 # Comments: 0",
+          "url": "https://logos-pres.md/en/news/ai-developers-are-buying-up-old-books-in-germany-in-large-numbers/",
+          "published": "Fri, 10 Jul 2026 20:18:32 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-07-10T20:18:32+00:00"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "SilverBlue, NAFIN Expand Financing for Leasing Firms - Mexico Business News",
+          "summary": "SilverBlue, NAFIN Expand Financing for Leasing Firms    Mexico Business News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY0s4c0NjUTl0TS1HUjhpcTZjVDhkNWM5Q0lOWmtmaXBGUEctOW9xMkJsa2ZwQWRPXzBPWHFubmRSN1p1M1o4SkgwN0lXSkdoSG5xUnpxWlktTy03clNBR29JTU1Qc0xSZkFKSHd1aXZUYUNuN0lYQmpPb0toRDBfeDg4aE16YmprclB5WTc2QVFKdw?oc=5",
+          "published": "Fri, 10 Jul 2026 22:10:41 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-10T22:10:41+00:00"
+        },
+        {
+          "title": "Industrial Physical AI on AWS with Galeo Tech and Multiverse Computing - Amazon Web Services (AWS)",
+          "summary": "Industrial Physical AI on AWS with Galeo Tech and Multiverse Computing    Amazon Web Services (AWS)",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSHQ4SG1GSnhLUDdveXczejBWNEhGcGh4cWVPTjBSclNmZEs5ZnU3MU10UTNYZ3Q0MjJZOU1YV1FxeS1BWUZfVm13Y1VCUXBldzZqd0g1bF9hY1FlZWVZX05YZHFJZUxOYzRYSEY3WHZ0ako4R2JxeDZUV1ltX1lGWEVqMVlyYlgzQnpQMlFnbGNOdVJwTHV1dTl3dGpyeVJ4M0pSNHV4dTF0dllSTGZ2Z3ln?oc=5",
+          "published": "Fri, 10 Jul 2026 20:38:40 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-10T20:38:40+00:00"
+        },
+        {
+          "title": "Daily Digest: Alameda Health System reversed a major staffing decision, Peninsula manufacturer cuts 200 jobs - The Business Journals",
+          "summary": "Daily Digest: Alameda Health System reversed a major staffing decision, Peninsula manufacturer cuts 200 jobs    The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM3c5R2h6VVh0MlRYRlJWcDhuN3BHdWlJbkZscHdETGtpWE1oazhZQ2o5cjQzOXpWVENYMkRVYncxVnN3ZFZmQ2V3UlZvNDRpeDBrMnhndGtVMTREVGJvdkZVUXVNT0cxVnRrSko2cUN5TmNISkRsd2NIc0J0ZHlWTGU5cENmdm8tTXo2WnMycDdWY2pJZ0FiMGdvZmwxTkVadWNMMGFPekRsOWgtVkw0?oc=5",
+          "published": "Fri, 10 Jul 2026 20:18:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-10T20:18:00+00:00"
+        },
+        {
+          "title": "Bangladesh Suffers Massive Downtrend in Tourism Industry - dailyasianage.com",
+          "summary": "Bangladesh Suffers Massive Downtrend in Tourism Industry    dailyasianage.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLVhQQlNmLWtyRzJXVFR0bWhCNllFYVNEYWt4ZWkyQmktaGZ3c09QTHNBSE9rMmVXT1lxX1JVeG10SHlsY2EzVFN2R0dwMjdEd0x2RHQtOURsbXFfdWpMZTl6ZG4wYWFaQUtDU0E1XzB2VFdRSFR4RjR0cElIdE12blJCTk5xc09wRFZoTTNOaGN1bmJwTFItVXVB?oc=5",
+          "published": "Fri, 10 Jul 2026 19:49:04 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-10T19:49:04+00:00"
+        },
+        {
+          "title": "Why the US Dollar Could Continue to Strengthen - Goldman Sachs",
+          "summary": "Why the US Dollar Could Continue to Strengthen    Goldman Sachs",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMUtmSW9FZnJJQ3VOSEZPdmh3c0xlaHgtWlA4NEVTR3pXMlQ2NXU4eEtva2tiUGpIX0hGaTg5QkJNOEVpUnhUaVBEbEkwSHRhOXJJYUVGTTdBMFc0eDR3NExWckY5My1Oek1TLXowMzdsd040R3JTUGthZ3ltdS1JU1kyR0g2ZFFkVVFxUGtqandKVnFaSkt4MHJBOGc?oc=5",
+          "published": "Fri, 10 Jul 2026 18:56:15 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-10T18:56:15+00:00"
+        },
+        {
+          "title": "Technology, Stronger Local Capacity Seen Boosting Oil, Gas Industry, Economy - Head Topics",
+          "summary": "Technology, Stronger Local Capacity Seen Boosting Oil, Gas Industry, Economy    Head Topics",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcDZYVUZoR3VlT0dPLXUxejRSZDYtcWM4UnozU0JtZHpWTi1IUUpsczUxaDRsNFpoVzAyaGRSQVVCTi1kYllGNTY0U1Z6TlR2emRiWTUwaHdkd3Y3c2NrTk1hMWc3YkFuM0wyV09aTkV1NWNVWEtwTDIwQTNoejVmMVEzWDhfN05UUGoyYU9zT21tT0lnRE8xMnJqLU4?oc=5",
+          "published": "Fri, 10 Jul 2026 18:32:56 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-10T18:32:56+00:00"
+        },
+        {
+          "title": "Why the world is investing in the Charlotte region - The Business Journals",
+          "summary": "Why the world is investing in the Charlotte region    The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWVFpZU9peGhrVjdGM2FpMzVrTHRWSXRQYUs1ODgzNzZSNXJGU1QtODlpWHV2TkdRZ1dDUkZXS0Q4QTBYcmVpMzV0bDdISEg3Q19DZUl3RnhmcGtHWk9ESFIxSmRDcTc0OUtRUDVFZ0IwUlJiTTh2MTJLa1c0Y3dzMTl0Q05hRVlpeHc0TG9Namxoa21DZVdGQWFkRQ?oc=5",
+          "published": "Fri, 10 Jul 2026 18:27:00 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-10T18:27:00+00:00"
+        },
+        {
+          "title": "Round Rock officials OK retail parking changes for The District, developer talks tenancy plans - Community Impact",
+          "summary": "Round Rock officials OK retail parking changes for The District, developer talks tenancy plans    Community Impact",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYkNYLTFYWG91MmR2RTRzX3k5aDVIZzRENjNjc0RrMFlTam10TVNsa2NULXh0UzNNb2ctbTlaeURsem5FWUdGU05CRkVVdXFUMGplVUpLcXYxNjBMYzgxRldtSlBRRmg0WVRsVWlLSHlQZUpYSHluMkt5ZXJRLUlyWHRXaENYU1pFTENVWUo2ZXRKX1d1bjVzMkx1TkZUNHZYR09oa3JHWURFZUtLYjcyN1E0cVVaM1I5ZHZ5NEJmMnVMTjNoNTBYNk43OWNmZF82Sk55aXF2d21kSFJMZFE?oc=5",
+          "published": "Fri, 10 Jul 2026 18:00:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-10T18:00:00+00:00"
+        },
+        {
+          "title": "Gold struggles around $4,100 as markets await CPI and Warsh's Capitol Hill debut - KITCO",
+          "summary": "Gold struggles around $4,100 as markets await CPI and Warsh's Capitol Hill debut    KITCO",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR1RtTnlvamhXajhQRWhfNXY4VWJ5Y3ZUdlZQQmZyYV9jX3dzTVBsanI0cWZ0cHQzOFB3QUdobXNUTWh4TmI2NXVCb1BmNUkxQ3RvcEZjQ0RVWkczenY5dHBfaWliSnpib2Nza3ZYQ3lmTGU5TnI5MVB0TzR1QUs2SWItZ2hDamZoLTVuUnVqSS1xTXNMY0ZJbkpYZjk2cmRBaG9oaEQzQUdmbnNBSl93UFJiZ0NFMVc4WjNTdQ?oc=5",
+          "published": "Fri, 10 Jul 2026 17:13:00 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-10T17:13:00+00:00"
+        },
+        {
+          "title": "Fed Report Flags Tariffs As Key Driver Of Stubbornly High Inflation - Bitcoin World",
+          "summary": "Fed Report Flags Tariffs As Key Driver Of Stubbornly High Inflation    Bitcoin World",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81NEQ4V1ZMbkFOVjBzU0EzSXplUEQ2V1RzQmZvYTMyeDRpQUlHcG14cG5DZ3NkZTJib3dPSjZtbzNxVXFRSVJSbVBvZVlhZGNUUFViV2tTSmVZblpfaTNNem5IUWtBLVB3LXhjcXlR?oc=5",
+          "published": "Fri, 10 Jul 2026 17:05:10 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-10T17:05:10+00:00"
+        },
+        {
+          "title": "Adire Industry Could Become Nigeria’s $1bn Global Fashion Goldmine - Tori News",
+          "summary": "Adire Industry Could Become Nigeria’s $1bn Global Fashion Goldmine    Tori News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNWNPT0lfQW4wOUVOdlJrVGFad3dIREdrSlRPVVNHOTJ1TWtHanNWRkh3UDg5TUQwYUpDSEN3d05kTTkzaDV0blFHRkdpc21vYVFDaGlOQVNtMGpLUmFyTzlQYmRkQzl3Q2M5QkQ2Tm5CdEpGWk5GLVM2UzNXMDNpaDAxbmd5emJ2dmFQRUtUdXLSAY8BQVVfeXFMTU9faTY5aG5OSG9HeHdQV3ZTSkVGX3Bhd0x4QUF2LTJvanhzT3BwZzFGN1VydGllV25WZUU2eWdWZTlpenJMdk1FcjFad0psd0xNTHlyNzAwUG5RMlNGX1RIUXJ5WUJyTnVNYkFxbnY5Y3NMS3duN2NiYmp1NWtQbGtUSDRwQ0lDbVVmSGNtWnM?oc=5",
+          "published": "Fri, 10 Jul 2026 16:50:28 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-10T16:50:28+00:00"
+        },
+        {
+          "title": "Scam Compounds Are a Natural Product of Global Capitalism - Jacobin",
+          "summary": "Scam Compounds Are a Natural Product of Global Capitalism    Jacobin",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54YnhCU1YyS2pKbTl6UG5mZ3BzNzhxUnJqdEc5ak1kR081Z2NET1JxdzZPV3dYR3ljOFdsREtiYjdaOXNiYUdobTVrMHRfNVQ1UktlWnUtbE1mZnFYVVkxS0VLSTNTNWtVMFh5akh0V2M?oc=5",
+          "published": "Fri, 10 Jul 2026 16:42:18 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-10T16:42:18+00:00"
+        },
+        {
+          "title": "House to vote on measure making daylight saving time permanent - The Hill",
+          "summary": "House to vote on measure making daylight saving time permanent    The Hill",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NSi1XYmFiNlRGZVU0cHFpNWRoOXA3aGZqdDlwOGZxY1ZUZnZEOUN5aTNNNlZUZW9ZdzlFd1VKVXlJR2ZkbkJoSDZ6LVFWNS1Bck11ZXMzUGRRZ3JlaERlc2dIN3c3aEl3aGJxN1cxemlxZFJGRV9wckVXVDg2RG_SAX9BVV95cUxPTUotV2JhYjZURmVVNHBxaTVkaDlwN2hmanQ5cDhmcWNWVGZ2RDlDeWkzTTZWVGVvWXc5RXdVSlV5SUdmZG5CaEg2ei1RVjUtQXJNdWVzM1BkUWdyZWhEZXNnSDd3N2hJd2hicTdXMXppcWRSRkVfcHJFV1Q4NkRv?oc=5",
+          "published": "Fri, 10 Jul 2026 16:27:05 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-10T16:27:05+00:00"
+        },
+        {
+          "title": "Qatar seen as testbed for applied AI deployment | Gulf Times - Gulf Times",
+          "summary": "Qatar seen as testbed for applied AI deployment | Gulf Times    Gulf Times",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS1ZBYzJCVEtYaUxidmFDNjFLSjlLWmJFRnlib011dU1YOUo5dDk4OHpUN2JhM2VId25qbVJDV0RLeXplQ0hKSU9uX0hIV1JFcXVOTW9zbDh6VnhyQWxrcDc0LVpfQUlNTDktaER3aGRWaHhfRmJCT2pNaGxLV2lqNGM2NzE4WFpLLUhBR0RKdnRWWm1EOWdQY3ZmSUJjWTDSAaQBQVVfeXFMUGxxeUs2RTdmcUpPNm5XSVRzRDlXM195Z3ZDTTQ5SEpRZ2FvbTVydVdnY1JZVHRuUVoxX1FUa2d3YlZkbVlfYjZtSjZRM2VUVi1aRUk1WVhZMEpFT1diQk9acVhoTmxXVElsOVc3WU12OTNRV3hMdS0yc3RJazh5aDhxdllwVURoNF9MU05UT0JiUnJ4SmRLYjkzcEdjbXhjSDB1QS0?oc=5",
+          "published": "Fri, 10 Jul 2026 16:06:00 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-10T16:06:00+00:00"
+        },
+        {
+          "title": "知名经济学家杜帅经济评论：一线房价三连涨！楼市结构性回暖确 - 网易",
+          "summary": "知名经济学家杜帅经济评论：一线房价三连涨！楼市结构性回暖确    网易",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTRFFYaVBza0NKaHpJS0dzYmdxbVJzd20tVThqdklLTUQ4MWxPdm9wb2Y2MFB3R01zU1NmUWRDa04wT0ZVM0dBMTZ5SEl4TnFFeU5UdzdDb01fcVU0ZWFyYXBB?oc=5",
+          "published": "Fri, 10 Jul 2026 16:05:06 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-10T16:05:06+00:00"
+        },
+        {
+          "title": "Getting the Grid Right: Siemens - Mexico Business News",
+          "summary": "Getting the Grid Right: Siemens    Mexico Business News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hS0RRS1pFMkszdG9YRVJmRGh2MDl1VlEzMlB2b3RlWE5HbnZIelM4OFliYVZWUUxSQVlvVWxoOXlTRXlXSGpLUmN5eGtEVnI4dXV1dldwVHdRWV9RYi02bHo5YXBjTm1yUER3Y05hS2MzdDNW?oc=5",
+          "published": "Fri, 10 Jul 2026 15:18:31 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-10T15:18:31+00:00"
+        },
+        {
+          "title": "September Fed Hike Odds Weigh on Gold Near $4,100 in 2026 - Discovery Alert",
+          "summary": "September Fed Hike Odds Weigh on Gold Near $4,100 in 2026    Discovery Alert",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM1VvaDJlaFIxTFJZTlMxOERITzA0cjdPaXZYWUdfM1ZaWEhFTjBPU2U5UHZaNy1teWs1NFFjUWxoeW1xSlJ2WlQ1X3FqRnhvd0ZJNFNIb2dHS0VFaHVaQk9LNW9MaTMzQk9ONENScXoycWhqREdKZFd0bHdCbHZDYnJ3?oc=5",
+          "published": "Fri, 10 Jul 2026 15:03:48 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-10T15:03:48+00:00"
+        },
+        {
+          "title": "合肥国资组团支持！瀚氢动力完成数千万A++轮融资 - 中华网",
+          "summary": "合肥国资组团支持！瀚氢动力完成数千万A++轮融资    中华网",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLbFR5VTE2UnVqSEd4Q3lEc0lYekVJcHlLX2ltRU5zc1AxNHdIOGFpNkhyUEdQOG50RGhUZ0owbjFITGpCTXpZRzF3NEtEaGNWYWZLMFhBS0c0N05nN0NVcW1KRDVuV0hnYVNGUA?oc=5",
+          "published": "Fri, 10 Jul 2026 14:47:27 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-10T14:47:27+00:00"
+        },
+        {
+          "title": "Bank of Canada to hold rates steady in 2026 as inflation risks appear contained: Reuters Poll - The Mighty 790 KFGO",
+          "summary": "Bank of Canada to hold rates steady in 2026 as inflation risks appear contained: Reuters Poll    The Mighty 790 KFGO",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2Jnd3BxTTNDRmZscjVvRWFjSzBEblViTjZpUEtLUlBzbzJFdWpNendwdWlmbEo4ZDBPNUpiZVFyN2JnZHBaaFFma3BoQnpkQ29VZm1qS1FmVWVOalRLanF5Ymc3SzhpbFRib09qXzR5b2REcmljNFI3QVRnLVh6Vnd4aFRpWDZYbHFHVVkwRjZ3SGQ5VXFrRzZiUHJuLW9BZDg5Y0tXTGVLYkdpOTZDTG1jcUF0b201QWJmcHRB?oc=5",
+          "published": "Fri, 10 Jul 2026 14:39:10 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-10T14:39:10+00:00"
+        },
+        {
+          "title": "Smart Vending for PPE Market Size and Forecast Research Report 2026 to 2035 - Insightace Analytic",
+          "summary": "Smart Vending for PPE Market Size and Forecast Research Report 2026 to 2035    Insightace Analytic",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbndVbm56NndWS1d5S3d1UEdsazJ4QUZJc3hxY3ljYThvUncyRjdRWDNSUW1nZ2llZEZlblIyd1dCeFlHanJTdGdqeEFNRGQ1aGZLR2dRNmpaY2xueVZRVzR3ZmNxdmRQZ0k5TXBaLXdvdU1ORUR3aXQyZ1doRm9IUQ?oc=5",
+          "published": "Fri, 10 Jul 2026 14:34:41 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-10T14:34:41+00:00"
+        },
+        {
+          "title": "Mass. business confidence turned positive in June - Worcester Business Journal",
+          "summary": "Mass. business confidence turned positive in June    Worcester Business Journal",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObzFMN1lObWpiZmFyMGR1U3pKWlp4cHFSZEFUZDhRd255eUV3ZVpVQlo5M3AyZThUVW5FX05BUVpNV1NOZTZXOENUakFJTE9MS1FuWFpXUUUtUHVIMDg5VXBJd2Jmb1NBbS1CemladmFoczFEbXppM3lScC12NExGdTdGRmt5dw?oc=5",
+          "published": "Fri, 10 Jul 2026 14:04:10 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-10T14:04:10+00:00"
+        },
+        {
+          "title": "USA Leads UK, Japan, India and Many More Nations as Travel and Tourism GDP Surges Across the World, Revealing the Biggest Tourism Economies Fueling Global Growth, Connectivity and Economic Resilience While Driving Jobs and Future Travel Expan - Travel And Tour World",
+          "summary": "USA Leads UK, Japan, India and Many More Nations as Travel and Tourism GDP Surges Across the World, Revealing the Biggest Tourism Economies Fueling Global Growth, Connectivity and Economic Resilience While Driving Jobs and Future Travel Expan    Travel And Tour World",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4ZFo5WXZONGYzVkswTmZqcVVNM3Y1bUJYejhqZHI3alpha3JKYjlPQkZWcDdOQ3pvNkowLTdCOEhzNFRqblp2U19XYllSTkd2cWJpMzZJQ3Q0ZXlBZUpRUlZiT3VHZFQ0anNWTnJn?oc=5",
+          "published": "Fri, 10 Jul 2026 14:01:38 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-10T14:01:38+00:00"
+        },
+        {
+          "title": "SEC could start writing crypto rules before the Senate votes on CLARITY - CryptoRank",
+          "summary": "SEC could start writing crypto rules before the Senate votes on CLARITY    CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeGZxMTNEZ1NTT0NEZU1waFA5azJneFlOb3FjQy1rUnlHd25qV0ZNX3YtQUFyc2R4aE5GTkpmT1BfNjVOWHBOSld6VGNhUzBsTkR0VlM5NGVnN2hiUVVFZWVEUG9jc3dZT0pNMU1rZllvVDRDXy13b1ZhY0w4Q2FfUUJpY2diNEtnV2VKdWhQQmdQVnU3SGZBUnBuQ2JPbV9CenVrNW11UlctUWhfTWc?oc=5",
+          "published": "Fri, 10 Jul 2026 13:59:32 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-10T13:59:32+00:00"
+        },
+        {
+          "title": "Canada adds 18,200 jobs in June as unemployment rate dips, setting stage for Bank of Canada rate decision - Crypto Briefing",
+          "summary": "Canada adds 18,200 jobs in June as unemployment rate dips, setting stage for Bank of Canada rate decision    Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvQVAtSEhyUi1jdjNwMWFmQ0Y2akQxUElIdGJYbVhjN0RQMlhTZzdXN2JDY3p2ZDVqajR5YlROSW82S3N2QzZ6UG5fcXVRMjYwRTdiS3RKME52YVpaLTd5aUxmcGpTNW5Vd3piUWVPYnhmNGtNU1BlcA?oc=5",
+          "published": "Fri, 10 Jul 2026 13:13:59 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-10T13:13:59+00:00"
+        }
+      ]
+    },
+    "search_text": "  Daily Intelligence\n  2026 07 11｜Saturday\n\n   Today’s Thesis｜今日一句话\nAI 正从部署狂热步入治理与成本摩擦期，而宏观受制于关税驱动的粘性通胀，两者的交汇将重塑资本的风险偏好边界。\n\n   ① Executive Summary｜30 秒\n    AI  ：采用疲劳显现，超 40% 用户限制使用 [A13]；AI 运营成本甚至超过被替代人工 [A11]，智能体从概念走向保险等传统行业基础设施 [A9]。\n    商业  ：Apple 起诉 OpenAI 窃取商业机密 [A3]，科技巨头从竞合走向法律战；音乐与社交平台加速推进 AI 内容标签与合规边界 [A19][A22]。\n    宏观  ：美联储报告指出关税是顽固高通胀的关键驱动 [B10]，9 月加息预期升温压制黄金 [B17]，美元可能继续走强 [B5]。\n\n   ② AI Daily\n\n    1. 巨头反目：Apple 起诉 OpenAI 窃取商业机密\n  What Happened  ：Apple 指控 OpenAI 使用被盗商业机密创建其 AI 设备 [A3][A15]。\n  Why It Matters  ：这标志着顶级 AI 模型开发商与硬件/平台巨头之间的蜜月期结束。当模型能力趋同，数据与专有系统整合的护城河成为核心，知识产权诉讼是保护护城河的最后手段。\n  Second order Effect  ：诉讼将拖慢 AI 在 iOS 生态的原生整合 → 促使开发者转向中立或开源模型（如中国开源模型推进软实力 [A12]）→ 硬件端 AI 竞争重回自研赛道。\n\n    2. 采用疲劳与成本反转\n  What Happened  ：超 40% 的人正在限制 AI 使用 [A13]；同时研究指出 AI 变得比它所替代的工人更昂贵 [A11]。\n  Why It Matters  ：颠覆性技术的普及不仅受限于能力上限，更受限于 ROI 下限。当推理成本居高不下且幻觉风险未消除（AI 虚构内容易被检测因其“愚蠢且糟糕” [A23]），企业级采用将面临财务审计的严酷拷问。\n  Second order Effect  ：企业 AI 支出从“探索性预算”转向“运营成本预算” → 算力需求增速放缓 → 逼迫模型端降价或裁减算力冗余。\n\n    3. 智能体渗透长尾传统行业\n  What Happened  ：OpenAI 发布 GPT 5.6 聚焦智能体 [A20]；传统保险行业出现基于 MCP 服务器的 AI 智能体报价基础设施 [A9]。\n  Why It Matters  ：AI 的价值捕获正在从前端的聊天界面，转移至后端的 API 调用与业务流接管。非科技背景的中小企业主通过 Vibe coding 也能部署智能体 [A9]，降低了软件架构的准入门槛。\n  Second order Effect  ：智能体能力提升 (GPT 5.6) → 触碰数据与商业机密边界 → 诉讼与治理摩擦爆发 (如 Apple 诉 OpenAI)。\n\n   ③ Business Daily\n\n    科技\n知识产权与数据合规成为主战场。Apple 对 OpenAI 的诉讼 [A3] 与 Meta 因使用用户照片生成 AI 图像引发的抗议 [A19] 本质相同：都在界定 AI 训练与推理的数据权属。同时，音乐行业推出 AI 生成内容标签 [A22]，表明内容平台正在建立 AI 排毒机制。开发者则在德国大量收购旧书以填补数据空缺 [A24]，合规高质量数据成为硬通货。\n\n    金融\n监管框架与货币政策进入重构期。SEC 可能在参议院投票前提前制定加密规则 [B23]，显示行政机构对新兴资产定价权的争夺。加拿大因就业数据强劲且失业率下降，央行选择按兵不动 [B19][B24]，而美国因关税驱动通胀，9 月加息预期重燃 [B17]。全球利率路径分化，套利资本流向更明确。\n\n    能源\nAI 正在从数字域向物理域渗透。AWS 联合 Galeo Tech 推进工业物理 AI [B2]，北卡罗来纳州使用机器狗评估植物健康 [A6]。这要求能源基础设施的同步升级，西门子呼吁重构电网 [B16]，油气行业也寄望于技术提升本地产能 [B6]。算力尽头是电力，电网承载力成为 AI 扩张的物理瓶颈。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？   \n通胀表现出异常的粘性，美联储报告明确将此归咎于关税 [B10]（事实）。市场对 9 月加息的定价正在上升，压制了黄金表现 [B17]（推断）。同时，中国一线城市房价出现结构性回暖 [B15]，而部分新兴市场（如孟加拉国）旅游业遭遇大幅下滑 [B4]。\n\n  为什么发生？   \n全球化正从效率优先转向安全优先。关税是政策人为制造的摩擦成本，这种成本直接传导至消费者价格指数，打破了“科技带来通缩”的传统抵消机制。AI 本应带来生产力通缩，但由于算力与能源的巨量消耗，其短期内反而构成了资本支出通胀压力。\n\n  资本如何流动？   \n资本正在向确定性高地回流。美元因高息预期走强 [B5]，吸引全球套利资本；夏洛特等具备产业落地能力的地区获得实体投资 [B7]；加密资产在 SEC 监管明朗化前夕蓄势 [B23]；而风险偏好改善（VIX 下降，BTC 上升）与成长估值承压（十年期美债收益率上升）并存，资本在“短期避险”与“长期成长”间撕裂。\n\n  接下来关注什么？   \n关注关税政策与通胀数据的反馈循环。若关税进一步升级，将迫使非美经济体采取贬值或资本管制应对，可能触发局部新兴市场的债务危机。\n\n   ⑤ Signal Dashboard\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   26,281.61   ↑ +0.29%   中性  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,128.90   →  0.04%   中性  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   71.51   ↓  0.79%   通胀压力缓解  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   100.97   → +0.02%   中性  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.57   ↑ +0.66%   成长估值承压  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   64,073.79   ↑ +1.39%   风险偏好改善  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   15.03   ↓  5.11%   风险偏好改善  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   210.96   ↑ +4.03%   风险偏好改善  \n\n   ⑥ Deep Insight\n\n    AI 的“成本反转”与采用疲劳：生产力悖论的回归\n\n当我们审视当下的 AI 变革时，默认的叙事是 AI 将作为一股强大的通缩力量，以近乎零的边际成本替代昂贵的人力。然而，今天的信号群揭示了一个容易被忽略的非共识机制：AI 在短期内不仅不是通缩剂，反而是一种通胀力量，且正遭遇严重的生产力悖论。\n\n首先，事实表明“AI 比它所替代的工人更昂贵”[A11]。与传统软件在开发完成后边际复制成本趋近于零不同，大模型的推理成本极其高昂。每一次智能体调用，都在消耗真实的算力与电力。当 AI 从聊天机器人走向执行复杂任务的智能体（如 GPT 5.6 [A20] 或保险报价 MCP 服务器 [A9]）时，计算消耗呈指数级增长。即便有 AI 智能体运营的公司跑出了 8.5M 美元的 ARR [A2]，其背后的 GPU 折旧与能源账单依然是悬而未决的硬约束。\n\n其次，制度与治理摩擦正在推高 AI 的隐性成本。芝加哥大学禁止法学生使用 AI [A1]，Meta 因滥用用户肖像生成 AI 图像引发抗议 [A19]，Apple 起诉 OpenAI 窃取商业机密 [A3]。这些事实指向一个推断：数据获取与合规的成本正在飙升。为了在诉讼与隐私红线内构建“本地优先智能体治理”[A16] 需要昂贵的工程开销。超过 40% 的人正在限制 AI 使用 [A13] 进一步印证了采用疲劳，这意味着企业必须花费更多成本去教育或强迫市场使用，从而破坏了单位经济效益。\n\n第三，AI 与物理世界的交汇是资本密集型的。工业物理 AI [B2] 与电网重构 [B16] 需要数年时间及巨额资本支出。在宏观利率因关税通胀 [B10] 而居高不下的环境中，这类长周期基础设施投资的资本成本是令人望而却步的。AI 算力的尽头是电力，电力基础设施的滞后构成了 AI 扩张的物理天花板。\n\n  反方观点  ：算法效率的快速提升（如 GPT 5.6 的架构优化 [A18]）将大幅降低推理成本，使得 AI 智能体的 ROI 最终转正，且 AI 原生收入将轻松覆盖算力支出。\n\n  证伪条件  ：如果未来两个季度内，主流大模型的 API 调用价格下降速度持续快于算力成本上升速度，且 AI 原生企业的毛利率出现显著扩张而非收缩，则上述“AI 通胀论”被证伪。\n\n   ⑦ Tomorrow Watch\n1. 美国 CPI 数据发布，验证关税传导至核心通胀的幅度 [B9]。\n2. Warsh 在国会山的首次亮相，观察其货币政策立场表态 [B9]。\n3. 参议院对 CLARITY 加密法案的投票进展及 SEC 提前制定规则的动作 [B23]。\n4. Apple 诉 OpenAI 商业机密案的初步法庭文件披露与双方回应 [A3]。\n5. GPT 5.6 在生产环境中的智能体迁移稳定性与成本报告 [A18]。\n\n   ⑧ One Chart\n [Daily Market Pulse](assets/chart.svg)\n\n十年期美债收益率上行而 VIX 指数下行，呈现出罕见的背离。这种相关性暗示市场对系统性风险的担忧极低，但同时承认无风险利率将长期高位运行；这并非因果推演，而是宏观环境“软着陆预期与高息持久战”并存的价格投影。\n\n   ⑨ Quote of the Day\n\n  “The greatest danger in times of turbulence is not the turbulence; it is to act with yesterday’s logic.”  \n  — Peter Drucker\n\n  中文理解  ：动荡时期最大的危险不是动荡本身，而是继续用昨天的逻辑行动。\n\n  Why it matters today  ：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。\n   ⑩ Action Items｜今天值得思考什么\n1.   验证   AI 在你所在行业的实际推理成本是否已低于人工边际成本 [A11]。\n2.   追踪   Apple 与 OpenAI 诉讼案中关于“模型训练数据来源”的法律界定 [A3]。\n3.   关注   关税政策对供应链重组及终端物价的传导时滞 [B10]。\n4.   比较   限制 AI 使用的消费者比例 [A13] 与部署 AI 智能体的企业增速 [A9] 之间的错位。\n5.   思考   若 AI 算力需求成为基础设施级刚需，电网承载力与能源通胀将如何反噬科技估值 [B16]。\n\n   信息边界\n本报告信息来源为 Google News 与 Hacker News 的 RSS 聚合，时效截至 2026 年 7 月 10 日晚间。市场数据反映最近交易日收盘或实时报价。新闻源多为二手聚合，重要事实判断（如诉讼指控、通胀归因）需提醒读者回到原文验证。宏观推断基于既有事实的机制推演，非确定性预测。\n\n\n   Sources\n\n    AI\n\n  [A1：University of Chicago cutting use of AI by banning technology in classrooms for first year law students   CBS News](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IeFh0cjhSM2NST0YzUjBLSHhfOXlPZkNpZTUzTXlOTDdMVXBoc2dlYnZHY01IbEl3ZzRtR2pwQk43VkNoVlJVc01jUFFrT3Y3dHFhSjZ3OVVYWVhGUnRiLVlqWTFwWHFi?oc=5) — Google News · AI\n  [A2：Show HN: I scrape an $8.5M ARR company run by AI agents and chart it live](https://maertspolsia.mzpx.ai) — Hacker News · AI\n  [A3：Apple sues OpenAI, alleging artificial intelligence company stole trade secrets   The Guardian](https://news.google.com/rss/articles/CBMiigFBVV95cUxPeWtGRVlvQTA3OXBzNEI1YUZSN3duYzN1OXZQNGNDUmg1T1Z6eGNwbXNhQl81a3liMjAxQlB0QzlGZlBnZ3FWZ19waDZDZm9lczl4THlPTzAzdF9ja2haZkdGS1NKbmxrQ3FLZmlWdTRJVEVxczJKVnFEeG9OaUk5ekFGNEEwUjlwN0E?oc=5) — Google News · AI\n  [A6：North Carolina A&T researchers use robot dog to assess plant health   wfmynews2.com](https://news.google.com/rss/articles/CBMixgJBVV95cUxNVW52UEJCUGw5SXZUdTF4Z2RTTkRmUEhyRFBLZEp5MGRWel9PUVh5X3dIUC1iV0hYdDZmVkVaSXZOUDdLQUFacUFKNjU5Y05jZ3hNOTIwUER4Y2x3UEVMYlFNcHJoMmk5SVdEUGI2S1AzMU0zT2RyV1piZlVCbVpkWEppWFMzVlFiTEZZb3dlazN4NXVQV0J4cWMwQl9tTkRCSW43X05EX3hGcURSRjB3S3RJN0luQ21kenVyd1gyNlNXcG5lZ1J4NFNGQnh6ZEdoTUNLajZFd2NJTkNCX3IxUEo2VUZPa2tPUFVCdjlNcWMwV3ZZbmJEaTloTGIxb1E4UjJQZFN2SDZwYmlhb1RYOEZPOG5hSHdKbVZPZElCQmRsY2RncG11Vm5EbzVUcno3eHktOEdtZ3lCaEdERTN6UVRaY01rQQ?oc=5) — Google News · AI\n  [A9：Show HN: An MCP server that lets AI agents request disability insurance quotes](https://github.com/seaworthy io/seaworthy mcp) — Hacker News · AI\n  [A11：How AI Became More Expensive Than the Workers It Replaced [video]](https://www.youtube.com/watch?v=cfaZZPjA3g0) — Hacker News · AI\n  [A12：China's Open AI Models Are Advancing Its Global Soft Power](https://www.noemamag.com/chinas open ai models are advancing its global soft power/) — Hacker News · AI\n  [A13：Over 40% Of People Are Limiting AI Use, As Popularity Starts To Wane   Eurasia Review](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUFhmQzg5Qzlqd19uVXlEVlNpQ1JTcVJRRzI3akdMR2x3R1pOSlZmczVHM2d0QS1xTy1QOU9YbEtrX0FxcXQ4NHVKSXFuZHRsejlRR1lPb0lOLXlaU25BRnQxMG92NVhWLVJKWWFPUmxYNGg3cHBEM18xNzRRZ2dyZmhRck5RVnVOX1J0djl2YW44RmVGdFpETHpQcmxQdFRvd2tQY2prV25zUQ?oc=5) — Google News · AI\n  [A15：Apple accuses OpenAI of using stolen trade secrets to create its AI gadgets](https://www.cnn.com/2026/07/10/tech/apple openai devices lawsuit) — Hacker News · AI\n  [A16：Local first agent governance: keeping an AI agent contained](https://vektorgeist.com/blog/local first agent governance) — Hacker News · AI\n  [A18：Migrating a production AI agent to GPT 5.6](https://ploy.ai/blog/migrating a production ai agent to gpt 5 6) — Hacker News · AI\n  [A19：Outcry as Meta lets users make AI images from public Instagram profile pics](https://www.bbc.com/news/articles/cp9lee19y1yo) — Hacker News · AI\n  [A20：OpenAI Launches GPT 5.6 as Agentic AI Shifts ETF Outlook   ETF Database](https://news.google.com/rss/articles/CBMirAFBVV95cUxNZmRGMTJ2N1gxOWN2WDkwOURKUGNUUF93ZEVPelZSdUNQNzk4UER4VHBwcUNGZWxLS3FPUExpZUcxN054ZGxBRXdSQmtmYTZwdUVFZG1qYzk1eEN5ci1ob1FTcHhVdWZKWVdPTFJXRkstZjRCWlV3aGZtX3d3UFB2ak4wMkZTVW1YWThPNWtJbWE4SVVoRUkwQjFISGdkd1piZW1taUwzT0d1Q0Rn?oc=5) — Google News · AI\n  [A22：Music industry launches AI generated content labels   France 24](https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkRTV1M2VWRJSVFMZFNCNUlKbDVTbXA2Yk1TWTk3d1ZPWl8zMVlyeUE3ZTZJN3owLVF0c2s5YTB0RVVJcVkwS1ktbnJRZUQtYjJOMlBaNndYNUZ4RUQwNWNqOXdLcGUtSUlIdmFNX0pHcDQxM2U4WEVCUmpvUHlOTWJmdE1PbEo2WlQzZDRyeFh4S0s2dHVVNXQ0eG9fSmc?oc=5) — Google News · AI\n  [A23：AI Fiction Is Easy to Detect Because It's Stupid and Bad, Research Finds](https://www.404media.co/ai fiction is easy to detect because its stupid and bad research finds/) — Hacker News · AI\n  [A24：AI developers are buying up old books in Germany in large numbers](https://logos pres.md/en/news/ai developers are buying up old books in germany in large numbers/) — Hacker News · AI\n\n    Business & Macro\n\n  [B2：Industrial Physical AI on AWS with Galeo Tech and Multiverse Computing   Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMisgFBVV95cUxOSHQ4SG1GSnhLUDdveXczejBWNEhGcGh4cWVPTjBSclNmZEs5ZnU3MU10UTNYZ3Q0MjJZOU1YV1FxeS1BWUZfVm13Y1VCUXBldzZqd0g1bF9hY1FlZWVZX05YZHFJZUxOYzRYSEY3WHZ0ako4R2JxeDZUV1ltX1lGWEVqMVlyYlgzQnpQMlFnbGNOdVJwTHV1dTl3dGpyeVJ4M0pSNHV4dTF0dllSTGZ2Z3ln?oc=5) — Google News · Technology Business\n  [B4：Bangladesh Suffers Massive Downtrend in Tourism Industry   dailyasianage.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxPLVhQQlNmLWtyRzJXVFR0bWhCNllFYVNEYWt4ZWkyQmktaGZ3c09QTHNBSE9rMmVXT1lxX1JVeG10SHlsY2EzVFN2R0dwMjdEd0x2RHQtOURsbXFfdWpMZTl6ZG4wYWFaQUtDU0E1XzB2VFdRSFR4RjR0cElIdE12blJCTk5xc09wRFZoTTNOaGN1bmJwTFItVXVB?oc=5) — Google News · Global Economy\n  [B5：Why the US Dollar Could Continue to Strengthen   Goldman Sachs](https://news.google.com/rss/articles/CBMinAFBVV95cUxPMUtmSW9FZnJJQ3VOSEZPdmh3c0xlaHgtWlA4NEVTR3pXMlQ2NXU4eEtva2tiUGpIX0hGaTg5QkJNOEVpUnhUaVBEbEkwSHRhOXJJYUVGTTdBMFc0eDR3NExWckY5My1Oek1TLXowMzdsd040R3JTUGthZ3ltdS1JU1kyR0g2ZFFkVVFxUGtqandKVnFaSkt4MHJBOGc?oc=5) — Google News · Markets Policy\n  [B6：Technology, Stronger Local Capacity Seen Boosting Oil, Gas Industry, Economy   Head Topics](https://news.google.com/rss/articles/CBMinAFBVV95cUxQcDZYVUZoR3VlT0dPLXUxejRSZDYtcWM4UnozU0JtZHpWTi1IUUpsczUxaDRsNFpoVzAyaGRSQVVCTi1kYllGNTY0U1Z6TlR2emRiWTUwaHdkd3Y3c2NrTk1hMWc3YkFuM0wyV09aTkV1NWNVWEtwTDIwQTNoejVmMVEzWDhfN05UUGoyYU9zT21tT0lnRE8xMnJqLU4?oc=5) — Google News · Global Economy\n  [B7：Why the world is investing in the Charlotte region   The Business Journals](https://news.google.com/rss/articles/CBMimwFBVV95cUxPWVFpZU9peGhrVjdGM2FpMzVrTHRWSXRQYUs1ODgzNzZSNXJGU1QtODlpWHV2TkdRZ1dDUkZXS0Q4QTBYcmVpMzV0bDdISEg3Q19DZUl3RnhmcGtHWk9ESFIxSmRDcTc0OUtRUDVFZ0IwUlJiTTh2MTJLa1c0Y3dzMTl0Q05hRVlpeHc0TG9Namxoa21DZVdGQWFkRQ?oc=5) — Google News · Global Economy\n  [B9：Gold struggles around $4,100 as markets await CPI and Warsh's Capitol Hill debut   KITCO](https://news.google.com/rss/articles/CBMivAFBVV95cUxOR1RtTnlvamhXajhQRWhfNXY4VWJ5Y3ZUdlZQQmZyYV9jX3dzTVBsanI0cWZ0cHQzOFB3QUdobXNUTWh4TmI2NXVCb1BmNUkxQ3RvcEZjQ0RVWkczenY5dHBfaWliSnpib2Nza3ZYQ3lmTGU5TnI5MVB0TzR1QUs2SWItZ2hDamZoLTVuUnVqSS1xTXNMY0ZJbkpYZjk2cmRBaG9oaEQzQUdmbnNBSl93UFJiZ0NFMVc4WjNTdQ?oc=5) — Google News · Markets Policy\n  [B10：Fed Report Flags Tariffs As Key Driver Of Stubbornly High Inflation   Bitcoin World](https://news.google.com/rss/articles/CBMibkFVX3lxTE81NEQ4V1ZMbkFOVjBzU0EzSXplUEQ2V1RzQmZvYTMyeDRpQUlHcG14cG5DZ3NkZTJib3dPSjZtbzNxVXFRSVJSbVBvZVlhZGNUUFViV2tTSmVZblpfaTNNem5IUWtBLVB3LXhjcXlR?oc=5) — Google News · Markets Policy\n  [B15：知名经济学家杜帅经济评论：一线房价三连涨！楼市结构性回暖确   网易](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTRFFYaVBza0NKaHpJS0dzYmdxbVJzd20tVThqdklLTUQ4MWxPdm9wb2Y2MFB3R01zU1NmUWRDa04wT0ZVM0dBMTZ5SEl4TnFFeU5UdzdDb01fcVU0ZWFyYXBB?oc=5) — Google News · 行业\n  [B16：Getting the Grid Right: Siemens   Mexico Business News](https://news.google.com/rss/articles/CBMidEFVX3lxTE5hS0RRS1pFMkszdG9YRVJmRGh2MDl1VlEzMlB2b3RlWE5HbnZIelM4OFliYVZWUUxSQVlvVWxoOXlTRXlXSGpLUmN5eGtEVnI4dXV1dldwVHdRWV9RYi02bHo5YXBjTm1yUER3Y05hS2MzdDNW?oc=5) — Google News · Technology Business\n  [B17：September Fed Hike Odds Weigh on Gold Near $4,100 in 2026   Discovery Alert](https://news.google.com/rss/articles/CBMiggFBVV95cUxPM1VvaDJlaFIxTFJZTlMxOERITzA0cjdPaXZYWUdfM1ZaWEhFTjBPU2U5UHZaNy1teWs1NFFjUWxoeW1xSlJ2WlQ1X3FqRnhvd0ZJNFNIb2dHS0VFaHVaQk9LNW9MaTMzQk9ONENScXoycWhqREdKZFd0bHdCbHZDYnJ3?oc=5) — Google News · Markets Policy\n  [B19：Bank of Canada to hold rates steady in 2026 as inflation risks appear contained: Reuters Poll   The Mighty 790 KFGO](https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2Jnd3BxTTNDRmZscjVvRWFjSzBEblViTjZpUEtLUlBzbzJFdWpNendwdWlmbEo4ZDBPNUpiZVFyN2JnZHBaaFFma3BoQnpkQ29VZm1qS1FmVWVOalRLanF5Ymc3SzhpbFRib09qXzR5b2REcmljNFI3QVRnLVh6Vnd4aFRpWDZYbHFHVVkwRjZ3SGQ5VXFrRzZiUHJuLW9BZDg5Y0tXTGVLYkdpOTZDTG1jcUF0b201QWJmcHRB?oc=5) — Google News · Markets Policy\n  [B23：SEC could start writing crypto rules before the Senate votes on CLARITY   CryptoRank](https://news.google.com/rss/articles/CBMirgFBVV95cUxOeGZxMTNEZ1NTT0NEZU1waFA5azJneFlOb3FjQy1rUnlHd25qV0ZNX3YtQUFyc2R4aE5GTkpmT1BfNjVOWHBOSld6VGNhUzBsTkR0VlM5NGVnN2hiUVVFZWVEUG9jc3dZT0pNMU1rZllvVDRDXy13b1ZhY0w4Q2FfUUJpY2diNEtnV2VKdWhQQmdQVnU3SGZBUnBuQ2JPbV9CenVrNW11UlctUWhfTWc?oc=5) — Google News · Markets Policy\n  [B24：Canada adds 18,200 jobs in June as unemployment rate dips, setting stage for Bank of Canada rate decision   Crypto Briefing](https://news.google.com/rss/articles/CBMieEFVX3lxTFBvQVAtSEhyUi1jdjNwMWFmQ0Y2akQxUElIdGJYbVhjN0RQMlhTZzdXN2JDY3p2ZDVqajR5YlROSW82S3N2QzZ6UG5fcXVRMjYwRTdiS3RKME52YVpaLTd5aUxmcGpTNW5Vd3piUWVPYnhmNGtNU1BlcA?oc=5) — Google News · Markets Policy\n"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-07-10",
     "generated_at": "2026-07-09T23:04:26.960726+00:00",
     "model": "glm-5.1",
