@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-12 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-12</h1>
+    <p class="subtitle">自上一份晨报后暂无新增项目实现变更；当前继续聚焦 FAPS 大批量任务超时、DNS 波动治理，以及 AC 侧 P016 黄金场景和字段合同 v0.1 冻结。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-28/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 生产波动治理与接口契约收口中</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">4</span><span class="meta">已完成 1 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">4</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">4</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">4</span><span class="meta">P0 2 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：自上一份晨报后暂无新增项目实现变更；当前继续聚焦 FAPS 大批量任务超时、DNS 波动治理，以及 AC 侧 P016 黄金场景和字段合同 v0.1 冻结。</li><li>今日关注：将既有风险转为可验证、可追踪的动作，避免生产问题和接口协同事项停留在方案层。</li><li>今日目标：确认 FAPS 续跑验证口径与 AC 接口契约责任人、目标节点，为下周执行做好准备。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">ACM 生产运行</span><span class="desc">自上一份晨报后暂无新增变化；FAPS 全局超时及 BMSP、Blacklist、Fleetlines 网络波动仍需持续跟踪</span><div class="pill-row"><span class="pill">持续跟踪</span></div></div><div class="card"><span class="title">已完成修复</span><span class="desc">StationList 兼容、采购价详情页兜底、广告下线 30 天窗口等既有修复结论保持不变</span><div class="pill-row"><span class="pill">✅ 已完成</span></div></div><div class="card"><span class="title">FAPS 容错</span><span class="desc">分批、checkpoint、断点续跑方案待形成验证记录</span><div class="pill-row"><span class="pill">待验证</span></div></div><div class="card"><span class="title">AC 接口契约</span><span class="desc">P016 黄金场景、字段合同 v0.1、同契约 Mock 与落库回读尚待冻结</span><div class="pill-row"><span class="pill">推进中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">新增对话</span><span class="desc">自上一份晨报后暂无新增项目对话或决策材料</span></div><div class="card"><span class="title">既有结论</span><span class="desc">继续采用 API 优先、Playwright 受控兜底，并以 P016 黄金场景和字段合同作为共同验收基线</span></div><div class="card"><span class="title">当前重点</span><span class="desc">明确接口 owner、测试凭证、幂等键、错误码、状态查询、落库回读及 need_review 边界</span></div><div class="card"><span class="title">下一步</span><span class="desc">推动 OMP 提供同契约 Mock，解除场景与接口互等</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：ACM售后 / AC售后</li><li>汇报类型：工作日晨间简报</li><li>汇报日期：2026-07-12</li><li>当前状态：🟡 生产波动治理与接口契约收口中</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">FAPS 大批量任务触发 12 分钟全局超时</span><span class="desc">按机构分批，记录 checkpoint，验证从未完成机构断点续跑</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">DNS 波动影响多个 ACM 模块</span><span class="desc">完善失败分类、指数退避、重试上限和网络恢复续跑</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div><div class="card"><span class="title">AC 场景与 OMP 接口缺少共同验收合同</span><span class="desc">冻结 P016 黄金场景和字段合同 v0.1，推动同契约 Mock</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">API 超时后直接切 Playwright 可能重复写入</span><span class="desc">先按幂等键或 requestId 查询最终状态，状态未知时转人工</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：确认 FAPS 分批、checkpoint 和断点续跑的验证记录与验收口径</li><li>P0：明确 P016 黄金场景与字段合同 v0.1 的责任人和目标节点</li><li>P1：补齐 DNS、超时、业务失败与可安全重试的分类口径</li><li>P1：确认 API 超时后的状态查询、人工兜底和禁止重复写入规则</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-12-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
