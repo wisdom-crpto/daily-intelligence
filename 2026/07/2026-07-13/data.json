@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-13",
+  "generated_at": "2026-07-12T23:04:02.898380+00:00",
+  "model": "glm-5.1",
+  "mode": "model",
+  "thesis": "AI的狂飙正受制于成本与隐私的物理约束，迫使产业从“唯大模型论”转向“小而美与本地化”；同时宏观资本在增长温差中涌入避险资产，技术叙事与资本定价的反身性正在逆转。",
+  "summary": "- **AI**：AI发展正转向小模型、本地记忆与软硬件协同设计，打破“越大越好”的神话 [A17][A19][A21]。 - **商业**：汽车行业陷入停滞而航空航天业飙升 [B4]；RWA永续合约突破1000亿美元，标志着加密市场结构成熟 [B19]。 - **宏观**：GDP增长5%与微观体感寒冷并存 [B5]；IEA预测疫情后石油需求首次下降 [B8]，资本逃向定期存款 [B11] 与白银 [B7]。",
+  "relative_html": "2026/07/2026-07-13/Daily%20Intelligence.html",
+  "markets": [
+    {
+      "name": "Nasdaq",
+      "symbol": "^IXIC",
+      "value": 26281.6094,
+      "change_pct": 0.29,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+      "interpretation": "中性"
+    },
+    {
+      "name": "黄金",
+      "symbol": "GC=F",
+      "value": 4085.3999,
+      "change_pct": -0.46,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+      "interpretation": "避险需求回落"
+    },
+    {
+      "name": "原油",
+      "symbol": "CL=F",
+      "value": 73.65,
+      "change_pct": 3.14,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+      "interpretation": "通胀压力上升"
+    },
+    {
+      "name": "美元指数",
+      "symbol": "DX-Y.NYB",
+      "value": 101.132,
+      "change_pct": 0.16,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+      "interpretation": "金融条件偏紧"
+    },
+    {
+      "name": "十年美债收益率",
+      "symbol": "^TNX",
+      "value": 4.569,
+      "change_pct": 0.66,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+      "interpretation": "成长估值承压"
+    },
+    {
+      "name": "BTC",
+      "symbol": "BTC-USD",
+      "value": 63821.1484,
+      "change_pct": 0.03,
+      "direction": "→",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+      "interpretation": "中性"
+    },
+    {
+      "name": "VIX",
+      "symbol": "^VIX",
+      "value": 15.03,
+      "change_pct": -5.11,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+      "interpretation": "风险偏好改善"
+    },
+    {
+      "name": "NVIDIA",
+      "symbol": "NVDA",
+      "value": 210.96,
+      "change_pct": 4.03,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/NVDA",
+      "interpretation": "风险偏好改善"
+    }
+  ],
+  "topics": [
+    "AI",
+    "technology",
+    "business",
+    "macro"
+  ],
+  "quote": {
+    "english": "The most important thing is not to be smarter than others, but to be more disciplined than others.",
+    "speaker": "Howard Marks",
+    "chinese": "重要的不是永远比别人聪明，而是在不确定性面前比别人更守纪律。"
+  },
+  "sources": {
+    "ai": [
+      {
+        "title": "Energy Engineer Explains: \"AI Will Take Your Job\" Is Laughably Wrong [video]",
+        "summary": "Article URL: https://www.youtube.com/watch?v=sQGZXrzykpU Comments URL: https://news.ycombinator.com/item?id=48885701 Points: 1 # Comments: 0",
+        "url": "https://www.youtube.com/watch?v=sQGZXrzykpU",
+        "published": "Sun, 12 Jul 2026 22:53:28 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T22:53:28+00:00"
+      },
+      {
+        "title": "Best Artificial Intelligence (AI) Stock: AMD, Nvidia, or Broadcom - The Motley Fool",
+        "summary": "Best Artificial Intelligence (AI) Stock: AMD, Nvidia, or Broadcom    The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaURpWHNZLUFPVVBUVWpkS2J0cXdodWt6WnpIWGtocnJtNF9kSUZabGw0NXF3dEljVnZobGhndDhpbHdQeE1tb3c5MU1Wa0l6aE5ac1hodmJZNF9uRWVNNW1lRlp5V19jUnNNN3F2cTlob0hqRjhGcjdseHRWLUVFVWNNdk5sMG9ZNnBhU2RFRVpHWWNXS1VNNQ?oc=5",
+        "published": "Sun, 12 Jul 2026 22:29:59 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-12T22:29:59+00:00"
+      },
+      {
+        "title": "You can now create and chat with an AI Mommy on Chatbrat",
+        "summary": "Article URL: https://chatbrat.ai/bratlog/chat-with-ai-mommy-free Comments URL: https://news.ycombinator.com/item?id=48885501 Points: 1 # Comments: 0",
+        "url": "https://chatbrat.ai/bratlog/chat-with-ai-mommy-free",
+        "published": "Sun, 12 Jul 2026 22:26:18 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T22:26:18+00:00"
+      },
+      {
+        "title": "Best Artificial Intelligence (AI) Stock: AMD, Nvidia, or Broadcom - Yahoo Finance",
+        "summary": "Best Artificial Intelligence (AI) Stock: AMD, Nvidia, or Broadcom    Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcG0xWGRKX2pfSHFodWJVZlFIR0dVSUFYdk5NaWwtSGZrZXl3N00zTG11aVhadVczclRZLVdYR21NTXdYV3ZvYkw4NDZvWU04LUhQcVZDR0otei1lX1RBemRFazFKcE5idnY1bFpyR0c1VU9sdFJodWQzNkphUWlPWV9hdzZOTU10cFVWbHhCQWJDTGlacHllMkwyMGxBRkdoUTJoYw?oc=5",
+        "published": "Sun, 12 Jul 2026 22:25:00 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-12T22:25:00+00:00"
+      },
+      {
+        "title": "AI KEYNOTE SPEAKERS: AN EXPERT GUIDE BY TOP ARTIFICIAL INTELLIGENCE KEYNOTE PRO - futuristsspeakers.com",
+        "summary": "AI KEYNOTE SPEAKERS: AN EXPERT GUIDE BY TOP ARTIFICIAL INTELLIGENCE KEYNOTE PRO    futuristsspeakers.com",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMlZPUVhDSXZyOUFhSDdwQzRjallROEFmSGcwdHhZMW93Yms0eWw0ZGZhRExyLWdIT2tGN19IUTVKd293UC1EUkp4amFxWWhHemp5aUpvTm9VRkZGMC1acEFUQk5MSE11YzJ6R0pXc0hvQUhVYkhxNlBnVFN1cnlJSkkyWmJwd3lramc?oc=5",
+        "published": "Sun, 12 Jul 2026 21:54:31 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-12T21:54:31+00:00"
+      },
+      {
+        "title": "AI is the new Printing Press (another trite take)",
+        "summary": "Article URL: https://idan.substack.com/p/ai-is-the-new-printing-press Comments URL: https://news.ycombinator.com/item?id=48885163 Points: 1 # Comments: 0",
+        "url": "https://idan.substack.com/p/ai-is-the-new-printing-press",
+        "published": "Sun, 12 Jul 2026 21:49:48 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T21:49:48+00:00"
+      },
+      {
+        "title": "Why recruiters can't find workers and new grads can't find jobs (it's not AI)",
+        "summary": "Article URL: https://www.washingtonpost.com/education/2026/07/12/why-recruiters-cant-find-workers-new-grads-cant-find-jobs/ Comments URL: https://news.ycombinator.com/item?id=48885095 Points: 2 # Comments: 2",
+        "url": "https://www.washingtonpost.com/education/2026/07/12/why-recruiters-cant-find-workers-new-grads-cant-find-jobs/",
+        "published": "Sun, 12 Jul 2026 21:40:24 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T21:40:24+00:00"
+      },
+      {
+        "title": "Show HN: Adaptive Recall, persistent memory for AI assistants over MCP",
+        "summary": "Article URL: https://www.adaptiverecall.com/ Comments URL: https://news.ycombinator.com/item?id=48884815 Points: 15 # Comments: 0",
+        "url": "https://www.adaptiverecall.com/",
+        "published": "Sun, 12 Jul 2026 21:08:20 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T21:08:20+00:00"
+      },
+      {
+        "title": "AI shorting penny stock based on human psychology",
+        "summary": "Article URL: https://fadeengine.com Comments URL: https://news.ycombinator.com/item?id=48884771 Points: 2 # Comments: 1",
+        "url": "https://fadeengine.com",
+        "published": "Sun, 12 Jul 2026 21:03:44 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T21:03:44+00:00"
+      },
+      {
+        "title": "Show HN: A subjective AI eval. Arcade games built by AI",
+        "summary": "Article URL: https://ai-arcade.app Comments URL: https://news.ycombinator.com/item?id=48884748 Points: 2 # Comments: 0",
+        "url": "https://ai-arcade.app",
+        "published": "Sun, 12 Jul 2026 21:01:36 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T21:01:36+00:00"
+      },
+      {
+        "title": "The dark side of ‘artificial intelligence’: In conversation with Paul Tremblay - The Oxford Student",
+        "summary": "The dark side of ‘artificial intelligence’: In conversation with Paul Tremblay    The Oxford Student",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeDNTVmw4T1NWU1hQRnMwQzRQQVVPSkFfVWZ3VDBNb29wVjQ4LUk5NDFQdUhwbTF2SU5KNlgwc0IxeE5mRmc0V0FnLUx1b3ZNTko0NUJ1dmoydjRUSjh1NU9uSl84a2RoUS1ibGgzaWlyU1pTQy1xNWtGXy1sOV9zdVREaWdmNHlLb2FJdlp6UENtQzBPSGVlNERlei1GaGszWGMyS0cyVWZmTzUwR2hGc2FjVHBPdVpj?oc=5",
+        "published": "Sun, 12 Jul 2026 20:47:43 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-12T20:47:43+00:00"
+      },
+      {
+        "title": "Would AI have ruined my 100 days of algorithms?",
+        "summary": "Article URL: https://danielsada.tech/blog/100-days-of-algorithms/ Comments URL: https://news.ycombinator.com/item?id=48884624 Points: 2 # Comments: 0",
+        "url": "https://danielsada.tech/blog/100-days-of-algorithms/",
+        "published": "Sun, 12 Jul 2026 20:47:09 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T20:47:09+00:00"
+      },
+      {
+        "title": "Empowering Ghanaian Media: Dr. Jefferson Seneadza (PhD) Guides AEMF Fellows on Mastering AI - Modern Ghana",
+        "summary": "Empowering Ghanaian Media: Dr. Jefferson Seneadza (PhD) Guides AEMF Fellows on Mastering AI    Modern Ghana",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMnFDbE5Ubnd6akNJTmZtN2NPVzZqcTZnbW1KWVRLcGE3eWg1WmRQZ1RBZUdDZ3pXcUVFR2pManlfa29vMWJkSGlpRVUxaE5Wa19nbjlpMmJrNWJDOEVGSEQyUEJCMUNpNXRETFpZTlJreFpVQUJMS2tUZTZNcG5VWFJEcVBYNVBnamg2NXRpb2Q3bm03RnBMRdIBlwFBVV95cUxOcmszZnQ0Zll2R0ZiTzFsWE43R0c2NkZJaWUxV2djc1NoR19zNEZvSGhfdm1POVhIU0JfZ2pnVE9adV9oVmdSNm8weVVfMlV2VjJiZXZtQzhfYTJ4Sk9iakZaN1BWQ25FMlUxNmpsZmdVRVRuV1VaeHpOeE1xaFpsUXpiTWZ0TlJQaEF5Q2pTOG1oUmlPbWVz?oc=5",
+        "published": "Sun, 12 Jul 2026 20:45:53 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-12T20:45:53+00:00"
+      },
+      {
+        "title": "A SETI Home for AI-Assisted Research",
+        "summary": "Article URL: https://www.kvncnnlly.com/2026-07-11-seti-for-ai-assisted-research/ Comments URL: https://news.ycombinator.com/item?id=48884604 Points: 2 # Comments: 0",
+        "url": "https://www.kvncnnlly.com/2026-07-11-seti-for-ai-assisted-research/",
+        "published": "Sun, 12 Jul 2026 20:45:07 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T20:45:07+00:00"
+      },
+      {
+        "title": "Elsevier's global survey of 3k researchers on use of AI tools",
+        "summary": "Article URL: https://www.elsevier.com/about/press-releases/elseviers-global-survey-of-3-000-researchers-reveals-less-than-half-have Comments URL: https://news.ycombinator.com/item?id=48884549 Points: 4 # Comments: 1",
+        "url": "https://www.elsevier.com/about/press-releases/elseviers-global-survey-of-3-000-researchers-reveals-less-than-half-have",
+        "published": "Sun, 12 Jul 2026 20:38:16 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T20:38:16+00:00"
+      },
+      {
+        "title": "The hard-line activists ramping up for the war with AI",
+        "summary": "Article URL: https://www.msn.com/en-us/news/us/the-hard-line-activists-ramping-up-for-the-war-with-ai/ar-AA27IpTr Comments URL: https://news.ycombinator.com/item?id=48884486 Points: 3 # Comments: 0",
+        "url": "https://www.msn.com/en-us/news/us/the-hard-line-activists-ramping-up-for-the-war-with-ai/ar-AA27IpTr",
+        "published": "Sun, 12 Jul 2026 20:31:57 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T20:31:57+00:00"
+      },
+      {
+        "title": "AI customers are coming around to the idea that small is beautiful",
+        "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070 Comments URL: https://news.ycombinator.com/item?id=48884081 Points: 2 # Comments: 0",
+        "url": "https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070",
+        "published": "Sun, 12 Jul 2026 19:53:04 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T19:53:04+00:00"
+      },
+      {
+        "title": "‘Indian startups can build world-leading Artificial Intelligence firms’ - Deccan Herald",
+        "summary": "‘Indian startups can build world-leading Artificial Intelligence firms’    Deccan Herald",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT0VucTdOQ2RMdHIwYm80MFJKaTVDOXVlN01NRVMxRXFlUEY2SllOSy1mUmdUVUd5Q3ZsbWV4eG5EaEhUcjllNUg2cDhDTzZkVkdiVTFLdnBUcnE0UkRkSFRsREpra0RUaFZrTGdsMVJ0TTJ0bGlaNnFKOUNCa2N6dGdoRkw4VFZQYXhzWkZqNEh4YWdKWkZWa0pkWkhWWnpKVWVDb3hqS1RsNmk2bm9UbjN5UUU0dw?oc=5",
+        "published": "Sun, 12 Jul 2026 19:50:42 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-12T19:50:42+00:00"
+      },
+      {
+        "title": "AI's memory. On your machine, under your control",
+        "summary": "Article URL: https://github.com/EXXETA/exxperts Comments URL: https://news.ycombinator.com/item?id=48884002 Points: 2 # Comments: 2",
+        "url": "https://github.com/EXXETA/exxperts",
+        "published": "Sun, 12 Jul 2026 19:44:13 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T19:44:13+00:00"
+      },
+      {
+        "title": "开源驱动AI范式跃迁 智能体时代开启产业新周期 - 凤凰网",
+        "summary": "开源驱动AI范式跃迁 智能体时代开启产业新周期    凤凰网",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TRkFxcFExd1l5V25jNjVKRkVxckIyWXBmdUlYOFVKUklmdHNOckxSbW9sRS1fVW50UDFOWjNSdzFTcWh1RnJFWGt4TDRab3ZqNjdPZ3g2RTd3Z1BVaUJOVWh3?oc=5",
+        "published": "Sun, 12 Jul 2026 19:41:14 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-12T19:41:14+00:00"
+      },
+      {
+        "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
+        "summary": "Article URL: https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/ Comments URL: https://news.ycombinator.com/item?id=48883914 Points: 2 # Comments: 0",
+        "url": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/",
+        "published": "Sun, 12 Jul 2026 19:35:27 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T19:35:27+00:00"
+      },
+      {
+        "title": "YC's Head of Design Shows You How to Design with AI [video]",
+        "summary": "Article URL: https://www.youtube.com/watch?v=VbqaL_eHhKY Comments URL: https://news.ycombinator.com/item?id=48883869 Points: 3 # Comments: 0",
+        "url": "https://www.youtube.com/watch?v=VbqaL_eHhKY",
+        "published": "Sun, 12 Jul 2026 19:31:24 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T19:31:24+00:00"
+      },
+      {
+        "title": "Top 3 AI Crypto Projects to Watch in 2026: TAO, FET, and RNDR Lead the Race - Bitget",
+        "summary": "Top 3 AI Crypto Projects to Watch in 2026: TAO, FET, and RNDR Lead the Race    Bitget",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42d19LbjZpcm1nVzUzLWNFam5ta0tlQlA2QnhpVlRyV2hUUFp2UF9ydWZRUlhQeWp2UXRsZlQyTWFqZVMyVC1rZ3F5NHEyUWwxNWUxT1ZLNlJKdWVoOE9rLVRmc9IBY0FVX3lxTE42d19LbjZpcm1nVzUzLWNFam5ta0tlQlA2QnhpVlRyV2hUUFp2UF9ydWZRUlhQeWp2UXRsZlQyTWFqZVMyVC1rZ3F5NHEyUWwxNWUxT1ZLNlJKdWVoOE9rLVRmcw?oc=5",
+        "published": "Sun, 12 Jul 2026 19:18:10 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-12T19:18:10+00:00"
+      },
+      {
+        "title": "Ask HN: Has AI changed the quality of HN posts?",
+        "summary": "I thought AI-generated content would making online discussion worse (which it definitely does on some platforms), but I haven’t noticed a meaningful drop in the quality of Hacker News posts or comments. Have you? Comments URL: https://news.ycombinator.com/item?id=48883695 Points: 4 # Comments: 7",
+        "url": "https://news.ycombinator.com/item?id=48883695",
+        "published": "Sun, 12 Jul 2026 19:12:55 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-12T19:12:55+00:00"
+      }
+    ],
+    "business_macro": [
+      {
+        "title": "KEYNOTE SPEAKERS FOR CEOs, CMOs, CTOs & CIOs: conferences & virtual events - futuristsspeakers.com",
+        "summary": "KEYNOTE SPEAKERS FOR CEOs, CMOs, CTOs & CIOs: conferences & virtual events    futuristsspeakers.com",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLXIxM3V5NU1JNmducTV3a0Z4bm5YTkxPUllWdGZJT0lweGNGYUtBVzE0Mjk4MWRrNjdjb0lSZUlYZmFrOWVYcHdyNU5UbEtkdXI3V1VtQXljOENhNnlKOFo3Q0RNb2VVYzZoQTIxRUdrNkFQOE45MVpubTVYVDQtSA?oc=5",
+        "published": "Sun, 12 Jul 2026 22:00:00 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-12T22:00:00+00:00"
+      },
+      {
+        "title": "California Outpaces Texas, Florida, New York and More US States in an Catapulting Immigration Surge as Millions of Foreign-Born Residents Changing American Population, Workforce and Economy: State-by-State Analysis and Everything You Need to Know - Travel And Tour World",
+        "summary": "California Outpaces Texas, Florida, New York and More US States in an Catapulting Immigration Surge as Millions of Foreign-Born Residents Changing American Population, Workforce and Economy: State-by-State Analysis and Everything You Need to Know    Travel And Tour World",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LYWFESUhvVWV3dFkxR1ZwZEZTWU9fSG1taFlYV0VHMElLaVFlUktlZklqNTlldDVUa2JCRVhZSDV3cmFZZmJEZ0swTEZKT1RiZEdxMnZJTlpOcE55RjRPMmdlUFBmc0M2T1lMTXFn?oc=5",
+        "published": "Sun, 12 Jul 2026 21:54:49 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-12T21:54:49+00:00"
+      },
+      {
+        "title": "AI KEYNOTE SPEAKERS: AN EXPERT GUIDE BY TOP ARTIFICIAL INTELLIGENCE KEYNOTE PRO - futuristsspeakers.com",
+        "summary": "AI KEYNOTE SPEAKERS: AN EXPERT GUIDE BY TOP ARTIFICIAL INTELLIGENCE KEYNOTE PRO    futuristsspeakers.com",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMlZPUVhDSXZyOUFhSDdwQzRjallROEFmSGcwdHhZMW93Yms0eWw0ZGZhRExyLWdIT2tGN19IUTVKd293UC1EUkp4amFxWWhHemp5aUpvTm9VRkZGMC1acEFUQk5MSE11YzJ6R0pXc0hvQUhVYkhxNlBnVFN1cnlJSkkyWmJwd3lramc?oc=5",
+        "published": "Sun, 12 Jul 2026 21:54:31 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-12T21:54:31+00:00"
+      },
+      {
+        "title": "Auto sector fails, aerospace soars - The Express Tribune",
+        "summary": "Auto sector fails, aerospace soars    The Express Tribune",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40bHBXOEgxTC1iN1lqTzVFWnFnbHd1NXVlRHViV0xFWEYzc285VGpFQU9ORm9UZGhRbTlqZnVsQmVoeDl1X211STh5dUhMb1cxTlVqQ056d19xTjY1TTBwMWxxbG9OQTZwdFFhN3NBWFZZejI1VlNYRXpn0gGCAUFVX3lxTE4wSkpaTGREd3VFeEQySFNacUdRc19vUFZQTmVacjl5TU1kT2FFc2xwTWJfek9HQVlmR3pYdGo0WEI4RDl3dnZmVXgwN28tU2JkM2U3RzhDZUNYSHNNVmdKaTdlTTRuU3NWNDRiTFhEYWNEcjlFanA3ZXk3aXV3aS1VcVE?oc=5",
+        "published": "Sun, 12 Jul 2026 21:07:26 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-12T21:07:26+00:00"
+      },
+      {
+        "title": "GDP增长5%，还是感觉赚钱难，四个数据说透“温差”真相 - 网易",
+        "summary": "GDP增长5%，还是感觉赚钱难，四个数据说透“温差”真相    网易",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zWjF2SHJCSDVkcGF1azJhZzZpSzlDcThqeWl1ZlJ0NG1heEFkMmRMT0xVUzF3Mk13cURwWU9qaXlCaUltbHkwU0VUU21EZ0pEME9QVlQwaUR3cHpyOUUzaTVn?oc=5",
+        "published": "Sun, 12 Jul 2026 20:01:23 GMT",
+        "source": "Google News · 行业",
+        "_date": "2026-07-12T20:01:23+00:00"
+      },
+      {
+        "title": "Information Technology Sector & Industry Performance - Bloomberg.com",
+        "summary": "Information Technology Sector & Industry Performance    Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSeUlLTXpfdm84dW5GRkFiU3h3V2Fub1o3MHpVcFhFZzBwWjFFbGhjOV9zUWdUZUJibjBReUxmOXhYMm1pREZtY0FzZGE1ay01U0R4NFpBd2Jlb3JnajJ0SlBaYjRqWHhMR0tkN1owaC1Bdw?oc=5",
+        "published": "Sun, 12 Jul 2026 20:00:20 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-12T20:00:20+00:00"
+      },
+      {
+        "title": "China’s Silver Accumulation and the Looming Fiat Currency Collapse 2026 - Discovery Alert",
+        "summary": "China’s Silver Accumulation and the Looming Fiat Currency Collapse 2026    Discovery Alert",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaFVPOEtrbDkzMmtyTGhxbml4d09qcUJVZ1VGMjZCUV9LTmR6U3VXTTB3QnZyV3JaYWFFbzM3ajVnVlE2MTB4a1pVNWFZVlR6Z2luTTRJbUpaMmFJUU5KeUtUaXV3YnptVEpxZkRnNkl2dmZhX2duQTktM0RpX1d6QmNpYXBSeDZ6aWtNSQ?oc=5",
+        "published": "Sun, 12 Jul 2026 18:24:54 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-12T18:24:54+00:00"
+      },
+      {
+        "title": "IEA Forecasts First Global Oil Demand Drop Since COVID - HOKANEWS.COM",
+        "summary": "IEA Forecasts First Global Oil Demand Drop Since COVID    HOKANEWS.COM",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM3FSbUtUVTdSd1FXb2pqQUowS0lVMXNmMnBXNWVoWExPZ3FwakE2Xy11TGUtZkl4SWZhX2ZiTFMyUm1zR0tMODhQQTZzMmtHZS1rV0dtbHl4N21lU2xWRUp1VlVmdUVKVzltbVJlTEtzVmpPVFpCbTJUOXdtdHc5NA?oc=5",
+        "published": "Sun, 12 Jul 2026 18:23:00 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-12T18:23:00+00:00"
+      },
+      {
+        "title": "The FE - MDB heads call for closer cooperation to tackle global economic pressures - The Financial Express",
+        "summary": "The FE - MDB heads call for closer cooperation to tackle global economic pressures    The Financial Express",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczQyZVpzTDk0aFJDdmNWQlVTVnpiM0h1OG53b3ZVeTNacmxKMTBabEE0aGRtNXlMaE1HN1N5c3htRjFsZ0h6SWtiMkRjSUR4YXVyOGItU085V0tYd0dfRkRnNUpqNTl2bnFxMmstUnJMOU90WlNFNVI0NFh2N09tOXNLQmt3Z3d0R1FkTXRudmEzeDJHcnBwclJEZTI5N3c3QllkMDY4SjJXWU8wc3FCZ041YWxYQQ?oc=5",
+        "published": "Sun, 12 Jul 2026 18:03:32 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-12T18:03:32+00:00"
+      },
+      {
+        "title": "ICT’s Next Frontier - daily-sun.com",
+        "summary": "ICT’s Next Frontier    daily-sun.com",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZWFVsdDdKaE5xUkhkdnMxRG5uT2pZT3llWkJpSmxibV8tWkRCdE9xZjlReGRWVVlLdC1oU2lyb2xIeUZuUDJFTjRVM1d4THdVRWc?oc=5",
+        "published": "Sun, 12 Jul 2026 18:00:00 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-12T18:00:00+00:00"
+      },
+      {
+        "title": "Q1'26 term deposits up 14pc as savers seek safe returns - The Financial Express",
+        "summary": "Q1'26 term deposits up 14pc as savers seek safe returns    The Financial Express",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWmdUMktJVU9OZEw0bmtUOTBITDVOYUtOYXhSY0VXYlA5dXc2R25NclVEcURnTG5HRXl2Q2xoMEpQWVplZGdnOGRjUUJSX3NlMlQ4VlRwVVBOMlRaS2J2OHpyWGRLTUotMEZxSXl0aUVsVTRuM0FVYWdMOFVBd3pYaEl2S3Y5ZWJkYkZfdUY4M0hFWGlPX0hYU2RaakJaOTRWbzRFNDFqZEZhU19uRG15ZnZIWGJXakVPUTRKazgzRXpsSFNYeFBr0gHHAUFVX3lxTE5aZ1QyS0lVT05kTDRua1Q5MEhMNU5hS05heFJjRVdiUDl1dzZHbk1yVURxRGdMbkdFeXZDbGgwSlBZWmVkZ2c4ZGNRQlJfc2UyVDhWVHBVUE4yVFpLYnY4enJYZEtNSi0wRnFJeXRpRWxVNG4zQVVhZ0w4VUF3elhoSXZLdjllYmRiRl91RjgzSEVYaU9fSFhTZFpqQlo5NFZvNEU0MWpkRmFTX25EbXlmdkhYYldqRU9RNEprODNFemxIU1h4UGs?oc=5",
+        "published": "Sun, 12 Jul 2026 18:00:00 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-12T18:00:00+00:00"
+      },
+      {
+        "title": "Congress should share, not shield, US artificial intelligence tech - The Hill",
+        "summary": "Congress should share, not shield, US artificial intelligence tech    The Hill",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX0JBbDEtOUJGcjFwQXcxVmJNdXVqOFRodU1nbUR4M2hJQjlwNC1lSkZwcnI4NFo2a0Zjak1laFhfVDZBZ1lVeGZNRF9fNjU3SGxoUXRsdzBGTlVzOHFlUnFCLUl3VnJtLXZBdFpSQzdXS3VtcUtqQ2tDdUdzNDNlcXlGcV84WDZ50gGIAUFVX3lxTE5fQkFsMS05QkZyMXBBdzFWYk11dWo4VGh1TWdtRHgzaElCOXA0LWVKRnBycjg0WjZrRmNqTWVoWF9UNkFnWVV4Zk1EX182NTdIbGhRdGx3MEZOVXM4cWVScUItSXdWcm0tdkF0WlJDN1dLdW1xS2pDa0N1R3M0M2VxeUZxXzhYNnk?oc=5",
+        "published": "Sun, 12 Jul 2026 18:00:00 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-12T18:00:00+00:00"
+      },
+      {
+        "title": "India-Egypt Strategic Partnership: Trade, Investment, AI, Green Energy and Global South Vision - Daily Pioneer",
+        "summary": "India-Egypt Strategic Partnership: Trade, Investment, AI, Green Energy and Global South Vision    Daily Pioneer",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjRMUTBGYTcyRjduTDdXM1dPdW9DVXdEbkU5azB0LXhCbFprNXA2Z0p6NVp3eW1rOGtBYlpjQV9tTlNKQ3FSQmY2OG1MSHFrb0dXdGtVX090Rm8ydTF2a2VTQ05WVnhPZXNkOG1sbWlsRVk4VzQ4Z3ZvVnZUaG9CYms3OHpCS0swb0prMDZPRExXaWFickVnanNqZjhtU00wdGdLMEdB?oc=5",
+        "published": "Sun, 12 Jul 2026 17:47:22 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-12T17:47:22+00:00"
+      },
+      {
+        "title": "Piyush Goyal to lead Indian business delegation to Spain, Belgium and Finland in July - The News Mill",
+        "summary": "Piyush Goyal to lead Indian business delegation to Spain, Belgium and Finland in July    The News Mill",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRHFLTGRVM3RLYy11bThGLUVBRUptalltU0NFR3RXaEJNbThMMXhlU2ZHMkpNbTk2V1lmVklieUZMREYyekx1MkFXZk5OOTVxMlJxRXVraGJXaE1PVDllZVlvcUtMSWRjUXVLdHdtdy1OaEFXYmZCdWY4RGlNcm1seHBCcUpndHVERUl4Zks2WWJCNl9saVBrMGlsZmdZb1dXeDFmc0g4V1hsUnQ0NlNlSV9ZaHZYRVNN?oc=5",
+        "published": "Sun, 12 Jul 2026 17:38:19 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-12T17:38:19+00:00"
+      },
+      {
+        "title": "Next frontier for growth and jobs - New Age BD",
+        "summary": "Next frontier for growth and jobs    New Age BD",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSG0yMkhhY2ktVHRBRnc2STQ2UkotbURKLTBPc2pqeHl6c2N0ZEJWbDdhdzNGVkI5QUNEenF5LUZydGUzaGppdG5xTVBLVWYtVVIydnNKTzktYlBndEV0ZWtyOEJlZ3BuOXp0TVVTRmpFZVJtOGNDZlJCWFdjRUxBcFZ2QVo?oc=5",
+        "published": "Sun, 12 Jul 2026 17:35:00 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-12T17:35:00+00:00"
+      },
+      {
+        "title": "Piyush Goyal to lead high-level business delegation to Spain, Belgium, Finland from July 13-17 - ANI News",
+        "summary": "Piyush Goyal to lead high-level business delegation to Spain, Belgium, Finland from July 13-17    ANI News",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcWJmcTl4aXNveWhpNjcyUnR0UVc2UXJiUnM4X3VmY0xJeG52VW1oWUIxTU1hNXFMMGkydWJwckttSDE5dGNmUEZNT2l2VzdzaXhwbk5FNDhCNC12VHo5cy1tTWFvR25ieENOMElzT00wLTkyRTJpaUVvSDR1V2RRREpERUFKdHRjZGswLUNQb3Y0YTJ5aHA4VUVQb2tXdHI5M3V2RjRDUE5od1dWdGZyelppNGhtNlBzNV8xV2ZiZkNzeGZOeTZmdXlFZ3ZJMFNhd0pZbENuRnNweE1YX3dTSWsxUHVMZVljd1ZSWg?oc=5",
+        "published": "Sun, 12 Jul 2026 17:27:00 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-12T17:27:00+00:00"
+      },
+      {
+        "title": "爆发！超4500股上涨 - 新浪网",
+        "summary": "爆发！超4500股上涨    新浪网",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzNmNCNkZrWXNocFo3NWJyMUtjaHVwQWR6ekJ2S0twdDBIV1V3UE5KME1raDZkUlZrX0pGbEZ6OEZqeTRWNXEzdUxaZkhBb3g2YlRDUFYyY2VtU3dkTW43VHVwb1RXeDI0b1dyUklFbmxlUQ?oc=5",
+        "published": "Sun, 12 Jul 2026 17:18:26 GMT",
+        "source": "Google News · 行业",
+        "_date": "2026-07-12T17:18:26+00:00"
+      },
+      {
+        "title": "Industrial Parks in Moldova: Tracom and 12 Others - logos-pres.md",
+        "summary": "Industrial Parks in Moldova: Tracom and 12 Others    logos-pres.md",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWm1XcmQ4NGxYUkg1TGgxazVzblJkUWZkNTFnbl82UGFSTmJQeEV6SlY2YWozX0hwXzVidV9lYmlFQTFVb2RmWWhlVmVub2RMdmhuTzlOQ3F3QU5sRzJid2V1dVBJVXlzOGstRE96T0V0NDJMeHJpNVNkeGtKTTJ2OVFsWU1HQQ?oc=5",
+        "published": "Sun, 12 Jul 2026 17:12:23 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-12T17:12:23+00:00"
+      },
+      {
+        "title": "RWA Perps Volume Surges Past $100B During June, Indicating Market Maturity - CryptoRank",
+        "summary": "RWA Perps Volume Surges Past $100B During June, Indicating Market Maturity    CryptoRank",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUx5NDdreHJ6WGEwR1h5QUZ6enQxbmtSbk5TWlU3LXU4UjVSUHF0a0ZLeGZSRUwzOFNmNk5BWWpoYmVNWVFBelRTc3hzeEFrY0FxRFByak9IemJzQW52dS1NcDlYOXYtaW5RcE9jMkhxZGZrTVFaVlYxd1Q2bzFSbF91NnF6UTBUYzlXRGRXamkyT3RCMjIxMkx4U2RTN09la19vbDhhVzVQNHh5V0Zr?oc=5",
+        "published": "Sun, 12 Jul 2026 17:04:06 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-12T17:04:06+00:00"
+      },
+      {
+        "title": "Markets reprice risks: Policy signals and geopolitical tensions drive sentiment - Kuwait Times",
+        "summary": "Markets reprice risks: Policy signals and geopolitical tensions drive sentiment    Kuwait Times",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVUVYZGwxcHMwNTBNWkU3MVFhSjFOSERTZlBlYWozaDlZTHR5UTBmYVNRbDFDeExEa2cwZmdYOTROUzZRQnJZUkRSNEUwRUw5V2RkYi0tU1FRRTA4S0xSd2hqT1JhNmdTeG8wU2Jkd1dJSVpVcDBTVFhVY3FXWEtQYTdBMGF2RFdWS0VqREl2NWswb3JZWE9ab3VoeWJ4VXcxVE1TUWxEc1gwSGdzLXFOakNKZkM4ZXdkVnlUWTcyTFllVjRN0gHIAUFVX3lxTE0xMUJObENZVXk2Y2ozQks2a1hCdUthVjUtSURHOF9FYzdoV1NlMGdFc2M2cTZoNEhNV2NBMTlOZ2RDMGEzZkxDZnhxd3dQdmdCeUdNTHY3aVJxZ2YzNXBWTFNWWU1STUo2cHV2QVVFUTNDbklZd1VoMEdDQVdYU0I4anNGeTJab2hBbi1nOVNvVHlrLXY3dUFnTGdXQVhMNkxUeE9HRk02cVI3SG9KT2FKdlZfZmpkbnpLTXhWeGJtMGt1eno3STlC?oc=5",
+        "published": "Sun, 12 Jul 2026 16:46:48 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-12T16:46:48+00:00"
+      },
+      {
+        "title": "BTC Futures Contract (Jul 2026) Trade Ideas — DERIBIT:BTCUSD13N2026 - TradingView",
+        "summary": "BTC Futures Contract (Jul 2026) Trade Ideas — DERIBIT:BTCUSD13N2026    TradingView",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSi00bWRheG9STXNuTFJBLXhLTXdZdnJidHdGUUpobXFXVjZrRWZzWEs2LVhnLWJlRW9hbXBKWWhwUjl5czMwTG10aVhaYXhGOGVaUUNvQkJrZjY3b1ZkYWZxeDVMWnp2eFEtbEptWnRLNXItWF9zc05IeXNoQ241YjRKSFdETm9Hb2V3UldKcFJlY2FyT0E?oc=5",
+        "published": "Sun, 12 Jul 2026 16:21:22 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-12T16:21:22+00:00"
+      },
+      {
+        "title": "Macao’s European outreach highlights new opportunities - chinadailyasia.com",
+        "summary": "Macao’s European outreach highlights new opportunities    chinadailyasia.com",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3VEJidUkyQVNKU1IyS2RxTTluR0dNQW81a3NNWm1KMkJacFViR0lMSnFFWF9faVZZYlJYRDdrY0E2MWpwWkdxTlRhZks1bWlWWmp0TW9zTk0?oc=5",
+        "published": "Sun, 12 Jul 2026 16:09:58 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-12T16:09:58+00:00"
+      },
+      {
+        "title": "FAMOUS FUTURISTS: CELEBRITY KEYNOTE SPEAKER, CONSULTING EXPERT & THOUGHT LEADER - futuristsspeakers.com",
+        "summary": "FAMOUS FUTURISTS: CELEBRITY KEYNOTE SPEAKER, CONSULTING EXPERT & THOUGHT LEADER    futuristsspeakers.com",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNalR4VG4tQmp2a095ZkJrWTRLRXI1Vnh3XzJpUkh3Yk1mSHRZS3F1MnZxOF9YcEIzWk5qOS1aV0FhTThRTjlQeEVTWnJlYThHRjlLaHozVWVWZ1lpUU1tNlY5VGZLWmFEOHRYN3lRLTlaaGNQRmZZeWVobmV4WFpxZ3RUQ3g?oc=5",
+        "published": "Sun, 12 Jul 2026 15:39:35 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-12T15:39:35+00:00"
+      },
+      {
+        "title": "【东吴非银 | 行业周报】继续看好业绩驱动下的券商股 - 网易",
+        "summary": "【东吴非银 | 行业周报】继续看好业绩驱动下的券商股    网易",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90WlF4Z2FES2txNHF4a3NUZE1vcjhQMUZsUmlZakltQkxlbVhBR0FrSm44QngxVjIzOWNxemhNUmExcURXdkRQZ2tSdG82M3lpbXIzVGF2dXc0bDhBbU9kaVV3?oc=5",
+        "published": "Sun, 12 Jul 2026 15:06:43 GMT",
+        "source": "Google News · 行业",
+        "_date": "2026-07-12T15:06:43+00:00"
+      }
+    ]
+  },
+  "search_text": "  Daily Intelligence\n  2026 07 13｜Monday\n\n   Today’s Thesis｜今日一句话\nAI的狂飙正受制于成本与隐私的物理约束，迫使产业从“唯大模型论”转向“小而美与本地化”；同时宏观资本在增长温差中涌入避险资产，技术叙事与资本定价的反身性正在逆转。\n\n   ① Executive Summary｜30 秒\n    AI  ：AI发展正转向小模型、本地记忆与软硬件协同设计，打破“越大越好”的神话 [A17][A19][A21]。\n    商业  ：汽车行业陷入停滞而航空航天业飙升 [B4]；RWA永续合约突破1000亿美元，标志着加密市场结构成熟 [B19]。\n    宏观  ：GDP增长5%与微观体感寒冷并存 [B5]；IEA预测疫情后石油需求首次下降 [B8]，资本逃向定期存款 [B11] 与白银 [B7]。\n\n   ② AI Daily\n\n    小模型与协同设计打破算力军备竞赛\n  What Happened  \nAI客户开始认同“小即是美”的模型架构 [A17]，Nvidia等厂商推广硬件友好的LLM协同设计 [A21]。\n  Why It Matters  \n边际算力收益递减与成本约束正在终结单纯参数规模的竞赛，效率优先成为产业新共识。\n  Second order Effect  \n云巨头垄断松动 → 边缘侧与端侧AI推理占比上升 → 芯片架构走向碎片化与定制化。\n算力成本约束 → 模型小型化与软硬件协同设计 → 边缘侧推理占比上升\n\n    本地化持久记忆重塑隐私与控制权\n  What Happened  \n针对AI助手的持久记忆协议（如MCP扩展）涌现 [A8]，开发者强调“记忆在本地机器、受用户控制” [A19]。\n  Why It Matters  \n无状态交互是当前AI助手的致命缺陷，而云端记忆引发严重隐私担忧，本地化是同时解决上下文断裂与数据主权的唯一解。\n  Second order Effect  \n个人专属智能体规模化落地 → 数据主权立法加速 → 云厂商中心化记忆存储商业模式受挫。\n隐私焦虑与上下文断裂 → 本地化持久记忆协议诞生 → 个人专属智能体规模化落地\n\n    就业错配证伪“AI替代”恐慌叙事\n  What Happened  \n能源工程师直言“AI将取代你的工作”是荒谬的 [A1]；招聘者找不到人、新毕业生找不到工作，原因并非AI [A7]；爱思唯尔调查显示不到一半的研究人员实际使用AI工具 [A15]。\n  Why It Matters  \nAI替代白领的叙事与劳动力市场的结构性错配现实严重脱节，技术采用速度远低于舆论预期。\n  Second order Effect  \nAI培训与认证市场繁荣 → 劳动力市场两极分化加剧 → AI泡沫预期被宏观现实延迟修正。\n技能错配 → 招聘与就业双冷 → AI替代叙事证伪\n\n   ③ Business Daily\n\n    制造业：冰火两重天的需求重构\n汽车行业陷入停滞，而航空航天业强劲飙升 [B4]。这并非简单的周期轮动，而是资本在重新定价高壁垒与低壁垒制造业：面对金融条件偏紧与需求放缓，消费级耐用品（汽车）首当其冲，而具备确定性与技术护城河的航空航天成为避风港。\n\n    金融：RWA的链上流动性成熟\nRWA（真实世界资产）永续合约6月交易量突破1000亿美元 [B19]。这标志着加密金融正从原生投机转向映射现实世界资产的风险对冲，链上杠杆正在为传统资产提供流动性出口。\n\n    科技：AI基础设施的效率拐点\nAI模型协同设计成为开发者焦点 [A21]。算力供给的瓶颈不再仅靠堆叠GPU解决，而是通过重塑模型底层以适配硬件特性，这标志着AI基础设施从“粗放扩张”转入“精耕细作”。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？  \n宏观数据与微观体感出现显著温差：GDP录得5%增长，但微观主体普遍感觉赚钱困难 [B5]。市场风险偏好看似改善（超4500股上涨 [B17]），但资本实质上在向定期存款 [B11] 和白银 [B7] 等避险与硬资产流动。\n\n  为什么发生？  \n结构性错配导致增量分配极度不均。流动性注入推高了资产价格，但未有效穿透至工资与就业端 [A7]。IEA预测全球石油需求自COVID以来首次下降 [B8]，暗示实体经济动能实质性放缓，与金融市场的风险偏好形成背离。\n\n  资本如何流动？  \n资本呈现明显的“防御性多头”特征：一方面参与股市反弹，另一方面增配定期存款 [B11] 与白银 [B7] 对冲法币贬值与增长失速。[推断] 原油价格上涨（+3.14%）与IEA需求下降预测的矛盾，暗示当前油价受地缘溢价驱动而非需求驱动，这是典型的滞胀信号组合。\n\n  接下来关注什么？  \n关注风险资产与宏观现实的收敛机制。若石油需求下降被数据证实，而地缘溢价无法维持，原油与成长股的同步上涨将终结。同时追踪定期存款高增是否引发银行信贷扩张受阻的负反馈循环。\n\n   ⑤ Signal Dashboard\n\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   26,281.61   ↑ +0.29%   中性  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,085.40   ↓  0.46%   避险需求回落  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   73.65   ↑ +3.14%   通胀压力上升  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   101.13   ↑ +0.16%   金融条件偏紧  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.57   ↑ +0.66%   成长估值承压  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   63,821.15   → +0.03%   中性  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   15.03   ↓  5.11%   风险偏好改善  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   210.96   ↑ +4.03%   风险偏好改善  \n\n   ⑥ Deep Insight\n\n    “AI替代”与“招工难”的宏观错觉：为何结构性约束正在凌驾于技术叙事之上\n\n当前舆论场存在一个巨大的撕裂：一方面是“AI将取代所有白领”的恐慌叙事，另一方面是招聘者找不到人、新毕业生找不到工作的现实困境 [A7]。能源工程师直言“AI将取代你的工作”错得可笑 [A1]，而爱思唯尔对3000名研究人员的调查也显示，不到一半的人在实际使用AI工具 [A15]。这揭示了一个极易被忽略的非共识视角：我们正处在“技术叙事过度超前”与“宏观结构性约束滞后”的错位期，真正主导当下就业与资本流向的不是AI的能力边界，而是经济系统的内生摩擦力。\n\n宏观数据显示GDP增长5%，但微观体感却是赚钱难 [B5]，这种“温差”的本质是资源错配与信心缺失。当储户疯狂涌入定期存款寻求安全回报 [B11]，当市场因政策信号与地缘政治而重新定价风险 [B20] 时，企业首要选择是冻结招聘并削减成本，而非部署未经验证且昂贵的AI系统。这里存在一个致命的反身性循环：AI替代叙事 → 员工消费与投资趋于保守（避险需求上升） → 宏观需求收缩 → 企业盈利预期下降 → 企业停止招聘 → 失业率上升 → 进一步强化AI替代叙事。在这个循环中，AI并未真正造成大规模失业，但对AI的恐慌叙事本身通过改变微观主体的避险行为，制造了宏观经济的冷感。\n\n同时，AI自身的演进也受到物理与成本的硬约束。客户开始认同“小即是美” [A17]，开发者转向本地化记忆与隐私控制 [A19]，这不仅是技术路线的转向，更是对算力成本与数据合规约束的妥协。当技术无法在短期内创造增量财富，只能在存量市场进行零和博弈时，宏观的结构性温差就会无情地暴露出来。\n\n  反方观点  ：AI的替代效应只是被延迟了。当前的低采用率 [A15] 是因为模型成本过高且不够可靠，一旦“小而美”模型 [A17] 大幅降低部署门槛，采用率将呈J型曲线爆发，届时结构性失业将真正显现。\n\n  证伪条件  ：未来两个季度内，AI工具在白领群体中的渗透率突破80%，且全行业劳动生产率数据出现不可逆的跃升，同时企业招聘总需求（而非岗位结构）出现绝对值缩减。\n\n   ⑦ Tomorrow Watch\n1. 验证IEA全球石油需求下降预测的初步数据发布与实际油价走势的背离程度 [B8]。\n2. 追踪Nvidia AI模型协同设计框架在开发者社区的采用率与基准测试结果 [A21]。\n3. 关注本地化AI记忆协议（MCP扩展）在开源社区的标准化进展与安全审计 [A8][A19]。\n4. 观察中国A股超4500股上涨后的资金持续性，验证其是否受定期存款外溢驱动 [B11][B17]。\n5. 检查Q1定期存款14%增幅趋势是否在Q2延续，确认避险倾向是否加深 [B11]。\n\n   ⑧ One Chart\n\n [Daily Market Pulse](assets/chart.svg)\n\nVIX下降与纳斯达克上涨显示短期风险偏好改善，但十年期美债收益率与美元指数同步上行暗示金融条件正在收紧。股债市场的这种定价分歧表明，股市正在对流动性贴现，而债市正在对宏观紧缩定价，这种均衡极度脆弱。\n\n   ⑨ Quote of the Day\n\n  “The most important thing is not to be smarter than others, but to be more disciplined than others.”  \n  — Howard Marks\n\n  中文理解  ：重要的不是永远比别人聪明，而是在不确定性面前比别人更守纪律。\n\n  Why it matters today  ：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。\n   ⑩ Action Items｜今天值得思考什么\n1.   验证  你所在行业AI工具的实际渗透率与付费转化，拒绝被“AI替代”叙事裹挟 [A15]。\n2.   比较  小模型 [A17] 与巨模型在你特定业务场景中的总拥有成本（TCO）与延迟表现。\n3.   追踪  本地优先AI记忆架构 [A19] 对现有云数据合规与存储商业模式的冲击。\n4.   关注  IEA石油需求预测 [B8] 与实际原油价格之间的分歧，捕捉滞胀交易信号。\n5.   思考  “GDP增长” [B5] 与“定期存款激增” [B11] 之间的反身性：对未来的恐惧本身是否正在制造经济的现实减速？\n\n   信息边界\n本报告事实部分严格受限于提供的AI SOURCES (A1 A24) 与 BUSINESS AND MACRO SOURCES (B1 B24)。来源多为Hacker News及Google News RSS聚合，时效覆盖2026年7月12日前后，可能存在滞后或二次转述偏差。市场数据反映最近交易日收盘或实时快照。重要判断与推断已作标注，请读者务必回到原文验证。\n\n\n   Sources\n\n    AI\n\n  [A1：Energy Engineer Explains: \"AI Will Take Your Job\" Is Laughably Wrong [video]](https://www.youtube.com/watch?v=sQGZXrzykpU) — Hacker News · AI\n  [A7：Why recruiters can't find workers and new grads can't find jobs (it's not AI)](https://www.washingtonpost.com/education/2026/07/12/why recruiters cant find workers new grads cant find jobs/) — Hacker News · AI\n  [A8：Show HN: Adaptive Recall, persistent memory for AI assistants over MCP](https://www.adaptiverecall.com/) — Hacker News · AI\n  [A15：Elsevier's global survey of 3k researchers on use of AI tools](https://www.elsevier.com/about/press releases/elseviers global survey of 3 000 researchers reveals less than half have) — Hacker News · AI\n  [A17：AI customers are coming around to the idea that small is beautiful](https://www.theregister.com/ai and ml/2026/07/11/ai customers are coming around to the idea that small is beautiful/5268070) — Hacker News · AI\n  [A19：AI's memory. On your machine, under your control](https://github.com/EXXETA/exxperts) — Hacker News · AI\n  [A21：AI Model Co Design: Hardware Friendly LLM Design](https://developer.nvidia.com/blog/ai model co design hardware friendly llm design/) — Hacker News · AI\n\n    Business & Macro\n\n  [B4：Auto sector fails, aerospace soars   The Express Tribune](https://news.google.com/rss/articles/CBMiekFVX3lxTE40bHBXOEgxTC1iN1lqTzVFWnFnbHd1NXVlRHViV0xFWEYzc285VGpFQU9ORm9UZGhRbTlqZnVsQmVoeDl1X211STh5dUhMb1cxTlVqQ056d19xTjY1TTBwMWxxbG9OQTZwdFFhN3NBWFZZejI1VlNYRXpn0gGCAUFVX3lxTE4wSkpaTGREd3VFeEQySFNacUdRc19vUFZQTmVacjl5TU1kT2FFc2xwTWJfek9HQVlmR3pYdGo0WEI4RDl3dnZmVXgwN28tU2JkM2U3RzhDZUNYSHNNVmdKaTdlTTRuU3NWNDRiTFhEYWNEcjlFanA3ZXk3aXV3aS1VcVE?oc=5) — Google News · Global Economy\n  [B5：GDP增长5%，还是感觉赚钱难，四个数据说透“温差”真相   网易](https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zWjF2SHJCSDVkcGF1azJhZzZpSzlDcThqeWl1ZlJ0NG1heEFkMmRMT0xVUzF3Mk13cURwWU9qaXlCaUltbHkwU0VUU21EZ0pEME9QVlQwaUR3cHpyOUUzaTVn?oc=5) — Google News · 行业\n  [B7：China’s Silver Accumulation and the Looming Fiat Currency Collapse 2026   Discovery Alert](https://news.google.com/rss/articles/CBMijAFBVV95cUxQaFVPOEtrbDkzMmtyTGhxbml4d09qcUJVZ1VGMjZCUV9LTmR6U3VXTTB3QnZyV3JaYWFFbzM3ajVnVlE2MTB4a1pVNWFZVlR6Z2luTTRJbUpaMmFJUU5KeUtUaXV3YnptVEpxZkRnNkl2dmZhX2duQTktM0RpX1d6QmNpYXBSeDZ6aWtNSQ?oc=5) — Google News · Markets Policy\n  [B8：IEA Forecasts First Global Oil Demand Drop Since COVID   HOKANEWS.COM](https://news.google.com/rss/articles/CBMigAFBVV95cUxQM3FSbUtUVTdSd1FXb2pqQUowS0lVMXNmMnBXNWVoWExPZ3FwakE2Xy11TGUtZkl4SWZhX2ZiTFMyUm1zR0tMODhQQTZzMmtHZS1rV0dtbHl4N21lU2xWRUp1VlVmdUVKVzltbVJlTEtzVmpPVFpCbTJUOXdtdHc5NA?oc=5) — Google News · Global Economy\n  [B11：Q1'26 term deposits up 14pc as savers seek safe returns   The Financial Express](https://news.google.com/rss/articles/CBMixwFBVV95cUxOWmdUMktJVU9OZEw0bmtUOTBITDVOYUtOYXhSY0VXYlA5dXc2R25NclVEcURnTG5HRXl2Q2xoMEpQWVplZGdnOGRjUUJSX3NlMlQ4VlRwVVBOMlRaS2J2OHpyWGRLTUotMEZxSXl0aUVsVTRuM0FVYWdMOFVBd3pYaEl2S3Y5ZWJkYkZfdUY4M0hFWGlPX0hYU2RaakJaOTRWbzRFNDFqZEZhU19uRG15ZnZIWGJXakVPUTRKazgzRXpsSFNYeFBr0gHHAUFVX3lxTE5aZ1QyS0lVT05kTDRua1Q5MEhMNU5hS05heFJjRVdiUDl1dzZHbk1yVURxRGdMbkdFeXZDbGgwSlBZWmVkZ2c4ZGNRQlJfc2UyVDhWVHBVUE4yVFpLYnY4enJYZEtNSi0wRnFJeXRpRWxVNG4zQVVhZ0w4VUF3elhoSXZLdjllYmRiRl91RjgzSEVYaU9fSFhTZFpqQlo5NFZvNEU0MWpkRmFTX25EbXlmdkhYYldqRU9RNEprODNFemxIU1h4UGs?oc=5) — Google News · Markets Policy\n  [B17：爆发！超4500股上涨   新浪网](https://news.google.com/rss/articles/CBMickFVX3lxTFAzNmNCNkZrWXNocFo3NWJyMUtjaHVwQWR6ekJ2S0twdDBIV1V3UE5KME1raDZkUlZrX0pGbEZ6OEZqeTRWNXEzdUxaZkhBb3g2YlRDUFYyY2VtU3dkTW43VHVwb1RXeDI0b1dyUklFbmxlUQ?oc=5) — Google News · 行业\n  [B19：RWA Perps Volume Surges Past $100B During June, Indicating Market Maturity   CryptoRank](https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUx5NDdreHJ6WGEwR1h5QUZ6enQxbmtSbk5TWlU3LXU4UjVSUHF0a0ZLeGZSRUwzOFNmNk5BWWpoYmVNWVFBelRTc3hzeEFrY0FxRFByak9IemJzQW52dS1NcDlYOXYtaW5RcE9jMkhxZGZrTVFaVlYxd1Q2bzFSbF91NnF6UTBUYzlXRGRXamkyT3RCMjIxMkx4U2RTN09la19vbDhhVzVQNHh5V0Zr?oc=5) — Google News · Markets Policy\n  [B20：Markets reprice risks: Policy signals and geopolitical tensions drive sentiment   Kuwait Times](https://news.google.com/rss/articles/CBMixAFBVV95cUxPVUVYZGwxcHMwNTBNWkU3MVFhSjFOSERTZlBlYWozaDlZTHR5UTBmYVNRbDFDeExEa2cwZmdYOTROUzZRQnJZUkRSNEUwRUw5V2RkYi0tU1FRRTA4S0xSd2hqT1JhNmdTeG8wU2Jkd1dJSVpVcDBTVFhVY3FXWEtQYTdBMGF2RFdWS0VqREl2NWswb3JZWE9ab3VoeWJ4VXcxVE1TUWxEc1gwSGdzLXFOakNKZkM4ZXdkVnlUWTcyTFllVjRN0gHIAUFVX3lxTE0xMUJObENZVXk2Y2ozQks2a1hCdUthVjUtSURHOF9FYzdoV1NlMGdFc2M2cTZoNEhNV2NBMTlOZ2RDMGEzZkxDZnhxd3dQdmdCeUdNTHY3aVJxZ2YzNXBWTFNWWU1STUo2cHV2QVVFUTNDbklZd1VoMEdDQVdYU0I4anNGeTJab2hBbi1nOVNvVHlrLXY3dUFnTGdXQVhMNkxUeE9HRk02cVI3SG9KT2FKdlZfZmpkbnpLTXhWeGJtMGt1eno3STlC?oc=5) — Google News · Markets Policy\n"
+}
