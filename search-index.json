@@ -1,6 +1,500 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-07-16",
+    "generated_at": "2026-07-15T23:04:10.508084+00:00",
+    "model": "glm-5.1",
+    "mode": "model",
+    "thesis": "全球AI监管正从宏观原则加速走向地方性执法碎片化，而硬件端的自研与并购正成为科技巨头规避算力瓶颈、对冲合规成本的护城河；合规壁垒与垂直整合的博弈将重塑AI产业链的利润分配。",
+    "summary": "1. **AI**：监管与治理框架在多地（伊利诺伊、夏威夷、欧洲、中国）密集落地或推进，AI从野蛮生长进入合规约束期 [A1][A7][A11][A13]。 2. **商业**：苹果拟收购AI芯片公司 [A2]，硬件垂直整合趋势明确；无屏AI支付 [A20] 与农业/医疗等垂直应用 [A9][A22] 开始实质性渗透。 3. **宏观**：加拿大央行维持利率但下调增长预期 [B21]，美联储重申通胀目标 [B23]，全球资本在“降息预期落空”与“经济弱复苏”间重新平衡 [B11]。",
+    "relative_html": "2026/07/2026-07-16/Daily%20Intelligence.html",
+    "markets": [
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "value": 26269.2266,
+        "change_pct": 0.62,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "黄金",
+        "symbol": "GC=F",
+        "value": 4065.7,
+        "change_pct": 0.11,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+        "interpretation": "中性"
+      },
+      {
+        "name": "原油",
+        "symbol": "CL=F",
+        "value": 80.33,
+        "change_pct": 1.25,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+        "interpretation": "通胀压力上升"
+      },
+      {
+        "name": "美元指数",
+        "symbol": "DX-Y.NYB",
+        "value": 100.495,
+        "change_pct": -0.44,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+        "interpretation": "外部压力缓解"
+      },
+      {
+        "name": "十年美债收益率",
+        "symbol": "^TNX",
+        "value": 4.545,
+        "change_pct": -0.87,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+        "interpretation": "利好久期资产"
+      },
+      {
+        "name": "BTC",
+        "symbol": "BTC-USD",
+        "value": 64819.4102,
+        "change_pct": -0.21,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+        "interpretation": "中性"
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "value": 15.67,
+        "change_pct": -5.03,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "value": 212.5,
+        "change_pct": 0.33,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/NVDA",
+        "interpretation": "风险偏好改善"
+      }
+    ],
+    "topics": [
+      "AI",
+      "technology",
+      "business",
+      "macro"
+    ],
+    "quote": {
+      "english": "All models are wrong, but some are useful.",
+      "speaker": "George Box",
+      "chinese": "所有模型都会简化现实，但有些模型能帮助你抓住真正重要的机制。"
+    },
+    "sources": {
+      "ai": [
+        {
+          "title": "Illinois Enacts Frontier AI Safety Law - Davis Wright Tremaine",
+          "summary": "Illinois Enacts Frontier AI Safety Law    Davis Wright Tremaine",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdDZ0MnZWNVdjTS1mYjBSUUR6T3E1VUFweExoLWRreGUzRDgyWjd4WnJKRkRHbUxwNHFySjlQY25FcFFyS2tEMU91VjJwUExPNlBFVHVFMUZlWjhuY3dBOEZ6OVMza2lQVG9qOFN4dW1rZDRvV2JGYWN6ZW5mN2VNT0k2dUxkMGNUbGVzVGJScVZDbTRUSy11SXlHMmx3akdPaFJJ?oc=5",
+          "published": "Wed, 15 Jul 2026 22:30:59 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T22:30:59+00:00"
+        },
+        {
+          "title": "传苹果拟收购AI芯片公司，股价创新高 - 手机网易网",
+          "summary": "传苹果拟收购AI芯片公司，股价创新高    手机网易网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81UDhzNlFhdE1HbnFNTkM5WUpLclFfUmR1bGdIYXBwWjZXbG05OGZUNjFWcUMtajJ4QTdLclcxMlV0SlhpUk01dlpOM01sdmR5MWNZOGR3MFVhcXUxenpMbXhn?oc=5",
+          "published": "Wed, 15 Jul 2026 22:27:12 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-15T22:27:12+00:00"
+        },
+        {
+          "title": "全球人工智能 进入“上海时间” - 21财经",
+          "summary": "全球人工智能 进入“上海时间”    21财经",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVWE0UWFlVEpxWktJcGNUQk5LejlTRTA1NlJPTHJydHE2Z0JtZzJRRUVSLUZyOXEzbm96QTN5MmprdlRIY1BPQ3JCVlI4aVJkcDFpVHpnWDd3MWlSTGJaN01ZclJEZGhpbFJsN1l5cWVBTlRQdEQyZEZyS1hPTXgxMjlIcjhoWVZxcFIxYQ?oc=5",
+          "published": "Wed, 15 Jul 2026 22:27:00 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-15T22:27:00+00:00"
+        },
+        {
+          "title": "Marietta City Schools adopt new guidelines for screen time and artificial intelligence - WSB-TV",
+          "summary": "Marietta City Schools adopt new guidelines for screen time and artificial intelligence    WSB-TV",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUWhzX21oS1pCUnRqZUtTM2tlX0ozY1pKT0prbElaeWNvMGFaNlhGbENScjJ6amszSGxGN3VLajRiWWtBWUVPY0dJaTJBckFXYXpRY3Z6QnYzMGc2TjUtUU1ETWZVMkRTR1c1bkMtci1FYU5kTllsMXppU05mTFJwX0dTVzhjRnFVX0NJVEFIUkdHb3kyTi03dndicThmZ25NaUFpQ1J4ckNpVmd4OWdIX1ZWSUFUM3BYaVBBYXNTVlRHTG02bUpoSG9Sdktaamc1MXp1QUZ4b2ZtQ25Ma3B2WUtLQkZ2Z9IB-gFBVV95cUxQck5jcWdmdlZ6ZjFvUjdzVE5tSk44cHBXSnZQVHc2U3dhakFIckJDbHNleGw1bm1Za21ZUl81bkloY1lrV25ka2M2Rkw4bzRpV0RwbzVBWlZ6SnRLX2IzMmpQdXhKOTJfc2l3M09uMmZwSUEzUXRrSzNRN2s1NjZvb3JlMFJlSzhVM2NVY29YU3o0MWFqYzc4MEM2c2FibDVrQXA3bEpOMW5XemdVT3h6akwwVWZsbzl0bTA2UGdCdEY3WVJpOFp1R09oV2p4QWNSd3NDNU5XTUZ1UWppMnd2SVRlNVZRRkpQX1pLQURfd2NYdnVHeWVjVUpB?oc=5",
+          "published": "Wed, 15 Jul 2026 22:25:52 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T22:25:52+00:00"
+        },
+        {
+          "title": "2026世界人工智能大会十大镇馆之宝公布,亮点速览 - 新浪网",
+          "summary": "2026世界人工智能大会十大镇馆之宝公布,亮点速览    新浪网",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UcEpWU3JBcFptQWgwQWtXanAwU0RrSUpqcW03cmROSUJic1l5a2dmQ2RVLWNuamp3SS1RLTg5T09HS2hpV2NkOUhfeWFjakM0Ti1nU1dRZjYwYlVrbnRyN09MMzh0cXhwTnRmVnY3cTZzc2FkVTRaOHM0blA4TDg?oc=5",
+          "published": "Wed, 15 Jul 2026 22:22:22 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-15T22:22:22+00:00"
+        },
+        {
+          "title": "Dana Suskind on How to Protect Childhood in the Age of AI - The Good Men Project",
+          "summary": "Dana Suskind on How to Protect Childhood in the Age of AI    The Good Men Project",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXcxN1NNRGRPQjU2VzQtakZVREdPbHZJU2pMMVk4RDJJOXNHT29PR1VZenNoTHZrbzdjQTlkQ3hyQlA0UFlsVlAyUEtGWjZfMGptUUdsMkhGT3BqbFY2ajEyRE12QWlld05UM0hoemQtc3ZjRkJkNWVrMmNFbVQxM1BwRHhLM0pxSkxvdkxoWUZJQ0dVTU5fSDBrN2Y2a3pGVTZENw?oc=5",
+          "published": "Wed, 15 Jul 2026 22:10:29 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T22:10:29+00:00"
+        },
+        {
+          "title": "European regulators raise concerns on frontier AI risks | Inside FinTech | Global law firm - Norton Rose Fulbright",
+          "summary": "European regulators raise concerns on frontier AI risks | Inside FinTech | Global law firm    Norton Rose Fulbright",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPclMyVUlXRU9vLVg3TDRlcVQtSW1yeGZlUDN4ZkNyNEY2dThycnA0RWhNMHNtZUlUUF9mTHZkUk9lbXNGaWc2QVMyYTNyRm1BS1o0cVFMRW9KSlhBU1FUSm9XUEdIaDZxRUt2NjA0YXhvNHFsMWdyVWhmdjRieDYtVFdGbHpuQWprSWZvSExlYWlpZjBLS1dMMmd6bk9uRjBGRDVJbkdVV2E4eTFTc0pQcmhNYVZRVlFLOHVJMEpzTQ?oc=5",
+          "published": "Wed, 15 Jul 2026 21:54:30 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T21:54:30+00:00"
+        },
+        {
+          "title": "Alex Cameron jokes about growing anxiety over artificial intelligence - Yahoo",
+          "summary": "Alex Cameron jokes about growing anxiety over artificial intelligence    Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSV9abHdfQjE0ZXZMdjBENTJxU2E2Z1A1WmNXZVdVVmhXNzNfVGdpWWpMc0FIV3MwVUNNT21MTmMtdERiT3ZxcVJxT1I0ZW1lcFJ6Z2N0NGd4MllYRWpsUS12X0JJaEVPaktLOXQyY1N0NjYzUDFhZEtldlp5VlZzakpfc1JSSXJ2eUZVZjdGQ2RLVll2WXZN?oc=5",
+          "published": "Wed, 15 Jul 2026 21:52:36 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T21:52:36+00:00"
+        },
+        {
+          "title": "2026世界人工智能大会｜AI新应用快速走进千行百业 - 央视网",
+          "summary": "2026世界人工智能大会｜AI新应用快速走进千行百业    央视网",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NWTlULVl6NXI2WUUzU2MxUVJGZllEdjNNTksxbXJBcjhNVW1CQTZabHp3Z2R5emtQT2ZIQUJIeTQ4WkNPUWFCc0VyTjhRZEQ1Z2dHTUY4WU9NazlaZWVPdU5wSFhnM1hrNGsxU3RrdTN4Wi1jTVVWZg?oc=5",
+          "published": "Wed, 15 Jul 2026 21:28:54 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-15T21:28:54+00:00"
+        },
+        {
+          "title": "Illinois State Board of Education issues AI guidance, written with help from AI - WCBU Peoria",
+          "summary": "Illinois State Board of Education issues AI guidance, written with help from AI    WCBU Peoria",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd1hLVndZNWNmbXpjaFhqelFFclZxdk9PM0g4Z3F6dV9vZFRiSUphREZFS1Q5NFQ5UVZiQTA3aGtzX2ZVVWkxdWk1QVhDOXBiTmF5WVF5TWZFUFAxd082TnpmeGJHZU1YRWdESkdGSU9IQm5nOFJBUEZIaGp1bHdkUklfTlVYN18xR0U3X3hzRlZtZkxLX3VJVGozQ29JbHZ1MTRkamxHSHdYWDdaQ1hVNmdkTThrMmdQMlJsSFNR?oc=5",
+          "published": "Wed, 15 Jul 2026 21:17:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T21:17:00+00:00"
+        },
+        {
+          "title": "Green approves bills that cracks down on artificial intelligence - Hawaii Public Radio",
+          "summary": "Green approves bills that cracks down on artificial intelligence    Hawaii Public Radio",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTF9pLUtfdVczeDExSmlITlc2M0FGYWo0YUpnZ0RaUXZEYXdOSFBRSDNCUkF1QVBRbXBKMEtxYmgtTloydWxiM21JVklyUkVSNVNoR2ExWUxlVm5MY1JEOHRReWxpZ1JrZnNETFBJcHI3R3Z0ZDRzNlV0Nk5Fck9LTWxUQXNoNmhONERjMHpVa3p2dk00VEwyeGVWTlVkdDhxeFV5ZVV4TDVBQjlUaUo4ODdKRXRRVVVxdzdEYw?oc=5",
+          "published": "Wed, 15 Jul 2026 21:16:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T21:16:00+00:00"
+        },
+        {
+          "title": "Better Artificial Intelligence (AI) Stock: Amazon vs. Alphabet - The Globe and Mail",
+          "summary": "Better Artificial Intelligence (AI) Stock: Amazon vs. Alphabet    The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdnptbk9xcE8zY3BCaWFfd1R0YWFzcXNMdUZicnVJcHpnT3llQXhqWFIwV1R6YWlYVmoyanhFTDhGZnljSkkzQ19IMzYzSlNyRmhVYTNTelZMa0phUlVHaG9HdC1nNUN0UDJYby1PNEpQTXlpOG15SlZZalZfXzVUQ3VkUHlPRkk0bFZhMHdwS1FPNVlHSmhoRlNTT3ZRa0JFRDVvejJCYTZ6UHVZVjc3R0lOcnJEQThnOGNSc3JUTmRXbnE5OG1OQXpZcWROOS1wYy1z?oc=5",
+          "published": "Wed, 15 Jul 2026 21:13:45 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T21:13:45+00:00"
+        },
+        {
+          "title": "提供AI治理中国方案，全球人工智能创新治理中心将发布系列成果 - 新浪网",
+          "summary": "提供AI治理中国方案，全球人工智能创新治理中心将发布系列成果    新浪网",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZHpncHZiNmFyLXZmWFZUYS1YX0tXMEZDY3VrTVFuZEtCLVVPWmZaSkQ0UGtLbXBKcER3bW0yUlFCcUM3cnlYOVVwLXJFZXFLVkY4bnZVQW16emkyRENnS29SWmplOE5TTzdxaDJxbTZldzRoekJUR2Z3RnBROEE?oc=5",
+          "published": "Wed, 15 Jul 2026 21:10:35 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-15T21:10:35+00:00"
+        },
+        {
+          "title": "提供AI治理中国方案，全球人工智能创新治理中心将发布系列成果 - 手机网易网",
+          "summary": "提供AI治理中国方案，全球人工智能创新治理中心将发布系列成果    手机网易网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Xa25kNTVBdTBMekpld3pWRTZ0dW1lYUlNTmRneTlCN2Mtb09aYVZSODF3ZEhFc1FCWElEVEJDdU5uVVlkRXhtTURzTXpBN2RzdnJUTGVmOGVXM1RfU3pJVjJn?oc=5",
+          "published": "Wed, 15 Jul 2026 21:10:02 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-07-15T21:10:02+00:00"
+        },
+        {
+          "title": "DeepMind CEO again pushes for a frontier AI standards body - cio.com",
+          "summary": "DeepMind CEO again pushes for a frontier AI standards body    cio.com",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMlBta1UyazdYaVdGZkduLTBuYWh0UU5rVDNxUTgtNmlma3ZRcFRfNG5oQmo0SmQydm1jRmMzSXhBMDZkcmlrdGI4RFZFSVlMeUZFSlF3eTdiZG5BTDU1TVNNQmNQcWxsNTdIbzhpcGk3bEhLQnJfX2xhT3A1czlrN0l2d3h6SXk5M2JsNWRMMWFNVlZ3aWstRmhqcEFiVVFu?oc=5",
+          "published": "Wed, 15 Jul 2026 20:55:23 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:55:23+00:00"
+        },
+        {
+          "title": "Better Artificial Intelligence (AI) Stock: Amazon vs. Alphabet - The Motley Fool",
+          "summary": "Better Artificial Intelligence (AI) Stock: Amazon vs. Alphabet    The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN0FwbWRUYTdJTTc2dWt6ZVB0YlpISllaMlB4RmRaOGpfdjVuRnlMc01PMUtfdlhicTNoekkyMHFNLUlHVmdhUmVyVlNNWm5WVzVlbGJhbE01eHZzRUVaSmdMVzR5QjIwMzQxZHdJZVlkZUpjQk0wRzNZLTdELWt0MnluTWRDRHljdGZRaHQ4Nk9aRmZYMWhJ?oc=5",
+          "published": "Wed, 15 Jul 2026 20:55:19 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:55:19+00:00"
+        },
+        {
+          "title": "Wash100 Award Winner Hung Cao Signs Navy Data and AI Weaponization Strategy - ExecutiveGov",
+          "summary": "Wash100 Award Winner Hung Cao Signs Navy Data and AI Weaponization Strategy    ExecutiveGov",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPanVWLXNSNUtzMEpPeE1BMnRDbkUzRjVrRWdVU1hvMGRKcGR6YTJ6M0FyejJFTXFTUC15dzlvRV80TWJFTjVmeHROaElSX1I0emduaE40d1kwYm9pVlNoei1UMWhzak12bEo5Y1Nyb2hIcktJTVB6U05sYXVNX3Z6Mk44UnhtNVBhemRiTDhQVVA0MTQ?oc=5",
+          "published": "Wed, 15 Jul 2026 20:50:39 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:50:39+00:00"
+        },
+        {
+          "title": "Beverly Hills Schools Approve AI, Technology Framework - MyNewsLA.com",
+          "summary": "Beverly Hills Schools Approve AI, Technology Framework    MyNewsLA.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR2lCdVJDUXBRMlg0Y1ljM3pGR2xsdjVlNi1GZlJkTXkwY3R5SEg4NW9VNnRxeHdRbi1LbmpWN1ZNbGtnS09jMkN4MlUwaGROYThIQ0Q2QWZMM0VLV1Z4MXBzX1FJR0FKSkxOVlJ5R0lQWG1aOXdtS2FhWUZmRmpjamlBOUhIS3RFRVdmVTdZS3BLUFdaSHMxd3lkVG0?oc=5",
+          "published": "Wed, 15 Jul 2026 20:43:03 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:43:03+00:00"
+        },
+        {
+          "title": "Better Artificial Intelligence (AI) Stock: Amazon vs. Alphabet - Yahoo Finance",
+          "summary": "Better Artificial Intelligence (AI) Stock: Amazon vs. Alphabet    Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVmFVejJkZlhBLUgtR1ZEXzdGV19tdk83N1BXVzNwRDdoa2Z1eUFfTlNiSFlQbGt0NEM5YXp2dkxKeEloMHoteVAzZ0N2RDFOdFkxVkpYWV91VzhnVk1LbFVxamFKYWh6UDMwRDdKNXo4U1dITmxGZWxRdXpLWEprakdxRUJzTUFXNzR5d2ZDSHNTQ3pycjhxdEhzdlVFcU9VT3hvMnBEMA?oc=5",
+          "published": "Wed, 15 Jul 2026 20:40:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:40:00+00:00"
+        },
+        {
+          "title": "Screenless AI Gives Payments a Blank Slate - PYMNTS.com",
+          "summary": "Screenless AI Gives Payments a Blank Slate    PYMNTS.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS0RDZ09yNjhSLTJJaFQyUjkyZ2Z1ZTI2d2hSX1RJX0JlemFpU3lZdEE4TWJiZHJtQ0RFYzV1TWpuN1dxZFJWcGxieXFYOER5RlJ0cWhEZnRkZDFpNXM3VGJRQm0zRGY1cV9IbU1BNHc5dXI3a1RsUFRmWXFBeXdyNzl4VWQzUUxScVNDc3lTRWpkVGh5am8yLTFpWFdodkxQOEE?oc=5",
+          "published": "Wed, 15 Jul 2026 20:30:49 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:30:49+00:00"
+        },
+        {
+          "title": "What can the 38th Church Doctor teach about artificial intelligence? - Catholic Diocese of Wichita",
+          "summary": "What can the 38th Church Doctor teach about artificial intelligence?    Catholic Diocese of Wichita",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcFEtaHlMQklINnBUaU1tNU1TeERLMzFVSkFFb2JJVlpBbWRieHIzREtwS2l6NHBueC1qWHY5Y3Q5OWYxM011S1pOTkJWTWpmVlQ2WFBZaklnVkVvZzJWWDdkaXlCZEhyYjloMEI4bVV2VE0zZGQwWTBBTGFHUk1qYjJ2ZWlIRGY1b1pUSGY3QmVUU0Z2UG9TaUZ4dkRMT2lyb3hNYU5FY1I?oc=5",
+          "published": "Wed, 15 Jul 2026 20:30:15 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:30:15+00:00"
+        },
+        {
+          "title": "Nunn Introduces Bipartisan Bill to Put Artificial Intelligence to Work on Iowa Farms - Congressman Zach Nunn (.gov)",
+          "summary": "Nunn Introduces Bipartisan Bill to Put Artificial Intelligence to Work on Iowa Farms    Congressman Zach Nunn (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbnI1SGJnZnhCWkVVTE00QU1aRHRBMFlJUmZBMzF2bFVBdWFWeDY2ZEhoMlJUaDVweEdNVmh4aFB4a1ZtSk9ZaE9sREhLeWlvcDJPdVE0QlNyeXlWbHZfMVl5Z0F6NWxSTEFYWXMyVUUxc00yT2RINVczU3VrdFVEMXV5M1YwOGk0QXJOTFo2TUtJTGVZd3lESlVTVGRuQWg4RzVGTGdnQ2p2a0h0cWFBTWV1V3Z6MzhmS2hr?oc=5",
+          "published": "Wed, 15 Jul 2026 20:15:45 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:15:45+00:00"
+        },
+        {
+          "title": "Artificial intelligence has helped decode a scroll from Herculaneum in its entirety for the first time - UA.NEWS",
+          "summary": "Artificial intelligence has helped decode a scroll from Herculaneum in its entirety for the first time    UA.NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcFRuV1E4M3BJaUItd3VXZXdkR1JiUEs4YzBqd3p4S1ZFZ3VmSW8zek9TeXQ5MHhUOF9ZQmhFNm8xU25vVl96NEdhUXNVZkNBSjVjNW85ZjcxekY3RnJlUHRwVV9obFprOUdfcXEwNmMweW5RZU95c29OdVVpSWVMYXdCRWMtZWtKTW9IYmxsTUhGRUFrMDZsUm1yVEMtUlFCWGg0?oc=5",
+          "published": "Wed, 15 Jul 2026 20:05:57 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:05:57+00:00"
+        },
+        {
+          "title": "Tech leaders should take Pope Leo XIV’s AI encyclical seriously - The Catholic Herald",
+          "summary": "Tech leaders should take Pope Leo XIV’s AI encyclical seriously    The Catholic Herald",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc2RzZ2JONjQyQVBTellFZWFReF9CTDJYSk1HZmNBSjlWcEk2azlWVWpVY0o5YVBnWHFtNUVHbHN6aEszRHBYYUJoQzR2SjlpcFhhWldUZTFtVUR6N21YLTRoUzdwc29kTzRqODFUZTBwN20tbjlsVFRabEVoMTN0SjJNY1FGdmVjSDBXNjRHRy12cS1kZjJGUzM5aW93WUJo?oc=5",
+          "published": "Wed, 15 Jul 2026 20:05:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-07-15T20:05:00+00:00"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "Youngkin takes chairman role at Red Cell Partners - Virginia Business",
+          "summary": "Youngkin takes chairman role at Red Cell Partners    Virginia Business",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HZnpKaVJlWkNadHVHR2Y0NWJ0OThDV3psdS1TZVN3Y281ZjZCMXE0WjRweFlJRmNZTlZIeEtPTmQ1UXF4UGZmaGNWeTh2S3JyOXoxZUhqeUwwbzlwaUVWMlNySFFGT2E1TVM4VXlWcHhDaFU?oc=5",
+          "published": "Wed, 15 Jul 2026 21:45:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-15T21:45:00+00:00"
+        },
+        {
+          "title": "S&P/TSX composite up in Wednesday trading, U.S. stock markets also higher - BNN Bloomberg",
+          "summary": "S&P/TSX composite up in Wednesday trading, U.S. stock markets also higher    BNN Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZjdZYm42N0ZyWGlJS1haQXZBYVJ5Z01hYUhtOFlVWEJnbnpzTTE5dkE5QTdhZVp0cnIzengwaGpNelY4SndGMkRpRVRCZ1BLYV84Qm92SmF3WGtvelN0SC1TdlhJZ1lVcTZmXzBQUXh5UFNROF9QMkV6WFNDTWNSempGVDZ0aThzOE1jSlh1WjBVRFB0UklJZXUwNmQyampITG0xUXAzNzNnajhLeHJ4S3ExU0N3OV9UakRN?oc=5",
+          "published": "Wed, 15 Jul 2026 20:38:40 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T20:38:40+00:00"
+        },
+        {
+          "title": "Sonora Courts Singapore Investment Mission - Mexico Business News",
+          "summary": "Sonora Courts Singapore Investment Mission    Mexico Business News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZWQ3YS1MeWlpTnZLNVhFc0doLXZVMHh6LXhWb1J4V2hfVkMtLV9sdEpzQm4wei1rZEVxdjlxVTlQamhhYThXdTVoejU0VzZJZ2pGN1NIVE5JT3NVbDRhQ2JtWGR2TkUxcHdXSFlpM0FNMWV1Sl9GWDV1QV9oaVQ2Q1g3LUpYTHJBcHp2NncxOHBzajdxczU5b3lkbjQ?oc=5",
+          "published": "Wed, 15 Jul 2026 20:36:08 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-15T20:36:08+00:00"
+        },
+        {
+          "title": "狼族观察|eVTOL行业分析报告 - 手机网易网",
+          "summary": "狼族观察|eVTOL行业分析报告    手机网易网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ia1ozLXk0Vnc0ZW1nYVJFRDFVS1c0VENTR3ZVdThQZVhjSkV1MmxXRlpMd1NwVS1fZkEzckZtQnBScDJ0X2hXQzR6R1RDUy1rNGdjR1k0U0lXaTh4dmNlbGR3?oc=5",
+          "published": "Wed, 15 Jul 2026 19:40:33 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-15T19:40:33+00:00"
+        },
+        {
+          "title": "e-peas Raises $22 Million To Expand Ambient IoT Technology - Pulse 2.0",
+          "summary": "e-peas Raises $22 Million To Expand Ambient IoT Technology    Pulse 2.0",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3VRNDgwaExGTVhFY21ydFR3cUdaS2xBUG5xYlhEX3puaThDRWI5MHB0ejlFQ0Z0UGlEMWp5SDB4eFA4a0RJWDIyUHVrY2F3ajNKczdUVUp0MUpCMi1NQk1xblkyR2h6R0dxd2lsWllySk4xSzNzUGJ6Y2JmcWlJTDZOUdIBiAFBVV95cUxPemwtSmdlU2pDbnpLbWIyZy1hY2Z3QWQ5a2lxb3NacXNCQ2JTbVo3YnN2anBDLXR1WUJJRXVWVnZ1eDhzS19sQkVXaUlqRDRkMUJVWG1WcVl2YlJJQ0hPQnlDaUpkVG10Q2ZodWhrWjk5TUZiejlpNF9QeG9VcEF2bk40c3hhcHI5?oc=5",
+          "published": "Wed, 15 Jul 2026 19:26:14 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-15T19:26:14+00:00"
+        },
+        {
+          "title": "How to Trade Gold — A Complete Guide - BBN Times",
+          "summary": "How to Trade Gold — A Complete Guide    BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RZ2d3RkkxMENobTlZbUJ4R1BGQi1NS1ZjTVBtNzhDSkdRUXQ1UUhCUU1wOWxFOTd1ZTdTOGJlb2ZtS2RtUzZFX0hVdHNMRmNvWC1RdFNaTXBXeXVaenBVUWR1RXJLLWFxcFdzTE9DWXdBMXR4ak9wag?oc=5",
+          "published": "Wed, 15 Jul 2026 19:08:42 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T19:08:42+00:00"
+        },
+        {
+          "title": "TSX Index Today (July 15): S&P/TSX Composite Climbs Above 35,300 as Energy & Banking Stocks Leads BoC Holds Rates – Check Key Drivers, Performance, Top Gainers-Losers & What Investors Should Know - The Sunday Guardian",
+          "summary": "TSX Index Today (July 15): S&P/TSX Composite Climbs Above 35,300 as Energy & Banking Stocks Leads BoC Holds Rates – Check Key Drivers, Performance, Top Gainers-Losers & What Investors Should Know    The Sunday Guardian",
+          "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQUDBWYVlpVEVxVWp3eTdKQ2hLRzhUakVTODFXeVFKcDJzenNiU1FkdWxxV0FjNE1QNkNKX2c0Xzk0UlpENkh6a1VOeGNQbE5SR3Jrbk1kLXBURHhBTzZvTm16UzlHclJqUFhvNVZuclV5TUVQVDEzQ3MxOU44RExwYm9uMnN0QU1ya2NQT2hCeXNlQ0NHQUJGLUZiTHdtZFNBZ3BsY2RiWVFTVHZ5cDctNmRTTnpXZFd3ajlEaHZIbXk3N1Z2eTVRYTN4bDhQdEFzWnRkRE1DSjZ1bEtuaVNud3N5VkM0b0x5SWRDSUZiM3VaRDhyWnIwa2tZSWpJWTM0ZC1LNW9lclJzWjBodjBWM2wzNW9BUjIxUDQ0YVBUekRtWVlDYlNWRk1Pak1FX0lfMkpDYlh0R2tPZjlMRjVzMlVyNzAxandhU2laVWc5VGhiZ2vSAdMCQVVfeXFMUFAwVmFZaVRFcVVqd3k3SkNoS0c4VGpFUzgxV3lRSnAyc3pzYlNRZHVscVdBYzRNUDZDSl9nNF85NFJaRDZIemtVTnhjUGxOUkdya25NZC1wVER4QU82b05telM5R3JSalBYbzVWbnJVeU1FUFQxM0NzMTlOOERMcGJvbjJzdEFNcmtjUE9oQnlzZUNDR0FCRi1GYkx3bWRTQWdwbGNkYllRU1R2eXA3LTZkU056V2RXd2o5RGh2SG15NzdWdnk1UWEzeGw4UHRBc1p0ZERNQ0o2dWxLbmlTbndzeVZDNG9MeUlkQ0lGYjN1WkQ4clpyMGtrWUlqSVkzNGQtSzVvZXJSc1owaHYwVjNsMzVvQVIyMVA0NGFQVHpEbVlZQ2JTVkZNT2pNRV9JXzJKQ2JYdEdrT2Y5TEY1czJVcjcwMWp3YVNpWlVnOVRoYmdr?oc=5",
+          "published": "Wed, 15 Jul 2026 18:50:52 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T18:50:52+00:00"
+        },
+        {
+          "title": "OMAN'S US$5.2 BILLION FUTURE FUND UNVEILS US$1.744 BILLION IN PROJECTS - PR Newswire",
+          "summary": "OMAN'S US$5.2 BILLION FUTURE FUND UNVEILS US$1.744 BILLION IN PROJECTS    PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORU1zb2J2czZsY1gyYXVxTE1ySWlEMFFIdTVZbVZ4clFHZUJTQzJkU2Q5TFBDZkJFNTFLMlFXUGhPMUExdjc4MzlfZ3NsMDFkOVlEN1lGSGdENUlMc1F5RXBOall0X0t0dEdiVlVuTmFuQ0RUdEFUTVZNNmtWbUFvVlItVmVNdGpGaVV4SnFJYWxPUHhkci1oVTZzVER2YUJYUHVhX2lVc1JoY21haEhDdkFPWVpiT3hFc0ZBdjJKblVfU2hr?oc=5",
+          "published": "Wed, 15 Jul 2026 18:36:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-15T18:36:00+00:00"
+        },
+        {
+          "title": "史上最严监管，医美行业的高增长泡沫，碎了 - 36 Kr",
+          "summary": "史上最严监管，医美行业的高增长泡沫，碎了    36 Kr",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwaHBhQWN4NzhLdE83RmxOSVh1SGZEMUdTWVdQdGZWanoyN0hqd3U0WWNpOGs5VmxvdkdRclBHT3dTQkhaeWl5OWtkLUg4dw?oc=5",
+          "published": "Wed, 15 Jul 2026 18:26:25 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-15T18:26:25+00:00"
+        },
+        {
+          "title": "Bank of Canada Keeps Policy Rate Unchanged Amid Signs of Economic Recovery - WSJ",
+          "summary": "Bank of Canada Keeps Policy Rate Unchanged Amid Signs of Economic Recovery    WSJ",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQkNSTXQzS0syT1d5eGQxeFRhbFNNMEx3c1hxWHpFY2N1WElsWjM1SjhNTFE1enY3b0xWbm9JekVHcDVoQWJ3V3JWTmpRSENjQ3dldG5Fdl8yT29obzhvVFlBem94NF9wV3hGWWIweVlQY21PcHUxTkxKLS1hc0d1YXdFcWFJSXVDMUhQMGFTeElhVTlKN1V2SUFDQ0lNSDJOYlpLSUJvaHVVUnFVVzJIR1k3M0JOSFpPMEJZeExJNnk?oc=5",
+          "published": "Wed, 15 Jul 2026 17:43:39 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T17:43:39+00:00"
+        },
+        {
+          "title": "基金经理胡玺潮：极致分化或将收敛，市场有望迎来风格再平衡 - 手机网易网",
+          "summary": "基金经理胡玺潮：极致分化或将收敛，市场有望迎来风格再平衡    手机网易网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Qc251NEp3TkFjcTBoU3lQSUxnUkdZXzFaZG9CSllBVHBTSUtteWJWR3ZFUWF0ZjJSSERTcjBCSUFSeVQ1anNyYmRycGFmRUQ3Qm85a2Z6U0ZCQjdyV1VkbHRR?oc=5",
+          "published": "Wed, 15 Jul 2026 16:38:45 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-15T16:38:45+00:00"
+        },
+        {
+          "title": "Economic Key Facts Germany - kpmg.com",
+          "summary": "Economic Key Facts Germany    kpmg.com",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSVRIQXpYazFRal95NkxfdEtWUFpVZ0syajdGMjhZZmppUWU3emlna2M4NnZ5RXBaa2g5SUtGUWs0Ull1WnhLSXlMOS1zNG9zV1JCVXVRTVZiZnprWjA0elRvbXVQOTZpYlhZeG5ONWNjUnM4MDJFOUJMQjNUVk80cw?oc=5",
+          "published": "Wed, 15 Jul 2026 16:38:20 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-15T16:38:20+00:00"
+        },
+        {
+          "title": "South Africa Bets on Manufacturing to Drive Economic Growth - Devdiscourse",
+          "summary": "South Africa Bets on Manufacturing to Drive Economic Growth    Devdiscourse",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRmE1NDhzc0g2MnJ3dXMyMk1rOU9LUVhGOF81WjJOT3VIUWtkSE9LV3JhRzFvVkdVZXNzTmhwUFVmdllPQnZid2g1RUNuRWlXaWFBaDlKb0xDU0VhaUVKVEtvVGRGN1A4dFllSUF2c2s5RnFuMm5jeTFQczdNekZxT1hiOUQtSVg2cnBnVWNDVmNPTjBVb3BWNWw4Y2FFSnR6dDMxQ2hhMVFYTHZTSGs2dWVWMGU3dEZBa3fSAboBQVVfeXFMTUZhNTQ4c3NINjJyd3VzMjJNazlPS1FYRjhfNVoyTk91SFFrZEhPS1dyYUcxb1ZHVWVzc05ocFBVZnZZT0J2YndoNUVDbkVpV2lhQWg5Sm9MQ1NFYWlFSlRLb1RkRjdQOHRZZUlBdnNrOUZxbjJuY3kxUHM3TXpGcU9YYjlELUlYNnJwZ1VjQ1ZjT04wVW9wVjVsOGNhRUp0enQzMUNoYTFRWEx2U0hrNnVlVjBlN3RGQWt3?oc=5",
+          "published": "Wed, 15 Jul 2026 16:23:19 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-15T16:23:19+00:00"
+        },
+        {
+          "title": "Labour market slack ahead: Bank of Canada holds rate at 2.25% - hcamag.com",
+          "summary": "Labour market slack ahead: Bank of Canada holds rate at 2.25%    hcamag.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZUdDSW92ZHZQM28wc0UwenhiU3JnbHd0UWFia3JHandtSmhUVUFuZm1pdFhmVXBFWjhrVmRDWmpuRkxFTk9kLVJWN2szWVdfVFZjZmZPRmNDeFZ4VGExMGZwa3Z3UWVFaXN4T2RqNVFWM3NWbkFRX1FWRHhYa25ZTWJxMTMya1pGTGRJMGdKblJBR3RLYjI0T0FSM0NNREpPRGx5SWxoUlFLd2t1dUJ4bXg2NWRtRFFf?oc=5",
+          "published": "Wed, 15 Jul 2026 16:03:40 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T16:03:40+00:00"
+        },
+        {
+          "title": "【民银研究】经济向好基础仍需巩固 - 手机网易网",
+          "summary": "【民银研究】经济向好基础仍需巩固    手机网易网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90bTk4ekdTaVFvbDg1S3RTM2U3UTY4UkI1eGZZVjMweUFUVTJsYlIzNWl6TUJYckI0MWM2Wm5YLUQ0eTZhTHdNbTVkZG9JOTVuWXJiMy1rdTRiNVBZZTBfTm93?oc=5",
+          "published": "Wed, 15 Jul 2026 15:55:14 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-15T15:55:14+00:00"
+        },
+        {
+          "title": "EPC Power Boosts Inverter Production with New Manufacturing Plant in South Carolina - energytech.com",
+          "summary": "EPC Power Boosts Inverter Production with New Manufacturing Plant in South Carolina    energytech.com",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdFE2SjZUT09kTHdyQjA5T0pRaDQ3MmdiSGVWU2tJZU5kTENjVzctZ2RnQkFNTGRuQ3lNd0pTYWhJVGZSTWFxeEhYc2E2MHE4UFRNMU1PYWRhZUhpdWwxSVVqMkx3UGtQZkN3T3pnSlZ2emZ0RlY0YUxUcUE1d3J1TVdDS0NvUDk0TlNUbjBGbFJDU3htYThFaDFTODdwMVAtOWgyUmtLamFTbmdtYURfSnRQd0VCU1FLT2lsOGlYLUZuNFI5Z01CcTlxNi1RMFQtdnJVdkdtaXhadw?oc=5",
+          "published": "Wed, 15 Jul 2026 15:42:01 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-15T15:42:01+00:00"
+        },
+        {
+          "title": "四个维度读懂中国经济半年报：向新向优 - 手机网易网",
+          "summary": "四个维度读懂中国经济半年报：向新向优    手机网易网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MMzd1a0FRVTBTVzdGTF9uUjcyQjl2YVBlNC12YWtNbU1jQ3dmYTBDYkRYV2g5alhMNlNHelVucG5BZTJxS1dSZk5mb2hlajZOS2pFNmZyWXgyZm9Md3ZEbTRB?oc=5",
+          "published": "Wed, 15 Jul 2026 15:38:43 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-07-15T15:38:43+00:00"
+        },
+        {
+          "title": "BoC's Macklem: Canadian Dollar weakness not a factor in rate decisions - FXStreet",
+          "summary": "BoC's Macklem: Canadian Dollar weakness not a factor in rate decisions    FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObkEtT0M4WV9CZFJwNW9ZTDBtRnk3WjQzVWUtOWFjVlJaemNGSFR0QVdCQ2dLU3Z5Rk5BajVSLS12VnZZNE5pbkp2ek5IWVlYVmRDcU4tNzlHV0l4QzZzakpTOFVNNjl3NUozZ0s1VnYwLXRmd0N1U0dkSjdUdXNmMERzMjZtY2VqSTlYWTN1a21PN0JwRDJBNmkyS2h6aVp5X3ZMR1luWWNVc2NnUjBJ?oc=5",
+          "published": "Wed, 15 Jul 2026 15:29:21 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T15:29:21+00:00"
+        },
+        {
+          "title": "L&T Technology Services Global EI Hackathon Sparks the Next Wave of AI-Native Engineering Solutions - AOL.com",
+          "summary": "L&T Technology Services Global EI Hackathon Sparks the Next Wave of AI-Native Engineering Solutions    AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83THRyRTVMTXUxclh1SHdXa1h4ZnN4WVBPaktlTGpnem15dDhGcmxqSkcyTEVleVlCeXIxR1R0UE1fbGJzR0JRd0N1dlJtbXNDc2F5Rm9TMC10eFV5dU5lcUc4QTdtVzZCYS1Ub1htRjZwLTZCT1VyUTMwVGRPbTQ?oc=5",
+          "published": "Wed, 15 Jul 2026 15:29:06 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-15T15:29:06+00:00"
+        },
+        {
+          "title": "Text of the Bank of Canada's latest interest rate decision - BNN Bloomberg",
+          "summary": "Text of the Bank of Canada's latest interest rate decision    BNN Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSnp1anRjSjZqTjhxaHktSzMyeFBkWi04cDZNVGZhNTlqNjZBZElvUEdsbEM4aHlhd2p5UFBxVXRwMXk1V3JTSTBMRWNtV0VxZ290OEY5SkwwTWczSVJ5elFKMEh0UkdYTUJ1V3RLUUlsNzBycEVFQWJCUEk1WDRkQUhUQk55TlpPYVJ0R3BtdFdiOFdpRUQzbkYzalN1VklBM2NRMjI1Umc3Qk5vUkhhekZUSU1BZkE?oc=5",
+          "published": "Wed, 15 Jul 2026 15:17:17 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T15:17:17+00:00"
+        },
+        {
+          "title": "Bank of Canada holds rates at 2.25% and cuts 2026 growth forecast to 0.7% - Crypto Briefing",
+          "summary": "Bank of Canada holds rates at 2.25% and cuts 2026 growth forecast to 0.7%    Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZWUJYM0kzZ1hxWkZ0WmI3STVfNHBlWV9lZl91b21tOHZtc3IzNzRNRENzWERsbTNzU2NSVGlRd2ptc0FJWW1jVkNXbmVRei12X0JBR0pta3g4NkJwTEpDb21OSG44c240OGtqTTdoeXY5U1VGMjdRUnhBby1aak0?oc=5",
+          "published": "Wed, 15 Jul 2026 15:11:16 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T15:11:16+00:00"
+        },
+        {
+          "title": "Speakers stress integrating AI into high-impact sectors such like agriculture, healthcare in Bangladesh - United News of Bangladesh",
+          "summary": "Speakers stress integrating AI into high-impact sectors such like agriculture, healthcare in Bangladesh    United News of Bangladesh",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRThWWXdCSHFTX29lVER2bGJuNGlHTnFCZ3JNOER4ZTZjU1BJakJrcHgzLUh6OER1OWE2T1owSDFzR1p0aEpwdG1fMjdIMFprUXdyZWhJUzNmajlEeVNZT0x5RlRaMkk3UUVpZm5fNmhwVG9GOFpPNmhFVEJOMkFBWFJGbE1JOWRFbWV6Mjh6WVV6OURwSGp1cGRENjdhNlh1OWRBYWdSODZ5ZGZFQ3lMZDVjWlUzaGlSMEJJZ3IzLU5vU1ZCcWVCTjFvMzZDVWZOVkY5RW1TX0wxdnh6QVM5LWdB?oc=5",
+          "published": "Wed, 15 Jul 2026 14:40:55 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-07-15T14:40:55+00:00"
+        },
+        {
+          "title": "Fed’s Williams: Returning Inflation to 2% Remains Top Priority, Current Policy Stance ‘Very Appropriate’ - TradingKey",
+          "summary": "Fed’s Williams: Returning Inflation to 2% Remains Top Priority, Current Policy Stance ‘Very Appropriate’    TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUUo3ektteVpIZTRUdGtLVTJtYmdwc2xHVURiTlZCQlJKdGdDMy0xU2xVUVl0dGtBMkdOQnhQMk5PN1JHRGozNWhDWDk3RXVocF9RMmYtZ0dmSEdNcjA3M3d4Yktqd3QyV0NXRU5YR01OZl9DMFdyaWJFRklYazhxMDV0OGI5VEZLeHUwQ291dHluWHpOYXNWXw?oc=5",
+          "published": "Wed, 15 Jul 2026 14:36:26 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-07-15T14:36:26+00:00"
+        },
+        {
+          "title": "Smart Sensors Technology Innovation: Key Trends, Growth Drivers and Opportunities - MarketsandMarkets",
+          "summary": "Smart Sensors Technology Innovation: Key Trends, Growth Drivers and Opportunities    MarketsandMarkets",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ2xsSjF2NlVnNFdCTW9zU3hiOHFueFFaV216Um85V2dsRHFKRWFWZk4wbnZaYXU3Z0tVWVVRal8wcldUMXVRckdXYzZfd1MzY1FSSzQyd1RaNlU4WFh1VDYzU2xaVkFqbVRjeXhSRGY2eDVIM0labTR3eGRObV9TSkZTTQ?oc=5",
+          "published": "Wed, 15 Jul 2026 14:31:53 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-07-15T14:31:53+00:00"
+        }
+      ]
+    },
+    "search_text": "  Daily Intelligence\n  2026 07 16｜Thursday\n\n   Today’s Thesis｜今日一句话\n全球AI监管正从宏观原则加速走向地方性执法碎片化，而硬件端的自研与并购正成为科技巨头规避算力瓶颈、对冲合规成本的护城河；合规壁垒与垂直整合的博弈将重塑AI产业链的利润分配。\n\n   ① Executive Summary｜30 秒\n1.   AI  ：监管与治理框架在多地（伊利诺伊、夏威夷、欧洲、中国）密集落地或推进，AI从野蛮生长进入合规约束期 [A1][A7][A11][A13]。\n2.   商业  ：苹果拟收购AI芯片公司 [A2]，硬件垂直整合趋势明确；无屏AI支付 [A20] 与农业/医疗等垂直应用 [A9][A22] 开始实质性渗透。\n3.   宏观  ：加拿大央行维持利率但下调增长预期 [B21]，美联储重申通胀目标 [B23]，全球资本在“降息预期落空”与“经济弱复苏”间重新平衡 [B11]。\n\n   ② AI Daily\n\n    监管落地：从原则走向执法\n  What Happened  ：伊利诺伊州颁布前沿AI安全法 [A1]，夏威夷州长签署打击AI风险的法案 [A11]，欧洲监管机构对前沿AI风险提出警告 [A7]，中国发布AI治理系列成果 [A13]。\n  Why It Matters  ：这标志着AI监管从宏观伦理讨论进入微观执法阶段。地方法规往往比联邦或跨国框架更具实操性，直接约束模型的本地部署与商业变现。\n  Second order Effect  ：地方合规碎片化 → 跨国AI公司合规成本激增 → 中小型AI创企因无法承担多司法辖区合规成本而出清。\n\n    硬件护城河：算力与安全的物理收敛\n  What Happened  ：传闻苹果拟收购AI芯片公司，股价创新高 [A2]；美国海军签署数据与AI武器化战略 [A17]。\n  Why It Matters  ：算力瓶颈和地缘安全限制正倒逼头部玩家走向硬件垂直整合。通用GPU的性价比与安全可控性边际递减，专用芯片(ASIC)成为必选项。\n  Second order Effect  ：通用算力需求放缓 → 定制化AI芯片需求爆发 → 芯片设计架构从通用向专用解耦，重塑半导体产业链话语权。\n\n    应用破圈：交互范式转移\n  What Happened  ：2026 WAIC展示AI走进千行百业 [A9]；无屏AI重塑支付体验 [A20]；爱荷华州推AI进入农业 [A22]。\n  Why It Matters  ：AI叙事从“模型能力”转向“场景渗透”。无屏交互和垂直行业结合，意味着交互范式的根本改变和边际成本趋近于零。\n  Second order Effect  ：GUI交互降权 → 意图识别成为流量入口 → 传统基于点击与展示的广告/电商分发逻辑失效。\n\n   ③ Business Daily\n\n    科技：边缘算力与硬件军备竞赛\n苹果拟收购AI芯片公司 [A2] 凸显终端算力重要性，e peas融2200万扩环境IoT技术 [B5]，智能传感器创新加速 [B24]。科技巨头与资本正将重心从云端训练转向边缘推理与低功耗算力，硬件自研率成为估值新锚点。\n\n    消费：监管挤破增长泡沫\n史上最严监管致医美行业高增长泡沫破裂 [B9]。这不仅是单一行业的整顿，更揭示了依赖营销驱动、合规粗糙的商业模式在监管周期下的脆弱性，估值逻辑正从PS（市销率）强制向PE（市盈率）回归。\n\n    制造：供应链重构与本土化\nEPC Power在南卡罗来纳新建逆变器工厂 [B16]，南非押注制造业驱动增长 [B13]，eVTOL行业寻求制造突破 [B4]。在全球利率高位与地缘博弈下，实体制造与供应链近岸化成为对冲宏观不确定性的压舱石。\n\n    金融：高利率下的弱复苏\n加拿大央行维持利率2.25%但下调增长预期至0.7% [B21]，美联储Williams称通胀回归2%是首要任务 [B23]。金融条件收紧的滞后效应开始在经济数据中显现，但通胀粘性阻止了政策转向。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？   全球货币政策进入“高位停滞期”。加拿大央行按兵不动且下调增长预期 [B21]，美联储维持鹰派立场 [B23]，中国经济向好基础仍需巩固 [B15]。\n\n  为什么发生？   通胀的粘性（原油上涨信号）抵消了经济弱复苏的动能，央行在“防滞胀”与“防衰退”间走钢丝，无法在增长尚存时轻易降息。\n\n  资本如何流动？   资本从高估值长久期资产向有现金流支撑的制造与能源回流 [B16][B7]。同时，主权基金（如阿曼52亿未来基金 [B8]）和跨国资本（新加坡投资墨西哥索诺拉 [B3]）绕开发达市场高息环境，寻找新兴市场的实体产业链锚点。\n\n  接下来关注什么？   关注“弱增长+高利率”持续时长对债务结构的反身性挤压：若增长持续低于利率，企业资产负债表将被动收缩，触发被动的去杠杆和资产抛售。这是一个正反馈循环：资产抛售 → 抵押品价值下降 → 信贷收缩 → 增长进一步放缓。\n\n   ⑤ Signal Dashboard\n\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   26,269.23   ↑ +0.62%   风险偏好改善  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,065.70   ↑ +0.11%   中性  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   80.33   ↑ +1.25%   通胀压力上升  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   100.50   ↓  0.44%   外部压力缓解  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.54   ↓  0.87%   利好久期资产  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   64,819.41   ↓  0.21%   中性  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   15.67   ↓  5.03%   风险偏好改善  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   212.50   ↑ +0.33%   风险偏好改善  \n\n   ⑥ Deep Insight\n\n    AI监管的“巴尔干化”与硬件垂直整合的囚徒困境\n\n当前AI产业正面临一个容易被忽略的结构性分裂：监管的地域化碎片化（“巴尔干化”）与算力硬件的垂直整合正在形成一种危险的囚徒困境。\n\n事实层面，伊利诺伊州颁布了前沿AI安全法 [A1]，夏威夷签署了打击AI风险的法案 [A11]，欧洲监管机构警告前沿AI风险 [A7]，中国则推出自身的AI治理方案 [A13]。这些监管动作并非全球统一的顶层设计，而是基于各地方法域的政治、文化甚至产业保护本能的碎片化响应。同时，苹果拟收购AI芯片公司 [A2]，美国海军推进AI武器化战略 [A17]，这又是硬件层走向封闭与垂直整合的明确信号。\n\n非共识视角在于：普遍观点认为监管会限制科技巨头，但  碎片化的监管实际上是巨头最有效的护城河  。当合规要求呈现非标准化分布时，跨国部署AI模型的合规成本不是线性增加，而是指数级飙升。中小型开源创企根本没有法律与合规团队去适配伊利诺伊的安全法、夏威夷的打击法案以及欧盟的风险框架。这迫使行业走向一种隐性的“合规即服务”模式——只有控制了从芯片到应用全栈的巨头，才能在物理层和逻辑层实现端到端的合规隔离与审计优化。苹果收购AI芯片公司，不仅是为了算力，更是为了在封闭生态内完成对合规物理层的绝对控制，从而将开源生态暴露在无限的法律责任敞口之下。\n\n这形成了一个囚徒困境：监管者为了本地安全制定特有规则（推断），巨头为了应对规则碎片化而走向封闭（推断），开源社区因合规成本高企而萎缩（待验证信号），最终消费者面临更少的选择和更高的价格。AI的民主化叙事在合规与硬件的双重挤压下正在让位于AI的寡头化现实。\n\n  反方观点  ：开源社区可能通过开发“合规适配中间件”实现一次编写、到处合规，从而打破巨头的垂直整合陷阱。\n\n  证伪条件  ：若未来12个月内，我们看到开源基础模型（如Llama系列）无需针对各地方法规进行架构级分叉，仅通过软件层的合规补丁就能在伊利诺伊、夏威夷和欧盟同时合法部署，且无重大诉讼，则上述“合规壁垒导致寡头化”的逻辑将被证伪。反之，若模型开始出现“伊利诺伊合规版”与“欧洲合规版”的底层分叉，硬件垂直整合将不可逆转。\n\n   ⑦ Tomorrow Watch\n1. 验证苹果AI芯片收购案的潜在反垄断审查信号及交易金额。\n2. 关注美联储其他官员对Williams鹰派发言的呼应或修正，特别是对通胀粘性的判断。\n3. 追踪伊利诺伊州前沿AI安全法生效后的首批企业合规申报或诉讼案例。\n4. 观察加拿大央行下调增长预期后，加拿大房地产市场及银行业坏账率的边际变化。\n5. 验证阿曼未来基金17.44亿美元项目的具体流向，确认是否指向新能源或算力基础设施。\n\n   ⑧ One Chart\n\n [Daily Market Pulse](assets/chart.svg)\n\n图表显示风险偏好改善（纳指、VIX下行）与通胀压力（原油上行）并存。原油上涨与美元走弱呈现相关性，但并非简单因果；原油更多受地缘或供给约束驱动，美元走弱则受外部压力缓解驱动，两者共同构成了美联储维持高利率的物理约束条件。\n\n   ⑨ Quote of the Day\n\n  “All models are wrong, but some are useful.”  \n  — George Box\n\n  中文理解  ：所有模型都会简化现实，但有些模型能帮助你抓住真正重要的机制。\n\n  Why it matters today  ：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。\n   ⑩ Action Items｜今天值得思考什么\n1. 思考：你的业务是否因AI监管的地域碎片化而面临合规成本指数级上升的风险？\n2. 验证：苹果收购AI芯片公司的传闻若属实，对现有通用GPU供应商的议价权与市场份额影响。\n3. 关注：加拿大央行下调增长预期至0.7%后，高负债企业在“弱增长+高利率”下的再融资风险。\n4. 比较：伊利诺伊与夏威夷的AI法案在“前沿模型”定义与合规义务上的差异，寻找潜在的合规套利空间。\n5. 追踪：无屏AI支付在反欺诈和身份认证环节的替代机制，评估其对传统支付网关的颠覆速度。\n\n   信息边界\n本报告信息覆盖2026年7月15日晚间至7月16日晨间的公开新闻聚合源；市场数据为最近交易日收盘值；传闻类新闻（如苹果收购）未经官方确认，需后续验证；宏观判断基于央行已发布文本，未包含未公布的内部决策信息；所有推断与信号已作标注，请勿将推断视为既定事实。\n\n\n   Sources\n\n    AI\n\n  [A1：Illinois Enacts Frontier AI Safety Law   Davis Wright Tremaine](https://news.google.com/rss/articles/CBMiowFBVV95cUxOdDZ0MnZWNVdjTS1mYjBSUUR6T3E1VUFweExoLWRreGUzRDgyWjd4WnJKRkRHbUxwNHFySjlQY25FcFFyS2tEMU91VjJwUExPNlBFVHVFMUZlWjhuY3dBOEZ6OVMza2lQVG9qOFN4dW1rZDRvV2JGYWN6ZW5mN2VNT0k2dUxkMGNUbGVzVGJScVZDbTRUSy11SXlHMmx3akdPaFJJ?oc=5) — Google News · AI\n  [A2：传苹果拟收购AI芯片公司，股价创新高   手机网易网](https://news.google.com/rss/articles/CBMiYkFVX3lxTE81UDhzNlFhdE1HbnFNTkM5WUpLclFfUmR1bGdIYXBwWjZXbG05OGZUNjFWcUMtajJ4QTdLclcxMlV0SlhpUk01dlpOM01sdmR5MWNZOGR3MFVhcXUxenpMbXhn?oc=5) — Google News · AI 中文\n  [A7：European regulators raise concerns on frontier AI risks   Inside FinTech   Global law firm   Norton Rose Fulbright](https://news.google.com/rss/articles/CBMivwFBVV95cUxPclMyVUlXRU9vLVg3TDRlcVQtSW1yeGZlUDN4ZkNyNEY2dThycnA0RWhNMHNtZUlUUF9mTHZkUk9lbXNGaWc2QVMyYTNyRm1BS1o0cVFMRW9KSlhBU1FUSm9XUEdIaDZxRUt2NjA0YXhvNHFsMWdyVWhmdjRieDYtVFdGbHpuQWprSWZvSExlYWlpZjBLS1dMMmd6bk9uRjBGRDVJbkdVV2E4eTFTc0pQcmhNYVZRVlFLOHVJMEpzTQ?oc=5) — Google News · AI\n  [A9：2026世界人工智能大会｜AI新应用快速走进千行百业   央视网](https://news.google.com/rss/articles/CBMieEFVX3lxTE5NWTlULVl6NXI2WUUzU2MxUVJGZllEdjNNTksxbXJBcjhNVW1CQTZabHp3Z2R5emtQT2ZIQUJIeTQ4WkNPUWFCc0VyTjhRZEQ1Z2dHTUY4WU9NazlaZWVPdU5wSFhnM1hrNGsxU3RrdTN4Wi1jTVVWZg?oc=5) — Google News · AI 中文\n  [A11：Green approves bills that cracks down on artificial intelligence   Hawaii Public Radio](https://news.google.com/rss/articles/CBMivAFBVV95cUxOTF9pLUtfdVczeDExSmlITlc2M0FGYWo0YUpnZ0RaUXZEYXdOSFBRSDNCUkF1QVBRbXBKMEtxYmgtTloydWxiM21JVklyUkVSNVNoR2ExWUxlVm5MY1JEOHRReWxpZ1JrZnNETFBJcHI3R3Z0ZDRzNlV0Nk5Fck9LTWxUQXNoNmhONERjMHpVa3p2dk00VEwyeGVWTlVkdDhxeFV5ZVV4TDVBQjlUaUo4ODdKRXRRVVVxdzdEYw?oc=5) — Google News · AI\n  [A13：提供AI治理中国方案，全球人工智能创新治理中心将发布系列成果   新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZHpncHZiNmFyLXZmWFZUYS1YX0tXMEZDY3VrTVFuZEtCLVVPWmZaSkQ0UGtLbXBKcER3bW0yUlFCcUM3cnlYOVVwLXJFZXFLVkY4bnZVQW16emkyRENnS29SWmplOE5TTzdxaDJxbTZldzRoekJUR2Z3RnBROEE?oc=5) — Google News · AI 中文\n  [A17：Wash100 Award Winner Hung Cao Signs Navy Data and AI Weaponization Strategy   ExecutiveGov](https://news.google.com/rss/articles/CBMikwFBVV95cUxPanVWLXNSNUtzMEpPeE1BMnRDbkUzRjVrRWdVU1hvMGRKcGR6YTJ6M0FyejJFTXFTUC15dzlvRV80TWJFTjVmeHROaElSX1I0emduaE40d1kwYm9pVlNoei1UMWhzak12bEo5Y1Nyb2hIcktJTVB6U05sYXVNX3Z6Mk44UnhtNVBhemRiTDhQVVA0MTQ?oc=5) — Google News · AI\n  [A20：Screenless AI Gives Payments a Blank Slate   PYMNTS.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxQS0RDZ09yNjhSLTJJaFQyUjkyZ2Z1ZTI2d2hSX1RJX0JlemFpU3lZdEE4TWJiZHJtQ0RFYzV1TWpuN1dxZFJWcGxieXFYOER5RlJ0cWhEZnRkZDFpNXM3VGJRQm0zRGY1cV9IbU1BNHc5dXI3a1RsUFRmWXFBeXdyNzl4VWQzUUxScVNDc3lTRWpkVGh5am8yLTFpWFdodkxQOEE?oc=5) — Google News · AI\n  [A22：Nunn Introduces Bipartisan Bill to Put Artificial Intelligence to Work on Iowa Farms   Congressman Zach Nunn (.gov)](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbnI1SGJnZnhCWkVVTE00QU1aRHRBMFlJUmZBMzF2bFVBdWFWeDY2ZEhoMlJUaDVweEdNVmh4aFB4a1ZtSk9ZaE9sREhLeWlvcDJPdVE0QlNyeXlWbHZfMVl5Z0F6NWxSTEFYWXMyVUUxc00yT2RINVczU3VrdFVEMXV5M1YwOGk0QXJOTFo2TUtJTGVZd3lESlVTVGRuQWg4RzVGTGdnQ2p2a0h0cWFBTWV1V3Z6MzhmS2hr?oc=5) — Google News · AI\n\n    Business & Macro\n\n  [B3：Sonora Courts Singapore Investment Mission   Mexico Business News](https://news.google.com/rss/articles/CBMinAFBVV95cUxOZWQ3YS1MeWlpTnZLNVhFc0doLXZVMHh6LXhWb1J4V2hfVkMtLV9sdEpzQm4wei1rZEVxdjlxVTlQamhhYThXdTVoejU0VzZJZ2pGN1NIVE5JT3NVbDRhQ2JtWGR2TkUxcHdXSFlpM0FNMWV1Sl9GWDV1QV9oaVQ2Q1g3LUpYTHJBcHp2NncxOHBzajdxczU5b3lkbjQ?oc=5) — Google News · Technology Business\n  [B4：狼族观察 eVTOL行业分析报告   手机网易网](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ia1ozLXk0Vnc0ZW1nYVJFRDFVS1c0VENTR3ZVdThQZVhjSkV1MmxXRlpMd1NwVS1fZkEzckZtQnBScDJ0X2hXQzR6R1RDUy1rNGdjR1k0U0lXaTh4dmNlbGR3?oc=5) — Google News · 行业\n  [B5：e peas Raises $22 Million To Expand Ambient IoT Technology   Pulse 2.0](https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3VRNDgwaExGTVhFY21ydFR3cUdaS2xBUG5xYlhEX3puaThDRWI5MHB0ejlFQ0Z0UGlEMWp5SDB4eFA4a0RJWDIyUHVrY2F3ajNKczdUVUp0MUpCMi1NQk1xblkyR2h6R0dxd2lsWllySk4xSzNzUGJ6Y2JmcWlJTDZOUdIBiAFBVV95cUxPemwtSmdlU2pDbnpLbWIyZy1hY2Z3QWQ5a2lxb3NacXNCQ2JTbVo3YnN2anBDLXR1WUJJRXVWVnZ1eDhzS19sQkVXaUlqRDRkMUJVWG1WcVl2YlJJQ0hPQnlDaUpkVG10Q2ZodWhrWjk5TUZiejlpNF9QeG9VcEF2bk40c3hhcHI5?oc=5) — Google News · Technology Business\n  [B7：TSX Index Today (July 15): S&P/TSX Composite Climbs Above 35,300 as Energy & Banking Stocks Leads BoC Holds Rates – Check Key Drivers, Performance, Top Gainers Losers & What Investors Should Know   The Sunday Guardian](https://news.google.com/rss/articles/CBMi0wJBVV95cUxQUDBWYVlpVEVxVWp3eTdKQ2hLRzhUakVTODFXeVFKcDJzenNiU1FkdWxxV0FjNE1QNkNKX2c0Xzk0UlpENkh6a1VOeGNQbE5SR3Jrbk1kLXBURHhBTzZvTm16UzlHclJqUFhvNVZuclV5TUVQVDEzQ3MxOU44RExwYm9uMnN0QU1ya2NQT2hCeXNlQ0NHQUJGLUZiTHdtZFNBZ3BsY2RiWVFTVHZ5cDctNmRTTnpXZFd3ajlEaHZIbXk3N1Z2eTVRYTN4bDhQdEFzWnRkRE1DSjZ1bEtuaVNud3N5VkM0b0x5SWRDSUZiM3VaRDhyWnIwa2tZSWpJWTM0ZC1LNW9lclJzWjBodjBWM2wzNW9BUjIxUDQ0YVBUekRtWVlDYlNWRk1Pak1FX0lfMkpDYlh0R2tPZjlMRjVzMlVyNzAxandhU2laVWc5VGhiZ2vSAdMCQVVfeXFMUFAwVmFZaVRFcVVqd3k3SkNoS0c4VGpFUzgxV3lRSnAyc3pzYlNRZHVscVdBYzRNUDZDSl9nNF85NFJaRDZIemtVTnhjUGxOUkdya25NZC1wVER4QU82b05telM5R3JSalBYbzVWbnJVeU1FUFQxM0NzMTlOOERMcGJvbjJzdEFNcmtjUE9oQnlzZUNDR0FCRi1GYkx3bWRTQWdwbGNkYllRU1R2eXA3LTZkU056V2RXd2o5RGh2SG15NzdWdnk1UWEzeGw4UHRBc1p0ZERNQ0o2dWxLbmlTbndzeVZDNG9MeUlkQ0lGYjN1WkQ4clpyMGtrWUlqSVkzNGQtSzVvZXJSc1owaHYwVjNsMzVvQVIyMVA0NGFQVHpEbVlZQ2JTVkZNT2pNRV9JXzJKQ2JYdEdrT2Y5TEY1czJVcjcwMWp3YVNpWlVnOVRoYmdr?oc=5) — Google News · Markets Policy\n  [B8：OMAN'S US$5.2 BILLION FUTURE FUND UNVEILS US$1.744 BILLION IN PROJECTS   PR Newswire](https://news.google.com/rss/articles/CBMixAFBVV95cUxORU1zb2J2czZsY1gyYXVxTE1ySWlEMFFIdTVZbVZ4clFHZUJTQzJkU2Q5TFBDZkJFNTFLMlFXUGhPMUExdjc4MzlfZ3NsMDFkOVlEN1lGSGdENUlMc1F5RXBOall0X0t0dEdiVlVuTmFuQ0RUdEFUTVZNNmtWbUFvVlItVmVNdGpGaVV4SnFJYWxPUHhkci1oVTZzVER2YUJYUHVhX2lVc1JoY21haEhDdkFPWVpiT3hFc0ZBdjJKblVfU2hr?oc=5) — Google News · Technology Business\n  [B9：史上最严监管，医美行业的高增长泡沫，碎了   36 Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwaHBhQWN4NzhLdE83RmxOSVh1SGZEMUdTWVdQdGZWanoyN0hqd3U0WWNpOGs5VmxvdkdRclBHT3dTQkhaeWl5OWtkLUg4dw?oc=5) — Google News · 行业\n  [B11：基金经理胡玺潮：极致分化或将收敛，市场有望迎来风格再平衡   手机网易网](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Qc251NEp3TkFjcTBoU3lQSUxnUkdZXzFaZG9CSllBVHBTSUtteWJWR3ZFUWF0ZjJSSERTcjBCSUFSeVQ1anNyYmRycGFmRUQ3Qm85a2Z6U0ZCQjdyV1VkbHRR?oc=5) — Google News · 行业\n  [B13：South Africa Bets on Manufacturing to Drive Economic Growth   Devdiscourse](https://news.google.com/rss/articles/CBMiugFBVV95cUxNRmE1NDhzc0g2MnJ3dXMyMk1rOU9LUVhGOF81WjJOT3VIUWtkSE9LV3JhRzFvVkdVZXNzTmhwUFVmdllPQnZid2g1RUNuRWlXaWFBaDlKb0xDU0VhaUVKVEtvVGRGN1A4dFllSUF2c2s5RnFuMm5jeTFQczdNekZxT1hiOUQtSVg2cnBnVWNDVmNPTjBVb3BWNWw4Y2FFSnR6dDMxQ2hhMVFYTHZTSGs2dWVWMGU3dEZBa3fSAboBQVVfeXFMTUZhNTQ4c3NINjJyd3VzMjJNazlPS1FYRjhfNVoyTk91SFFrZEhPS1dyYUcxb1ZHVWVzc05ocFBVZnZZT0J2YndoNUVDbkVpV2lhQWg5Sm9MQ1NFYWlFSlRLb1RkRjdQOHRZZUlBdnNrOUZxbjJuY3kxUHM3TXpGcU9YYjlELUlYNnJwZ1VjQ1ZjT04wVW9wVjVsOGNhRUp0enQzMUNoYTFRWEx2U0hrNnVlVjBlN3RGQWt3?oc=5) — Google News · Global Economy\n  [B15：【民银研究】经济向好基础仍需巩固   手机网易网](https://news.google.com/rss/articles/CBMiYkFVX3lxTE90bTk4ekdTaVFvbDg1S3RTM2U3UTY4UkI1eGZZVjMweUFUVTJsYlIzNWl6TUJYckI0MWM2Wm5YLUQ0eTZhTHdNbTVkZG9JOTVuWXJiMy1rdTRiNVBZZTBfTm93?oc=5) — Google News · 行业\n  [B16：EPC Power Boosts Inverter Production with New Manufacturing Plant in South Carolina   energytech.com](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdFE2SjZUT09kTHdyQjA5T0pRaDQ3MmdiSGVWU2tJZU5kTENjVzctZ2RnQkFNTGRuQ3lNd0pTYWhJVGZSTWFxeEhYc2E2MHE4UFRNMU1PYWRhZUhpdWwxSVVqMkx3UGtQZkN3T3pnSlZ2emZ0RlY0YUxUcUE1d3J1TVdDS0NvUDk0TlNUbjBGbFJDU3htYThFaDFTODdwMVAtOWgyUmtLamFTbmdtYURfSnRQd0VCU1FLT2lsOGlYLUZuNFI5Z01CcTlxNi1RMFQtdnJVdkdtaXhadw?oc=5) — Google News · Technology Business\n  [B21：Bank of Canada holds rates at 2.25% and cuts 2026 growth forecast to 0.7%   Crypto Briefing](https://news.google.com/rss/articles/CBMif0FVX3lxTFBZWUJYM0kzZ1hxWkZ0WmI3STVfNHBlWV9lZl91b21tOHZtc3IzNzRNRENzWERsbTNzU2NSVGlRd2ptc0FJWW1jVkNXbmVRei12X0JBR0pta3g4NkJwTEpDb21OSG44c240OGtqTTdoeXY5U1VGMjdRUnhBby1aak0?oc=5) — Google News · Markets Policy\n  [B23：Fed’s Williams: Returning Inflation to 2% Remains Top Priority, Current Policy Stance ‘Very Appropriate’   TradingKey](https://news.google.com/rss/articles/CBMimAFBVV95cUxQUUo3ektteVpIZTRUdGtLVTJtYmdwc2xHVURiTlZCQlJKdGdDMy0xU2xVUVl0dGtBMkdOQnhQMk5PN1JHRGozNWhDWDk3RXVocF9RMmYtZ0dmSEdNcjA3M3d4Yktqd3QyV0NXRU5YR01OZl9DMFdyaWJFRklYazhxMDV0OGI5VEZLeHUwQ291dHluWHpOYXNWXw?oc=5) — Google News · Markets Policy\n  [B24：Smart Sensors Technology Innovation: Key Trends, Growth Drivers and Opportunities   MarketsandMarkets](https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ2xsSjF2NlVnNFdCTW9zU3hiOHFueFFaV216Um85V2dsRHFKRWFWZk4wbnZaYXU3Z0tVWVVRal8wcldUMXVRckdXYzZfd1MzY1FSSzQyd1RaNlU4WFh1VDYzU2xaVkFqbVRjeXhSRGY2eDVIM0labTR3eGRObV9TSkZTTQ?oc=5) — Google News · Technology Business\n"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-07-15",
     "generated_at": "2026-07-14T23:04:11.516644+00:00",
     "model": "glm-5.1",
