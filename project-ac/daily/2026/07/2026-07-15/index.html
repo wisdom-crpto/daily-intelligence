@@ -1,1 +1,281 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>2026-07-15 项目看板</title><style>body{margin:0;background:#f3f7fc;color:#17202a;font:16px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}main{max-width:940px;margin:28px auto;padding:0 18px}.hero,.panel{background:#fff;border:1px solid #d8e3f1;border-radius:18px;padding:24px;margin-bottom:16px;box-shadow:0 10px 28px #1020400d}.tag{color:#155eef;font-weight:700;font-size:.82rem;letter-spacing:.1em}h1{margin:.3rem 0;font-size:2.2rem}h2{font-size:1.1rem;margin:0 0 .5rem}.muted{color:#667085}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}.card{background:#f8fbff;border:1px solid #d8e3f1;border-radius:14px;padding:16px}.warn{color:#a15c00;font-weight:700}code{font-size:.88em}a{color:#155eef}</style></head><body><main><section class="hero"><div class="tag">AC Intelligence · Backfill</div><h1>2026-07-15</h1><p class="muted">开放平台接口完成受控契约诊断；HTTP 500 被严格保留为未知结果，未触发真实业务调用。</p><p><a href="../../../../index.html">总看板</a> · <a href="../../../../latest.html">最新日报</a> · <a href="brief.md">查看证据摘要</a></p></section><section class="grid"><article class="card"><h2>接口诊断</h2><p>正式 DTO 的负数资源哨兵返回 HTTP 500；Portal 域名同路径返回 405，执行域名已确认。</p></article><article class="card"><h2>安全边界</h2><p class="warn">不换 payload、不自动重试、不发送真实站点/方案。</p></article><article class="card"><h2>Project-AC 输入</h2><p>新增 API 相关文档 <code>raw/input/API info/appid.docx</code>。</p></article><article class="card"><h2>下一步</h2><p>由接口方定位 500 所在层级，并核对有效的 App Key/App Secret 配对。</p></article></section><section class="panel"><h2>按项目</h2><p><strong>deOMPlization</strong>：手工契约负数哨兵和域名边界核验。<br><strong>Project-AC</strong>：录入 API 输入文档；未发现其他可确认的当日实现/设计产出。</p><p class="muted">证据：<code>deOMPlization/L3-handoff/implementation/2026-07-15-open-platform-probe-report.md</code>；Codex 对话 “AC Intelligence”。</p></section></main></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-15 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-15</h1>
+    <p class="subtitle">开放平台“流量方案上下线”完成受控契约探针；正式 DTO 的固定负数资源哨兵返回 HTTP 500，结果按 unknown_result 停止，没有发送真实方案或站点请求。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-29/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 契约诊断中，真实业务请求未开放</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">4</span><span class="meta">已完成 2 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">3</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">4</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">4</span><span class="meta">P0 2 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：开放平台“流量方案上下线”完成受控契约探针；正式 DTO 的固定负数资源哨兵返回 HTTP 500，结果按 unknown_result 停止，没有发送真实方案或站点请求。</li><li>今日关注：区分执行域名、凭据标签、订阅配额与业务接口层，避免用 500 推断业务是否执行。</li><li>今日目标：由接口方根据 requestId 核查网关与服务日志，并确认匹配的 App Key / App Secret、订阅配额和白名单。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">执行入口</span><span class="desc">已确认测试执行域名；Portal API 同路径返回 405，不是业务执行入口</span><div class="pill-row"><span class="pill">✅ 已确认</span></div></div><div class="card"><span class="title">固定哨兵</span><span class="desc">正式 DTO 的固定负数资源哨兵返回 HTTP 500，按 unknown_result 停止</span><div class="pill-row"><span class="pill">已停止</span></div></div><div class="card"><span class="title">请求边界</span><span class="desc">未替换 payload、未重试、未调用真实方案或站点标识</span><div class="pill-row"><span class="pill">✅ 已遵守</span></div></div><div class="card"><span class="title">Project-AC 输入</span><span class="desc">新增开放平台凭据相关输入文档，标签有效性仍待核对</span><div class="pill-row"><span class="pill">待确认</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">HTTP 500</span><span class="desc">当前响应不能区分鉴权、解密、反序列化或业务执行层，不能视为成功或安全失败</span></div><div class="card"><span class="title">凭据标签</span><span class="desc">本地文档的 AppID / AppSecret 标签尚未证明与 SDK 要求的 App Key / App Secret 成对匹配</span></div><div class="card"><span class="title">安全边界</span><span class="desc">非明确业务拒绝一律停止，不猜测凭据、不换 payload、不发送真实业务标识</span></div><div class="card"><span class="title">下一步</span><span class="desc">接口方查日志并提供隔离测试应用、匹配凭据、目标订阅配额和 IP 白名单</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：AC / Open API 受控诊断</li><li>汇报类型：项目日结补档</li><li>汇报日期：2026-07-15</li><li>当前状态：🟡 契约诊断中，真实业务请求未开放</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">HTTP 500 层级不明</span><span class="desc">按 unknown_result 停止，由接口方查网关和服务日志</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">凭据标签与应用归属未被证明</span><span class="desc">不互换 AppID/AppKey，不在网络层尝试猜测</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">目标 API 订阅、配额和白名单未确认</span><span class="desc">授权材料齐备前不发送下一次探针</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：请接口方按 requestId 核查 500 的实际层级</li><li>P0：确认隔离测试应用的匹配凭据、订阅配额和 IP 白名单</li><li>P1：材料齐备后仅允许一次固定负数哨兵</li><li>P1：真实业务测试需另备专用测试标识和单独授权</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-15-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

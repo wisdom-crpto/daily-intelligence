@@ -1,1 +1,281 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>2026-07-14 项目看板</title><style>body{margin:0;background:#f3f7fc;color:#17202a;font:16px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}main{max-width:940px;margin:28px auto;padding:0 18px}.hero,.panel{background:#fff;border:1px solid #d8e3f1;border-radius:18px;padding:24px;margin-bottom:16px;box-shadow:0 10px 28px #1020400d}.tag{color:#155eef;font-weight:700;font-size:.82rem;letter-spacing:.1em}h1{margin:.3rem 0;font-size:2.2rem}h2{font-size:1.1rem;margin:0 0 .5rem}.muted{color:#667085}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}.card{background:#f8fbff;border:1px solid #d8e3f1;border-radius:14px;padding:16px}.good{color:#0f9d58;font-weight:700}.warn{color:#a15c00;font-weight:700}code{font-size:.88em}a{color:#155eef}</style></head><body><main><section class="hero"><div class="tag">AC Intelligence · Backfill</div><h1>2026-07-14</h1><p class="muted">全域停用自动化完成两条 UAT dry-run，并保持无真实停用的安全边界。</p><p><a href="../../../../index.html">总看板</a> · <a href="../../../../latest.html">最新日报</a> · <a href="brief.md">查看证据摘要</a></p></section><section class="grid"><article class="card"><h2>完成</h2><p class="good">2 条 UAT dry-run 成功回写</p><p><code>3sjEWX3V40</code>：全域定价 1 步；<code>wN1Xoski1v</code>：采购价 2 条、仅生成采购价步骤。</p></article><article class="card"><h2>工程收口</h2><p>修复“待生效”误判与页面加载竞态；测试 <code>12 passed, 1 skipped</code>。</p></article><article class="card"><h2>关键决策</h2><p>单站退出只停目标站价格，不停运营商全域定价后重建其他站。</p></article><article class="card"><h2>阻塞</h2><p class="warn">两价格表继承定价的合格 UAT 样本为 0，需补建数据。</p></article></section><section class="panel"><h2>按项目</h2><p><strong>global-disable-automation</strong>：完成 UAT 分支覆盖与安全规则收口。<br><strong>Project-AC</strong>：未发现当日新增实现文件。</p><p class="muted">证据：Codex 对话 “project globaldisableautomation”；<code>global-disable-automation/L1-communication/summaries/decision-summary-2026-07-14_1359.md</code>。</p></section></main></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-14 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-14</h1>
+    <p class="subtitle">全域停用自动化完成两条 UAT dry-run 并成功回写，状态识别与页面加载竞态得到修复；全程保持执行开关关闭，没有真实停用。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-29/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 UAT dry-run 收口中，真实执行仍关闭</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">4</span><span class="meta">已完成 3 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">3</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">4</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">4</span><span class="meta">P0 2 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：全域停用自动化完成两条 UAT dry-run 并成功回写，状态识别与页面加载竞态得到修复；全程保持执行开关关闭，没有真实停用。</li><li>今日关注：补齐单站继承运营商定价的有效 UAT 样本，避免将 dry-run 成功误当成真实 IOP 端到端成功。</li><li>今日目标：继续把真实执行授权、确认弹窗校准和异常回退压成可验证的生产前清单。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">UAT dry-run</span><span class="desc">“运营商全域定价生效”与“全域已停用后转采购价排查”两条记录均成功回写</span><div class="pill-row"><span class="pill">✅ 已完成</span></div></div><div class="card"><span class="title">状态识别</span><span class="desc">已避免将“待生效”误判为“生效中”</span><div class="pill-row"><span class="pill">✅ 已完成</span></div></div><div class="card"><span class="title">页面稳定性</span><span class="desc">已修复页面未完成加载即查询的竞态</span><div class="pill-row"><span class="pill">✅ 已完成</span></div></div><div class="card"><span class="title">自动化边界</span><span class="desc">GLOBAL_DISABLE_EXECUTE=0 保持不变，未执行真实停用</span><div class="pill-row"><span class="pill">受控关闭</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">单站退出规则</span><span class="desc">遇到运营商维度定价时，只停两张主价格列表中的目标站价格，不再停全域定价后重建其他站点</span></div><div class="card"><span class="title">验证结果</span><span class="desc">相关测试为 12 passed、1 skipped；证明 dry-run 与规则层收口，不等同生产端到端验证</span></div><div class="card"><span class="title">当前缺口</span><span class="desc">尚未找到“两张价格表均唯一命中”的单站继承样本，全量联结候选为 0</span></div><div class="card"><span class="title">下一步</span><span class="desc">补建隔离 UAT 数据，并在单独授权后校准 IOP 确认弹窗与真实执行路径</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：ACM / AC / 跨项目自动化</li><li>汇报类型：项目日结补档</li><li>汇报日期：2026-07-14</li><li>当前状态：🟡 UAT dry-run 收口中，真实执行仍关闭</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">缺少单站继承运营商定价的有效 UAT 样本</span><span class="desc">先补建隔离测试数据，不用生产记录代替</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">IOP 确认弹窗与状态复查未完成真实校准</span><span class="desc">继续保持执行开关关闭，授权后再做受控演练</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">dry-run 成功被误解为真实停用成功</span><span class="desc">在报告中持续区分模拟回写、页面验证与生产 E2E</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：补建单站继承运营商定价且两张价格表唯一命中的 UAT 样本</li><li>P0：确认真实执行授权与最大自动处理阈值</li><li>P1：补齐确认弹窗、状态复查和异常转人工的验收步骤</li><li>P1：保持所有生产写动作 fail-closed</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-14-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

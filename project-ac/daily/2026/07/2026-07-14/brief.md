@@ -1,25 +1,44 @@
-# 2026-07-14 项目补档
+# 晨间简报
 
-## 今日结论
+## 1. 基本信息
+- 项目名称：ACM / AC / 跨项目自动化
+- 汇报类型：项目日结补档
+- 汇报日期：2026-07-14
+- 当前状态：🟡 UAT dry-run 收口中，真实执行仍关闭
 
-`global-disable-automation` 完成两条 UAT dry-run 冒烟并回写成功；全程保持 `GLOBAL_DISABLE_EXECUTE=0`，没有真实停用。Project-AC 本体未发现当日新增实现文件。
+## 2. 今晨重点 / 速读
+- 一句话结论：全域停用自动化完成两条 UAT dry-run 并成功回写，状态识别与页面加载竞态得到修复；全程保持执行开关关闭，没有真实停用。
+- 今日关注：补齐单站继承运营商定价的有效 UAT 样本，避免将 dry-run 成功误当成真实 IOP 端到端成功。
+- 今日目标：继续把真实执行授权、确认弹窗校准和异常回退压成可验证的生产前清单。
 
-## 按项目分组
+## 3. 项目进展摘要
+| 模块/事项 | 最新进展 | 状态 |
+|:---|:---|:---:|
+| UAT dry-run | “运营商全域定价生效”与“全域已停用后转采购价排查”两条记录均成功回写 | ✅ 已完成 |
+| 状态识别 | 已避免将“待生效”误判为“生效中” | ✅ 已完成 |
+| 页面稳定性 | 已修复页面未完成加载即查询的竞态 | ✅ 已完成 |
+| 自动化边界 | `GLOBAL_DISABLE_EXECUTE=0` 保持不变，未执行真实停用 | 受控关闭 |
 
-### global-disable-automation
+## 4. AC售后新增对话总结
+| 主题 | 总结 |
+|:---|:---|
+| 单站退出规则 | 遇到运营商维度定价时，只停两张主价格列表中的目标站价格，不再停全域定价后重建其他站点 |
+| 验证结果 | 相关测试为 12 passed、1 skipped；证明 dry-run 与规则层收口，不等同生产端到端验证 |
+| 当前缺口 | 尚未找到“两张价格表均唯一命中”的单站继承样本，全量联结候选为 0 |
+| 下一步 | 补建隔离 UAT 数据，并在单独授权后校准 IOP 确认弹窗与真实执行路径 |
 
-- 完成“运营商全域定价生效”与“全域已停用后转采购价排查”两条 UAT dry-run；测试记录 `3sjEWX3V40` 和 `wN1Xoski1v` 均已回写“已处理”。
-- 收紧状态识别，避免将“待生效”误判为“生效中”；并修复页面未完成加载即查询的竞态。测试结果 `12 passed, 1 skipped`。
-- 决策更新：单站退出遇到运营商维度定价时，只在两张主价格列表停用目标电站价格，不再停运营商全域定价后重建其他站点。
+## 5. 风险与阻塞
+| 风险 | 影响 | 当前应对 |
+|:---|:---:|:---|
+| 缺少单站继承运营商定价的有效 UAT 样本 | 高 | 先补建隔离测试数据，不用生产记录代替 |
+| IOP 确认弹窗与状态复查未完成真实校准 | 高 | 继续保持执行开关关闭，授权后再做受控演练 |
+| dry-run 成功被误解为真实停用成功 | 中 | 在报告中持续区分模拟回写、页面验证与生产 E2E |
 
-## 风险与待办
+## 6. 今日计划
+- P0：补建单站继承运营商定价且两张价格表唯一命中的 UAT 样本
+- P0：确认真实执行授权与最大自动处理阈值
+- P1：补齐确认弹窗、状态复查和异常转人工的验收步骤
+- P1：保持所有生产写动作 fail-closed
 
-- 尚未找到“单站继承运营商定价、两张价格表均唯一命中”的 UAT 样本；全量联结后候选为 0，需先补建该类测试数据。
-- IOP 实跑仍需显式执行授权及停用确认弹窗校准。
-
-## 证据
-
-- Codex 对话：`project globaldisableautomation`（2026-07-14）。
-- `global-disable-automation/L1-communication/summaries/decision-summary-2026-07-14_1359.md`
-- `global-disable-automation/L3-handoff/implementation/global-disable-automation/global-disable/workflow.js`
-- `global-disable-automation/L3-handoff/implementation/global-disable-automation/global-disable/iop-client.js`
+## 7. 备注
+> 证据来自 2026-07-14 Dashboard 日报、Codex 任务“project globaldisableautomation”及 global-disable-automation 当日设计和实现材料。

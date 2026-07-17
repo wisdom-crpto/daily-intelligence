@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-17 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-17</h1>
+    <p class="subtitle"><strong>[观察]</strong> CE 当日完成 7 个提交，建立 provenance-first 工作区、L1/L2/L3 bridge、Frank/John 权限边界及八卡首轮 source-baseline；<strong>[未解决]</strong> C1–C8 仍非已验收规格，13A/16/13C 尚不能形成已验证流程契约。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-29/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 CE 已建立可追溯工作主干；八卡仍为 source-baseline，新增材料尚未通过安全接入与 workspace validation</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">6</span><span class="meta">已完成 3 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">6</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">4</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">5</span><span class="meta">P0 3 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：<strong>[观察]</strong> CE 当日完成 7 个提交，建立 provenance-first 工作区、L1/L2/L3 bridge、Frank/John 权限边界及八卡首轮 source-baseline；<strong>[未解决]</strong> C1–C8 仍非已验收规格，13A/16/13C 尚不能形成已验证流程契约。</li><li>今日关注：<strong>[观察]</strong> 新到的本地部署材料仍处于未登记、未分类、未校验状态；workspace validation 因 checksum 覆盖、空目录及可执行原始文件等失败，且材料可能包含敏感类别，当前不从中提取实例值或业务事实。</li><li>今日目标：优先完成受控 intake、证据/缺口审计与命名人类评审闭环；保持 Dashboard 以 CE 为主线、AC/ACM 为补充证据。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">CE 主线：工作区与 L1–L3 bridge</span><span class="desc"><strong>[观察]</strong> 98b0b1d 至 ab48ab6 共 7 个当天提交，建立 raw/source/claim/decision 与 L1–L3 同步边界；M000 bootstrap、M001 hybrid spine 记录为完成的实验性里程碑</span><div class="pill-row"><span class="pill">✅ 已提交；范围仍属 CE-local 治理</span></div></div><div class="card"><span class="title">CE 主线：权限与政策</span><span class="desc"><strong>[已决定，CE-local]</strong> Frank 为人类权威，John 为其 AI 处理者，不能作为独立审核/审批/合并权威；CE AI handoff 已采用为 active-provisional 行为政策</span><div class="pill-row"><span class="pill">✅ 已记录；不等于其中业务主张已验证</span></div></div><div class="card"><span class="title">CE 主线：Dossier C1–C8</span><span class="desc"><strong>[观察/提议]</strong> 已形成八卡 overview 与 evidence-gap matrix；每卡的字段、权威源、owner、刷新与 ACL 均保留 source-reported / proposed / unresolved 标记</span><div class="pill-row"><span class="pill">推进中；未升格为知识或正式数据契约</span></div></div><div class="card"><span class="title">CE 主线：13A/16/13C</span><span class="desc"><strong>[观察]</strong> 新材料目录已到达但未登记；GAP-20260717-001 仍要求源级步骤、输入、规则、owner 与异常证据，当前映射保持 Unknown</span><div class="pill-row"><span class="pill">阻塞</span></div></div><div class="card"><span class="title">关联 AC / ACM</span><span class="desc"><strong>[观察]</strong> Project-AC、acm、global-disable-automation、deOMPlization 当天无新 Git 提交；前三者均有既存未提交改动或未跟踪材料，未据此推断今日功能完成或测试通过</span><div class="pill-row"><span class="pill">持续工作树，未形成当日验收</span></div></div><div class="card"><span class="title">Dashboard</span><span class="desc"><strong>[观察]</strong> news/pages-repo 于 07:04 有一次 Daily Intelligence 更新提交；本日报以 CE 为首要证据源进行增量刷新</span><div class="pill-row"><span class="pill">✅ 日报待本次生成</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">CE 任务定位</span><span class="desc"><strong>[对话报告]</strong> CE 被定义为将来源、规则、例外和责任边界整理为可供 FDE 消费的 context，而非直接把机器合成内容写成产品事实。</span></div><div class="card"><span class="title">只读来源与人机边界</span><span class="desc"><strong>[对话报告 / 已决定]</strong> Frank 输入采用保留来源与受控交换路径；John 是 Frank 的 AI 处理者，不能替代人类 reviewer 或 acceptance authority。</span></div><div class="card"><span class="title">八卡与流程顺序</span><span class="desc"><strong>[对话报告 / 提议]</strong> 先完成 C1–C8 证据基线，再以 13A、16、13C 的源级真实流程校准；“流程步骤 × 八卡”关系在安全接入前保持未知。</span></div><div class="card"><span class="title">AC Intelligence 覆盖</span><span class="desc"><strong>[对话报告]</strong> Dashboard 被要求恢复按项目与对话归纳；CE 此后成为主要更新目录，Project-AC/ACM 继续提供关联证据。</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：Project AC / CE Context Engineering / AC Intelligence</li><li>汇报类型：跨项目日结（增量更新）</li><li>汇报日期：2026-07-17</li><li>当前状态：🟡 CE 已建立可追溯工作主干；八卡仍为 source-baseline，新增材料尚未通过安全接入与 workspace validation</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">新材料未完成来源登记、敏感分类与 checksum 清单</span><span class="desc">不修改 CE raw、不摘录实例值；仅记录“收到待处理”，由获授权路径完成安全接入</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">Workspace validation 失败</span><span class="desc">失败类别包括大量 checksum 覆盖缺口、空目录不可证明、以及原始可执行文件；validation 未通过前不将材料作为可依赖证据</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">八卡内容主要来自机器合成 / draft 与会议转述</span><span class="desc">所有字段、owner、ACL、刷新和消费者保持 proposed 或 unresolved；需命名领域 reviewer 才能提升</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">13A/16/13C 源级流程不足</span><span class="desc">GAP-20260717-001 未关闭前，不产出已验证流程描述、字段契约或八卡映射</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">敏感保留与审计顺序存在冲突</span><span class="desc">CON-20260717-001/002 仍 open；按 fail-closed 和类别级升级处理</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">CE 与关联项目有未提交工作树</span><span class="desc">分别审阅与验证后再提交；本日报不把未提交草案或既往测试当作当天完成</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：在 CE 政策下完成新材料的敏感分类、来源登记、checksum/清单修复与可审阅范围确认；不改动 raw 原件。</li><li>P0：执行 C1–C8 evidence-and-gap audit，保留每项 source anchor 与 observed/reported/proposed/unresolved 状态。</li><li>P0：通过获授权的原始流程材料和命名操作者/领域 owner，补齐 13A/16/13C 的步骤、字段、规则、异常与人工兜底证据。</li><li>P1：指定领域 reviewer、独立审计口径、FDE 消费者与验收标准，再评估 context pack 或 handoff。</li><li>P1：持续日更 Dashboard；对 AC/ACM 仅纳入当天可观察到的提交、有效工作树和验证结果，避免把草案或历史活动重复计入。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-17-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

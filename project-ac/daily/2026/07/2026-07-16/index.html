@@ -1,2 +1,281 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>2026-07-16 项目看板</title><style>body{margin:0;background:#f3f7fc;color:#17202a;font:16px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}main{max-width:940px;margin:28px auto;padding:0 18px}.hero,.panel{background:#fff;border:1px solid #d8e3f1;border-radius:18px;padding:24px;margin-bottom:16px;box-shadow:0 10px 28px #1020400d}.tag{color:#155eef;font-weight:700;font-size:.82rem;letter-spacing:.1em}h1{margin:.3rem 0;font-size:2.2rem}h2{font-size:1.1rem;margin:0 0 .5rem}h3{font-size:1rem;margin:0 0 .35rem}.muted{color:#667085}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}.card{background:#f8fbff;border:1px solid #d8e3f1;border-radius:14px;padding:16px}.warn{color:#a15c00;font-weight:700}.good{color:#0f7b47;font-weight:700}code{font-size:.88em}a{color:#155eef}ul{padding-left:1.2rem;margin:.4rem 0}</style></head><body><main><section class="hero"><div class="tag">AC Intelligence · Latest</div><h1>2026-07-16</h1><p class="muted">开放平台保持 fail-closed；全域停用自动化完成 UAT/dry-run 收口，但真实业务调用与真实停用仍未授权。</p><p><a href="../../../../index.html">总看板</a> · <a href="../../../../latest.html">最新日报</a> · <a href="brief.md">查看完整证据摘要</a></p></section><section class="grid"><article class="card"><h2>Open API</h2><p>SDK 对齐的固定负数哨兵仍为 HTTP 500 / <code>unknown_result</code>；停止而不重试。</p></article><article class="card"><h2>授权边界</h2><p>目标 API 配额为“暂无数据”；凭据标签在网络客户端前 fail closed。</p></article><article class="card"><h2>全域停用</h2><p class="good">UAT/dry-run、锁、状态回写与逐行复查主干已审计。</p></article><article class="card"><h2>生产边界</h2><p class="warn"><code>GLOBAL_DISABLE_EXECUTE=0</code> 保持；未执行真实停用或生产钉钉写回。</p></article></section><section class="panel"><h2>跨项目结论</h2><ul><li>Dashboard 仓库有当天提交 <code>7e1b86f</code>；业务项目无当天提交，相关变更仍在工作树。</li><li>最近 7 天日报均已存在，无需补档。</li><li>验证通过不等同生产端到端成功：Open API 缺授权材料，停用自动化缺受控生产演练与运营阈值确认。</li></ul></section><section class="panel"><h2>按项目 · 完成、风险与下一步</h2><h3>deOMPlization / Open API</h3><p>完成 SDK 静态审计、固定哨兵与只读配额复核；需提供隔离测试应用、匹配凭据、配额和 IP 白名单后才允许一次受控哨兵。证据：Codex “openapi”；<code>deOMPlization/L3-handoff/implementation/2026-07-15-open-platform-probe-report.md</code>。</p><h3>ACM / global-disable-automation（OMP/IOP）</h3><p>完成 UAT/dry-run 与集成审计；19 个 Python 测试、相关 JS 语法检查通过。保持禁止真实停用，待确认最大自动停用阈值、钉钉状态字段，并补端到端演练。证据：Codex “project globaldisableautomation”；<code>acm/common/resource_lock.py</code>、<code>global-disable-automation/L3-handoff/</code>。</p><h3>Project-AC / Dashboard</h3><p>全域对话、Git 与有效工作树已汇总；数据来源与敏感信息边界见 <a href="brief.md">证据摘要</a>。</p></section></main></body></html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-16 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-16</h1>
+    <p class="subtitle">开放平台继续坚持凭据、配额和白名单未齐全即 fail-closed；全域停用自动化完成 UAT/dry-run 与生产就绪审计，但真实停用仍未授权。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-29/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 受控验证与生产就绪审计中</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">5</span><span class="meta">已完成 5 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">4</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">4</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">4</span><span class="meta">P0 2 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：开放平台继续坚持凭据、配额和白名单未齐全即 fail-closed；全域停用自动化完成 UAT/dry-run 与生产就绪审计，但真实停用仍未授权。</li><li>今日关注：区分“静态/单元验证通过”和“真实停用—确认—钉钉回写 E2E 完成”，并显式关闭任何会重复写入的降级路径。</li><li>今日目标：补齐运营阈值、状态/幂等字段与 runner 端到端测试，再单独安排受控生产演练。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">Open API</span><span class="desc">SDK 静态审计、固定负数哨兵与门户配额只读复核完成；500 后停止</span><div class="pill-row"><span class="pill">✅ 已完成</span></div></div><div class="card"><span class="title">凭据门槛</span><span class="desc">无法证明凭据成对归属时，在创建网络客户端前以 credential_labels_invalid 停止</span><div class="pill-row"><span class="pill">✅ 已完成</span></div></div><div class="card"><span class="title">全域停用自动化</span><span class="desc">共享锁、三任务映射、cron 错峰、持久化、崩溃转人工、状态复查与补写主干已核对</span><div class="pill-row"><span class="pill">审计完成</span></div></div><div class="card"><span class="title">测试验证</span><span class="desc">19 个 ACM Python 测试通过；锁/调度相关 15 个测试及语法、diff 检查通过</span><div class="pill-row"><span class="pill">✅ 已通过</span></div></div><div class="card"><span class="title">Dashboard</span><span class="desc">日报范围扩至整个 /Users/wisdom/Projects，并排除依赖、缓存与浏览器 profile 噪声</span><div class="pill-row"><span class="pill">✅ 已完成</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">Open API 授权</span><span class="desc">API 显示已发布，但目标配额仍为“暂无数据”；发布不等于已订阅或可调用</span></div><div class="card"><span class="title">自动化执行边界</span><span class="desc">GLOBAL_DISABLE_EXECUTE=0 保持不变；点击前持久化、点击后禁止重置、未知状态转人工</span></div><div class="card"><span class="title">生产就绪</span><span class="desc">单元和静态验证已通过，真实 E2E 仍需业务授权、阈值与表字段决策</span></div><div class="card"><span class="title">数据归纳</span><span class="desc">AC Intelligence 开始跨项目读取 Codex 对话、Git 与有效工作树变化</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：ACM / AC / Open API / Dashboard</li><li>汇报类型：跨项目日结补档</li><li>汇报日期：2026-07-16</li><li>当前状态：🟡 受控验证与生产就绪审计中</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">缺匹配凭据、目标订阅配额和 IP 白名单</span><span class="desc">材料齐备前不再发送请求</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">自动化尚无真实生产 E2E</span><span class="desc">保持执行开关关闭，先补端到端验收</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">最大自动处理行数和钉钉状态/幂等字段未决</span><span class="desc">建议默认 50 行，超出转人工，并由业务方确认字段</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div><div class="card"><span class="title">相关项目存在未提交工作树改动</span><span class="desc">提交前按项目分别审阅，避免把验证材料和业务代码混合</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：确认最大自动处理阈值和钉钉状态/幂等字段</li><li>P0：补 runner 与状态语义端到端测试，再安排受控生产演练</li><li>P1：接口方补齐隔离测试应用、匹配凭据、订阅配额与白名单</li><li>P1：保持 Dashboard 跨项目读取并标注证据来源</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-16-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

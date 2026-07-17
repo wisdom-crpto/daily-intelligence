@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Week 27 ACM-AC Weekly Board</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Weekly Board</div>
+    <h1>Week 27</h1>
+    <p class="subtitle">根据 Project-AC · 历史周报发布源 中的标准版与 Lite 版周报生成，覆盖 2026-07-06 至 2026-07-10。</p>
+    <div class="nav">
+      <a href="../../../index.html">总看板</a>
+      <a href="../../../latest.html">最新日报</a>
+      <a href="../../2026/week-28/index.html">当前周</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">覆盖日报</span><span class="value">5</span><span class="meta">2026-07-06 - 2026-07-10</span></div>
+    <div class="metric"><span class="label">周报来源</span><span class="value">2</span><span class="meta">Project-AC · 历史周报发布源</span></div>
+    <div class="metric"><span class="label">汇报周</span><span class="value">W27</span><span class="meta">2026</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>标准版周报</h2>
+        <h2>项目周报</h2>
+<h2>1. 基本信息</h2>
+<ul class="mini-list"><li>项目名称：#W01-运营炒菜机ACM+AC</li><li>负责人：咸芝士</li><li>所属团队：运营团队</li><li>汇报周期：Week 27（2026-07-04 至 2026-07-10）</li><li>汇报日期：2026-07-10</li><li>当前状态：🟡生产运行有波动，AC 规则与接口契约收口中</li></ul>
+<h2>2. 本周重点结论 / CEO 速读</h2>
+<ul class="mini-list"><li>一两句话结论：本周 ACM 9 个模块持续运行，VMA、SPP、SSP、SFL、Approval 总体正常；FAPS 受 12 分钟全局超时影响，BMSP、Blacklist、Fleetlines 存在间歇性网络波动。已完成 StationList 电站 ID 提取、采购价验证、历史处理窗口和多运营商查询 4 项修复。</li><li>本周完成：广告下线已适配 .right-main-box 页面结构并支持多运营商；采购价单次配置减少约 75 秒无效等待；广告下线处理窗口从 5 天扩大到 30 天。AC 侧继续明确“钉钉 MCP → Agent 规则引擎 → OMP 定制 API”目标链路。</li><li>最大卡点：FAPS 大批量任务超过全局超时后无法完整处理；网络 DNS 波动仍会造成部分请求重试。AC 侧业务场景与 OMP 接口仍缺少共同签字的可执行合同。</li><li>需要支持：ACM 研发需锁定 FAPS 分批、断点续跑和网络容错方案；OMP 研发需锁定 P016 MVP 的接口责任人、Mock / 测试接口及 v0.1 日期。</li><li>下一个里程碑：完成 FAPS 大批量分批执行与断点续跑验证，同时冻结 1 个 P016 黄金场景和字段合同 v0.1，启动 Agent 对 Mock 的并行调试。</li><li>CEO 关注：否（若 FAPS 持续影响核心任务完成，或下周仍无法锁定 OMP 接口交付节点，再升级）</li></ul>
+<h2>3. 本周关键进展</h2>
+<div class="table-wrap"><table><thead><tr><th>模块/事项</th><th>本周进展</th><th>状态</th></tr></thead><tbody><tr><td>广告下线 StationList 电站 ID 提取</td><td>StationList 使用自定义 .right-main-box 布局，原 el-table 选择器失效；现改为从文本正则提取 ID429218 格式，并排除页脚 ICP 备案号干扰</td><td>✅已修复</td></tr><tr><td>采购价验证逻辑</td><td>删除列表页 5–6 次、每次 15 秒的重复验证，直接进入采购价详情页兜底验证</td><td>✅已修复</td></tr><tr><td>采购价处理效率</td><td>单次配置减少约 75 秒无效等待，典型案例已通过详情页验证并成功导入 1 条</td><td>✅已验证</td></tr><tr><td>广告下线时间窗口</td><td>filter_today_records(days=5) 调整为 30 天，可覆盖较早的历史积压记录</td><td>✅已修复</td></tr><tr><td>多运营商查询</td><td>支持按逗号拆分多个运营商，逐个查询 StationList 后合并、去重电站 ID</td><td>✅已修复</td></tr><tr><td>AC 目标架构</td><td>保持“钉钉 MCP → Agent 规则引擎 → OMP 定制 API”方向，Playwright 作为现状基准、Shadow 对账工具和受控兜底</td><td>✅方案确认</td></tr><tr><td>AC 场景与接口契约</td><td>黄金场景、字段合同、Mock、落库回读和规则版本仍待共同冻结，真实 API 闭环尚未完成</td><td>推进中</td></tr></tbody></table></div>
+<h2>4. 本周运行数据总览</h2>
+<div class="table-wrap"><table><thead><tr><th>模块</th><th>运行次数</th><th>成功处理</th><th>失败/跳过</th><th>状态</th></tr></thead><tbody><tr><td><strong>FAPS 车队上下线</strong></td><td>2,689</td><td>2,303</td><td>3,352</td><td>🟡 部分超时</td></tr><tr><td><strong>VMA 账号创建</strong></td><td>601</td><td>120</td><td>377</td><td>🟢 正常</td></tr><tr><td><strong>SPP 采购价</strong></td><td>556</td><td>1,197</td><td>424</td><td>🟢 正常</td></tr><tr><td><strong>SSP 销售价</strong></td><td>579</td><td>1,229</td><td>910</td><td>🟢 正常</td></tr><tr><td><strong>BMSP 基准价</strong></td><td>738</td><td>287</td><td>649</td><td>🟡 网络波动</td></tr><tr><td><strong>Blacklist 广告下线</strong></td><td>170</td><td>278</td><td>119</td><td>🟡 网络波动</td></tr><tr><td><strong>Fleetlines 车队线路</strong></td><td>917</td><td>531</td><td>1,061</td><td>🟡 网络波动</td></tr><tr><td><strong>SFL 流量限制</strong></td><td>273</td><td>86</td><td>113</td><td>🟢 正常</td></tr><tr><td><strong>Approval 审批通知</strong></td><td>1,430</td><td>1,579</td><td>2,755</td><td>🟢 正常</td></tr></tbody></table></div>
+<p>&gt; 统计口径说明：部分运行会拆分为多机构、多站点或多次重试，因此“运行次数”与“成功处理 / 失败或跳过”属于不同粒度的日志计数，三列不直接相加，也暂不据此计算成功率。下周将统一 run_id、业务记录和子任务三个统计层级。</p>
+<h2>5. 本周典型处理案例</h2>
+<h3>5.1 车队上下线（FAPS）</h3>
+<p>text</p>
+<p>record=Hb11sANAQr 申请类型=上线站点 机构数=32 站点数=1</p>
+<ul class="mini-list"><li>集丰运输: 成功（部分已存在已忽略）</li><li>顺宝供应链: 非自动配置导入成功</li><li>广俊物流: 非自动配置导入成功</li><li>新亚新能源: 白名单、黑名单导入成功</li><li>航诺物流1: 白名单、黑名单导入成功</li><li>钢联供应链: 非自动配置导入成功</li><li>[超时] 已运行12.2分钟，超过全局超时限制</li></ul>
+<p></p>
+<p>结论：单条申请可包含大量机构，已有成功结果，但在整体完成前触发全局超时；需要分批、保存进度并从未完成机构继续执行。</p>
+<h3>5.2 账号创建（VMA）</h3>
+<p>text</p>
+<p>--- [1/1] 庄旺车队 ---</p>
+<p>前置检查: 搜索「庄旺车队」是否已存在... 未找到</p>
+<p>创建主账号: ZWCD302</p>
+<p>结果: 成功，主账号已创建，钉钉回写成功（密码已脱敏）</p>
+<p></p>
+<p>结论：创建前查重、账号创建和钉钉回写链路正常。</p>
+<h3>5.3 采购价配置（SPP）</h3>
+<p>text</p>
+<p>record=uwEpPtmtul 机构=集峰物流 站点数=1</p>
+<ul class="mini-list"><li>车队ID: 109928</li><li>导入文件: 统一折扣 1行数据</li><li>采购价详情页兜底验证通过</li><li>结果: 成功，导入1条</li></ul>
+<p></p>
+<p>结论：移除列表页重复验证后，详情页兜底能够完成结果确认，并减少无效等待。</p>
+<h2>6. 风险、已知问题与协同推进</h2>
+<h3>6.1 已知问题</h3>
+<div class="table-wrap"><table><thead><tr><th>问题</th><th>影响</th><th>应对措施</th><th>状态</th></tr></thead><tbody><tr><td>网络 DNS 解析失败</td><td>BMSP、Blacklist、Fleetlines 等模块部分请求失败并进入重试</td><td>增加指数退避、失败分类和网络恢复后的断点重试；继续监控发生频次</td><td>间歇性，当前已恢复</td></tr><tr><td>FAPS 全局超时（12 分钟）</td><td>大批量机构无法在一次运行内完整处理，已完成部分与未完成部分容易混在同一记录中</td><td>按机构分批、记录 checkpoint、支持断点续跑，并区分“部分完成”与“全部完成”</td><td>待优化</td></tr><tr><td>采购价列表验证耗时</td><td>单次配置额外等待约 75 秒</td><td>已删除列表页重复重试，直接使用详情页兜底验证</td><td>✅已修复</td></tr><tr><td>日志统计粒度不统一</td><td>无法用现有三列直接计算模块成功率，管理判断可能失真</td><td>统一运行、业务记录、子任务三级指标，并拆分失败、已存在跳过和重试</td><td>待规范</td></tr><tr><td>AC 场景与 OMP 接口互相等待</td><td>Agent 无稳定合同可调试，OMP 研发也缺少明确验收场景</td><td>先冻结 1 个黄金场景和字段合同，由 OMP 提供同契约 Mock，Agent 并行调试</td><td>推进中</td></tr><tr><td>API 超时后直接切 Playwright</td><td>请求可能已落库，二次执行存在重复写入风险</td><td>先按幂等键或 requestId 查询最终状态；状态未知时转人工，不自动二次写入</td><td>待设计</td></tr></tbody></table></div>
+<h3>6.2 协同推进</h3>
+<div class="table-wrap"><table><thead><tr><th>事项</th><th>对接方</th><th>推进方式</th><th>目标时间</th></tr></thead><tbody><tr><td>FAPS 分批与断点续跑</td><td>ACM 研发</td><td>以机构为最小执行单元，记录已完成清单和未完成游标</td><td>下周</td></tr><tr><td>网络容错</td><td>ACM 研发 / 基础设施</td><td>统计 DNS 错误频次，增加退避、重试上限和恢复续跑</td><td>下周</td></tr><tr><td>日志指标统一</td><td>ACM 研发 / 业务</td><td>统一 run_id、record、subtask 的定义与结果状态</td><td>下周</td></tr><tr><td>P016 黄金场景与字段合同</td><td>业务 / OMP 研发 / Agent 研发</td><td>明确输入、规则输出、API 参数、落库回读、幂等和错误码</td><td>下周 P0</td></tr><tr><td>OpenAPI + Mock / 测试接口</td><td>OMP 研发</td><td>按字段合同提供可调用模拟接口和状态查询能力</td><td>下周 P0</td></tr></tbody></table></div>
+<h2>7. 下周计划</h2>
+<ul class="mini-list"><li>持续监控 9 个模块运行状态，重点观察 FAPS 超时以及 BMSP、Blacklist、Fleetlines 的网络错误</li><li>优化 FAPS 全局超时机制，完成按机构分批、checkpoint 和断点续跑验证</li><li>增加网络容错机制，区分 DNS、超时、业务失败与可安全重试场景</li><li>统一运行次数、业务记录、子任务、成功、失败、跳过和重试的统计口径</li><li>冻结 1 个 P016 黄金场景和字段合同 v0.1，推动 OMP 提供 Mock / 测试接口</li><li>Agent 先接 Mock 调试规则；无法唯一推导时进入 need_review，真实落库回读一致后才标记 done</li></ul>
+<h2>8. 与上周相比的变化</h2>
+<ul class="mini-list"><li>新增：StationList 自定义页面解析、多运营商查询、30 天历史处理窗口和采购价详情页直达验证。</li><li>改善：采购价单次配置减少约 75 秒无效等待；广告下线可以覆盖历史积压和多运营商场景。</li><li>风险：FAPS 大批量处理暴露 12 分钟全局超时问题；网络 DNS 波动仍会影响多个模块。</li><li>AC 专项：目标架构已明确，当前继续推进黄金场景、字段合同、Mock、规则调试和落库回读闭环。</li></ul>
+      </section>
+      
+      <section class="panel">
+        <h2>Lite 版</h2>
+        <h2>项目周报</h2>
+<ul class="mini-list"><li>项目名称：#W01-运营炒菜机ACM+AC</li><li>负责人：咸芝士</li><li>日期：W27（2026-07-04 至 2026-07-10）</li><li>状态：🟡生产运行有波动，AC 规则与接口契约收口中</li></ul>
+<h2>本周重点结论 / CEO 速读</h2>
+<ul class="mini-list"><li>一两句话结论：本周 ACM 9 个模块持续运行，VMA、SPP、SSP、SFL、Approval 总体正常；FAPS 存在 12 分钟全局超时，BMSP、Blacklist、Fleetlines 受到间歇性网络波动影响。已完成 4 项针对性修复。</li><li>本周完成：修复 StationList 电站 ID 提取和多运营商查询；广告下线窗口从 5 天扩大到 30 天；采购价取消列表页重复验证，单次减少约 75 秒等待。</li><li>最大卡点：FAPS 大批量机构无法在一次运行中完整处理；网络 DNS 波动仍会触发失败重试。AC 场景与 OMP 接口仍缺少共同验收合同。</li><li>需要支持：ACM 研发锁定 FAPS 分批、断点续跑和网络容错；OMP 研发锁定 P016 接口 owner、Mock / 测试接口和 v0.1 日期。</li><li>下一个里程碑：完成 FAPS 分批续跑验证，并冻结 1 个 P016 黄金场景和字段合同 v0.1。</li><li>CEO 关注：否（若核心任务持续受超时影响，或下周仍无法锁定 OMP 接口节点，再升级）</li></ul>
+<h2>本周运行数据</h2>
+<div class="table-wrap"><table><thead><tr><th>模块</th><th>运行次数</th><th>成功处理</th><th>失败/跳过</th><th>状态</th></tr></thead><tbody><tr><td><strong>FAPS 车队上下线</strong></td><td>2,689</td><td>2,303</td><td>3,352</td><td>🟡 部分超时</td></tr><tr><td><strong>VMA 账号创建</strong></td><td>601</td><td>120</td><td>377</td><td>🟢 正常</td></tr><tr><td><strong>SPP 采购价</strong></td><td>556</td><td>1,197</td><td>424</td><td>🟢 正常</td></tr><tr><td><strong>SSP 销售价</strong></td><td>579</td><td>1,229</td><td>910</td><td>🟢 正常</td></tr><tr><td><strong>BMSP 基准价</strong></td><td>738</td><td>287</td><td>649</td><td>🟡 网络波动</td></tr><tr><td><strong>Blacklist 广告下线</strong></td><td>170</td><td>278</td><td>119</td><td>🟡 网络波动</td></tr><tr><td><strong>Fleetlines 车队线路</strong></td><td>917</td><td>531</td><td>1,061</td><td>🟡 网络波动</td></tr><tr><td><strong>SFL 流量限制</strong></td><td>273</td><td>86</td><td>113</td><td>🟢 正常</td></tr><tr><td><strong>Approval 审批通知</strong></td><td>1,430</td><td>1,579</td><td>2,755</td><td>🟢 正常</td></tr></tbody></table></div>
+<p>&gt; 说明：运行次数与成功、失败或跳过来自不同粒度的日志计数，不直接相加，也暂不据此计算成功率。</p>
+<h2>本周关键修复</h2>
+<ul class="mini-list"><li><strong>广告下线电站 ID</strong>：适配 .right-main-box，正则提取 ID429218 格式并排除 ICP 备案号。</li><li><strong>采购价验证</strong>：取消列表页 5–6 次重复等待，直接走详情页兜底，单次节省约 75 秒。</li><li><strong>历史处理窗口</strong>：广告下线由近 5 天扩大到 30 天。</li><li><strong>多运营商</strong>：支持逗号拆分、逐个查询、合并并去重电站 ID。</li></ul>
+<h2>典型案例</h2>
+<ul class="mini-list"><li>FAPS：一条申请包含 32 个机构，多家已成功导入，但运行 12.2 分钟后触发全局超时，需分批和断点续跑。</li><li>VMA：庄旺车队完成前置查重、主账号创建和钉钉回写；账号密码已脱敏。</li><li>SPP：集峰物流采购价导入 1 条，详情页兜底验证通过。</li></ul>
+<h2>风险与应对</h2>
+<ul class="mini-list"><li>FAPS 全局超时（高）→ 按机构分批，记录 checkpoint，支持从未完成机构继续。</li><li>DNS 网络波动（中）→ 增加指数退避、失败分类、重试上限和恢复续跑。</li><li>日志口径不统一（中）→ 统一运行、业务记录、子任务三级指标，并拆分失败、已存在跳过和重试。</li><li>AC 场景与接口互等（高）→ 冻结 1 个黄金场景和字段合同，OMP 提供同契约 Mock，Agent 并行调试。</li><li>API 超时后的重复执行（中）→ 先查询最终状态，未知时转人工，不自动切 Playwright 二次写入。</li></ul>
+<h2>下周计划</h2>
+<ul class="mini-list"><li>持续监控 9 个模块，重点关注 FAPS 超时和网络波动模块</li><li>完成 FAPS 分批处理、checkpoint 和断点续跑验证</li><li>增加 DNS、超时和可安全重试场景的容错机制</li><li>统一运行、记录、子任务、成功、失败、跳过和重试口径</li><li>冻结 P016 黄金场景和字段合同 v0.1，推动 OMP 提供 Mock / 测试接口</li></ul>
+<h2>与上周相比</h2>
+<ul class="mini-list"><li>新增：StationList 新布局解析、多运营商、30 天窗口、采购价详情页直达验证。</li><li>改善：采购价单次减少约 75 秒等待，广告下线覆盖范围扩大。</li><li>风险：FAPS 大批量超时和间歇性 DNS 波动仍需治理。</li><li>AC 专项：继续推进黄金场景、字段合同、Mock、规则调试和落库回读。</li></ul>
+      </section>
+
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>周报源文件</h2>
+        <div class="cards"><a class="card" href="summary.md"><span class="title">标准版周报</span><span class="meta">weekly-report-ACM-w27-standard.md</span></a><a class="card" href="lite.md"><span class="title">Lite 版周报</span><span class="meta">weekly-report-ACM-w27-lite.md</span></a></div>
+      </section>
+      <section class="panel">
+        <h2>本周日报</h2>
+        <div class="cards"><a class="card" href="../../../daily/2026/07/2026-07-06/index.html"><span class="title">2026-07-06 日看板</span><span class="meta">点击查看当天细节</span></a><a class="card" href="../../../daily/2026/07/2026-07-07/index.html"><span class="title">2026-07-07 日看板</span><span class="meta">点击查看当天细节</span></a><a class="card" href="../../../daily/2026/07/2026-07-08/index.html"><span class="title">2026-07-08 日看板</span><span class="meta">点击查看当天细节</span></a><a class="card" href="../../../daily/2026/07/2026-07-09/index.html"><span class="title">2026-07-09 日看板</span><span class="meta">点击查看当天细节</span></a><a class="card" href="../../../daily/2026/07/2026-07-10/index.html"><span class="title">2026-07-10 日看板</span><span class="meta">点击查看当天细节</span></a></div>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
