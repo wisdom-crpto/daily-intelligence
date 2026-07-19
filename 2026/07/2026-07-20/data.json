@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-20",
+  "generated_at": "2026-07-19T23:04:25.047803+00:00",
+  "model": "glm-5.1",
+  "mode": "model",
+  "thesis": "AI的叙事正从“能力跃迁”转向“责任与落地约束”，而宏观层面的“K型分化”意味着：仅有技术突破不足以支撑估值，跨越商业化鸿沟且规避系统性资源错配的经济体才能胜出。",
+  "summary": "- **AI**：研究发现AI建议使人准确率降3倍但自信度增2倍[A22]，同时仅26%企业实现AI运营化[B22]，暴露出严重的“能力-信任”错位与落地鸿沟。 - **商业**：WAIC 2026展现300款首发[A18]，但北大教授警示AGI需社会智能且不应照搬美国路线[A12]，商业化提速与学术冷思考并存。 - **宏观**：穆迪警告AI繁荣导致全球经济K型分化[B15]，韩国央行警示半导体繁荣引发“荷兰病”[B13]，技术驱动的增长正加剧结构性失衡。",
+  "relative_html": "2026/07/2026-07-20/Daily%20Intelligence.html",
+  "markets": [
+    {
+      "name": "Nasdaq",
+      "symbol": "^IXIC",
+      "value": 25520.2402,
+      "change_pct": -1.4,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+      "interpretation": "风险偏好降温"
+    },
+    {
+      "name": "黄金",
+      "symbol": "GC=F",
+      "value": 4001.0,
+      "change_pct": -0.29,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+      "interpretation": "中性"
+    },
+    {
+      "name": "原油",
+      "symbol": "CL=F",
+      "value": 84.05,
+      "change_pct": 1.89,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+      "interpretation": "通胀压力上升"
+    },
+    {
+      "name": "美元指数",
+      "symbol": "DX-Y.NYB",
+      "value": 100.839,
+      "change_pct": 0.09,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+      "interpretation": "中性"
+    },
+    {
+      "name": "十年美债收益率",
+      "symbol": "^TNX",
+      "value": 4.541,
+      "change_pct": -0.61,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+      "interpretation": "利好久期资产"
+    },
+    {
+      "name": "BTC",
+      "symbol": "BTC-USD",
+      "value": 64606.0898,
+      "change_pct": -0.29,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+      "interpretation": "中性"
+    },
+    {
+      "name": "VIX",
+      "symbol": "^VIX",
+      "value": 18.77,
+      "change_pct": 12.19,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+      "interpretation": "避险升温"
+    },
+    {
+      "name": "NVIDIA",
+      "symbol": "NVDA",
+      "value": 202.81,
+      "change_pct": -2.21,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/NVDA",
+      "interpretation": "风险偏好降温"
+    }
+  ],
+  "topics": [
+    "AI",
+    "technology",
+    "business",
+    "macro"
+  ],
+  "quote": {
+    "english": "The essence of strategy is choosing what not to do.",
+    "speaker": "Michael Porter",
+    "chinese": "战略的本质不是做更多事，而是清楚地决定哪些事不做。"
+  },
+  "sources": {
+    "ai": [
+      {
+        "title": "AI should have senior lawyers sharpening their hunting spears",
+        "summary": "Article URL: https://www.ft.com/content/905e18e6-f054-4995-b5a7-0ff52a65ae57 Comments URL: https://news.ycombinator.com/item?id=48972403 Points: 1 # Comments: 0",
+        "url": "https://www.ft.com/content/905e18e6-f054-4995-b5a7-0ff52a65ae57",
+        "published": "Sun, 19 Jul 2026 22:51:36 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T22:51:36+00:00"
+      },
+      {
+        "title": "Advanced Micro Devices vs. Navitas Semiconductor: Here's What The Quarterly Revenue Trends of These Artificial Intelligence Companies Reveal to Investors - The Motley Fool",
+        "summary": "Advanced Micro Devices vs. Navitas Semiconductor: Here's What The Quarterly Revenue Trends of These Artificial Intelligence Companies Reveal to Investors    The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxObHJZOU5WRENJS0pVdkZ3M0JHYlNCaDl2aWVtRXNibF9SS2JrVWk3T0ttaWt6Tjl3R1l4U2VKOXEyeXJZTjhWcFdPUFNCX1ZpbFl6dnNNT0p0dUdfUVRILWl6TWxzMF9aSWdzS0g0M3liM2ljbWRiaGFtY1RYTndTZ2E2TE1YcmotMUpoLTYtMm9ZTjBCeTcwVDlOaW1NZE5NLUVxa0VfRXBzRzZGaUxUMFVaRjJoVmU2VXkwWUpwUXB1Vkh0RUJOUlVOd1pwLWhzbHNoUGdBMHpyWTZucW8xUzdIWGpqTDhaS3E2bHdsaXJkNHZsSVBqdUVrVTk1N3FnRV9MRzJNT0RzYWRYc1IyelYwTThQdWFfVFhscHJRc2Jhb1I0WmtN?oc=5",
+        "published": "Sun, 19 Jul 2026 22:51:33 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-19T22:51:33+00:00"
+      },
+      {
+        "title": "Pastors Using AI to Help Write Sermons Grapple with Where to Draw the Line",
+        "summary": "Article URL: https://www.wsj.com/tech/ai/pastors-using-ai-to-help-write-sermons-grapple-with-where-to-draw-the-line-97dcd1f9 Comments URL: https://news.ycombinator.com/item?id=48972386 Points: 1 # Comments: 1",
+        "url": "https://www.wsj.com/tech/ai/pastors-using-ai-to-help-write-sermons-grapple-with-where-to-draw-the-line-97dcd1f9",
+        "published": "Sun, 19 Jul 2026 22:48:09 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T22:48:09+00:00"
+      },
+      {
+        "title": "趵眼 | AI如何深入城市肌理？济南企业亮相世界人工智能大会 - 搜狐网",
+        "summary": "趵眼 | AI如何深入城市肌理？济南企业亮相世界人工智能大会    搜狐网",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTnFjZllQYUlPdXlOM0E4MnhPcmsxSXhSck12UUZVbzNtaVJNLS1wc3lqNGNiZExKS0lLWW8yWjhVY1ZoblRKME9xaW8wblpFSTRSbXNBcEMyQmxxTm15UzcxdzhMc3R4ZVpkbzFabUhGWDRybE95dk1vYkpCVy1XMmhUZE9ZUHZadzdYMg?oc=5",
+        "published": "Sun, 19 Jul 2026 22:45:06 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:45:06+00:00"
+      },
+      {
+        "title": "Show HN: A self-hosted AI that turns Hacker News into a daily briefing",
+        "summary": "Hi everyone, I read HN every day, but there was always more great content than I had time to read. I know there are already several HN summarizers on GitHub, and I tried some of them. They just didn't fit the workflow I wanted, so I decided to build my own. My project is a self-hosted app that automatically fetches top stories, summarizes them with AI, translates them into your preferred language, and prepares a personalized daily briefing in a nice customizable UI while you sleep. Maybe I'm not the only one who wanted this kind of workflow. I'd love to hear your thoughts, especially on what you think an ideal HN summarizer should do. Comments URL: https://news.ycombinator.com/item?id=48972350 Points: 1 # Comments: 0",
+        "url": "https://github.com/RecNes/hn-ai-summarizer",
+        "published": "Sun, 19 Jul 2026 22:40:57 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T22:40:57+00:00"
+      },
+      {
+        "title": "Show HN: Rate A Human – AI agents review the humans they work for",
+        "summary": "Every day we rate how models fare against each other for specific use cases, so I thought: what if the roles were reversed? What if models could rate us — like Yelp, but the AI agents are the ones leaving the reviews. Try it out and let me know what rating your model gives you. https://rateahuman.xyz Comments URL: https://news.ycombinator.com/item?id=48972330 Points: 1 # Comments: 0",
+        "url": "https://rateahuman.xyz/",
+        "published": "Sun, 19 Jul 2026 22:38:41 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T22:38:41+00:00"
+      },
+      {
+        "title": "Tripplet AI – a new era of smarter AI",
+        "summary": "Article URL: https://www.getsonoma.lol/ Comments URL: https://news.ycombinator.com/item?id=48972291 Points: 1 # Comments: 0",
+        "url": "https://www.getsonoma.lol/",
+        "published": "Sun, 19 Jul 2026 22:34:20 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T22:34:20+00:00"
+      },
+      {
+        "title": "We built an open-source static AI risk analyzer in 5 days using AI coding agents",
+        "summary": "Article URL: https://github.com/ikaruscareer/SafeAI Comments URL: https://news.ycombinator.com/item?id=48972271 Points: 1 # Comments: 0",
+        "url": "https://github.com/ikaruscareer/SafeAI",
+        "published": "Sun, 19 Jul 2026 22:32:46 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T22:32:46+00:00"
+      },
+      {
+        "title": "Meet The Companies Shelling Out for Top AI Models",
+        "summary": "Article URL: https://www.wsj.com/cio-journal/meet-the-companies-shelling-out-for-top-ai-models-e1fe3375 Comments URL: https://news.ycombinator.com/item?id=48972270 Points: 1 # Comments: 0",
+        "url": "https://www.wsj.com/cio-journal/meet-the-companies-shelling-out-for-top-ai-models-e1fe3375",
+        "published": "Sun, 19 Jul 2026 22:32:38 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T22:32:38+00:00"
+      },
+      {
+        "title": "通过聚合破除AI 幻觉，物理智能要“把人还给人”|讲堂视频 - 新浪网",
+        "summary": "通过聚合破除AI 幻觉，物理智能要“把人还给人”|讲堂视频    新浪网",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcVI3UTczU0g3d1R1TEZXSWFrcHFYenIycTdPQ0JQemcyRGYtQURhUHdScTZBLWdZcHBkX3VsZEx6WnYxZFZhSkZpLWw5WjRfMzhXV3FHREJxNHBKWUZsdHpGWU4zWWVoU0lyX2tPZEtwWlpsTk0zRWI2dkwwR09XM2pOdVF0OC01U1VhSTdMaWNCOE5xbktybm1oLW53Q2R3UmVQNUk1U1hBcnJDUkdlTW9n?oc=5",
+        "published": "Sun, 19 Jul 2026 22:24:20 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:24:20+00:00"
+      },
+      {
+        "title": "首发首秀密集亮相！世界人工智能大会前沿AI创新成果一览 - 21财经",
+        "summary": "首发首秀密集亮相！世界人工智能大会前沿AI创新成果一览    21财经",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUm43WkVEc0V3T1ZlblV3WXJncEpaMnMzaloxMXhIUDlXT1dzYklaNnlkOW5jRnhTWjRENzRlUnJXV1dIcXFaSmFuWEtPSkZkc01NTEdETUt4UnVyS2plNmlrY04wRHk3Rm9tN2pMaDltSjJ1Q0hZdHB1cjI0TDNQa0c2TGRnTTE3Q2E3dg?oc=5",
+        "published": "Sun, 19 Jul 2026 22:21:00 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:21:00+00:00"
+      },
+      {
+        "title": "北大教授给“AI神话”泼冷水：AGI离不开社会智能，不用照搬美国技术路线 - 手机新浪网",
+        "summary": "北大教授给“AI神话”泼冷水：AGI离不开社会智能，不用照搬美国技术路线    手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZbU5icy1rZExzeS1EMnl5eDJYajlBMjI4TmFpWWktR1VmNmlnSUltNTROVEk5eGJ0WkJLTXpXLXlsV2ZIU3I2QXQtNWVhTzNKTFgybUk2T0VLM2w0WGt2dm1qc29henBjQzF2bE1zR2RqcXFNYVFUWW1MTEFMMmc?oc=5",
+        "published": "Sun, 19 Jul 2026 22:18:55 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:18:55+00:00"
+      },
+      {
+        "title": "公募探营世界人工智能大会 AI产业商业化落地进程提速 - 搜狐网",
+        "summary": "公募探营世界人工智能大会 AI产业商业化落地进程提速    搜狐网",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGVsY1FuaTh4UjFhakg2b2lCcEtzY3E3enN1aFRLYzVqaXF6dVBwSmxtSzV4WEsxcnZPZThKX0FVTDd3VVlyOVRrS0V6X3FDQkZYanJUU3dHSVBqMllSY2t1RE1RQmlLdE1RVEJJMXQtcDFtcWl4YnlrV1dOX0FLWmVMQXZBbVJu?oc=5",
+        "published": "Sun, 19 Jul 2026 22:18:52 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:18:52+00:00"
+      },
+      {
+        "title": "直击WAIC上的青岛企业：AI加速成为“真实生产力” - 青岛日报",
+        "summary": "直击WAIC上的青岛企业：AI加速成为“真实生产力”    青岛日报",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9tRDZUcm1XSVN2Z3ZiTjFoY3lWelhYU1VRTG1FZi1GNXJnVVppR1VxLTkybzZIbmZfbzgyeDZTMTYtb2RtRzBoVzNQT2NRdE0yb3BDMzljc2w?oc=5",
+        "published": "Sun, 19 Jul 2026 22:15:10 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:15:10+00:00"
+      },
+      {
+        "title": "北大教授给“AI神话”泼冷水：AGI离不开社会智能，不用照搬美国技术路线 - 搜狐网",
+        "summary": "北大教授给“AI神话”泼冷水：AGI离不开社会智能，不用照搬美国技术路线    搜狐网",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSGJxMFE1S3ZsOUFXandBLVMzU0VEa1dTWTRTVVdaaDB5ZFRCYzNjbV9NSzZRUEV5c2NaeU1ic0pnbDRsOHV2SDR4c2pzS3FNUlhBNEY5cTZ3bE1OcWFUd1otV2xaSjZOX2pfWkFReXJ0SEFHdGRKemdOZmpkcHVOZWYzdEtCbzFweVR3cQ?oc=5",
+        "published": "Sun, 19 Jul 2026 22:11:03 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:11:03+00:00"
+      },
+      {
+        "title": "智能走向自主亟须定义AI责任边界 - 手机新浪网",
+        "summary": "智能走向自主亟须定义AI责任边界    手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2UlNRM1FURlYxQ1RhZVRCSmlhZ29WZGpfa2txeVp4SzdXZzRLSHRYN3lKMklSWC0zMlJINy16SkdFSVlqN2hjNzloNXBzeV9SM28xTmkzVWNJX2FFUHVLM3JJSXRvd1hESFBDX1JkX2FBNXZHRFo5N0lYbHRzYnM?oc=5",
+        "published": "Sun, 19 Jul 2026 22:09:44 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:09:44+00:00"
+      },
+      {
+        "title": "世界人工智能大会的举办对人工智能行业的发展有哪些影响？ - 手机新浪网",
+        "summary": "世界人工智能大会的举办对人工智能行业的发展有哪些影响？    手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lY2ZXdXZCZWRuMnY1dkxZbXBDakFGVzEtQWk1MjVNQWxHSE9GQjdfQk1RQXV6UGJBUU1iS3o3WDJDYWlNUWIwS1hsZnZIVVdhcUdZUTZfaTN2aC1MV2xUbFBwZDhXYXNFb08yVnRCR0diNDlxd2ZHQ1ZyS2tiTUE?oc=5",
+        "published": "Sun, 19 Jul 2026 22:08:14 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:08:14+00:00"
+      },
+      {
+        "title": "300款全球首发！2026世界人工智能大会亮点全揭秘 - 手机新浪网",
+        "summary": "300款全球首发！2026世界人工智能大会亮点全揭秘    手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kaTZ0dThLNjFES3NFNHBTcjFnNUpYZ1NzVTB1dHJGQlNCdGMzUUh6OUUwQkxfUWgwZ2ZMbm03ZHpXX3VEUU5wbm0wRWZBQlVyS3o5NTI0a3dVcUNiNmgzdklUOW1sVmU5SG5vMnNmM08wYUU2dGhtQUhrS0RpZk0?oc=5",
+        "published": "Sun, 19 Jul 2026 22:03:00 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T22:03:00+00:00"
+      },
+      {
+        "title": "教育如何应对人工智能大考（解码·教育优质均衡发展） - 人民网教育",
+        "summary": "教育如何应对人工智能大考（解码·教育优质均衡发展）    人民网教育",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mUVQ0WUtmaldQVW1uT3dKNVFKek5rN05ENlJHcmxZLW1DVTZuN0NiTmRiZ095NVRYVVltcGdJZ1ZQT0ptTGxxVWRkbzZMbFM1aFFVcmEwTXM2ajdSMjRqUmNpZnY0WHRs?oc=5",
+        "published": "Sun, 19 Jul 2026 21:54:00 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T21:54:00+00:00"
+      },
+      {
+        "title": "AI赋能核能，全球首创技术路线在WAIC2026上发布 - 新浪网",
+        "summary": "AI赋能核能，全球首创技术路线在WAIC2026上发布    新浪网",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY05wSG90MDVvUWdUMHl3ejNqMGZZQWtEb2NuRk9pbGJWaTlnME1FWDByYjBVb1dUY2dBbGVvQWg5NlBFNDhfbnJ1NFZIeS1Td3hEajYyb1JIYmVjVElobklzVVc5UzFfdHc1RlpnZ1czOTk4UlhvQks2M1M0YWdDWnpHSkV4emxtaWx1TmlqVnpZN3BTOGpkWVY2RlBuN1dFM3NMVjJ3Q3NvaFlEbjFGVWpn?oc=5",
+        "published": "Sun, 19 Jul 2026 21:48:11 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T21:48:11+00:00"
+      },
+      {
+        "title": "Is AI Progress Real? Four Independent Metrics Show It",
+        "summary": "Article URL: https://skepticcto.substack.com/p/is-ai-progress-real-a-skepticcto Comments URL: https://news.ycombinator.com/item?id=48971910 Points: 2 # Comments: 0",
+        "url": "https://skepticcto.substack.com/p/is-ai-progress-real-a-skepticcto",
+        "published": "Sun, 19 Jul 2026 21:39:09 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T21:39:09+00:00"
+      },
+      {
+        "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
+        "summary": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 93 # Comments: 35",
+        "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+        "published": "Sun, 19 Jul 2026 21:18:10 +0000",
+        "source": "Hacker News · AI",
+        "_date": "2026-07-19T21:18:10+00:00"
+      },
+      {
+        "title": "当好AI的“启蒙老师” - 手机新浪网",
+        "summary": "当好AI的“启蒙老师”    手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUE9vWEU4ZHg5V1NKTGN0NXdSWC1uZGdkSGJEQzBLa21pVkhaT2lLWFpDa1BUWEctd0V2bnJBRzNhQTlCMHB1UW1tZDVJa3N5UG1STlhaRWpJTHNFaFA2UEx2c3E2Vm9jM1NMSHJTVTlRMFBkVmJ0MjBFUk1heXNLY0x3?oc=5",
+        "published": "Sun, 19 Jul 2026 21:16:44 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T21:16:44+00:00"
+      },
+      {
+        "title": "共探AI产业新机遇，共建智能时代新生态 - 手机新浪网",
+        "summary": "共探AI产业新机遇，共建智能时代新生态    手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xWTVwOXQ0QTBNV3lVUF81T2pyODBYSTNDY2E5bTdtZEJxaUx2aHRTTE9HMkRkbkExX0Q1aVl2NnN5dlBoM1BCUXl0bTJiZ0FVQVBObS1rbjJFVGZEVGZVUnNjRGhPY3pZRW04NnctR2hQZw?oc=5",
+        "published": "Sun, 19 Jul 2026 21:16:00 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-19T21:16:00+00:00"
+      }
+    ],
+    "business_macro": [
+      {
+        "title": "China expands offshore RMB market - Borneo Bulletin",
+        "summary": "China expands offshore RMB market    Borneo Bulletin",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YZXlsdUFhRk81REZwTXoyVFJOU3FMa2lZVDV6U1M5NGI5bGFPaTl5MXhOaWktQ0U2eW15NThwbzZBUVpyNElMQ085S045TWVlTHF3QTZlYnIzUlgzZFpvRHZWZ2thWmszajdyXzg5eVhvdw?oc=5",
+        "published": "Sun, 19 Jul 2026 21:07:58 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T21:07:58+00:00"
+      },
+      {
+        "title": "NSW startups secure $1 million boost to turn ideas into jobs and growth - Marine Business News",
+        "summary": "NSW startups secure $1 million boost to turn ideas into jobs and growth    Marine Business News",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZEZxZ0JBbmxJUk9CVEVzTzBtVF9YVFo3S21xQ1FkVDQ3bEIzVVlHQmRrQ1p6QU56UkdhTFA2UkhkRDlFODU2Vk1ZU2F3MXRvcGJZWDM2bTB0aTJZaGQ2RlRkbnd4bHZvMGhEcWZGWGdtZkJoNkhMYUxnMGZJbmhISG9EQlVCQU1VRi11NVc5M2M2NXdvMVhyTV9pVmUxaGJkcV9pRFVQR3I2eDk3dkk1cERCdFFVNXdn?oc=5",
+        "published": "Sun, 19 Jul 2026 21:05:43 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-19T21:05:43+00:00"
+      },
+      {
+        "title": "Advantech stock trades steadily as industrial AI and edge computing support long term growth - ad-hoc-news.de",
+        "summary": "Advantech stock trades steadily as industrial AI and edge computing support long term growth    ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdXdvc1IwV1F0ZGZiSWZQWUREODF3YUdlaHRnMWlWcmhYdjluZ0lGcUc1emVrZExkZWVqbU9aWE1oeHVUcWRudDRBNk9hNkdpcEsydGRSby1KQUtncHByTUszWnpSMVpXRWtMX29jLVBJRWlGc205anczMDd5UHc2ZWFiMy0xc1E3MkhPMFJveGVyRWlWVzBqYXEzZTg3R3pjNHRqeFdpZEtZanVReXZOa05zVVZLb0lDQ1hlbWRaakVLbGda?oc=5",
+        "published": "Sun, 19 Jul 2026 19:43:56 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-19T19:43:56+00:00"
+      },
+      {
+        "title": "India Becomes World’s Fourth-Largest Economy, Surpasses Japan in 2026 GDP Rankings - ascendants.in",
+        "summary": "India Becomes World’s Fourth-Largest Economy, Surpasses Japan in 2026 GDP Rankings    ascendants.in",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yR2x4T05YdFc3UTNFdS1iOVNxUERYZFg3ZG9Ca1NrRnNfYW1UU0NkM1FKYktuSzJiZHItTDFVaEt4SjZkVUlqcG50N3MzalFaNXZSVmFBem95ODRXMWJuQUQ4M3BPVTUyRkZZcjRNdkFnQQ?oc=5",
+        "published": "Sun, 19 Jul 2026 19:03:41 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-19T19:03:41+00:00"
+      },
+      {
+        "title": "Israel’s Iran military campaign rattles oil markets and sends crypto volatility surging - Crypto Briefing",
+        "summary": "Israel’s Iran military campaign rattles oil markets and sends crypto volatility surging    Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLThsSlhxTTkzczFnQlpvcjdZZkJ2SWhCcW1obXhIOUpWb216U2Yta25MdFJhSEVyZVF1QnVrZXVTUUd5dF9FRXV6ekMtb0xDbUdjRXJTNjdieVBGNy1nYi1Bd1V5UElpdXg2MEVsYWRJVG8xZU00M1UwTmExY25oSDdkejU?oc=5",
+        "published": "Sun, 19 Jul 2026 18:53:40 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T18:53:40+00:00"
+      },
+      {
+        "title": "Canada’s soft robotics research is moving from laboratory novelty to business tool - Digital Journal",
+        "summary": "Canada’s soft robotics research is moving from laboratory novelty to business tool    Digital Journal",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeTIyVHdtTG1PekVzT3BBODVmbjdLYTVCay1WcXNRYl9fX21UWTVQWFVOZGdWemhwVjN2ZjBkQVdMUzdnckRxVUdxX1FkeWVoLWxkb2tBMjdiSnJFVUx3SHdKTFZWUnZXQkRYakZiNTQ4azJMdVd2TEpvamtjVlMyVlFqNndjcFItSVpiSFRFa0tTSXEwdHA4cHdpTzdJekc4UEZ1VGRrakVkdE1NZS1tRk9TRjl4NDVvRzE3YUpR?oc=5",
+        "published": "Sun, 19 Jul 2026 18:47:32 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-19T18:47:32+00:00"
+      },
+      {
+        "title": "A stitch in time saves nine - financialexpress.com",
+        "summary": "A stitch in time saves nine    financialexpress.com",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTUxxVkJEYzR3d1RkakpSd3drbjhoelZHSDdhd2dOVUtTNFNWbHItWDZ5SHpfVnUtUS04cVYzLVNNWHd6VDNmN2tpUEtCUWozSHc3RDBqRHRPU1FoZDRuNU94YWNrR3Vrbk5sUldPZlM4UWxTMkNXS1NBTkhrN1BkalNmV0gwZ9IBjAFBVV95cUxQV3R5NE9sNThqVmhCY3Z1OWZaeDdlQV9lNGhUZ2E2dEpmY051c1hkNHJXNnR5VEd3VXhIRTdabWhfTm1jaUd0d2IzMnNRbTd6Zm5TMEM5eDdZTHFqaURoT0wyWkpYVkttQ2ItLXZBTkJvQU1QakxLRlh0bGRxSl80VWxFQkxzWC1jcFFkYg?oc=5",
+        "published": "Sun, 19 Jul 2026 18:32:29 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-19T18:32:29+00:00"
+      },
+      {
+        "title": "Standard Chartered hosts 2026 Markets Forum - Daily Tribune",
+        "summary": "Standard Chartered hosts 2026 Markets Forum    Daily Tribune",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLUJZb0pzT0tOckJWRW8yWEN4S00wOW92X0w0UzlXQ2ptdERFUEhNeFRSemNTcVJMUnA0X2tBU1gyQklTcFRBX2xMUUFGNDhVSldfNHduUzRPMTVPRUIxTlBrZ0tMYk9zZEs2MTk0ZkpjVkZldVJHdWhJNzJvbUFOZG5jTQ?oc=5",
+        "published": "Sun, 19 Jul 2026 17:49:59 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T17:49:59+00:00"
+      },
+      {
+        "title": "Future compass - China Daily",
+        "summary": "Future compass    China Daily",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvbHlpcVZXUXBKbXczXzZCanItTWJtWTBZMVo5c2RwZjFwSVVQZHFPM0g3enhjb1BlSW1XQXVxUVNCWkxiUFZlLWhLSm9weGFRRGRjeXN4TWxNWmVnbzBkQ25ITF9vMzg2eGFsVEdfc1R2SFR6Y2ljamdXYmUyQQ?oc=5",
+        "published": "Sun, 19 Jul 2026 17:18:55 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-19T17:18:55+00:00"
+      },
+      {
+        "title": "Kevin Warsh, the Fed, and Gold Prices in 2026 - Discovery Alert",
+        "summary": "Kevin Warsh, the Fed, and Gold Prices in 2026    Discovery Alert",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdHNBUVZldGYzN3pIWVFLSWVEMGlySHg2RUxZUmRfUVdoVmdKM3FzWGROZFFDWlZ0V2lvc3JXeFB0R2NKOXRsZFFYbDcyZm1ZUkJjZUhDOW5nSjRTTW9pRFNzdFNRUHZodURnRkV2SWZxNko1Qm9QbkVuWDR6eGxZbHc1TTY2QQ?oc=5",
+        "published": "Sun, 19 Jul 2026 17:12:47 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T17:12:47+00:00"
+      },
+      {
+        "title": "FX Risk a “Boardroom Issue” for Corporates: Report - The Full FX",
+        "summary": "FX Risk a “Boardroom Issue” for Corporates: Report    The Full FX",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1NUJET00yOEpiRkNlVGxrbGNiVVBnRTh6UmlMN29BNTRfTllrUVJ0MlRIS21KLUZPRHlPMVBpYU1mdHlzcGM3bHZtekVjUHNvTjR6b0NRdWJwRERfLVMwbllFMHZuMzJpUXJ6VTVCdU5Eby13ejhuS2t3?oc=5",
+        "published": "Sun, 19 Jul 2026 16:05:55 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T16:05:55+00:00"
+      },
+      {
+        "title": "Stocks in Focus: Adani Green, UltraTech Cement and 8 Other Stocks Announcing Results Next Week - Trade Brains",
+        "summary": "Stocks in Focus: Adani Green, UltraTech Cement and 8 Other Stocks Announcing Results Next Week    Trade Brains",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY2FUbmgtZmZaV2lwLWNhN010RFhqYURfVTI2MzhWNjY4YUVReGE5cTU5akxXRWE5M2p1cUREM1lUUGJ2Z0RBaktvYm9XRTlvckQ0b2toeGRxX1hMenFvdTNMN0dRZG11clVzaDdSTzVYZDQtd3l2UzEtOF91b3lQWXhkczF2bnhIU216bnh0ZWVjbVZfN2VNWEtiREF2YkpRVWRONHJ3WjlmNFRCX1RUeEw3UWE3TUk?oc=5",
+        "published": "Sun, 19 Jul 2026 16:00:00 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-19T16:00:00+00:00"
+      },
+      {
+        "title": "Bank of Korea Warns Semiconductor Boom Risks 'Dutch Disease' - 조선일보",
+        "summary": "Bank of Korea Warns Semiconductor Boom Risks 'Dutch Disease'    조선일보",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGp1MTNldWhGTWJNY0xWZ09VZkFwTmdDdmJtbVFkNG5rUjFSUmNDc0FmeXV5WkM4T2lIbDVhZGRNTFhJaHhYTGUyYW51bTVGYTZhSHZoRGh6c1FFOFZneV9XdjJ2bUZrd3dla0J2WkpHU3R2c283WXRYWUQweGdqZEdTVTdzTk5MbUFZbmdB?oc=5",
+        "published": "Sun, 19 Jul 2026 15:53:59 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-19T15:53:59+00:00"
+      },
+      {
+        "title": "AUK Launches Kurdistan Region's First Master's Program in Artificial Intelligence - Kurdistan24",
+        "summary": "AUK Launches Kurdistan Region's First Master's Program in Artificial Intelligence    Kurdistan24",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRckNoc24wdkU0RGxudUhlQXpTZ0hyaXR1MUR4VDdYUU95emNfVVV6dHlMLTF5dGhvYWR5Y3VMWWttdS12ZjloLXNDQ1A4NU5kVUtTUjZB?oc=5",
+        "published": "Sun, 19 Jul 2026 15:51:03 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-19T15:51:03+00:00"
+      },
+      {
+        "title": "AI Boom Splits Global Economy Into 'K-Shaped' Growth Path, Says Moody's Analytics - BW Businessworld",
+        "summary": "AI Boom Splits Global Economy Into 'K-Shaped' Growth Path, Says Moody's Analytics    BW Businessworld",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQelF6SERsUE82Y1hwQW5TUUZGeERRbk1Ecmg4a1ZzQm1iLU4zNHRXdTE4U0dSNGhYMGdEbjhETnI2MGNxNXlIZUdJaTdXai1RclM4RlBlV2NKTGlET2VFVW5rR29Id0FkUHdEZnI1OXl3SEJaLTdyWUZiZjdQbGU3X3VDbVhnemVNM3hWWWljbkZEdmhXZGVMWjVMdDBFUVBEZzFjRXNRNE5xMWlmaG4td3d1djg5VzV4d2dub0dmbw?oc=5",
+        "published": "Sun, 19 Jul 2026 14:45:31 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-19T14:45:31+00:00"
+      },
+      {
+        "title": "Deloitte Forecasts 6.5-6.8 pc GDP Expansion In Current Fiscal - Deccan Chronicle",
+        "summary": "Deloitte Forecasts 6.5-6.8 pc GDP Expansion In Current Fiscal    Deccan Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZnRaeURuUEFsOXROd2RTN0c4WllpcGMxRVI0M3lZNlM2RHBIbUlUUDNiQVZodndITzBsVEFlMFVpZ3pmV0xFNVkxMDVNalpqOFM2WFdfS05iTmJQZnBoSVZPLVl3Mm5hQ3RHZ09vNGVYeVpTRW96YXlPVlV3Rm9JOEwtX3V4TnJ0MDR3ZHJ3aXNVMkZ1TGRadkxDZkFqdlhGdXFPZF9sc085SFFFV0lRNktoa3haRVEtNHfSAb8BQVVfeXFMTTU2dVgyWjZ3bTdiTUFJV3hoOFRaWldmVHFQLWJDZEpRTm13Umg3SEdEemM3TXV2SWpTZE9ERDUwT0ZXdExzWW13c2dlRXhPbGFhcHNsbHFIV085Zy1iLUhTZ2FvOG9JYTlmbEc5al9FZDJJWFBXNnRHeDFTMTRtU1V3djE0bjNlZWlkc1V5TE1GNXV1VFJzZGZodXJjQkU4MFZ1TE95TFphNC1LUDR2RXpsQXlobkRXQWxsZ2t1QUk?oc=5",
+        "published": "Sun, 19 Jul 2026 14:34:56 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T14:34:56+00:00"
+      },
+      {
+        "title": "Boeing's Strategic Focus on Aircraft Production Amidst Strong Demand - Devdiscourse",
+        "summary": "Boeing's Strategic Focus on Aircraft Production Amidst Strong Demand    Devdiscourse",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVWRnaGpienM0ellvdlA3RjhURnZwQjVCQThYRjlZd1lQOWUyTzZBNy1BdzBDdHZyX19EMlNaNnljZnBuUlRXdDI4NVZuM3BHRVFLM1VfZ1A0S2VtRkhNT2h0ZE93NjZtRkViZ3lDUzJLSzFIWExEUXA1R3ZFLVZGZEFqU01ZZHJZSGlPTVlaLVdnSE02UU1ET0pGMzhqM0ZzcnlnUWcwWlRWSE9LOURncXRRcEc2SjJDbWo2ZTBVWG15dkHSAcMBQVVfeXFMUFVkZ2hqYnpzNHpZb3ZQN0Y4VEZ2cEI1QkE4WEY5WXdZUDllMk82QTctQXcwQ3R2cl9fRDJTWjZ5Y2ZwblJUV3QyODVWbjNwR0VRSzNVX2dQNEtlbUZITU9odGRPdzY2bUZFYmd5Q1MyS0sxSFhMRFFwNUd2RS1WRmRBalNNWWRyWUhpT01ZWi1XZ0hNNlFNRE9KRjM4ajNGc3J5Z1FnMFpUVkhPSzlEZ3F0UXBHNkoyQ21qNmUwVVhteXZB?oc=5",
+        "published": "Sun, 19 Jul 2026 14:24:39 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-19T14:24:39+00:00"
+      },
+      {
+        "title": "GT Voice: Hype over ‘undervalued yuan’ won’t fix EU’s trade difficulties - Global Times",
+        "summary": "GT Voice: Hype over ‘undervalued yuan’ won’t fix EU’s trade difficulties    Global Times",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hTjJRN0xKRlI4d3RpXzQ3alVyNi1OMURLMWdHZDNscXlWTmw4dnA4VGQ5VWdkUk5rdm1nSk80V0pDU0kyV3g4YVZOeEFITzBIN3QwNkdBN3czbGdJWFRIdUNB?oc=5",
+        "published": "Sun, 19 Jul 2026 14:14:00 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T14:14:00+00:00"
+      },
+      {
+        "title": "Boeing Eyes 737 MAX Production Boost - Devdiscourse",
+        "summary": "Boeing Eyes 737 MAX Production Boost    Devdiscourse",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQTNvUUljVGFaS2FKanVnazlfcEZ2c1gwVDBfQXpuNTh0aWZiTkh5Q3cxWUpDNWRQN3czd3J5U1hzNHJGWXZQWmtUMU0zY3B5Xzl5WlpMM3l2M18tc21zcGRLUDZnRXNQTm4tSGx6Z1ZxWmZsaUZWUEN5czJ0VjVtQVJqdTJHbzR4UmotazdTbFBiaU1jM05WQnh30gGaAUFVX3lxTE5BM29RSWNUYVpLYUpqdWdrOV9wRnZzWDBUMF9Bem41OHRpZmJOSHlDdzFZSkM1ZFA3dzN3cnlTWHM0ckZZdlBaa1QxTTNjcHlfOXlaWkwzeXYzXy1zbXNwZEtQNmdFc1BObi1IbHpnVnFaZmxpRlZQQ3lzMnRWNW1BUmp1MkdvNHhSai1rN1NsUGJpTWMzTlZCeHc?oc=5",
+        "published": "Sun, 19 Jul 2026 13:20:30 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-19T13:20:30+00:00"
+      },
+      {
+        "title": "Week Ahead: ECB Interest Rate Decision Looms; Alphabet, Tesla, Intel Earnings Debut; Global Flash PMIs Revealed - TradingKey",
+        "summary": "Week Ahead: ECB Interest Rate Decision Looms; Alphabet, Tesla, Intel Earnings Debut; Global Flash PMIs Revealed    TradingKey",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZlBaZGtUQllBamMzOG1oTWQ3MFNMV29ZWUlqX3NKc1JZam56cFZRdmM2ZlNBSmdrZ1FrRmVCZGgxVDlhWGFFNVFaV2JSN0FwMG9JWmhQLXlKOV9pM19XSktGb1hScElrZ2Zkc2pXRVNXVFY2ZDFPREd0MmZfaTQwX1Q3cTlma25oOF96dU5EMlFqSEJRVVJvX3BQSTVLeVVMTGU2dWU3NjZzZDdkRUJ4dFJvbEYxVWJjOUxvd19jZXJheXBpT1FiazFDX2s?oc=5",
+        "published": "Sun, 19 Jul 2026 13:09:20 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T13:09:20+00:00"
+      },
+      {
+        "title": "Mexican Peso Closes the Week Near 17.52 Per US Dollar - Puerto Vallarta News",
+        "summary": "Mexican Peso Closes the Week Near 17.52 Per US Dollar    Puerto Vallarta News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTkdPbFB0RG1vdmdhUVlvN2ViWDVKaml2SEs0cGpvNzA1WkNUZE5NTkI1UHBGZFNydFNsYVlqLXJJOTFIcWVrMFRfWTFzeUR5Vlg1VE5BbWJSR2Y5MzRGamRHZ2thcFJzTV92X2t2M3pkYl9rSzQwR3hhRXJvanJEOHlHd1pESEF1X0ZHbw?oc=5",
+        "published": "Sun, 19 Jul 2026 12:56:08 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-19T12:56:08+00:00"
+      },
+      {
+        "title": "Only 26% of enterprises have operationalized AI, FPT-Forrester study finds - MarketScale",
+        "summary": "Only 26% of enterprises have operationalized AI, FPT-Forrester study finds    MarketScale",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPXy1XNGR4T2dYQWtrNE02Y0hFNHRBWkswd3g1N0hSVjVXSE16U3JDX1NZM3BLN0Jnb1NfMUx6b3ZmSUgyTk5WQ21NTWFQeTdHVmlXT1Bqc05ZSTUzWEw3bDdEZjlrYnlaSHJIT0xlUlpQYUQyVllHTmFfNkw0U1NBZk1wdVZvay1TanhVR3Zya0RYTkQ1WTQ5cEFwOHlLMTdjOFNOdjRJRWtwMWNXbTNocWY0Z0loNktRaTNfeWRyRjRabHhGbVFwdDdmSQ?oc=5",
+        "published": "Sun, 19 Jul 2026 12:49:24 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-19T12:49:24+00:00"
+      },
+      {
+        "title": "Think tank urges Indonesia to accelerate downstream push - ANTARA News",
+        "summary": "Think tank urges Indonesia to accelerate downstream push    ANTARA News",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM0lTaE1HVmZhY291SUg1ek10dG9fR0U5OXdYTy1JakdVTFRxc21BRkxXYllTTzZzS2hVakFZcS1aNmtfV1I5NEdua2d3VDJNcHdvWEtCVkx5cHhsWXBlLWhKTnliOVZ1a0ktSDZBbWt1V0Z1eERMRGxwRzMzUFI1eFMxamUxZ3JjM21jVTVMc2RqTm9Ba0FvZVY4M0hWOHPSAZ8BQVVfeXFMTTNJU2hNR1ZmYWNvdUlINXpNdHRvX0dFOTl3WE8tSWpHVUxUcXNtQUZMV2JZU082c0toVWpBWXEtWjZrX1dSOTRHbmtnd1QyTXB3b1hLQlZMeXB4bFlwZS1oSk55YjlWdWtJLUg2QW1rdVdGdXhETERscEczM1BSNXhTMWplMWdyYzNtY1U1THNkak5vQWtBb2VWODNIVjhz?oc=5",
+        "published": "Sun, 19 Jul 2026 12:49:05 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-19T12:49:05+00:00"
+      },
+      {
+        "title": "2026年上半年城市更新盘点：政策闭环成型，行业从投资驱动转向存量长效运营 - 每日经济新闻",
+        "summary": "2026年上半年城市更新盘点：政策闭环成型，行业从投资驱动转向存量长效运营    每日经济新闻",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hUi00OTNKbFZ0S0syVFhMR1pJRi1zSU0zTzRWeFdxNTF5LXBoNGltQ2lXTUFaR0NPcS1TRllpQ0hNRzVHbmkxbXIzcXprRWZsU3F1S0MyUDdpWk5ja1JKYlVYbjR3Zw?oc=5",
+        "published": "Sun, 19 Jul 2026 12:48:00 GMT",
+        "source": "Google News · 行业",
+        "_date": "2026-07-19T12:48:00+00:00"
+      }
+    ]
+  },
+  "search_text": "  Daily Intelligence\n  2026 07 20｜Monday\n\n   Today’s Thesis｜今日一句话\nAI的叙事正从“能力跃迁”转向“责任与落地约束”，而宏观层面的“K型分化”意味着：仅有技术突破不足以支撑估值，跨越商业化鸿沟且规避系统性资源错配的经济体才能胜出。\n\n   ① Executive Summary｜30 秒\n    AI  ：研究发现AI建议使人准确率降3倍但自信度增2倍[A22]，同时仅26%企业实现AI运营化[B22]，暴露出严重的“能力 信任”错位与落地鸿沟。\n    商业  ：WAIC 2026展现300款首发[A18]，但北大教授警示AGI需社会智能且不应照搬美国路线[A12]，商业化提速与学术冷思考并存。\n    宏观  ：穆迪警告AI繁荣导致全球经济K型分化[B15]，韩国央行警示半导体繁荣引发“荷兰病”[B13]，技术驱动的增长正加剧结构性失衡。\n\n   ② AI Daily\n\n    AI信任危机：从“幻觉”到“认知抑制”\n  What Happened  \n研究显示，接受AI建议的人准确率下降3倍，但自信度却提升2倍[A22]。\n\n  Why It Matters  \n这揭示了AI部署中的系统性风险：AI的负面外部性不仅是产生事实错误（幻觉），更危险的是它系统性地抑制了人类的批判性思维。当高级律师或牧师使用AI起草文书或布道时[A1][A3]，这种“自信的愚昧”会直接穿透专业防线。\n\n  Second order Effect  \nAI信心错位 → 人类监督机制失效 → 高风险领域（法律、医疗、宗教）的系统性合规灾难 → 监管强制要求AI输出附带置信度警告。\n\n    企业AI的“运营化鸿沟”\n  What Happened  \nFPT Forrester研究指出，仅26%的企业已将AI运营化[B22]，而头部公司仍在为顶级AI模型重金买单[A9]。\n\n  Why It Matters  \n模型能力的狂飙（四项独立指标证实AI确有进步[A21]）与组织吸收能力之间存在巨大断层。企业购买力向顶层模型集中，但内部流程重构滞后，导致巨额IT支出变为沉没成本。\n\n  Second order Effect  \n模型军备竞赛 → ROI无法兑现的企业买家疲劳 → AI算力与模型市场的寡头化 → 开源与自托管工具（如HN Summarizer[A5]）在中小企业渗透率激增。\n\n    AGI路线分歧与责任边界重置\n  What Happened  \n北大教授泼冷水称AGI离不开社会智能，不应照搬美国路线[A12]；同时学界与产业界呼吁智能走向自主亟须定义AI责任边界[A16]。\n\n  Why It Matters  \n这挑战了当前主导行业的“规模定律”单一路径。物理智能（把人还给人）[A10]与社会智能的引入，意味着AGI的竞争维度从算力扩展到对复杂现实世界的交互与责任对齐。\n\n  Second order Effect  \n范式分歧 → 区域AI生态脱钩 → 非美国路线（如物理智能、具身智能）获得政策与资本重估 → AI责任界定成为国际贸易与准入的新壁垒。\n\n   ③ Business Daily\n\n    科技：算力基建与边缘落地的分化\n顶级AI模型的吸金效应[A9]与底层算力基建（如AMD与Navitas的营收趋势博弈[A2]）持续，但工业端的价值捕获正转向边缘计算。研华等工业AI与边缘计算企业股价稳健[B3]，表明市场开始奖励能解决物理世界数字化落地的基础设施，而非仅停留在云端模型。\n\n    能源：AI的物理底座与地缘溢价\nAI对电力的无限渴求正催生新路线，全球首创AI赋能核能技术在WAIC发布[A20]。然而，地缘政治正对冲技术红利：以色列对伊朗的军事行动震动原油市场[B5]，推高传统能源成本。AI的扩张高度依赖廉价且稳定的基载电力，地缘溢价正在侵蚀算力的经济可行性。\n\n    制造：半导体繁荣的“荷兰病”阴影\n波音寻求提高737 MAX产量[B19]，显示传统高端制造需求强劲，但韩国央行发出警告：半导体繁荣正引发荷兰病风险[B13]。资本与人才向AI芯片领域过度倾斜，可能抽干传统制造业的血液，导致经济体内部的结构性空心化。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？  \nAI繁荣正将全球经济撕裂为K型增长路径[B15]，印度超越日本成为第四大经济体[B4]，而以半导体为核心的国家面临荷兰病警告[B13]。\n\n  为什么发生？  \n[事实] 穆迪确认AI带来的增长极不均衡[B15]；[事实] 韩国央行确认半导体抽干其他产业资源[B13]。[推断] AI的资本密集与技术密集属性，使得回报极度向资本与高技能劳动力集中，传统产业与中低技能劳动力被加速边缘化，形成宏观K型分化。\n\n  资本如何流动？  \n[事实] 离岸人民币市场扩张[B1]，外汇风险成为董事会议题[B11]。[推断] 资本正从受地缘与高息压力的传统资产，流向AI算力基建与避险资产。同时，去美元化与区域货币结算（如人民币）的资本分流正在静默加速。\n\n  接下来关注什么？  \n关注“反身性断裂”：若半导体出口国的汇率与资产价格因荷兰病预期而承压，将反身性削弱其国内AI投资能力；同时，欧洲央行利率决议与全球闪速PMI[B20]将验证K型分化是否已蔓延至服务业。\n\n   ⑤ Signal Dashboard\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   25,520.24   ↓  1.40%   风险偏好降温  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,001.00   ↓  0.29%   中性  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   84.05   ↑ +1.89%   通胀压力上升  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   100.84   ↑ +0.09%   中性  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.54   ↓  0.61%   利好久期资产  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   64,606.09   ↓  0.29%   中性  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   18.77   ↑ +12.19%   避险升温  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   202.81   ↓  2.21%   风险偏好降温  \n\n   ⑥ Deep Insight\n  主题：AI时代的“荷兰病”：当半导体繁荣抽干实体经济  \n\n韩国央行近日发出警告，半导体繁荣正让该国面临荷兰病风险[B13]。这并非一则寻常的产业预警，而是揭示了AI宏观经济学中最易被忽略的致命机制：技术革命的红利分配并非自然普惠，反而可能通过资源吸积效应，对出口国的实体经济造成系统性绞杀。\n\n传统荷兰病指的是自然资源出口激增导致本币升值、制造业衰退。在AI时代，这种病发生了变异：核心“资源”变成了算力与半导体。当全球资本疯狂涌入AI芯片[A2][A9]，半导体出口国（如韩国）的贸易条件改善，汇率承压上行，其国内资本与顶尖人才会不可逆地从传统制造、服务业流向AI相关领域。这种抽离不仅推高了其他产业的要素成本，更削弱了经济体的抗冲击韧性。穆迪所警告的K型分化[B15]，在国家内部同样适用——AI部门高歌猛进，非AI部门缓慢失血。\n\n更深的反身性在于能源与通胀的反馈循环。AI算力是极其耗电的物理过程，WAIC上发布的AI赋能核能技术[A20]恰恰反证了能源瓶颈的紧迫性。与此同时，地缘冲突（如以色列对伊朗的军事行动）推高原油价格[B5]，传统能源成本的上升直接抬高了算力的运营成本。此时，半导体出口国面临双重挤压：内部，非AI产业因荷兰病而萎缩，无法提供足够的内需缓冲；外部，地缘溢价侵蚀了AI算力的经济回报。若本币因半导体顺差而升值，传统出口将彻底失去竞争力。\n\n这给所有押注单一AI硬件出口的经济体敲响了警钟。将半导体视为新时代的石油，固然是正确的叙事，但若缺乏内需的防火墙与产业结构的对冲，这种繁荣本身就是脆弱的。当资本意识到AI落地率仅26%[B22]、巨额算力投资无法转化为全要素生产率时，半导体繁荣的预期将逆转，荷兰病将迅速从隐性变为显性崩溃。\n\n  反方观点  ：AI将迅速实现全行业降本增效，半导体繁荣带来的财富溢出足以补贴传统产业，且AI赋能核能[A20]将彻底解决能源约束，荷兰病在AI时代不成立。\n\n  证伪条件  ：未来2 3年内，半导体出口国的非AI制造业PMI持续处于收缩区间（50以下），且其国内CPI与核心PPI出现长期且严重的剪刀差（要素成本远高于消费端承受力）。\n\n   ⑦ Tomorrow Watch\n1. 欧洲央行利率决议公布及拉加德讲话[B20]。\n2. Alphabet、特斯拉、英特尔财报发布，验证AI基建支出与终端需求[B20]。\n3. 全球主要经济体7月闪速PMI数据发布[B20]。\n4. 印度Adani Green及UltraTech Cement等核心企业财报，验证第四大经济体增长成色[B4][B12]。\n5. 以色列 伊朗局势对原油（84.05美元）及加密货币波动率的持续传导[B5]。\n\n   ⑧ One Chart\n [Daily Market Pulse](assets/chart.svg)\nVIX飙升12.19%与纳斯达克下跌1.40%同步发生，而原油逆势上涨1.89%。这组数据呈现出典型的地缘风险溢价与科技股承压的相关性，但需注意，地缘事件引发的资金再平衡并不必然构成科技股下跌的直接因果，中间传导机制受宏观流动性预期调节。\n\n   ⑨ Quote of the Day\n\n  “The essence of strategy is choosing what not to do.”  \n  — Michael Porter\n\n  中文理解  ：战略的本质不是做更多事，而是清楚地决定哪些事不做。\n\n  Why it matters today  ：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。\n   ⑩ Action Items｜今天值得思考什么\n1.   追踪  韩国及类似半导体出口国的制造业PMI与汇率偏离度，验证荷兰病信号[B13]。\n2.   验证  企业AI运营化率（26%）与科技巨头财报中AI基建资本开支回报率的对应关系[B22][B20]。\n3.   比较  顶级闭源模型支出[A9]与工业边缘计算[B3]的增速差，判断算力价值链的利润转移方向。\n4.   关注  AI赋能核能[A20]与地缘冲突推升油价[B5]之间的对冲机制，评估算力长期成本曲线。\n5.   思考  在AI建议使人“低准确高自信”[A22]的背景下，组织内部应如何重构人机审核流程以防止系统性合规失败。\n\n   信息边界\n本简报基于2026年7月19日及之前的公开新闻聚合源与市场数据。市场数值（Nasdaq、黄金等）反映最近交易日收盘或特定时点状态。新闻来源多为二手聚合，部分推断基于已知事实的逻辑延伸，重要判断请务必回溯原文验证。未覆盖未提供材料外的突发事实。\n\n\n   Sources\n\n    AI\n\n  [A1：AI should have senior lawyers sharpening their hunting spears](https://www.ft.com/content/905e18e6 f054 4995 b5a7 0ff52a65ae57) — Hacker News · AI\n  [A2：Advanced Micro Devices vs. Navitas Semiconductor: Here's What The Quarterly Revenue Trends of These Artificial Intelligence Companies Reveal to Investors   The Motley Fool](https://news.google.com/rss/articles/CBMipwJBVV95cUxObHJZOU5WRENJS0pVdkZ3M0JHYlNCaDl2aWVtRXNibF9SS2JrVWk3T0ttaWt6Tjl3R1l4U2VKOXEyeXJZTjhWcFdPUFNCX1ZpbFl6dnNNT0p0dUdfUVRILWl6TWxzMF9aSWdzS0g0M3liM2ljbWRiaGFtY1RYTndTZ2E2TE1YcmotMUpoLTYtMm9ZTjBCeTcwVDlOaW1NZE5NLUVxa0VfRXBzRzZGaUxUMFVaRjJoVmU2VXkwWUpwUXB1Vkh0RUJOUlVOd1pwLWhzbHNoUGdBMHpyWTZucW8xUzdIWGpqTDhaS3E2bHdsaXJkNHZsSVBqdUVrVTk1N3FnRV9MRzJNT0RzYWRYc1IyelYwTThQdWFfVFhscHJRc2Jhb1I0WmtN?oc=5) — Google News · AI\n  [A3：Pastors Using AI to Help Write Sermons Grapple with Where to Draw the Line](https://www.wsj.com/tech/ai/pastors using ai to help write sermons grapple with where to draw the line 97dcd1f9) — Hacker News · AI\n  [A5：Show HN: A self hosted AI that turns Hacker News into a daily briefing](https://github.com/RecNes/hn ai summarizer) — Hacker News · AI\n  [A9：Meet The Companies Shelling Out for Top AI Models](https://www.wsj.com/cio journal/meet the companies shelling out for top ai models e1fe3375) — Hacker News · AI\n  [A10：通过聚合破除AI 幻觉，物理智能要“把人还给人” 讲堂视频   新浪网](https://news.google.com/rss/articles/CBMisgFBVV95cUxPcVI3UTczU0g3d1R1TEZXSWFrcHFYenIycTdPQ0JQemcyRGYtQURhUHdScTZBLWdZcHBkX3VsZEx6WnYxZFZhSkZpLWw5WjRfMzhXV3FHREJxNHBKWUZsdHpGWU4zWWVoU0lyX2tPZEtwWlpsTk0zRWI2dkwwR09XM2pOdVF0OC01U1VhSTdMaWNCOE5xbktybm1oLW53Q2R3UmVQNUk1U1hBcnJDUkdlTW9n?oc=5) — Google News · AI 中文\n  [A12：北大教授给“AI神话”泼冷水：AGI离不开社会智能，不用照搬美国技术路线   手机新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTFBZbU5icy1rZExzeS1EMnl5eDJYajlBMjI4TmFpWWktR1VmNmlnSUltNTROVEk5eGJ0WkJLTXpXLXlsV2ZIU3I2QXQtNWVhTzNKTFgybUk2T0VLM2w0WGt2dm1qc29henBjQzF2bE1zR2RqcXFNYVFUWW1MTEFMMmc?oc=5) — Google News · AI 中文\n  [A16：智能走向自主亟须定义AI责任边界   手机新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTFA2UlNRM1FURlYxQ1RhZVRCSmlhZ29WZGpfa2txeVp4SzdXZzRLSHRYN3lKMklSWC0zMlJINy16SkdFSVlqN2hjNzloNXBzeV9SM28xTmkzVWNJX2FFUHVLM3JJSXRvd1hESFBDX1JkX2FBNXZHRFo5N0lYbHRzYnM?oc=5) — Google News · AI 中文\n  [A18：300款全球首发！2026世界人工智能大会亮点全揭秘   手机新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTE5kaTZ0dThLNjFES3NFNHBTcjFnNUpYZ1NzVTB1dHJGQlNCdGMzUUh6OUUwQkxfUWgwZ2ZMbm03ZHpXX3VEUU5wbm0wRWZBQlVyS3o5NTI0a3dVcUNiNmgzdklUOW1sVmU5SG5vMnNmM08wYUU2dGhtQUhrS0RpZk0?oc=5) — Google News · AI 中文\n  [A20：AI赋能核能，全球首创技术路线在WAIC2026上发布   新浪网](https://news.google.com/rss/articles/CBMisgFBVV95cUxQY05wSG90MDVvUWdUMHl3ejNqMGZZQWtEb2NuRk9pbGJWaTlnME1FWDByYjBVb1dUY2dBbGVvQWg5NlBFNDhfbnJ1NFZIeS1Td3hEajYyb1JIYmVjVElobklzVVc5UzFfdHc1RlpnZ1czOTk4UlhvQks2M1M0YWdDWnpHSkV4emxtaWx1TmlqVnpZN3BTOGpkWVY2RlBuN1dFM3NMVjJ3Q3NvaFlEbjFGVWpn?oc=5) — Google News · AI 中文\n  [A21：Is AI Progress Real? Four Independent Metrics Show It](https://skepticcto.substack.com/p/is ai progress real a skepticcto) — Hacker News · AI\n  [A22：AI advice made people 3x less accurate but 2x confident, researchers found](https://thenextweb.com/news/ai advice suppresses critical thinking wrong answers study) — Hacker News · AI\n\n    Business & Macro\n\n  [B1：China expands offshore RMB market   Borneo Bulletin](https://news.google.com/rss/articles/CBMickFVX3lxTE9YZXlsdUFhRk81REZwTXoyVFJOU3FMa2lZVDV6U1M5NGI5bGFPaTl5MXhOaWktQ0U2eW15NThwbzZBUVpyNElMQ085S045TWVlTHF3QTZlYnIzUlgzZFpvRHZWZ2thWmszajdyXzg5eVhvdw?oc=5) — Google News · Markets Policy\n  [B3：Advantech stock trades steadily as industrial AI and edge computing support long term growth   ad hoc news.de](https://news.google.com/rss/articles/CBMixAFBVV95cUxPdXdvc1IwV1F0ZGZiSWZQWUREODF3YUdlaHRnMWlWcmhYdjluZ0lGcUc1emVrZExkZWVqbU9aWE1oeHVUcWRudDRBNk9hNkdpcEsydGRSby1KQUtncHByTUszWnpSMVpXRWtMX29jLVBJRWlGc205anczMDd5UHc2ZWFiMy0xc1E3MkhPMFJveGVyRWlWVzBqYXEzZTg3R3pjNHRqeFdpZEtZanVReXZOa05zVVZLb0lDQ1hlbWRaakVLbGda?oc=5) — Google News · Technology Business\n  [B4：India Becomes World’s Fourth Largest Economy, Surpasses Japan in 2026 GDP Rankings   ascendants.in](https://news.google.com/rss/articles/CBMickFVX3lxTE5yR2x4T05YdFc3UTNFdS1iOVNxUERYZFg3ZG9Ca1NrRnNfYW1UU0NkM1FKYktuSzJiZHItTDFVaEt4SjZkVUlqcG50N3MzalFaNXZSVmFBem95ODRXMWJuQUQ4M3BPVTUyRkZZcjRNdkFnQQ?oc=5) — Google News · Global Economy\n  [B5：Israel’s Iran military campaign rattles oil markets and sends crypto volatility surging   Crypto Briefing](https://news.google.com/rss/articles/CBMihAFBVV95cUxOLThsSlhxTTkzczFnQlpvcjdZZkJ2SWhCcW1obXhIOUpWb216U2Yta25MdFJhSEVyZVF1QnVrZXVTUUd5dF9FRXV6ekMtb0xDbUdjRXJTNjdieVBGNy1nYi1Bd1V5UElpdXg2MEVsYWRJVG8xZU00M1UwTmExY25oSDdkejU?oc=5) — Google News · Markets Policy\n  [B11：FX Risk a “Boardroom Issue” for Corporates: Report   The Full FX](https://news.google.com/rss/articles/CBMiekFVX3lxTFA1NUJET00yOEpiRkNlVGxrbGNiVVBnRTh6UmlMN29BNTRfTllrUVJ0MlRIS21KLUZPRHlPMVBpYU1mdHlzcGM3bHZtekVjUHNvTjR6b0NRdWJwRERfLVMwbllFMHZuMzJpUXJ6VTVCdU5Eby13ejhuS2t3?oc=5) — Google News · Markets Policy\n  [B12：Stocks in Focus: Adani Green, UltraTech Cement and 8 Other Stocks Announcing Results Next Week   Trade Brains](https://news.google.com/rss/articles/CBMitwFBVV95cUxPY2FUbmgtZmZaV2lwLWNhN010RFhqYURfVTI2MzhWNjY4YUVReGE5cTU5akxXRWE5M2p1cUREM1lUUGJ2Z0RBaktvYm9XRTlvckQ0b2toeGRxX1hMenFvdTNMN0dRZG11clVzaDdSTzVYZDQtd3l2UzEtOF91b3lQWXhkczF2bnhIU216bnh0ZWVjbVZfN2VNWEtiREF2YkpRVWRONHJ3WjlmNFRCX1RUeEw3UWE3TUk?oc=5) — Google News · Technology Business\n  [B13：Bank of Korea Warns Semiconductor Boom Risks 'Dutch Disease'   조선일보](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGp1MTNldWhGTWJNY0xWZ09VZkFwTmdDdmJtbVFkNG5rUjFSUmNDc0FmeXV5WkM4T2lIbDVhZGRNTFhJaHhYTGUyYW51bTVGYTZhSHZoRGh6c1FFOFZneV9XdjJ2bUZrd3dla0J2WkpHU3R2c283WXRYWUQweGdqZEdTVTdzTk5MbUFZbmdB?oc=5) — Google News · Global Economy\n  [B15：AI Boom Splits Global Economy Into 'K Shaped' Growth Path, Says Moody's Analytics   BW Businessworld](https://news.google.com/rss/articles/CBMivwFBVV95cUxQelF6SERsUE82Y1hwQW5TUUZGeERRbk1Ecmg4a1ZzQm1iLU4zNHRXdTE4U0dSNGhYMGdEbjhETnI2MGNxNXlIZUdJaTdXai1RclM4RlBlV2NKTGlET2VFVW5rR29Id0FkUHdEZnI1OXl3SEJaLTdyWUZiZjdQbGU3X3VDbVhnemVNM3hWWWljbkZEdmhXZGVMWjVMdDBFUVBEZzFjRXNRNE5xMWlmaG4td3d1djg5VzV4d2dub0dmbw?oc=5) — Google News · Global Economy\n  [B19：Boeing Eyes 737 MAX Production Boost   Devdiscourse](https://news.google.com/rss/articles/CBMimgFBVV95cUxOQTNvUUljVGFaS2FKanVnazlfcEZ2c1gwVDBfQXpuNTh0aWZiTkh5Q3cxWUpDNWRQN3czd3J5U1hzNHJGWXZQWmtUMU0zY3B5Xzl5WlpMM3l2M18tc21zcGRLUDZnRXNQTm4tSGx6Z1ZxWmZsaUZWUEN5czJ0VjVtQVJqdTJHbzR4UmotazdTbFBiaU1jM05WQnh30gGaAUFVX3lxTE5BM29RSWNUYVpLYUpqdWdrOV9wRnZzWDBUMF9Bem41OHRpZmJOSHlDdzFZSkM1ZFA3dzN3cnlTWHM0ckZZdlBaa1QxTTNjcHlfOXlaWkwzeXYzXy1zbXNwZEtQNmdFc1BObi1IbHpnVnFaZmxpRlZQQ3lzMnRWNW1BUmp1MkdvNHhSai1rN1NsUGJpTWMzTlZCeHc?oc=5) — Google News · Technology Business\n  [B20：Week Ahead: ECB Interest Rate Decision Looms; Alphabet, Tesla, Intel Earnings Debut; Global Flash PMIs Revealed   TradingKey](https://news.google.com/rss/articles/CBMizAFBVV95cUxNZlBaZGtUQllBamMzOG1oTWQ3MFNMV29ZWUlqX3NKc1JZam56cFZRdmM2ZlNBSmdrZ1FrRmVCZGgxVDlhWGFFNVFaV2JSN0FwMG9JWmhQLXlKOV9pM19XSktGb1hScElrZ2Zkc2pXRVNXVFY2ZDFPREd0MmZfaTQwX1Q3cTlma25oOF96dU5EMlFqSEJRVVJvX3BQSTVLeVVMTGU2dWU3NjZzZDdkRUJ4dFJvbEYxVWJjOUxvd19jZXJheXBpT1FiazFDX2s?oc=5) — Google News · Markets Policy\n  [B22：Only 26% of enterprises have operationalized AI, FPT Forrester study finds   MarketScale](https://news.google.com/rss/articles/CBMiywFBVV95cUxPXy1XNGR4T2dYQWtrNE02Y0hFNHRBWkswd3g1N0hSVjVXSE16U3JDX1NZM3BLN0Jnb1NfMUx6b3ZmSUgyTk5WQ21NTWFQeTdHVmlXT1Bqc05ZSTUzWEw3bDdEZjlrYnlaSHJIT0xlUlpQYUQyVllHTmFfNkw0U1NBZk1wdVZvay1TanhVR3Zya0RYTkQ1WTQ5cEFwOHlLMTdjOFNOdjRJRWtwMWNXbTNocWY0Z0loNktRaTNfeWRyRjRabHhGbVFwdDdmSQ?oc=5) — Google News · Technology Business\n"
+}
