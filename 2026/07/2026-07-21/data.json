@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-21",
+  "generated_at": "2026-07-20T23:04:53.895275+00:00",
+  "model": "glm-5.1",
+  "mode": "model",
+  "thesis": "AI 正从“通用能力演示”转向“受约束场景的渗透”，其经济价值的释放高度依赖基础设施（算力/能源）与治理规则的同步，而非模型本身的单点突破。",
+  "summary": "- **AI**：模型免费化趋势确立 [A22]，但生产力释放卡在工人技能与基础设施（如数据中心立法）[A2][A12]，具身智能开始进厂替代体力劳动 [A8]。 - **商业**：中国制造业以 AI 为新引擎对冲宏观放缓 [A18][B21]，但汽车等行业面临“海外热、国内冷”的结构性分化 [B3]。 - **宏观**：全球经济逼近急剧放缓 [B7]，套息交易在鹰派日银与干预风险下博弈 [B5]，产业政策从追求完美转向需要塑性 [B19]。",
+  "relative_html": "2026/07/2026-07-21/Daily%20Intelligence.html",
+  "markets": [
+    {
+      "name": "Nasdaq",
+      "symbol": "^IXIC",
+      "value": 25508.0723,
+      "change_pct": -0.05,
+      "direction": "→",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+      "interpretation": "中性"
+    },
+    {
+      "name": "黄金",
+      "symbol": "GC=F",
+      "value": 4005.6001,
+      "change_pct": -0.18,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+      "interpretation": "中性"
+    },
+    {
+      "name": "原油",
+      "symbol": "CL=F",
+      "value": 82.66,
+      "change_pct": 0.21,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+      "interpretation": "供需平衡"
+    },
+    {
+      "name": "美元指数",
+      "symbol": "DX-Y.NYB",
+      "value": 100.999,
+      "change_pct": 0.25,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+      "interpretation": "金融条件偏紧"
+    },
+    {
+      "name": "十年美债收益率",
+      "symbol": "^TNX",
+      "value": 4.598,
+      "change_pct": 1.26,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+      "interpretation": "成长估值承压"
+    },
+    {
+      "name": "BTC",
+      "symbol": "BTC-USD",
+      "value": 65100.0117,
+      "change_pct": 0.63,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+      "interpretation": "风险偏好改善"
+    },
+    {
+      "name": "VIX",
+      "symbol": "^VIX",
+      "value": 18.65,
+      "change_pct": -0.64,
+      "direction": "↓",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+      "interpretation": "市场稳定"
+    },
+    {
+      "name": "NVIDIA",
+      "symbol": "NVDA",
+      "value": 203.28,
+      "change_pct": 0.23,
+      "direction": "↑",
+      "status": "ok",
+      "source_url": "https://finance.yahoo.com/quote/NVDA",
+      "interpretation": "中性"
+    }
+  ],
+  "topics": [
+    "AI",
+    "technology",
+    "business",
+    "macro"
+  ],
+  "quote": {
+    "english": "Plans are worthless, but planning is everything.",
+    "speaker": "Dwight D. Eisenhower",
+    "chinese": "计划本身常会失效，但规划过程能让你理解约束、选项和应对路径。"
+  },
+  "sources": {
+    "ai": [
+      {
+        "title": "Artificial intelligence: the hope, the hype and the real-world reality - Shephard Media",
+        "summary": "Artificial intelligence: the hope, the hype and the real-world reality    Shephard Media",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRFRjT0FnWVJZSVcxRlkwbjBNS28wTEYxQ1Z5clhSa29VQnFVUDBveENxWGZ6cm8xVUxTU25VYzgxYnhadlNjVVp1N1lpWnVJd0xFXzktNWg2MUpSeFRGRU9aVXhheEpXakNNVFV5aTVlR2RvWXhDYVhWOGQ5LWRSdGR5TmpRZ2M4YTJzZWRLTnRjQktkLU9SdWlNREZHdGozcFZ1YUpzMFNhZXlLYWJfYmtGWQ?oc=5",
+        "published": "Mon, 20 Jul 2026 22:48:01 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T22:48:01+00:00"
+      },
+      {
+        "title": "Florida GOP lawmaker and governor candidate says AI data center legislation keeps utility costs down - The Washington Post",
+        "summary": "Florida GOP lawmaker and governor candidate says AI data center legislation keeps utility costs down    The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNjBkQVEtOHRETXJURFh1aVEyeXJCUTR2NnpfcFVWSlRMWkV0V2VOUkV2TGZiWDItZDFfUmxoZnJqVVRIdXNpeWU4VGJlbTRnSnJhQl9xcVlKTlZwdmlCTnE0eVhiSlJaT2ZDaklXVjdzdHBGbnNmcXAweVY4YXdfT3BWN0ZwTEcwc3NRd0Nobm1KaWl1c0NCSHo0MDMySi1aRE03UnRRUm1fbmpleGRlQVpERjhBMEhOOUR5c2YxQ2Fad1J1Umg2NTRJLWJuaUk1dy1sUFhDdGRmM1VicDJQVnh4dEJGNWZpUnRhSWRB?oc=5",
+        "published": "Mon, 20 Jul 2026 22:17:37 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T22:17:37+00:00"
+      },
+      {
+        "title": "全球南方迎来AI治理新选项 - 中国经济网",
+        "summary": "全球南方迎来AI治理新选项    中国经济网",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hSHdQTnlYaktGczJ3QWNmQm5KcXg1OWZJZFFzS2p1Qk9FNkwtak1UYnZlYmhPbm9Qd0dqcFQ5Sk5jNnlXZFNlc1ZMQ0hpTTI1aXNMck9vT2dheFNZZHp3ckQtUGl1cFRxT2hjU2Z2TQ?oc=5",
+        "published": "Mon, 20 Jul 2026 22:16:00 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T22:16:00+00:00"
+      },
+      {
+        "title": "这项AI治理行动计划将如何改变我们日常使用AI的方式？ - 新浪网",
+        "summary": "这项AI治理行动计划将如何改变我们日常使用AI的方式？    新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzektWLXdDelBoSlFOeEN1dm8temM3VUhiZ3VkY084WFl4dWR0dEFxakdneGIxZWF2OXZ4bGlLMFVQejVlckhuSUpWUkJ0cWM2aGZtOXR4ZHFIT0hjVmE1VDdGMW16S0U1cUR3TFEwaGk4blZlM29SUl91MzFGeXM?oc=5",
+        "published": "Mon, 20 Jul 2026 22:10:51 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T22:10:51+00:00"
+      },
+      {
+        "title": "中国人工智能发展的未来趋势是什么？ - 新浪网",
+        "summary": "中国人工智能发展的未来趋势是什么？    新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ySUdHM09ZSlltS2xBeWEzMTJUcVdTX25yUHV5WEpYUFpJUE5ETUVsWGd2al9jbko4VnBfWkdTNllIZlJfY0dLeWRKVXdXT0Y0eVZmdHFTMXR0R1VrNjQxVnE1RzVKYWthdlRfVUxNSDNZZkRhM1RVLWtVZXA3dEk?oc=5",
+        "published": "Mon, 20 Jul 2026 22:03:57 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T22:03:57+00:00"
+      },
+      {
+        "title": "Artificial Intelligence in Behavioral Threat Assessment: Early Identification and Threat Hunting - Campus Security Today",
+        "summary": "Artificial Intelligence in Behavioral Threat Assessment: Early Identification and Threat Hunting    Campus Security Today",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNGN1dkJ0MVJORzlfY205TWFaTDZpUVNwYnpDVTRDNXZ3YlZrc0lmQVREXy16Q294S0ZsVzdqOUc0eUotblVxWElrZ2VMUXBmV3RheXoyQTZqU2FJMlg1MGdxOXNIMHB3X3JZcmZCRGhBVTg2NWJReU9VSHNzdmRpNkt6YmJZNGZ6VXRBVlYxV19wNUIzOEhQTm5ub2lZbkNpdVNMOU1hVGI2dw?oc=5",
+        "published": "Mon, 20 Jul 2026 21:59:43 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T21:59:43+00:00"
+      },
+      {
+        "title": "Local teachers and artificial intelligence - WRDW",
+        "summary": "Local teachers and artificial intelligence    WRDW",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY2FXYnhPWTQ1a2lMNE0yeDJMbWs4SUM4WnFhekRITmpxSGF4bE5CSDF1QTJaSGxVQlU0R0lKb3JtQXRwOXB2TkZMTFpyUlJmYkw2Tzk1VlNyRHFvQ0xkaGppSlNuNmo4dTRlNkVWVjZwQVZVYVBIdTJTOWRrOXU2YTQyZw?oc=5",
+        "published": "Mon, 20 Jul 2026 21:54:00 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T21:54:00+00:00"
+      },
+      {
+        "title": "直击WAIC｜具身智能抢进工厂，营销智能体重构工作流⋯⋯AI的“体力”与“脑力”革命走到哪一步了？ - 每日经济新闻",
+        "summary": "直击WAIC｜具身智能抢进工厂，营销智能体重构工作流⋯⋯AI的“体力”与“脑力”革命走到哪一步了？    每日经济新闻",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZaHFfbFg5cEVyTGZ3SGdVcWJielM2MTlYOVdIWTh5QzFwdW0xRHc5SGc3cGVua0dHcDZJOUFZbXVxQUhMbzhRSEZTYVJPY0NueTQxN2tsbm9xZjdVdFNNVjJ6SGhrQQ?oc=5",
+        "published": "Mon, 20 Jul 2026 21:46:00 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T21:46:00+00:00"
+      },
+      {
+        "title": "让AI成为“伙伴” 全球要携手共治 - 搜狐网",
+        "summary": "让AI成为“伙伴” 全球要携手共治    搜狐网",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONDNlc0RzS1Fkc1ZSSnlETVU3azNGSDJyUzd1UWQ1U1hHV1BSYUR4VktQSkRmakMyTnR6VFo5RUQ0dU9ZQUdvU1p5N3hXbXgyTlNKekFNSWNScnJTR2pMbWJvS3dRWGJBendHNXV2RkFNUEp5WWxEMjUyblV3dE1Sbmlaa2pISXVy?oc=5",
+        "published": "Mon, 20 Jul 2026 21:44:18 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T21:44:18+00:00"
+      },
+      {
+        "title": "Rep. Blake Moore proposes legislation to regulate toys with artificial intelligence for minors - Cache Valley Daily",
+        "summary": "Rep. Blake Moore proposes legislation to regulate toys with artificial intelligence for minors    Cache Valley Daily",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdUdJX1RLMWJ2cWRQVnVwc3lCNTR6SGxzbEJfSWlLX1NZQUpIc1YzN214eFF0Qkg2STA4NjhrMGtjc0FjcnRzbnpvS2FSVlFoNGdHbmhiLXo2ZUVkOUZpdVpZMXRnbXcwVWQ4dU9uUG9uQnpHMkZfYTZSVUczSXdzZUw0OUtjWWNBZF9NNTN3OWNhQ1pwTlRBVk9FWmdCOW9RLU93ZjktZHNBbzN0RTBTUWUzQ2hISGc3bGx3RU1sdktRUXFNdG5xMF9Ea1dLRHFCaENQRlQtUVJOZGNKUUVOaHY4NzNPdmRucUhqd1A4YUNIaFdaUGpvbHlmenFTM0xjV29UWnpybkpucFR4R0E?oc=5",
+        "published": "Mon, 20 Jul 2026 21:26:39 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T21:26:39+00:00"
+      },
+      {
+        "title": "海尔智家全面AI化或带来估值重构 - 新浪财经",
+        "summary": "海尔智家全面AI化或带来估值重构    新浪财经",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUZtSGFwR3pIb2tqX1ZtVlVCeENYNUQ4Q0dmbnBpRUxYTmFwYTY2ZzJoZUFCRXhoTl84NEF2enIwMnFzb01PV0pvNktlZ1E1c05iSGJ1ZXdacWpqWFBON1hGUmNTZ1U1X2pNX3dfTW9LeU9LZ3d2YTdKZmdpZGQ1NTZjXzZPdDNHSjdKUVk3ZTU1TVFyaEZjb190QnZCenBVY2ZBZmhxc000cl8xRGx0MV9R?oc=5",
+        "published": "Mon, 20 Jul 2026 21:16:24 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T21:16:24+00:00"
+      },
+      {
+        "title": "AI Productivity Depends on Workers, Not Just Technology - ColombiaOne.com",
+        "summary": "AI Productivity Depends on Workers, Not Just Technology    ColombiaOne.com",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lOWNSZ3J1MUdpR3R3dnRSTVQ0M2lCNTEtZHN5cWNKbWZ1QmhXblZ4akhDM2REM2xUQUtyYUxTbkstV3NuMEUzTnVJbFV1OWlNVXBqZHV3MGxXOWs5X09qSE44VXVfWEpIV3dlSDlna2JPSEE5ci1weA?oc=5",
+        "published": "Mon, 20 Jul 2026 21:01:00 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T21:01:00+00:00"
+      },
+      {
+        "title": "Feds look to build massive data center at Savannah River Site - WRDW",
+        "summary": "Feds look to build massive data center at Savannah River Site    WRDW",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdDNUcGg5dzBfV3o5NWNpTXRGVi1VQTBwcmVOd3Fmd2NlRE5GWDNKSzFpVmRrcVZfRTJtS2JVdTFGMUxqUXFpZ3JvRHVBN1plb2ZYX2o1S0RxM01aVGt5a0RrNjRRSENHV3Ftd294RW9jSUZBRUNyX01BSGR3QjNVY2lFOVZYRV92d1AyaTNCaVdaTS1MWVRya2ZR?oc=5",
+        "published": "Mon, 20 Jul 2026 20:53:00 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T20:53:00+00:00"
+      },
+      {
+        "title": "How Artificial Intelligence Is Transforming Digital Content Creation in 2026 - Technology Org",
+        "summary": "How Artificial Intelligence Is Transforming Digital Content Creation in 2026    Technology Org",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDFhRlhSaTdRcVlQZHNLTWcwOGZTbU1KTFNXRy1qWUs5RWpiS1h0VkFpOWlLTDZQSmF6cERjVGxnWjdYVXJGVy0zcE84MWw1ZFdOQkcwaHdtWUZYWHNnTjZFT0p4NWZ6TGZyM2lKTHNuRzdKcXRmSWYxbWRXQWR6UUgyd1dZcWRaeE9uS3IyS1RRUVpqRWV3M0Z3ampUNXoxVlFoeDNhcklURzVWaGZWaTVDWFQ3UQ?oc=5",
+        "published": "Mon, 20 Jul 2026 20:50:03 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T20:50:03+00:00"
+      },
+      {
+        "title": "How Florida State University Is Building Its AI Ecosystem - EdTech Magazine",
+        "summary": "How Florida State University Is Building Its AI Ecosystem    EdTech Magazine",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbnNHTGZlei1LTVNMaDJWMGdLYWR6ZVQ5MHpHU3dPaEtBWWU2LWxtX3lEVmx2dk5lOFdSU20zb29tSzZ2X3ZfaWNWc3hkTWY1b1k0MGM3eHE4UTgzRWhFSmlhd3h6TG9USGtsXzJUU0d6V3ZhalB5bXZoTDFtLTBmZVVieFpxYlp3UVhEN0lSVi0yWWFBQl9yR1Z2cUNuMTlWWnIxd3J1SFVoM3g0?oc=5",
+        "published": "Mon, 20 Jul 2026 20:25:38 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T20:25:38+00:00"
+      },
+      {
+        "title": "XRPPower Launches Free AI-Powered Smart App, Providing Passive Asset Growth Solutions for Global Financial Users - markets.businessinsider.com",
+        "summary": "XRPPower Launches Free AI-Powered Smart App, Providing Passive Asset Growth Solutions for Global Financial Users    markets.businessinsider.com",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONXR6bHd5UVNtc3dUcThudnpFVHIySDBMWHZlRUYzMGdpS1VRTHRkNktLelg3RmlTaTVnMWFTeFU3REh3SGowZkV6MFRiVllraXNtcmMteTczQ0d5YUwyQVpQQUtWRFZvVVJrZUhqc0xIaWtaelIyOEY2N01UQmYyZXZDVzZXLTN5ZFRGejNEcEZGY1dLU1FxOEl4N3FaQWRlTUctRDZYbml0N285Snc3QzY0MGljUHoxdHRpMnY1bUVDbngtXzBUOTdmd3hqMmtwbktEZEx2OGJha0d4LWQzY3hSWE0yc3Ytb2Jhbk9MWVRNck43OXVxWnIyaEZKZ2c?oc=5",
+        "published": "Mon, 20 Jul 2026 20:22:48 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T20:22:48+00:00"
+      },
+      {
+        "title": "2026世界人工智能大会在沪圆满收官 恒生活以三重蝶变再续AI新篇 - 北京商报",
+        "summary": "2026世界人工智能大会在沪圆满收官 恒生活以三重蝶变再续AI新篇    北京商报",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PQVlYUVFDdjhGcEhfU09iR0VkTVRGaWM2OHNndERnTnJlcHI5VzkyR0puYURsaGNvNnM3UVNwS0ZKRnp2Q0NGYWpWOW5uSkI4Yk5xV0NIQ2pUR01O?oc=5",
+        "published": "Mon, 20 Jul 2026 20:13:35 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T20:13:35+00:00"
+      },
+      {
+        "title": "上海人工智能制造业增长21.8%，在WAIC现场找到原因 - 第一财经",
+        "summary": "上海人工智能制造业增长21.8%，在WAIC现场找到原因    第一财经",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81LVdndnpycndOcUxLdFBINmgtRjI1ZXB3cHNYNEtDSzdGZFJTLU1uRGlIaTY1Si02UXp5TWtDNV9Bam1ZYW5ya2lGdVE5bHFFOWNZ?oc=5",
+        "published": "Mon, 20 Jul 2026 20:12:00 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T20:12:00+00:00"
+      },
+      {
+        "title": "Frederick Health Hospital using artificial intelligence to advance medical treatment for patients vulnerable to seizures - DC News Now",
+        "summary": "Frederick Health Hospital using artificial intelligence to advance medical treatment for patients vulnerable to seizures    DC News Now",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOdDItQkFJRndtOVhBSVZEZGFBLXFyVU9FaE1nVEotbXdqZzJabGRPNlpFV1VVOGt2UXRPZnBVR3VFdzBxVDk5QXlsU05CVnAzTWQ3R0ZtdEhPSlpYRzVUVjBfUWRIRWdzQm5WVVg3SkpUZlhHaC1PUUI2XzVnR2tibTYzNVpTUF9tVmlXV3R0VERlWnNRSm1RMHk0dlREVlRtYl90dEFoQXRjamhRVkViVXFuY084WU9XUXlweU1rS004Mno3UUN5QlgzX1BJWncxaVdjb29ZNTMyX21EV3o5cEVTbzR0dTc4ZDQwdjNQSFhWRWRwb051NzQ3eERXRG5UTlFxemhtTHBQNXVTZi1DOFZtRFFrSW9MWEZHVdIBogJBVV95cUxNaWUySkMyUW9DbmFtSDJzWnNVdmdqZ2xtcWVTUkZHdjJCc3ZFQ3MxeDVGZHkzZUwybXF2TVFscTlsdWdOZ1A3V1gwXzdGTnhPRDgteGw1SGtaRHE1OXE4OXpDWjRIMlFLbVlnVGhoUVpPRmkzZDhlamhiSlNtOWg0MF9PTk1mRkhHaVFtV2UtTEJtU0VWODFKVUZDRHFpbUtNaF9YZ3B0VTJWSk1ZaDAwZ2xJOURxdU43cUhoLXdxXzA2alZrT2xESm1HOExwRWxmT3d4QjZoR0xHdXFuMTRUUDFDMy1IekJtZlVaUnc4aWU0dmRnTzhHeUpaMXFqdnhjRFBIWTVZSlFWeHJFQXV5SEZzdEhsb25JXzFBTk1OSkVuZw?oc=5",
+        "published": "Mon, 20 Jul 2026 20:04:43 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T20:04:43+00:00"
+      },
+      {
+        "title": "看见未来！人工智能要从“能动”变“有用” - 新浪网",
+        "summary": "看见未来！人工智能要从“能动”变“有用”    新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3NmJWSGpSUW1XMXBtUm1YZmtxWnQweDJRUjB4N09fZ1M4RG9oZWZhcUplZURwa3F3LW9abzhoTTlnakJoSm4tNlNqX1pEOE9vaHVScWdIRDFpTTcxem91dUNJbkJfaE4tLTY2eVUzZ0c2dk9MY0NJTnV2NGZpM2c?oc=5",
+        "published": "Mon, 20 Jul 2026 20:03:51 GMT",
+        "source": "Google News · AI 中文",
+        "_date": "2026-07-20T20:03:51+00:00"
+      },
+      {
+        "title": "How AI Is Reshaping Regulated Professional Workflows - Emerj Artificial Intelligence Research",
+        "summary": "How AI Is Reshaping Regulated Professional Workflows    Emerj Artificial Intelligence Research",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WcmZUSGQ5OEo0cDdCLTc0YmR0RWVmeDNrd3IzbXFiUVU1SnpfVGVFdm1aeGswaVRXakVPd1lYU1lKbFRvM0ZLX1Mxc3ZUMl9FN1doX19ZNTh6VVBMX25ZcUxKVGJTU3V6R3o1b3g4TlQ2MVU4bV94YlhlZw?oc=5",
+        "published": "Mon, 20 Jul 2026 19:53:54 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T19:53:54+00:00"
+      },
+      {
+        "title": "Opinion | Powerful AI models are being given away for free. It was inevitable. - The Washington Post",
+        "summary": "Opinion | Powerful AI models are being given away for free. It was inevitable.    The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNHlUS1laU3VseHk2MnRaREdWLXgzRWo1alVmTWdZZlRWWkNtUTVLcDZpaEt5RU9VUWJPVzNVSUJaeENLbEtBX3dpMHFyOGlRb0xVbHdxd1o1cmJjUlU4bXl6MVZnaVotcjNpN2stcllxVXktVm5wT0JWaXVTQVNKbllDbFFNcW44ckFpc2RLR09QSDZTMzEzVjhMUU1VazlLc0dRbQ?oc=5",
+        "published": "Mon, 20 Jul 2026 19:38:08 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T19:38:08+00:00"
+      },
+      {
+        "title": "The Business Students Who Want to Use AI for Good - USC Today",
+        "summary": "The Business Students Who Want to Use AI for Good    USC Today",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDb2JSNmpfekZYZHNZM0Z3OW9oSEl5QkV3XzNnS2pQYWtMd3NQdE4xdXJ5R1pzMFJqNzJZSHJ2MHlybzVHQmJhc2MxbUJlY3VENXM1bWNXUmZSd0V1MlI4UWxLXzNOVEhTVFFvTnl5TjRveTlueUJDRjIwWW0?oc=5",
+        "published": "Mon, 20 Jul 2026 19:37:55 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T19:37:55+00:00"
+      },
+      {
+        "title": "UPR lands $9M NSF grant to expand AI research - News is My Business",
+        "summary": "UPR lands $9M NSF grant to expand AI research    News is My Business",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3X241Z1N5RE9XZVI5TWNGWlJnaDNIdktYd0xXMlZ3SWZQRVBGbnBFeVBpMnpoX2lNSkhHWjluWVE0UjdTcXVCblk1M2NkdGE0Y0NfVUc3QWJhYWw2OWkxY20zM2U1YV80YUhycnhHeHF3TFdKVUlXR2MzWDduZjQ?oc=5",
+        "published": "Mon, 20 Jul 2026 19:35:37 GMT",
+        "source": "Google News · AI",
+        "_date": "2026-07-20T19:35:37+00:00"
+      }
+    ],
+    "business_macro": [
+      {
+        "title": "Candidate Q&A: State Senate District 19 – Inam Rahman - Honolulu Civil Beat",
+        "summary": "Candidate Q&A: State Senate District 19 – Inam Rahman    Honolulu Civil Beat",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOTFYVHRMazZFT2FwM09uTTJFZW85UzZTeUxLaGtSV2pNOFRnemtMRGhnamF0NmFvbHRQR0FPLVR4R01CendkQWtNSzc1TEZpTXBZUnhRU05CeGRaV0JnTzM4b0pLal82azVybWdyODktTGY0VXlZTEw4eEhGdkhuODFkNk4tTzBWZEJRTA?oc=5",
+        "published": "Mon, 20 Jul 2026 22:49:07 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-20T22:49:07+00:00"
+      },
+      {
+        "title": "农业稳产需要金融综合方案 - 中国经济网",
+        "summary": "农业稳产需要金融综合方案    中国经济网",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HRzRvcUNWN1Ata3U3WGhHYlFxYy1aWUxyU2pkTzJRMHk2RWkwRERUNTZpc2psVDBEQ0todEJFNnJHcEF3Y1Y5NU96eXNBUzlfZU4wdERDeGtOOFJXcWVNczdBZjVXUnFBSGJGVDJ0NA?oc=5",
+        "published": "Mon, 20 Jul 2026 22:24:00 GMT",
+        "source": "Google News · 行业",
+        "_date": "2026-07-20T22:24:00+00:00"
+      },
+      {
+        "title": "China’s car industry is on a tear overseas. So why are sales at home plunging? - South China Morning Post",
+        "summary": "China’s car industry is on a tear overseas. So why are sales at home plunging?    South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONGU5YkJyc09jRHlDTXlhQ0lzNC1jQjB3N0pIUzhNSEFoQjZ6dzFSMmNuTWhNLTVJc3ZsQ1JkdlhwaEhmMmRjbURUVkx0Z3BjcG5NdExPcUp4STlWb0p5ZXdNUEVBTEd6WjI4Xy1YRm9kdEJVUklJWUV0MFg4VkM0cjhaVng2R1dqNDJidjRnVHdFSXhKbmhTNTlwNmJhUWNLdDFFWlR4V1M2TzRKa2ktVG5FNzQ3anBIZzJPTmRJdzlONGF6YVFidUJB0gHKAUFVX3lxTE40ZTliQnJzT2NEeUNNeWFDSXM0LWNCMHc3SkhTOE1IQWhCNnp3MVIyY25NaE0tNUlzdmxDUmR2WHBoSGYyZGNtRFRWTHRncGNwbk10TE9xSnhJOVZvSnlld01QRUFMR3paMjhfLVhGb2R0QlVSSUlZRXQwWDhWQzRyOFpWeDZHV2o0MmJ2NGdUd0VJeEpuaFM1OXA2YmFRY0t0MUVaVHhXUzZPNEpraS1UbkU3NDdqcEhnMk9OZEl3OU40YXphUWJ1QkE?oc=5",
+        "published": "Mon, 20 Jul 2026 22:00:18 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T22:00:18+00:00"
+      },
+      {
+        "title": "The new carbon capture method stepping up to tackle heavy industry - The World Economic Forum",
+        "summary": "The new carbon capture method stepping up to tackle heavy industry    The World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaWMwZUtRRDJwM3RFaEdzcVhLUTg1bmsxa1FURlJocXpuUy1kSW12akRQRUk1WFRBXzR4S0JneFVneUY5RGp2Z1NTS1FaT1NOTWpzUUY2dTVoV0tVdmxzQjFOZXRYOGYtcHRyYWhVWms0bkNpSEh6V2VNTkh3a1NjNHFrWThTdy1mM1lCRHlUam9SNVRKSzNQdWJrSmhzYm41WGJPRzV0Umg5M2k1WjBya21Ka21ZRGc?oc=5",
+        "published": "Mon, 20 Jul 2026 21:03:09 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T21:03:09+00:00"
+      },
+      {
+        "title": "USD/JPY Grinds Near 162.40 at a 4-Decade High — the Carry Trade Battles a Hawkish BoJ and Intervention Risk - TradingNEWS",
+        "summary": "USD/JPY Grinds Near 162.40 at a 4-Decade High — the Carry Trade Battles a Hawkish BoJ and Intervention Risk    TradingNEWS",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vVXMxeHpuZUZzNDVSbjEzUzhIMGtkY05PZV9XeHh4Y2wybTd4ZlJYbV9jMng4SU9iS1FUem1ObkI0aUZVYVQ5dHhFWUswOVZWbVJVRVoyWGk1MU82MmxmTFdNY19NVXNyblhfclA4TnNiYmdvbk1LTGctaW12Zw?oc=5",
+        "published": "Mon, 20 Jul 2026 20:15:05 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-20T20:15:05+00:00"
+      },
+      {
+        "title": "UKM first in ASEAN to integrate BlackBerry QNX curriculum, targeting future-ready tech talent - Indiatimes",
+        "summary": "UKM first in ASEAN to integrate BlackBerry QNX curriculum, targeting future-ready tech talent    Indiatimes",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPYm9rNnRDM0dudkdOTXZvQnc2RURyRDA5X0RLRTBHa1RYMHIyTEwtdy1GVGp1alRNelZYYTY2V3U2ZGFFR3dFVE9MeHdVQWdEb1piVEdzMF9CZFROblFjMG1ZM29PaVhOb1RxS0FHSklzQXBVdWsycHAtOUt0T3BlWVNuRGZUVHUwMTd2WDZ3QmswX1oxaW9jNVhfd3AxOXByNDlVZXBEVDFRTS1IYWQ2TVVWaF8yVXVtN19NcDdjeEg4a2gzOGlSLXFIZW5QOEJEYjk0cVBtQTRsYkJPVGRwOGhzdXJpWHR5NDhka19qNV9QU0wxR3p6SmV1NDVHcFItSjhJ?oc=5",
+        "published": "Mon, 20 Jul 2026 20:10:44 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T20:10:44+00:00"
+      },
+      {
+        "title": "Global economy tipping towards a sharp slowdown, India 'may lose a step' too: Moody's Analytics - MSN",
+        "summary": "Global economy tipping towards a sharp slowdown, India 'may lose a step' too: Moody's Analytics    MSN",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOGdwdzBnTGxwUzFjMFppN3Y2empVTllIUkUyam1iOEdtWkR5SU9MWnVqM0dZUnRWbEViSS1GTFNYTFF4ODY4YWRhRFFBQjY3WkFUS1Q1amlidGJjMkpKRjJtdUp5YlNuZkpMQU5kRV91VU41MXNwU1R2RnBKUHM5dXBQWkt6dUQ0QkRObFVLdTFyRUd0RHpkQnVQZFFnXzZ1Qk9qeVYwcklwMldjZHVmUHI3dFJ3ZjN3V3lVZmdWQTk0STJpRUk0T0U5VGhxYS1MQzdheUdGd2tZX0U?oc=5",
+        "published": "Mon, 20 Jul 2026 20:10:16 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T20:10:16+00:00"
+      },
+      {
+        "title": "Zions Bancorporation, National Association Reports Second Quarter Financial Results - TradingView",
+        "summary": "Zions Bancorporation, National Association Reports Second Quarter Financial Results    TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWTRBSG5zcFdJRU03V0J6NWtEZGdCOTJId2xiS0dtS1EzV2htakNkRm84XzJTYl9mY3RuOEFsR1dKVXpkSnJWYldHYUlFSDNIUXVwN0Uzc01Rb0RIN0pGa0hDQ0dZMi1ldi1yaGNlWUFTOHFhTEloV1hadEFPNllQb05Lem9NYWNIWWotX0lxNmpEN09BcXdZd1JTUDlrUXJSZ2JZT3VvQ2l4aUUwQ2JIamNLblNUOEw2MWVFV0Q1R3p0SllDdGl5cHUtV3gtUFY5Y2hjWk04R3pYcnc?oc=5",
+        "published": "Mon, 20 Jul 2026 20:10:00 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-20T20:10:00+00:00"
+      },
+      {
+        "title": "Trump Boosts U.S. Aluminum Industry with New Proclamation - Devdiscourse",
+        "summary": "Trump Boosts U.S. Aluminum Industry with New Proclamation    Devdiscourse",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX1cybVQyQ24yQ3EwMFhadmNVQnIySjFUWGRtSjN6X0FqbWZ1TnJQbGJqd0RfaFh1RndMV0R0WDFJOG1TRF9NNi1jTDJzTWthTU13ZVRmaUpZMlM0TkZhbkR3RlZwQWFzSVpnM29xV291S0NtOUV3UzFuTTRVVHRBS2I1eHpQcWRuZmtlYWtONzVhMUVENEJHR0NTcGxaSWljOHUyN0VjV0pjT1JUNXFUN2l1d9IBswFBVV95cUxQX1cybVQyQ24yQ3EwMFhadmNVQnIySjFUWGRtSjN6X0FqbWZ1TnJQbGJqd0RfaFh1RndMV0R0WDFJOG1TRF9NNi1jTDJzTWthTU13ZVRmaUpZMlM0TkZhbkR3RlZwQWFzSVpnM29xV291S0NtOUV3UzFuTTRVVHRBS2I1eHpQcWRuZmtlYWtONzVhMUVENEJHR0NTcGxaSWljOHUyN0VjV0pjT1JUNXFUN2l1dw?oc=5",
+        "published": "Mon, 20 Jul 2026 19:53:04 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T19:53:04+00:00"
+      },
+      {
+        "title": "Evers approves rule to allow qualified RNs to teach clinical courses - In Business Madison",
+        "summary": "Evers approves rule to allow qualified RNs to teach clinical courses    In Business Madison",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeWNnZnRkYTFmR2w3bzVIN0tWM3B2aTZTdFlLbGFja1NyRzU1dHdmalZTWTlkN0loTjU1RzNhZjNCUHFMSHJrdEd2TGtXOXhsUnZPSm9ta2Y4MVFhMXpTRnhzWkc5d2hkczd4STF4YVhJOU1US3VnQll3Rm1DQXBBNXdVcGdqcWVQbXIwSEtSUmMxdnd5VUE?oc=5",
+        "published": "Mon, 20 Jul 2026 19:34:54 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-20T19:34:54+00:00"
+      },
+      {
+        "title": "McShane Construction selected to build 93-unit affordable housing community in Madison - In Business Madison",
+        "summary": "McShane Construction selected to build 93-unit affordable housing community in Madison    In Business Madison",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQTZQazQ2UUM0VHNneUptNldCTzJCTG1Ja094c2FHN3hXdjVyY2hnQS1vNDhuYlEzV3RRUnd0b3A4X0h4ek03b1Nhb3o1RFhwVUZkSGozZmR4aDZQRXhsU3BFWlV2cm5qazVPdXVlVEFxcGVaZEd1bEw2NnlUTEx6V0lSUzg1cUdQYlRhZU1NMWtnQm5pUWZjV2VkMnR0RWFTMFc4cUJQQkdEY1JSS3c?oc=5",
+        "published": "Mon, 20 Jul 2026 19:29:51 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-20T19:29:51+00:00"
+      },
+      {
+        "title": "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030 and Beyond - LiteFinance",
+        "summary": "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030 and Beyond    LiteFinance",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeElueWM4b01fQWpUbVpoOHdMYkw3SkQ5QldoaHBvSVh0QUhDeF9iTWZVM0NqZFV1cXg5QzRCU3NpM05kMkgtaEJUa2hvWTBrWTVSaEY1R2wyM1BkMnFXdHF6TnhqVF8tRXozYXBhMW16WnVWelhwOXBWT3ZnbnlTaDctU2RqYmlfVXc?oc=5",
+        "published": "Mon, 20 Jul 2026 19:26:41 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-20T19:26:41+00:00"
+      },
+      {
+        "title": "RIL sees better global refining margins despite oilfield attacks - The Economic Times",
+        "summary": "RIL sees better global refining margins despite oilfield attacks    The Economic Times",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWnN5R3pGRU1tWGhMTG9icktxc3ZZdmtRWDVXREJJblpEbmFXU2VTNDJoV1FveGlGZHRaZFNvS2xwckktOWNSOE1peFNxLWFnbU40enRnTHVDeThjSmhKUnFGS2dxd1NQRjJYR3ZQSmVxTDhFZFdOaUZxM2ZyVFpTYVoxTGpNR3dUelU4UjlrT2ZxNF90QzhmR0dnT3BFSlNRZ0NodUNDNktoNW1rZV9kQnhTX2hRQ3kta1BVSEZNTmhOLWtWM3ppUGFwQkltQXBsNF9KTVhaSjl1UFJGckVR0gHfAUFVX3lxTE9ac3lHekZFTW1YaExMb2JyS3Fzdll2a1FYNVdEQkluWkRuYVdTZVM0MmhXUW94aUZkdFpkU29LbHBySS05Y1I4TWl4U3EtYWdtTjR6dGdMdUN5OGNKaEpScUZLZ3F3U1BGMlhHdlBKZXFMOEVkV05pRnEzZnJUWlNhWjFMak1Hd1R6VThSOWtPZnE0X3RDOGZHR2dPcEVKU1FnQ2h1Q0M2S2g1bWtlX2RCeFNfaFFDeS1rUFVIRk1OaE4ta1YzemlQYXBCSW1BcGw0X0pNWFpKOXVQUkZyRVE?oc=5",
+        "published": "Mon, 20 Jul 2026 18:42:00 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T18:42:00+00:00"
+      },
+      {
+        "title": "Australian Dollar: Carry Trade and Growth Prospects Could Fuel Rebound, Says HSBC - CryptoRank",
+        "summary": "Australian Dollar: Carry Trade and Growth Prospects Could Fuel Rebound, Says HSBC    CryptoRank",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNFk0Y2U0TXU0VjZwUlBJWTNYN1QtVkdBRnV6Z3FWanZaaW05NEg4WUFJLWpVQ1F5MjR0aGdTc3FOZEFldHlkLWltbFVrSmQ4Ui03Z3p1ZmpLQWFvVjdFb040T0ZLU2hHd1ctT3NYdHoybHpueEtEWDVFal9zYXFlYlBLdlhUanVRZTFF?oc=5",
+        "published": "Mon, 20 Jul 2026 18:33:27 GMT",
+        "source": "Google News · Markets Policy",
+        "_date": "2026-07-20T18:33:27+00:00"
+      },
+      {
+        "title": "University of Houston Joins Texas Nuclear Alliance to Advance the Future of Nuclear Energy - University of Houston",
+        "summary": "University of Houston Joins Texas Nuclear Alliance to Advance the Future of Nuclear Energy    University of Houston",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX216Y1JOSEhNQjlpZGxuSWpwanJsYXpsR1ZLTjRvc0JIQV9XUGtVMkNZMGZoaFAwelYxbEZOUTJaalhLUWNhN3JXN3lEVEZsdVR4WngwZ3hsQ0tucERLdzgxWWJJbHpKMS1XV3NIQzNZVVpoVTBQVnpTcTNEY3N5SUxxamZKZE1v?oc=5",
+        "published": "Mon, 20 Jul 2026 16:49:45 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-20T16:49:45+00:00"
+      },
+      {
+        "title": "Ontario Investing Nearly $2.6 Million to Protect Aerospace Workers and Enhance Defence Readiness - ontario.ca",
+        "summary": "Ontario Investing Nearly $2.6 Million to Protect Aerospace Workers and Enhance Defence Readiness    ontario.ca",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWGxmVjJjbjU4SmRvd3Nmd09ISXhaM241MUFyelI1blphMGlOVW0yNnlYaHFsRTg5RmZfQ1Z6MVhCcnlDRDlFMDVQU2lIVm1qdTJabUU5U2pVUmtMOWNTMEtLUU9DaWptWDlqYVR0SVhjQkFjUEFXS0s3blRxWFR1SEYyUHViUjZqOERsWE5NWW44RkYySTN4dzFGWjQ5aHhmQmttVXZCZ0dNSU43TWcwS3Y4aFgwZ0hBSGRHS3lheW53TTdKSnRRRHB5V1pzR0UwUDRn?oc=5",
+        "published": "Mon, 20 Jul 2026 16:39:24 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T16:39:24+00:00"
+      },
+      {
+        "title": "Plant.Digital Selects Quest Global as a Strategic Partner to Accelerate AI Driven Asset Reliability and Integrity Across the GCC Region - PR Newswire",
+        "summary": "Plant.Digital Selects Quest Global as a Strategic Partner to Accelerate AI Driven Asset Reliability and Integrity Across the GCC Region    PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQVWp4bnQtWURmbndoSV9BWWY1YTFRZnRVRVhRTEtjV2EzRmQ1VUpWX2MzVTVHU0gwZVAxYmxlM0FRQVN4UlM2MFduYW1aZEdfREF0UnpPXy1SMlR3aU5xMUI2aEE5a0d3Mk1BZXkxNldvNFFKT2RibUtJMVQxUEktOWk5N29Sd1RYZDJFZGhLUTBqU18wZTh2dkV2eTN2TnlvSi05OTl5SzdkaHN1eHFVTTMySTVxbXc5YUZiY0stRElqQnI5YV9GTzRnUUtjXy1LSXYxSnlXUURZWV8zWE5jd3VxVjBIMlBFNzRwV1FJUVFEd0NtMW1SY2NOUlJzOTNSVUV6YnVwVFFaeC1ZMmpKeEhjeHAzVG5lOXJoRDlR?oc=5",
+        "published": "Mon, 20 Jul 2026 16:39:00 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-20T16:39:00+00:00"
+      },
+      {
+        "title": "International Hotel Industry Coalition Calls for Long-Term United States-Mexico-Canada Agreement Extension - Hospitality Net",
+        "summary": "International Hotel Industry Coalition Calls for Long-Term United States-Mexico-Canada Agreement Extension    Hospitality Net",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOV3JWSXNDR2lWOWhzUXptUU42VTlvU2ZxZkFTeXpsUW1EUzI3ZG1HWkQxVFhVY2VSMDRWcVNiZDFxNWY0UWtkTEtuUVdTZ25lT0hoQVgwNXpiSk8xMkJHdGpyZzJVZzFXQm1sN1dQZE1xWlpydGdKYjExVmFGdjNuVGgydUg0N1l1cDQ4akltTVV6cEx0bWo2RzFZSEhWVlVtOVAwd0d5SFNwZjUxMk9QZDNWcm5sN1VQdHRjUHpRU001WEluTkc0ZGZqR3hGam9mNFNhX2lQWEd6UDFtTDVXU1pKQ0k?oc=5",
+        "published": "Mon, 20 Jul 2026 16:25:40 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T16:25:40+00:00"
+      },
+      {
+        "title": "Industrial Policy Needs Plasticity, Not Perfection – OpEd - Eurasia Review",
+        "summary": "Industrial Policy Needs Plasticity, Not Perfection – OpEd    Eurasia Review",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTlVMUJVSE5xaWFmNXZyWHNQN2xnTWFwbGt0bFptNjhxZE9QT2Vtd05TbEd1LU9QNTF1Tlo1U01ROGR2T09ONXpsaFBBZXVHM0d4U04wbl9ZOGtycUZiWkRjd1B1NjRKdkhFR1lTRDhWeXJVeG9fY2ZadE5sODdSenQ0eW5pV0tqZ1VOU3dsVGwzaVg2NDlWaUZB?oc=5",
+        "published": "Mon, 20 Jul 2026 16:23:38 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T16:23:38+00:00"
+      },
+      {
+        "title": "LED Lighting Market to Reach USD 186.71 Billion by 2032, Expanding at an 8.41% CAGR - GlobeNewswire",
+        "summary": "LED Lighting Market to Reach USD 186.71 Billion by 2032, Expanding at an 8.41% CAGR    GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNmJHMjhELUJHYW9rR0VtbXBmZFR5YVFkb0Q2OUd3bVBGVWJqNV9mVmlaOUNOSkpabXFZMXZrNDZoMk1kbTdmbUkxY3lnZ19KM2VtRmNFbVYzRXRqdFg1Q1RiZ1hJSGdRS0kxVC1lUW9kdUxsVW5pSmp1MURnVzNNNUpjUUZjTXVyaS0tMzFhNUd1MzY4dGZyNlRlcW5JTmFfRG54emtKc2N0U183U2dXMTQ5X0VCV3l5N2tTVDY3WFp2alF5dlAxNHRSNENHbmZSQ3JMdUJrZUhiMUR5QXoxc1NXZC1QZW1R?oc=5",
+        "published": "Mon, 20 Jul 2026 16:12:47 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-20T16:12:47+00:00"
+      },
+      {
+        "title": "AI is ‘new engine’ keeping Chinese economy from harder landing - Taipei Times",
+        "summary": "AI is ‘new engine’ keeping Chinese economy from harder landing    Taipei Times",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zbXVmRGtSWkZIN0VvejBCeEFLTHFleHJWZW1jMWh5ZjkyUUZObE50UDR4WU84Y0U3X1Nfa0haeWoxU0JNN3RneUFsaksyN3dob2lXVzlja0xheEhyZi1mQVlraEZiSHlqYkpmNFhvTWljSTB5ZUE?oc=5",
+        "published": "Mon, 20 Jul 2026 16:00:00 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T16:00:00+00:00"
+      },
+      {
+        "title": "The 2026 SIPP: Where innovation meets incentives - Philstar.com",
+        "summary": "The 2026 SIPP: Where innovation meets incentives    Philstar.com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdG5ta0tPQk93eWRoa0tSS2RrTVoyRDRJa3RsNVpOcExMNFZTaURpUkRBY1pQVzRMQ2pySlpsUDdQYnpNT0xCWURwd09NNURGX0pDN3gybHBaT3NFb0pkVFJPc2gwdHg0MlhMbUFFNXdWTlBsdkxvRXNrY2ludEJWUXVvZzdVZU1DcXpGRHozQ2Z3aUFJZEl1dmpubTjSAaMBQVVfeXFMTkZuRmVIdFZ4N3NRS3A4cTlBZWdPbXFLMVZiNExJdlJRLUhhSnRCSDRMd1QwZnM1VHRYdTFlVDJZNjR5dzlCd2RwbVo5bkY4N19DaXp5MHpieUljM3FtWUtBajNKVC1saDlNcTlsd2NpaDJrOXRkeVhtSWJXQ0pERlI4SW1GM1FXQ0tkRlBSemoweDltTXJRLVZ1cm1tNTN4M3FrTQ?oc=5",
+        "published": "Mon, 20 Jul 2026 16:00:00 GMT",
+        "source": "Google News · Global Economy",
+        "_date": "2026-07-20T16:00:00+00:00"
+      },
+      {
+        "title": "US-Based Innovator in Energy Storage Selected to Power Missile Defense System - The Well News",
+        "summary": "US-Based Innovator in Energy Storage Selected to Power Missile Defense System    The Well News",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkFMclRON05GbHhTZjlIN3paYzRON2tCTDM3dFcxS2lhRXdNcExUeUF5b0hyTEZhZXlFdDVBU0dLOTdaMXB6WGxqcHNRZTR2TGRtY0M4aWRpRmg5dWl0bG5kRkJzZzlXNGUzT3p0d01vU3Bwd0RPNWQxS1Vuc1VNclNNS3pGVktLS0pvLTdtUERFNndfZFRjZC1DaWhSN0xlaF90a1RpNTdhNmdudHh6TDRrOHZKdw?oc=5",
+        "published": "Mon, 20 Jul 2026 15:45:19 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-20T15:45:19+00:00"
+      },
+      {
+        "title": "Edge AI Software Market Growth Accelerates as 5G, IoT and Industrial Automation Enable Real-Time Intelligence - GlobeNewswire",
+        "summary": "Edge AI Software Market Growth Accelerates as 5G, IoT and Industrial Automation Enable Real-Time Intelligence    GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQUFgxTXZvTmV6aFZnbmhvelowYUR2Smo2TEcxMUlVRXUtMWMwNkg0RU5xMUhTVFhFSnkyeUIzbmZ2STVGeEhubWNHbTdEVkU0bGFfdVdjN1dRVV9WU1FNTkIyYjZpcW13V253bUVNajZROWx6a3NjTnJaUUdYOURCSnp1dXZ6VzB6T3ZMUDZsSGlSQzZkMUVVMUxKU0JWaFltek5TcjIybzdta2Q2d3duVWpidkNOYXdBdVdlY1B0alhESUo0c1k3Si16Znk1SUtqSmlqS2YwOFlyby1fNm82MWxTQUhPY05WTzNmZFRqVTVnbnJNQU5zekwzd1pWNlhtbUVhNmZhMWJ6T0ZUc1lGTG1n?oc=5",
+        "published": "Mon, 20 Jul 2026 15:38:43 GMT",
+        "source": "Google News · Technology Business",
+        "_date": "2026-07-20T15:38:43+00:00"
+      }
+    ]
+  },
+  "search_text": "  Daily Intelligence\n  2026 07 21｜Tuesday\n\n   Today’s Thesis｜今日一句话\nAI 正从“通用能力演示”转向“受约束场景的渗透”，其经济价值的释放高度依赖基础设施（算力/能源）与治理规则的同步，而非模型本身的单点突破。\n\n   ① Executive Summary｜30 秒\n    AI  ：模型免费化趋势确立 [A22]，但生产力释放卡在工人技能与基础设施（如数据中心立法）[A2][A12]，具身智能开始进厂替代体力劳动 [A8]。\n    商业  ：中国制造业以 AI 为新引擎对冲宏观放缓 [A18][B21]，但汽车等行业面临“海外热、国内冷”的结构性分化 [B3]。\n    宏观  ：全球经济逼近急剧放缓 [B7]，套息交易在鹰派日银与干预风险下博弈 [B5]，产业政策从追求完美转向需要塑性 [B19]。\n\n   ② AI Daily\n\n    AI 模型免费化与生产力瓶颈\n  What Happened  ：强大的 AI 模型正被免费提供 [A22]，但研究指出 AI 生产力取决于工人而非仅靠技术 [A12]。\n  Why It Matters  ：模型本身不再是护城河，人机协同能力与工作流重构才是价值捕获点。\n  Second order Effect  ：模型免费 → 企业 IT 支出重估 → 垂直场景集成商获利。\n\n    具身智能与 AI 的体力革命\n  What Happened  ：WAIC 展示具身智能抢进工厂，AI 从“能动”变“有用” [A8][A20]。\n  Why It Matters  ：AI 脑力革命后，体力革命开启，直接替代蓝领劳动力并重构工业资产可靠性 [B17]。\n  Second order Effect  ：具身智能进厂 → 制造业劳动力结构重塑 → 机器人运维与保险需求激增。\n\n    AI 治理与基础设施的约束\n  What Happened  ：全球南方寻求 AI 治理新选项 [A3]，佛罗里达立法限制数据中心对公用事业成本的影响 [A2]，联邦政府计划建大型数据中心 [A13]。\n  Why It Matters  ：AI 发展受制于能源成本与规则制定，治理不再是滞后补丁而是前置条件。\n  Second order Effect  ：算力能耗激增 → 政策/电网约束收紧 → 核能/碳捕集等替代能源获增量需求 [B4][B15]。\n\n   ③ Business Daily\n\n    制造\n上海人工智能制造业增长 21.8% [A18]，AI 成为中国经济防硬着陆的新引擎 [B21]。海尔智家全面 AI 化或带来估值重构 [A11]，标志着传统制造龙头正通过 AI 渗透率重获定价权。\n\n    能源\n算力需求推动能源基础设施演变。联邦政府拟建大型数据中心 [A13]，佛罗里达通过立法控制数据中心电费 [A2]。同时，德州推进核能 [B15]，重工业碳捕集技术加速 [B4]，储能系统甚至被用于导弹防御 [B23]，能源与算力的绑定日益加深。\n\n    自动驾驶\n中国汽车工业在海外高歌猛进，但国内销量暴跌 [B3]，呈现典型的产能输出依赖。UKM 整合 BlackBerry QNX 课程培养自动驾驶底层系统人才 [B6]，暗示车载 OS 等软基建正成为下一轮竞争焦点。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？  \n全球经济正走向急剧放缓 [B7]，但 AI 制造业和套息交易呈现局部高温 [A18][B5]。\n\n  为什么发生？  \n宏观信用周期见顶，但 AI 资本开支与套息交易（USD/JPY 达 40 年高位）制造了结构性分化 [B5][B21]。资本在总量收缩中寻找技术增量与利差套利。\n\n  资本如何流动？  \n资本正从传统内需（如中国汽车国内销量暴跌 [B3]）流出，流向 AI 算力基建（数据中心 [A13]）、边缘智能 [B24] 及对冲资产。产业政策从追求完美转向需要塑性 [B19]，以适应这种非均衡流动。\n\n  接下来关注什么？  \n套息交易逆转的脆弱性 [B5]。若日银干预引发套息平仓，风险资产将承压；同时需验证 AI 投资能否在宏观放缓中维持反身性正循环。\n\n (事实：穆迪预警全球放缓 [B7]，USD/JPY 在 162.40 附近 [B5]；推断：AI 投资可能对冲部分宏观下行，但若套息逆转，风险资产将承压) \n\n   ⑤ Signal Dashboard\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   25,508.07   →  0.05%   中性  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,005.60   ↓  0.18%   中性  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   82.66   ↑ +0.21%   供需平衡  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   101.00   ↑ +0.25%   金融条件偏紧  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.60   ↑ +1.26%   成长估值承压  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   65,100.01   ↑ +0.63%   风险偏好改善  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   18.65   ↓  0.64%   市场稳定  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   203.28   ↑ +0.23%   中性  \n\n   ⑥ Deep Insight\nAI 的叙事长期被算法突破主导，但 2026 年的转折点在于：AI 的扩张速度已触及物理世界的硬约束——能源与治理。当强大的 AI 模型被免费开放 [A22]，软件的边际成本趋近于零，但运行这些模型的物理基础设施（数据中心）的边际成本却在急剧上升。佛罗里达州议员提出立法以确保 AI 数据中心不会推高居民公用事业成本 [A2]，这揭示了一个被忽略的机制：算力正在与民生争夺电力配额。联邦政府计划在萨凡纳河遗址建设大规模数据中心 [A13]，并非单纯的技术布局，而是能源禀赋与算力需求的妥协。\n\n这形成了一个强烈的反身性循环：AI 繁荣 → 算力/能耗需求激增 → 电网与政策约束收紧（如佛罗里达立法）→ 数据中心选址与核能/碳捕集技术获增量 [B4][B15] → AI 发展路径被迫向低能耗边缘计算或受监管行业妥协 [A21][B24]。资本正在对这一循环进行定价：边缘 AI 软件市场因能缓解云端算力与能耗压力而加速增长 [B24]，而传统能源体系为了承接算力溢出，不得不向核能和新型碳捕集寻求解法 [B4][B15]。\n\n同时，全球南方寻求 AI 治理新选项 [A3]，以及针对未成年人 AI 玩具的立法 [A10]，表明治理不再是滞后补丁，而是与技术平行的前置变量。当 AI 试图从“能动”转向“有用” [A20]，它必须嵌入受监管的专业工作流 [A21] 和物理制造环节 [A8]。这意味着 AI 的未来不取决于模型能有多聪明，而取决于社会允许它消耗多少度电、干预多少现实流程。产业政策若缺乏应对这种技术突变的“塑性” [B19]，将导致基础设施与前沿模型之间的错配，进而引发算力通胀或算力闲置。\n\n反方观点认为，算法效率的提升（如模型免费化 [A22]）将大幅降低单位算力能耗，使能源约束被技术进步自然消解。此外，全球经济的急剧放缓 [B7] 可能自发抑制算力总需求的扩张，从而缓解电力紧张。\n\n证伪条件：若未来 1 2 年内，单位 token 推理能耗下降速度持续快于算力总需求增速，且电网扩容无需政策博弈即可自发吸收数据中心增量，则物理约束论失效；反之，若数据中心电价成为核心成本变量并反映在科技巨头财报中，则该机制成立。\n\n   ⑦ Tomorrow Watch\n1. 验证 USD/JPY 在 162.40 附近是否触发日本央行实质性干预 [B5]。\n2. 追踪佛罗里达州 AI 数据中心公用事业立法的后续审议进展 [A2]。\n3. 关注萨凡纳河遗址大规模数据中心的环评与立项动态 [A13]。\n4. 观察中国汽车国内销量持续暴跌是否引发新一轮内需刺激政策 [B3]。\n5. 验证边缘 AI 软件市场在 5G 与工业自动化驱动下的季度增速是否兑现 [B24]。\n\n   ⑧ One Chart\n [Daily Market Pulse](assets/chart.svg)\n图表反映了各类资产在宏观放缓预期与局部 AI/套息热度交织下的定价分歧。十年美债收益率上行与 VIX 下行并存，显示市场在流动性收紧预期中仍维持短期乐观，但这并非因果，而是不同交易主逻辑的短暂均衡。\n\n   ⑨ Quote of the Day\n\n  “Plans are worthless, but planning is everything.”  \n  — Dwight D. Eisenhower\n\n  中文理解  ：计划本身常会失效，但规划过程能让你理解约束、选项和应对路径。\n\n  Why it matters today  ：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。\n   ⑩ Action Items｜今天值得思考什么\n1. 追踪 AI 模型免费化后，垂直行业集成商（如海尔智家 [A11]）的利润率变化。\n2. 验证具身智能进厂对制造业劳动力成本的实质性替代率 [A8]。\n3. 比较中美在 AI 基础设施上的政策约束差异（佛罗里达立法 vs 上海制造业增长）[A2][A18]。\n4. 关注套息交易在鹰派日银下的脆弱性，评估其对成长估值的潜在冲击 [B5]。\n5. 思考产业政策的“塑性”如何适应 AI 技术突变的非连续性 [B19]。\n\n   信息边界\n本报告新闻来源覆盖中美英及全球南方主流聚合源，时效截至 2026 年 7 月 20 日晚间。市场数据为最近交易日收盘值。由于新闻多为二手聚合，重要立法与政策判断需读者回到原文验证进展。\n\n\n   Sources\n\n    AI\n\n  [A2：Florida GOP lawmaker and governor candidate says AI data center legislation keeps utility costs down   The Washington Post](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNjBkQVEtOHRETXJURFh1aVEyeXJCUTR2NnpfcFVWSlRMWkV0V2VOUkV2TGZiWDItZDFfUmxoZnJqVVRIdXNpeWU4VGJlbTRnSnJhQl9xcVlKTlZwdmlCTnE0eVhiSlJaT2ZDaklXVjdzdHBGbnNmcXAweVY4YXdfT3BWN0ZwTEcwc3NRd0Nobm1KaWl1c0NCSHo0MDMySi1aRE03UnRRUm1fbmpleGRlQVpERjhBMEhOOUR5c2YxQ2Fad1J1Umg2NTRJLWJuaUk1dy1sUFhDdGRmM1VicDJQVnh4dEJGNWZpUnRhSWRB?oc=5) — Google News · AI\n  [A3：全球南方迎来AI治理新选项   中国经济网](https://news.google.com/rss/articles/CBMib0FVX3lxTE9hSHdQTnlYaktGczJ3QWNmQm5KcXg1OWZJZFFzS2p1Qk9FNkwtak1UYnZlYmhPbm9Qd0dqcFQ5Sk5jNnlXZFNlc1ZMQ0hpTTI1aXNMck9vT2dheFNZZHp3ckQtUGl1cFRxT2hjU2Z2TQ?oc=5) — Google News · AI 中文\n  [A8：直击WAIC｜具身智能抢进工厂，营销智能体重构工作流⋯⋯AI的“体力”与“脑力”革命走到哪一步了？   每日经济新闻](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZaHFfbFg5cEVyTGZ3SGdVcWJielM2MTlYOVdIWTh5QzFwdW0xRHc5SGc3cGVua0dHcDZJOUFZbXVxQUhMbzhRSEZTYVJPY0NueTQxN2tsbm9xZjdVdFNNVjJ6SGhrQQ?oc=5) — Google News · AI 中文\n  [A10：Rep. Blake Moore proposes legislation to regulate toys with artificial intelligence for minors   Cache Valley Daily](https://news.google.com/rss/articles/CBMijgJBVV95cUxNdUdJX1RLMWJ2cWRQVnVwc3lCNTR6SGxzbEJfSWlLX1NZQUpIc1YzN214eFF0Qkg2STA4NjhrMGtjc0FjcnRzbnpvS2FSVlFoNGdHbmhiLXo2ZUVkOUZpdVpZMXRnbXcwVWQ4dU9uUG9uQnpHMkZfYTZSVUczSXdzZUw0OUtjWWNBZF9NNTN3OWNhQ1pwTlRBVk9FWmdCOW9RLU93ZjktZHNBbzN0RTBTUWUzQ2hISGc3bGx3RU1sdktRUXFNdG5xMF9Ea1dLRHFCaENQRlQtUVJOZGNKUUVOaHY4NzNPdmRucUhqd1A4YUNIaFdaUGpvbHlmenFTM0xjV29UWnpybkpucFR4R0E?oc=5) — Google News · AI\n  [A11：海尔智家全面AI化或带来估值重构   新浪财经](https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUZtSGFwR3pIb2tqX1ZtVlVCeENYNUQ4Q0dmbnBpRUxYTmFwYTY2ZzJoZUFCRXhoTl84NEF2enIwMnFzb01PV0pvNktlZ1E1c05iSGJ1ZXdacWpqWFBON1hGUmNTZ1U1X2pNX3dfTW9LeU9LZ3d2YTdKZmdpZGQ1NTZjXzZPdDNHSjdKUVk3ZTU1TVFyaEZjb190QnZCenBVY2ZBZmhxc000cl8xRGx0MV9R?oc=5) — Google News · AI 中文\n  [A12：AI Productivity Depends on Workers, Not Just Technology   ColombiaOne.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE1lOWNSZ3J1MUdpR3R3dnRSTVQ0M2lCNTEtZHN5cWNKbWZ1QmhXblZ4akhDM2REM2xUQUtyYUxTbkstV3NuMEUzTnVJbFV1OWlNVXBqZHV3MGxXOWs5X09qSE44VXVfWEpIV3dlSDlna2JPSEE5ci1weA?oc=5) — Google News · AI\n  [A13：Feds look to build massive data center at Savannah River Site   WRDW](https://news.google.com/rss/articles/CBMimgFBVV95cUxQdDNUcGg5dzBfV3o5NWNpTXRGVi1VQTBwcmVOd3Fmd2NlRE5GWDNKSzFpVmRrcVZfRTJtS2JVdTFGMUxqUXFpZ3JvRHVBN1plb2ZYX2o1S0RxM01aVGt5a0RrNjRRSENHV3Ftd294RW9jSUZBRUNyX01BSGR3QjNVY2lFOVZYRV92d1AyaTNCaVdaTS1MWVRya2ZR?oc=5) — Google News · AI\n  [A18：上海人工智能制造业增长21.8%，在WAIC现场找到原因   第一财经](https://news.google.com/rss/articles/CBMiU0FVX3lxTE81LVdndnpycndOcUxLdFBINmgtRjI1ZXB3cHNYNEtDSzdGZFJTLU1uRGlIaTY1Si02UXp5TWtDNV9Bam1ZYW5ya2lGdVE5bHFFOWNZ?oc=5) — Google News · AI 中文\n  [A20：看见未来！人工智能要从“能动”变“有用”   新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTFA3NmJWSGpSUW1XMXBtUm1YZmtxWnQweDJRUjB4N09fZ1M4RG9oZWZhcUplZURwa3F3LW9abzhoTTlnakJoSm4tNlNqX1pEOE9vaHVScWdIRDFpTTcxem91dUNJbkJfaE4tLTY2eVUzZ0c2dk9MY0NJTnV2NGZpM2c?oc=5) — Google News · AI 中文\n  [A21：How AI Is Reshaping Regulated Professional Workflows   Emerj Artificial Intelligence Research](https://news.google.com/rss/articles/CBMie0FVX3lxTE5WcmZUSGQ5OEo0cDdCLTc0YmR0RWVmeDNrd3IzbXFiUVU1SnpfVGVFdm1aeGswaVRXakVPd1lYU1lKbFRvM0ZLX1Mxc3ZUMl9FN1doX19ZNTh6VVBMX25ZcUxKVGJTU3V6R3o1b3g4TlQ2MVU4bV94YlhlZw?oc=5) — Google News · AI\n  [A22：Opinion   Powerful AI models are being given away for free. It was inevitable.   The Washington Post](https://news.google.com/rss/articles/CBMipAFBVV95cUxPNHlUS1laU3VseHk2MnRaREdWLXgzRWo1alVmTWdZZlRWWkNtUTVLcDZpaEt5RU9VUWJPVzNVSUJaeENLbEtBX3dpMHFyOGlRb0xVbHdxd1o1cmJjUlU4bXl6MVZnaVotcjNpN2stcllxVXktVm5wT0JWaXVTQVNKbllDbFFNcW44ckFpc2RLR09QSDZTMzEzVjhMUU1VazlLc0dRbQ?oc=5) — Google News · AI\n\n    Business & Macro\n\n  [B3：China’s car industry is on a tear overseas. So why are sales at home plunging?   South China Morning Post](https://news.google.com/rss/articles/CBMiygFBVV95cUxONGU5YkJyc09jRHlDTXlhQ0lzNC1jQjB3N0pIUzhNSEFoQjZ6dzFSMmNuTWhNLTVJc3ZsQ1JkdlhwaEhmMmRjbURUVkx0Z3BjcG5NdExPcUp4STlWb0p5ZXdNUEVBTEd6WjI4Xy1YRm9kdEJVUklJWUV0MFg4VkM0cjhaVng2R1dqNDJidjRnVHdFSXhKbmhTNTlwNmJhUWNLdDFFWlR4V1M2TzRKa2ktVG5FNzQ3anBIZzJPTmRJdzlONGF6YVFidUJB0gHKAUFVX3lxTE40ZTliQnJzT2NEeUNNeWFDSXM0LWNCMHc3SkhTOE1IQWhCNnp3MVIyY25NaE0tNUlzdmxDUmR2WHBoSGYyZGNtRFRWTHRncGNwbk10TE9xSnhJOVZvSnlld01QRUFMR3paMjhfLVhGb2R0QlVSSUlZRXQwWDhWQzRyOFpWeDZHV2o0MmJ2NGdUd0VJeEpuaFM1OXA2YmFRY0t0MUVaVHhXUzZPNEpraS1UbkU3NDdqcEhnMk9OZEl3OU40YXphUWJ1QkE?oc=5) — Google News · Global Economy\n  [B4：The new carbon capture method stepping up to tackle heavy industry   The World Economic Forum](https://news.google.com/rss/articles/CBMitwFBVV95cUxPaWMwZUtRRDJwM3RFaEdzcVhLUTg1bmsxa1FURlJocXpuUy1kSW12akRQRUk1WFRBXzR4S0JneFVneUY5RGp2Z1NTS1FaT1NOTWpzUUY2dTVoV0tVdmxzQjFOZXRYOGYtcHRyYWhVWms0bkNpSEh6V2VNTkh3a1NjNHFrWThTdy1mM1lCRHlUam9SNVRKSzNQdWJrSmhzYm41WGJPRzV0Umg5M2k1WjBya21Ka21ZRGc?oc=5) — Google News · Global Economy\n  [B5：USD/JPY Grinds Near 162.40 at a 4 Decade High — the Carry Trade Battles a Hawkish BoJ and Intervention Risk   TradingNEWS](https://news.google.com/rss/articles/CBMifkFVX3lxTE5vVXMxeHpuZUZzNDVSbjEzUzhIMGtkY05PZV9XeHh4Y2wybTd4ZlJYbV9jMng4SU9iS1FUem1ObkI0aUZVYVQ5dHhFWUswOVZWbVJVRVoyWGk1MU82MmxmTFdNY19NVXNyblhfclA4TnNiYmdvbk1LTGctaW12Zw?oc=5) — Google News · Markets Policy\n  [B6：UKM first in ASEAN to integrate BlackBerry QNX curriculum, targeting future ready tech talent   Indiatimes](https://news.google.com/rss/articles/CBMigwJBVV95cUxPYm9rNnRDM0dudkdOTXZvQnc2RURyRDA5X0RLRTBHa1RYMHIyTEwtdy1GVGp1alRNelZYYTY2V3U2ZGFFR3dFVE9MeHdVQWdEb1piVEdzMF9CZFROblFjMG1ZM29PaVhOb1RxS0FHSklzQXBVdWsycHAtOUt0T3BlWVNuRGZUVHUwMTd2WDZ3QmswX1oxaW9jNVhfd3AxOXByNDlVZXBEVDFRTS1IYWQ2TVVWaF8yVXVtN19NcDdjeEg4a2gzOGlSLXFIZW5QOEJEYjk0cVBtQTRsYkJPVGRwOGhzdXJpWHR5NDhka19qNV9QU0wxR3p6SmV1NDVHcFItSjhJ?oc=5) — Google News · Global Economy\n  [B7：Global economy tipping towards a sharp slowdown, India 'may lose a step' too: Moody's Analytics   MSN](https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOGdwdzBnTGxwUzFjMFppN3Y2empVTllIUkUyam1iOEdtWkR5SU9MWnVqM0dZUnRWbEViSS1GTFNYTFF4ODY4YWRhRFFBQjY3WkFUS1Q1amlidGJjMkpKRjJtdUp5YlNuZkpMQU5kRV91VU41MXNwU1R2RnBKUHM5dXBQWkt6dUQ0QkRObFVLdTFyRUd0RHpkQnVQZFFnXzZ1Qk9qeVYwcklwMldjZHVmUHI3dFJ3ZjN3V3lVZmdWQTk0STJpRUk0T0U5VGhxYS1MQzdheUdGd2tZX0U?oc=5) — Google News · Global Economy\n  [B15：University of Houston Joins Texas Nuclear Alliance to Advance the Future of Nuclear Energy   University of Houston](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX216Y1JOSEhNQjlpZGxuSWpwanJsYXpsR1ZLTjRvc0JIQV9XUGtVMkNZMGZoaFAwelYxbEZOUTJaalhLUWNhN3JXN3lEVEZsdVR4WngwZ3hsQ0tucERLdzgxWWJJbHpKMS1XV3NIQzNZVVpoVTBQVnpTcTNEY3N5SUxxamZKZE1v?oc=5) — Google News · Technology Business\n  [B17：Plant.Digital Selects Quest Global as a Strategic Partner to Accelerate AI Driven Asset Reliability and Integrity Across the GCC Region   PR Newswire](https://news.google.com/rss/articles/CBMingJBVV95cUxQVWp4bnQtWURmbndoSV9BWWY1YTFRZnRVRVhRTEtjV2EzRmQ1VUpWX2MzVTVHU0gwZVAxYmxlM0FRQVN4UlM2MFduYW1aZEdfREF0UnpPXy1SMlR3aU5xMUI2aEE5a0d3Mk1BZXkxNldvNFFKT2RibUtJMVQxUEktOWk5N29Sd1RYZDJFZGhLUTBqU18wZTh2dkV2eTN2TnlvSi05OTl5SzdkaHN1eHFVTTMySTVxbXc5YUZiY0stRElqQnI5YV9GTzRnUUtjXy1LSXYxSnlXUURZWV8zWE5jd3VxVjBIMlBFNzRwV1FJUVFEd0NtMW1SY2NOUlJzOTNSVUV6YnVwVFFaeC1ZMmpKeEhjeHAzVG5lOXJoRDlR?oc=5) — Google News · Technology Business\n  [B19：Industrial Policy Needs Plasticity, Not Perfection – OpEd   Eurasia Review](https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTlVMUJVSE5xaWFmNXZyWHNQN2xnTWFwbGt0bFptNjhxZE9QT2Vtd05TbEd1LU9QNTF1Tlo1U01ROGR2T09ONXpsaFBBZXVHM0d4U04wbl9ZOGtycUZiWkRjd1B1NjRKdkhFR1lTRDhWeXJVeG9fY2ZadE5sODdSenQ0eW5pV0tqZ1VOU3dsVGwzaVg2NDlWaUZB?oc=5) — Google News · Global Economy\n  [B21：AI is ‘new engine’ keeping Chinese economy from harder landing   Taipei Times](https://news.google.com/rss/articles/CBMidkFVX3lxTE1zbXVmRGtSWkZIN0VvejBCeEFLTHFleHJWZW1jMWh5ZjkyUUZObE50UDR4WU84Y0U3X1Nfa0haeWoxU0JNN3RneUFsaksyN3dob2lXVzlja0xheEhyZi1mQVlraEZiSHlqYkpmNFhvTWljSTB5ZUE?oc=5) — Google News · Global Economy\n  [B23：US Based Innovator in Energy Storage Selected to Power Missile Defense System   The Well News](https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkFMclRON05GbHhTZjlIN3paYzRON2tCTDM3dFcxS2lhRXdNcExUeUF5b0hyTEZhZXlFdDVBU0dLOTdaMXB6WGxqcHNRZTR2TGRtY0M4aWRpRmg5dWl0bG5kRkJzZzlXNGUzT3p0d01vU3Bwd0RPNWQxS1Vuc1VNclNNS3pGVktLS0pvLTdtUERFNndfZFRjZC1DaWhSN0xlaF90a1RpNTdhNmdudHh6TDRrOHZKdw?oc=5) — Google News · Technology Business\n  [B24：Edge AI Software Market Growth Accelerates as 5G, IoT and Industrial Automation Enable Real Time Intelligence   GlobeNewswire](https://news.google.com/rss/articles/CBMikgJBVV95cUxQUFgxTXZvTmV6aFZnbmhvelowYUR2Smo2TEcxMUlVRXUtMWMwNkg0RU5xMUhTVFhFSnkyeUIzbmZ2STVGeEhubWNHbTdEVkU0bGFfdVdjN1dRVV9WU1FNTkIyYjZpcW13V253bUVNajZROWx6a3NjTnJaUUdYOURCSnp1dXZ6VzB6T3ZMUDZsSGlSQzZkMUVVMUxKU0JWaFltek5TcjIybzdta2Q2d3duVWpidkNOYXdBdVdlY1B0alhESUo0c1k3Si16Znk1SUtqSmlqS2YwOFlyby1fNm82MWxTQUhPY05WTzNmZFRqVTVnbnJNQU5zekwzd1pWNlhtbUVhNmZhMWJ6T0ZUc1lGTG1n?oc=5) — Google News · Technology Business\n"
+}
