@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-22 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-22</h1>
+    <p class="subtitle"><strong>[观察]</strong> CE 当天无 Git 提交或按日期可归属的新工作树文件；现有 D0、八卡和步骤 1–5 控制材料仍是 2026-07-21 的未提交工作树，不能重复计为今日完成、外部已采纳结果或业务验收。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-30/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 CE 工作区完整性与 L2/L3 bridge 校验通过，但外部 authority、回执、D1/D2、FDE handoff 与独立 D3 审阅仍未完成；ACM GlobalDisable 当天有未提交的 UAT 运行与测试材料，一次 execute 在预检阶段 fail-closed，未形成业务操作或回写闭环。</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">7</span><span class="meta">已完成 1 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">5</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">0</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">6</span><span class="meta">P0 4 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：<strong>[观察]</strong> CE 当天无 Git 提交或按日期可归属的新工作树文件；现有 D0、八卡和步骤 1–5 控制材料仍是 2026-07-21 的未提交工作树，不能重复计为今日完成、外部已采纳结果或业务验收。</li><li>今日关注：<strong>[观察]</strong> CE 本轮 raw integrity 为 17/17、source registry 为 17/17，L2/L3 的 design.md、decision.md、action.md 三组 bridge 均一致，workspace validation passed。该结果仅验证工作区完整性与桥接同步，不等于来源语义、访问控制、业务运行或生产验收通过。</li><li>今日目标：<strong>[观察：本地运行日志]</strong> ACM GlobalDisable 的一条 UAT execute 在执行计划预检中发现目标价格配置不完整而停止；日志显示未进入 IOP 点击，未形成钉钉回写。当前 fail-closed 行为是一次可复查的运行结果，不表示缺失配置的业务语义已被人类确认。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">CE 主线：Git、来源与有效工作树</span><span class="desc"><strong>[观察]</strong> 今日无 CE Git 提交，也未发现可归属当天的 CE 工作树文件。当前可见的未提交 D0 重置、L1 外发草稿、owner-review 包、M002 草案和 initiative 控制面均沿用昨日状态；它们仍只能按 artifact_ready / 草稿处理，未发送、无回执、无外部 authority 事实。</span><div class="pill-row"><span class="pill">🟡 无新增验收</span></div></div><div class="card"><span class="title">CE 主线：L1/L2/L3 bridge</span><span class="desc"><strong>[观察]</strong> L2/L3 三对 bridge 的 SHA-256 分别一致；L1 仍为沟通与收据层，L2 保留推理、CE-local decisions/actions，L3 仍是工程接口。未见当天 FDE outgoing 或 immutable release。</span><div class="pill-row"><span class="pill">✅ bridge 一致；无 handoff</span></div></div><div class="card"><span class="title">CE 主线：decisions / actions / initiatives</span><span class="desc"><strong>[已决定，CE-local，沿用]</strong> DEC-20260721-008 对 D0、D1、D2 分层，DEC-20260721-009 保持步骤 6 关闭，步骤 1–5 的草稿/审阅包不等于已发送或获授权。今日没有新的 decision/action/initiative/milestone 记录可提升为变更。</span><div class="pill-row"><span class="pill">🟡 既有门禁未解除</span></div></div><div class="card"><span class="title">CE 主线：sources / claims / gaps / reviews / milestones</span><span class="desc"><strong>[观察，沿用]</strong> C1–C8 baseline、13A/16-A 的无值控制材料及其 claim/conflict/gap 仍存在；AI 程序性 review 的 gate_effect: none，不构成独立人类 review 或 D3。M002 仍为未提交治理草案，不能表示完成。</span><div class="pill-row"><span class="pill">🟡 unresolved</span></div></div><div class="card"><span class="title">关联 AC / ACM 项目</span><span class="desc"><strong>[观察]</strong> Project-AC、global-disable-automation、deOMPlization 当日无 Git 提交或可计为验收的有效工作树文件。ACM 的未提交 GlobalDisable 工作树有场景矩阵、工作流/IOP 客户端与单测材料；其中关于“覆盖”或业务规则的文字均属未提交材料/报告，尚待人类与真实 UAT 复核。</span><div class="pill-row"><span class="pill">🟡 ACM 有本地增量</span></div></div><div class="card"><span class="title">ACM GlobalDisable UAT / 验证</span><span class="desc"><strong>[观察：本地日志与运行产物]</strong> 一次 --env uat --execute 生成计划后因一个必需目标未找到而在预检停止，日志记录未进入 IOP 点击；另一组候选扫描有两次正常结束、一次因共享 IOP 锁立即跳过（退出码 75）。.last-run.json 记录最近本地测试为 passed 且无 failed tests。上述结果不证明真实成功 execute、状态回写、生产可用性或场景覆盖完成。</span><div class="pill-row"><span class="pill">🟡 fail-closed；闭环未证实</span></div></div><div class="card"><span class="title">Dashboard</span><span class="desc"><strong>[观察]</strong> news/pages-repo 于 07:04 有 29ac0cc 的通用 Daily Intelligence 发布，news/daily-intelligence-web 于 14:36 有站点构建提交；它们只证明 Dashboard/站点活动，不证明 AC/ACM 业务进展。本晨报待派生至 Project-AC Dashboard。</span><div class="pill-row"><span class="pill">🟡 待同步</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><p class="muted">当前无新增对话总结</p></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：Project AC / CE Context Engineering / AC Intelligence</li><li>汇报类型：跨项目日结（增量更新）</li><li>汇报日期：2026-07-22（Asia/Shanghai）</li><li>当前状态：🟡 CE 工作区完整性与 L2/L3 bridge 校验通过，但外部 authority、回执、D1/D2、FDE handoff 与独立 D3 审阅仍未完成；ACM GlobalDisable 当天有未提交的 UAT 运行与测试材料，一次 execute 在预检阶段 fail-closed，未形成业务操作或回写闭环。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">CE 的 authority、回执和独立人类审阅仍缺失</span><span class="desc">继续维持步骤 6 关闭；草稿、AI 合成与程序性 review 不得升级为外部决定、D3 或 FDE release。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">C1–C8 拓扑、分母与 Account/Access/ACL 未冻结</span><span class="desc">保持 source/claim/gap/conflict 分层；仅以已确认的人类 authority、非敏感问题和可追溯回执关闭具体缺口。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">GlobalDisable 缺失目标的业务语义未确认</span><span class="desc">今日 UAT 的预检阻断证明 fail-closed 路径被触发，不证明“缺失即已停用”或允许部分执行；须由业务 owner 明确规则后再改动执行策略。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">GlobalDisable 未有成功回写闭环证据</span><span class="desc">不宣称自动化已打通；在授权的 UAT 样本中分别验证 execute、最终复查、writeback_pending 与外部回写，并保留人工回退。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">共享 IOP 锁竞争与对话索引不可读</span><span class="desc">对锁冲突保持跳过/重试协调，不并发绕过；对话索引恢复前将当日对话列为证据缺口。</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：CE owner 继续按既有步骤 1–5 门禁处理外部人类 authority 与回执；在明确授权前不发送敏感材料、不开启 FDE 或生产动作。</li><li>P0：保持 CE 的 raw/source/claim/review/decision append-only 分层；若有新回复，仅登记实际来源、角色、范围和回执，Unknown/冲突保持未解决。</li><li>P0：GlobalDisable 由业务 owner 确认“必需目标缺失”的业务语义与允许的处置；在此之前维持零点击/禁止部分执行。</li><li>P0：仅在明确授权的 UAT 样本继续验证完整闭环；把本地测试通过与真实 execute、最终复查、回写分别记录，不相互替代。</li><li>P1：协调共享 IOP 锁与候选扫描，避免并发运行；浏览器 profile、会话、凭据和运行记录继续只做类别级处理。</li><li>P1：恢复可读会话索引后，以“对话报告”补充当天聊天/调研/只读平台操作，且不将 AI 输出或说话者主张提升为已验证事实。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-22-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
