@@ -1,0 +1,6 @@
+# Local Projects governance sidecars are required by the parent workspace but
+# are not part of the public static-site payload.
+.project-contract.yaml
+.project-profile.yaml
+AGENTS.md
+CURRENT.md
