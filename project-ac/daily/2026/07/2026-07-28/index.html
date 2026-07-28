@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-28 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-28</h1>
+    <p class="subtitle"><strong>[观察]</strong> CE 当天没有 Git 提交，但有可追溯的未提交本地增量：5 份 owner 来源登记、4 项 CE-local 决策、6 项审核、当前阶段 profile 与 G4.3/G4.4 内容结果；这些不构成外发、外部接收、访问授权、部署或业务验收。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-31/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 CE 已完成当天来源登记、CE-local 内容审核/决策、L1/L2/L3 bridge 与 workspace validation；G4.4 仅为 `CE-content pass · route blocked · topology effect none`。外部 authority、访问/导出/通道批准、具体 issue 事实、D1/D2/D3、未来 CE→FDE handoff 与生产验收仍未确认。</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">6</span><span class="meta">已完成 1 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">5</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">3</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">4</span><span class="meta">P0 2 / P1 2</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：<strong>[观察]</strong> CE 当天没有 Git 提交，但有可追溯的未提交本地增量：5 份 owner 来源登记、4 项 CE-local 决策、6 项审核、当前阶段 profile 与 G4.3/G4.4 内容结果；这些不构成外发、外部接收、访问授权、部署或业务验收。</li><li>有限通过：<strong>[已决定，CE-local]</strong> 精确 G4.3 C6 交付证明与 G4.4 商家支持状态/异常说明的 CE 表达已分别内容通过；G4.4 的两类任务、六组信息和 18 个逐问题模板仍未实例化，G4 整体仍为 partial，G4.5/G4.6 未开始。</li><li>验证结论：<strong>[观察]</strong> CE raw integrity 为 37/37、source registry 为 37/37，L2/L3 的 design.md、decision.md、action.md 三组 bridge 一致，routing contract 与 workspace validation 均通过。该验证只证明本地完整性、登记、路由与镜像同步；不证明来源语义、ACL、外部批准、运行健康或生产效果。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">CE 主线：当天 Git、有效工作树与 L1/L2/L3 bridge</span><span class="desc"><strong>[观察]</strong> 当天无 CE Git commit；未提交工作树新增/更新 L1 owner 简报、L2/L3 bridge、initiative control、sources、claims、reviews、current pointer 与 milestone 支撑材料。L3 为与 L2 一致的受控镜像；未见 CE FDE outgoing、immutable release、remote/push 或生产交付。</span><div class="pill-row"><span class="pill">✅ 本地验证通过；外部交付未证实</span></div></div><div class="card"><span class="title">CE 主线：sources / decisions / reviews</span><span class="desc"><strong>[已决定，CE-local]</strong> SRC-20260728-001 至 005 绑定为框架/阶段、G4.3 精确审核、G4.4 部分审核、四项澄清与 v0.2.0 三项差异审核；DEC-20260728-001 至 004 仅采用 CE-local 框架和精确内容结论。AI 提取、草案和说话人回复仍按其限定来源/审核范围处理，不提升为独立事实或跨域授权。</span><div class="pill-row"><span class="pill">🟡 范围受限</span></div></div><div class="card"><span class="title">CE 主线：G4.3 / G4.4 与 initiative</span><span class="desc"><strong>[已审核]</strong> G4.3 的 C6 delivery-proof 内容通过但 route blocked；G4.4 v0.2.0 内容通过但 issue instantiation=0、route blocked、topology effect=none。当前 profile 保持正式分母=0、holders/channels/sends/receipts/access grants/topology decisions=0，G5–G7 与 Step 6 held。M002 仍为 in_progress。</span><div class="pill-row"><span class="pill">🟡 不可外推</span></div></div><div class="card"><span class="title">CE 主线：gaps / actions / milestones</span><span class="desc"><strong>[未决]</strong> 具体 issue 的业务语义、来源/新鲜度、证据充分性、特殊处理和下一责任均未获相应 owner 决定；正式分母、ACL、topology、Eywa 只读 Git、访问/导出与独立 D3 仍未解决。行动维持“先选定下一有边界的工作单元，再取得相应人类 authority”，不启动 Step 6。</span><div class="pill-row"><span class="pill">🟡 unresolved</span></div></div><div class="card"><span class="title">关联 AC / ACM 项目</span><span class="desc"><strong>[观察]</strong> Project-AC、acm、global-disable-automation、deOMPlization 当天均未见 Git commit 或可安全归属今天的普通业务文件增量。已有未提交实现、临时诊断、runtime、缓存、浏览器 profile 和时间戳噪声不计为今天完成、部署或验收。</span><div class="pill-row"><span class="pill">🟡 无新增验收</span></div></div><div class="card"><span class="title">Dashboard</span><span class="desc"><strong>[观察]</strong> 本晨报是当天 Project-AC Dashboard 的派生源；仅生成该日报、总入口与 latest，不生成或重写周报，不改业务代码。</span><div class="pill-row"><span class="pill">🟡 待派生</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">CE owner 当天对话（已登记来源）</span><span class="desc"><strong>[对话报告 / 来源受限]</strong> CE 将当天 owner 的确认、部分审核与澄清回复登记为 SRC-20260728-001 至 005。这些来源支持相应精确 CE 内容审核；不等同于具体支持问题的业务答案、外部通道批准、实际发送/ACK 或生产验收。</span></div><div class="card"><span class="title">当天 Codex 对话可读性</span><span class="desc"><strong>[未决]</strong> 已尝试直接读取上海时区当天的 Codex 任务/对话列表，但读取超时，未获得可安全独立引用的会话摘要。这不等同于没有聊天、调研、平台只读操作或验证工作；本日报不据此补造对话事实。</span></div><div class="card"><span class="title">AC Intelligence 日报</span><span class="desc"><strong>[观察]</strong> 本次自动化完成跨项目只读归纳、CE workspace validation 与日看板派生；未读取或暴露敏感配置、凭据、浏览器 profile、运行数据库或日志内容。</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：Project AC / CE Context Engineering / AC Intelligence</li><li>汇报类型：跨项目日结（同日增量更新）</li><li>汇报日期：2026-07-28（Asia/Shanghai）</li><li>当前状态：🟡 CE 已完成当天来源登记、CE-local 内容审核/决策、L1/L2/L3 bridge 与 workspace validation；G4.4 仅为 CE-content pass · route blocked · topology effect none。外部 authority、访问/导出/通道批准、具体 issue 事实、D1/D2/D3、未来 CE→FDE handoff 与生产验收仍未确认。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">内容通过被误读为业务/路由通过</span><span class="desc">保持 G4.3/G4.4 为 CE-content-only；模板未实例化，具体语义、证据、特殊处理、责任、ACL、route 与 topology 均须由对应 authority 单独决定。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">未确认的 authority、访问/导出/通道与发送/ACK</span><span class="desc">维持 0 holder、0 channel、0 send、0 receipt；不将 owner 审核、machine synthesis、draft 或 speaker claim 写为外部事实、授权或接收证明。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">正式分母、source/freshness、ACL、topology 与 Step 6 仍缺乏决定基础</span><span class="desc">保留 recommendation = null、formal denominator=0 和所有 held 状态；在未来有边界的 D1/阶段 profile、开放 authority 和 CE-side readiness 之前不启动 FDE/生产。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">当天 Codex 对话列表不可直接读取</span><span class="desc">仅采用 CE 已登记来源中明确可追溯的对话报告；后续若获得可读摘要，再以来源限定的增量补充，不把读取失败写成“无活动”。</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div><div class="card"><span class="title">Dashboard 全量生成器会重建周报</span><span class="desc">本轮复用生成器的日报、总入口与 latest 渲染逻辑，不调用会删除并重建 weekly 的完整入口；不修改生成器脚本。</span><div class="pill-row"><span class="pill risk-low">影响：低</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：保持 G4.4 后的安全 checkpoint；在 CE owner 选择后续有边界的工作单元前，不开始 G4.5/G4.6、不实例化支持 issue、不改变 ACL/FIT/denominator/topology、不启动 FDE 或 Step 6。</li><li>P0：为任何未来具体 issue 分别取得业务、来源/新鲜度、访问与责任的相应人类 authority；未取得时保留 Unknown、null 与 route-blocked，不以模板或审核替代事实。</li><li>P1：按 2026-07-27→31 周计划完成 decision-ready D0 Current candidate、legacy closeout 与受控 Friday 包；外发范围、通道与人类 authority 未获批准前保持 draft/not-sent。</li><li>P1：刷新 Project-AC 当日 Dashboard、总入口与 latest；不生成周报、不改业务代码、不提交或推送 Git。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-28-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
