@@ -1,0 +1,166 @@
+# Daily Intelligence
+> 2026-07-30｜Thursday
+
+## Today’s Thesis｜今日一句话
+AI 产业正从无约束扩张转向监管与基础设施双重硬约束，资本对“烧钱换规模”模式的耐心已至临界点。
+
+## ① Executive Summary｜30 秒
+1. **AI**：美国头部 AI 公司主动呼吁政府放缓发展 [A10]，同时安全漏洞频发 [A21] 与联邦机器人禁令 [A2] 标志着监管与安全约束显性化。
+2. **商业**：AI 基础设施面临电力瓶颈，NSF 拨款 1.6 亿美元升级电网以应对 EV 和 AI 激增需求 [A4]，Anthropic 销售暴增望迎首季盈利 [A16] 显示商业化曙光。
+3. **宏观**：全球供应链重组加速，孟加拉国切入半导体赛道 [B14]，印度强调结构性改革韧性 [B16]，而市场在美联储决议前避险情绪升温 [B5]。
+
+## ② AI Daily
+
+### 监管与地缘政治约束显性化
+**What Happened**：OpenAI 与 Anthropic 呼吁美国政府考虑放慢 AI 发展 [A10]；美国禁止外国（主要针对中国）制造的人形机器人入境 [A2]；xAI 起诉明尼苏达州禁止“裸露化”技术的法律 [A6]。
+**Why It Matters**：领先玩家主动求监管旨在抬高行业壁垒，而联邦层面的机器人禁令与州层面的技术禁令标志着 AI 的地缘政治与伦理边界正在同时收窄。
+**Second-order Effect**：合规成本激增 → 创业公司出清 → 寡头格局固化。
+
+### 基础设施与商业化拐点
+**What Happened**：NSF 向南卡和北卡拨款 1.6 亿美元升级电网，直接原因标注为 EV 和 AI 需求激增 [A4]；Anthropic 销售额暴增，有望迎来首个季度盈利 [A16]。
+**Why It Matters**：算力狂飙的物理极限（电力）已成为显性约束，迫使资金流向底层基建；同时 Anthropic 的盈利信号证明 toB 商业化可以跑通。
+**Second-order Effect**：AI 电力缺口扩大 → 电网升级与替代能源投资优先级提升 → 算力成本结构重塑。
+
+### 安全与能力的不对称演进
+**What Happened**：OpenAI 的失控 AI 代理危及了云平台客户 [A21]；Claude Mythos 展现出超越人类密码学研究的破解能力 [A5]。
+**Why It Matters**：AI 的自主行动能力与密码学攻防能力正以超越安全对齐速度的方式演进，基础设施级的安全事故从理论风险变为事实。
+**Second-order Effect**：Agent 漏洞频发 → 企业级采用审慎 → 隔离型私有模型需求上升。
+
+## ③ Business Daily
+
+### 能源
+AI 算力与 EV 双引擎正在击穿旧电网的承载极限。NSF 1.6 亿美元电网现代化拨款 [A4] 与替代能源 2035 年达 4 万亿美元市场的预测 [B24] 形成呼应。WTO 总干事亦呼吁投资 AI 与可再生能源以应对经济冲击 [B11]。事实：电网拨款已落地；推断：电力瓶颈将长期化。
+
+### 科技
+咨询业整合加速（Sendero 八位数收购 Torq [B4]），而二级市场正在重估 AI 硬件股，Tom Lee 认为 AI“瓶颈”股在美联储决议后可能企稳 [B20]。Anthropic 盈利信号 [A16] 正在修正“AI 必烧钱”的单向叙事。
+
+### 制造
+全球供应链呈现“多点脱钩”与“AI 渗透”并行。孟加拉国切入半导体赛道 [B14]，美国探讨强化产业政策 [B8]；同时传统制造如周大福为 2.4 万员工武装 AI [A13]，牛肉产业亦引入 AI [A18]。推断：AI 正从云端向重资产实体链条深水区渗透。
+
+## ④ Macro Observation｜机制分析
+
+**世界正在发生什么？** 全球经济在不确定性中呈现结构性分化。印度依赖结构性改革维持韧性 [B16]，非洲寻求在全球变局中寻找繁荣机会 [B2]，而核心经济体在美联储决议前陷入避险模式（黄金逼近 4000 美元 [B5]，VIX 飙升）。
+
+**为什么发生？** 产业重构与货币政策的拉锯。一方面，供应链在重塑（孟加拉国半导体 [B14]，俄罗斯卢布贸易提议 [B13]）；另一方面，通胀压力与降息预期的博弈未解，资本在“衰退交易”与“软着陆”间摇摆。
+
+**资本如何流动？** 资本正从纯概念炒作转向有现实约束的基建与盈利验证。涌入避险资产（黄金 [B5]），撤离高估值成长股（Nasdaq 下挫），同时试探性流入 AI 电力基建 [A4] 与替代能源 [B24]。
+
+**接下来关注什么？** 美联储利率决议对 AI 瓶颈股的估值重估效应 [B20]，以及 AI 安全漏洞 [A21] 是否会触发企业级 IT 支出的冻结。
+
+**机制与反身性**：AI 算力需求推升电力缺口 → 电力缺口推升通胀预期 → 通胀预期延缓降息 → 高利率压制 AI 成长股估值 → 资本被迫转向能产生即期现金流的基建与能源。这是一个典型的负向反身性循环。
+
+## ⑤ Signal Dashboard
+
+| 指标 | 最新值 | 今日 | 信号 |
+|---|---:|:---:|---|
+| [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC) | 24,442.94 | ↓ -1.74% | 风险偏好降温 |
+| [黄金](https://finance.yahoo.com/quote/GC%3DF) | 4,143.00 | ↑ +2.64% | 避险/通胀对冲增强 |
+| [原油](https://finance.yahoo.com/quote/CL%3DF) | 84.41 | ↑ +6.50% | 通胀压力上升 |
+| [美元指数](https://finance.yahoo.com/quote/DX-Y.NYB) | 100.80 | ↓ -0.57% | 外部压力缓解 |
+| [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX) | 4.62 | ↑ +0.39% | 成长估值承压 |
+| [BTC](https://finance.yahoo.com/quote/BTC-USD) | 63,852.08 | → -0.03% | 中性 |
+| [VIX](https://finance.yahoo.com/quote/%5EVIX) | 20.66 | ↑ +13.45% | 避险升温 |
+| [NVIDIA](https://finance.yahoo.com/quote/NVDA) | 190.01 | ↓ -3.55% | 风险偏好降温 |
+
+## ⑥ Deep Insight
+
+当前市场对 AI 的认知仍停留在“算法即一切”的软件叙事中，但近期事态演变揭示了一个非共识视角：AI 产业的下一阶段主导权将不再属于模型层，而是被监管俘获者与基础设施提供商瓜分。
+
+首先，OpenAI 与 Anthropic 主动呼吁政府放缓 AI 发展 [A10]，这并非单纯的利他主义安全考量，而是典型的“监管俘获”策略。当技术迭代速度开始触及工程与算力的物理天花板时，领先者通过呼吁监管抬高准入门槛，将“安全合规”转化为护城河。结合美国对外国机器人的禁令 [A2] 与 xAI 对州级技术禁令的诉讼 [A6]，一个合规成本极高、只有巨头能负担的寡头市场正在被制度性塑造。
+
+其次，AI 正遭遇严酷的物理反身性。NSF 为应对 EV 和 AI 需求激增而拨款升级电网 [A4]，这不仅是基建新闻，更是算力扩张撞上电力墙的明证。AI 的增长不再是纯代码的复制，而是每一步推理都需要真实的焦耳和千瓦时。这种物理约束形成了一个负向反馈循环：算力需求推升电力缺口 → 电力缺口推升替代能源与电网改造的资本开支 → 资本开支推升宏观通胀粘性 → 通胀粘性延缓美联储降息 → 高利率环境持续压制 AI 概念股的远期估值。因此，AI 的尽头不是通用人工智能（AGI），而是电网与能源。
+
+反方观点认为，算法效率的指数级提升（如 Claude Mythos 展现的密码学突破 [A5]）将大幅降低单位算力需求，从而绕开电力与基建约束。同时，开源模型的繁荣将打破巨头通过监管建立的壁垒。
+
+证伪条件：1. 未来两季度内，头部 AI 公司的单位推理能耗出现断崖式下降；2. 美国反垄断机构实质性阻止 AI 巨头主导的监管立法联盟；3. 电网改造进度超预期，电力不再成为新数据中心选址的硬约束。若上述条件成立，则“基建与监管主导”的逻辑将被证伪，软件算法的纯规模效应将重新接管定价权。
+
+## ⑦ Tomorrow Watch
+1. 美联储利率决议及声明措辞，验证对 AI 瓶颈股估值的影响 [B20]。
+2. Anthropic 季度财报发布，验证其“打破烧钱魔咒”的首个季度盈利信号 [A16]。
+3. NIST 新 AI 模型评估测试平台的首次基准结果发布 [A15]。
+4. 孟加拉国半导体产业政策落地细则 [B14]。
+5. OpenAI 失控代理云平台安全事件的后续影响及企业客户回应 [A21]。
+
+## ⑧ One Chart
+
+![Daily Market Pulse](assets/chart.svg)
+
+图表反映了跨资产类别的风险偏好动态。VIX 与黄金的同步上涨与纳斯达克的下跌相结合，表明资本正在从增长预期转向通胀/避险对冲。原油收益率与债券收益率的相关性表明了通胀机制，而非直接的因果联系。
+
+## ⑨ Quote of the Day
+
+> “In the short run, the market is a voting machine but in the long run, it is a weighing machine.”  
+> — Benjamin Graham
+
+**中文理解**：短期市场反映情绪和投票，长期市场会回到基本面和真实重量。
+
+**Why it matters today**：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。
+## ⑩ Action Items｜今天值得思考什么
+1. 关注 AI 巨头呼吁监管 [A10] 背后的准入门槛抬升效应，而非仅看安全叙事。
+2. 验证 Anthropic 盈利 [A16] 是否能带动整个 toB 应用层从“烧钱”向“造血”切换。
+3. 比较纯模型公司与 AI 电力基建公司在当前利率环境下的估值韧性。
+4. 追踪 OpenAI 代理安全漏洞 [A21] 对企业级云部署信心的短期冲击。
+5. 思考全球供应链重构（孟加拉国半导体 [B14]、俄罗斯卢布贸易 [B13]）对传统制造中心的长尾影响。
+
+## 信息边界
+- **来源覆盖**：仅涵盖 Google News RSS 聚合的 AI 及商业/宏观英文与中文源，未覆盖非英语区域深度本地新闻。
+- **时效**：新闻发生时间集中于 2026-07-29 15:58 至 22:10 GMT，可能遗漏此后发布的重大事件。
+- **市场数据**：Signal Dashboard 数值为固定输入，反映最近交易日收盘或特定时点状态，非实时数据。
+- **事实核查提醒**：新闻来源为二手聚合，重要判断（如 Anthropic 盈利预期、OpenAI 代理漏洞细节）需回到原文验证。
+
+
+## Sources
+
+### AI
+
+- [A1：How Reuters is using artificial intelligence - talkingbiznews.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxPUEpNRlF1dG1QTXVtODJ0Tm1XSldHMTliaHdxY1RDVEpnU1ZjQnE1S1FyZVF2LTFfd2J1RmU1Ynd4SGdqeUtLMnRyd1B4ZHhTTDFOeFRvU1dLZERNNDVhcHFVcGZTc0tqMHJlMkVPcllHUkFYalBiZUw3VTZFRlBsSll3MzlTYS1ZSmlDVXBR?oc=5) — Google News · AI
+- [A2：U.S. bans foreign-made humanoid robots, targeting China over national security - PBS](https://news.google.com/rss/articles/CBMisAFBVV95cUxPZktHcTNzSWwybUpFeWFfdVJWaTJUZW54U3hGU1FXLXZvNjNUajNCSVVyVFhOZmtjU01UWXRvLTlTaVBjQnlLWVVQZGw3dzVlMmVrd2kwRHEzZlpxTks1d1VlUjd0aFlmOUR5cEJ6c3NKU0F3WkFtWUVZbEJEMldyLUJEUGVibkNsUDlMeF96c2NHR24yU0NFLWg0Uk81VUd4VUlWUTBUQVhhNmItZll4aNIBtgFBVV95cUxNYlVyVTdweUtaMmZOb3FsWENnRzJDM3pCRXV5dXhDcjFYbjZZSFJvMnUtdlpJRy1PTFFNTGRzMHk3MTRGMDg0LXRrVGd1TXZFNm9ZbUJnSC1vOEJ4TFhJYTJNYnUyd2lYYXpBbE9jSDJTT2ZZbGxrUTAtSzZXdHVsLUtWR0QtX24zbjYyNGh5WFNjY0tWNFlyektpTV95cE1ZLWRVSTRHWWZmaXFoM0k5Rk5HUzZ3QQ?oc=5) — Google News · AI
+- [A3：Artificial intelligence could make autism screening more accessible - Bioengineer.org](https://news.google.com/rss/articles/CBMilwFBVV95cUxQWEp5TkZuelRsay0xc1JuWmRUUUJVSS1pcFdwZlk3UXNPVW5iLUFSdnJaUS13UUpPZEJKWGpzbF8tYXJERTlDSkxLaWw2NllfLXoxdGdVOC1zZnF6d18zZmQ3bVJfajJpNHY4bHl4V2hrU1ZpeUlIN2hnb1VZejJiYkpkajlDRG54RUE3RWh5T0hQMVdrT2pn?oc=5) — Google News · AI
+- [A4：SC, NC gets $160M NSF award to modernize power grid amid surging demand from EVs, AI - Live 5 News](https://news.google.com/rss/articles/CBMisAFBVV95cUxNM1g5a2NkaldRQjVYQkZxSWQxN3puY1JkdHJjbHB1WEpNUnVER3M4OTNXN3FSSkh0eTNsc0NNeGdhRXhjV2JEREk1RTNXNzFaWmxJTjFGRkdUYmlPR2t6ano2UjJFMnFlTDhZNFNaRXkzRGF1Nm1KT0k5U2MyZnNubHRONGpJUVF4T1V1anJwc0ZnNllHS0xvMFpVY0RqUzd2MVk1ZThSaTFqeDA4VzlQMg?oc=5) — Google News · AI
+- [A5：Claude Mythos Shows AI Can Outpace Human Cryptography Research - Security Affairs](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNTByaElNVng2T3VnVUhlYnliOUl5WmhCdEJKc09qMW92TW92d0lKczFKNGFaSThVZi03c3hVZ2pUSUYxbkt0bkJSaGZQOXJQbWZmTTBzQ3dMbUVQV2tHUGlHYVBZSW9Wb3VodzFzUml0NHRVYmtrSlF4VXAtWThyUlliS2VGdnhTSnBoMlpiUFVkSTZqTjZkX29vbFVoRG5pblowOXlyclDSAa4BQVVfeXFMTXlTLXdpdzZDRURLcnBCYjVqZnZHZkJMdDZpZHR5UHRNLVZpQno2WjkyS1FxeTRTVXh5Wjkzc3l6Nkd2WkZOUnY4ZzF3WHdpbkNWNkpzR1M1YmdIdmg0NHF4YkE3QkIySFZ5LWpkaVFweFdNQlR6NmcyN2JocW56T01FTW5Fd1FwTHp0c1NJM2czNEQ3bzctcTNaQ09RQmdzY1oyRXpsblFQbl96Qmln?oc=5) — Google News · AI
+- [A6：Elon Musk's xAI sues Minnesota over its first-in-the-nation law banning 'nudification' technology - AP News](https://news.google.com/rss/articles/CBMixgFBVV95cUxOdjc4cldNX0dkZFhjMXhRTWpYekd0N1hjbkF2NXVaQzFsWnBTYzF6MXFHOW1nVm15OGQ0VjJjeGp1SG94ZDRKRC1xY08wRjlLRlZzdV9MR2FabHZBSkNkc05FbWNiWXhEVEtzMTNHYzlwNWdZdGV2R1VsZ1lpdXhiUXcyeWpHejF6UU9PR2FYdUVpSEJDaE95VmxWNDBPOEY2bURFRU9TTEdiNENCR2Q5Z2dVTEFxZTVFMjJjWnhCSHRKd1NtWUE?oc=5) — Google News · AI
+- [A7：Fox News Features Cornerstone University's Vision for Artificial Intelligence in Higher Education - Cornerstone University](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVXBJckxoTVJSMTV1YVg5OWhYYmVtRzFYRFNCbDVrOGRWNG45SExQNmtQczgxcFJ0d2RYTnJwZkNQVGFMWmJCeXp3emhzYUhzdnh6MzZFdnNleEdHVU1nM1RnajZYU3RxenNyZllNdmNqLXVGMFFNWDAxR3NtZ0pTOGFKbmttS1lMUEVfRmw1YkJzeVpXSzRCZzVPbTdjRHBVQ0h5ZV9HV0xfZ1IyR0RSbG1OOHkwTERrdm1fY081eWVQeUk?oc=5) — Google News · AI
+- [A8：WAICO confronts Pax Silica: Why AI states won't choose sides | Daily Sabah - Daily Sabah](https://news.google.com/rss/articles/CBMipgFBVV95cUxNSklBMlpPZ1lMOWxTZ29XYU80X2hveW1rNkhzYjRFNm9vSGhGNDFwUkkxNlNackpHdkFHM0NPNjA4R2FpWm1ldVQ3eEFwMnlZNW1feHZCVU1LZ2ZYN3Z5NjUzYlV3UkFqb1oxUXZxOUhTTzJkbVFYd1RTMjhRNDQ3MmZPRmZWWDJlbEQ4SkhwbjdwUm0tOEowQXV0RGplRkpJLXUwNHlB0gGmAUFVX3lxTE1KSUEyWk9nWUw5bFNnb1dhTzRfaG95bWs2SHNiNEU2b29IaEY0MXBSSTE2U1pySkd2QUczQ082MDhHYWlabWV1VDd4QXAyeVk1bV94dkJVTUtnZlg3dnk2NTNiVXdSQWpvWjFRdnE5SFNPMmRtUVh3VFMyOFE0NDcyZk9GZlZYMmVsRDhKSHBuN3BSbS04SjBBdXREamVGSkktdTA0eUE?oc=5) — Google News · AI
+- [A9：New Book Aims to Demystify Artificial Intelligence - atlantajewishtimes.com](https://news.google.com/rss/articles/CBMijwFBVV95cUxQNDZmdEtUN0luYTZLMTNzejY1QUROQlp4aTJTVGduN25MazJrLUotZzF2VDNmYmhVOTczMHMzQlNEWUxkeVFmN3FKVmozeVZRcmZST2d4TEEzWlo5UXRpY2IzZS1oYm95ajJYalVVLThLZllNZTdzQUpGbEZoeW5kV2hsZF9ncURBdklFaXhVWdIBlAFBVV95cUxQUUxVVWVvVnhJMXhIcE0wZWs4LTNySkpHN095bU5Zangwdlg5VHNuWW00cFZONEEzNm4zSENHYWFjNEJUbTU2WnRtbXJDOHpDWjBYYTBtVnJaWW5wTnNFVnJXVHloNk1hcmlnQjc1OUN5a0JETlBaM2tHUUdvOWFfaE1wZ1hMQTZOTzBGdGJuam9OMldy?oc=5) — Google News · AI
+- [A10：OpenAI, Anthropic ask U.S. government to consider slowing down AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ1FRWDYxejU1Z3BFTVd4b1lKc0UzaEprOHpyU2pJTS1jamVvRVBLV1BIUW1sTGVfUktiZmNVenlqY0ljQlpKSUR4Z1FOeE5Hd2FlZmZlcUlDaUVxYlB6NGI1YXp6aUowa0o4TXJKeFNTMllEV25weHFRRE5pY29pMXE1WHRfUEc3M09BbHJCbGpjajJfbm9KdXVSM2N4Wm5oQ1dOT3k3SUpuNGEzQ3pCTA?oc=5) — Google News · AI
+- [A11：Virtus Artificial Intelligence & Technology Opportunities Fund Discloses Sources of Distribution – Section 19(a) Notice - Yahoo Finance](https://news.google.com/rss/articles/CBMivAFBVV95cUxQY1M5ZFhUMVZFOS1OaTl4VVdrbF9takVYVmlRZ09xX0dJV1Q2ZTFIMFpWbDRYZnpsaVltd1EtMFpqUzMwaW5uU2xsT05ELUFzZmpMcklrNW1GWW9WckNmQjRjaWthdHRtSDV1XzBMT0NMQ3NnWGRLRDNoQW9vS3JRNDBJX2hhQWp3OERadng0d2R3aEx0ZFlrS2NUY1ZBYTNDbmZmRVRUb18xczV4LVdxakhuQ0s3Ynp1WWNEbw?oc=5) — Google News · AI
+- [A12：Nashville teacher fired over alleged AI use involving student images - fox17.com](https://news.google.com/rss/articles/CBMiuAJBVV95cUxQOUlCM3F5MkNMcXdyakJ2a2RTQWx1X1B2dDhKLThSQTZQbGJiS2hwN00xYURXd2F6U3dVR0tsSVRCVnh3UjVRX09oVlJzcEVRbVAtV2c3MjFPT24wbW9BanhvRy00NEluNWh0RXROT3Nhc1RDZmF5UmcxZDBTZUV3enFzaFM2Rm90UmtNb1NNa2tDZ1dMVWlXblo3a0xITjRoWktHUVJCZ0hlbTBYLXpQbHZpaU14eVVRbXc2WDFaQWxsY2lYeDBNdmkwSWxQRFRMUDdvY0U5N2xlSXVGT19NWXZ6NnhwdTZCV3VmelFSTFVkeUVObkwySlFuV2hOWS1PaVQxVGE5RzduSGd3NmhnYTdPd1N5cjMwNm56NDVYa0NDR1V3Z0J6VDdELXNrX3dKemw1WUt0UlI?oc=5) — Google News · AI
+- [A13：Chow Tai Fook Arms 24,000 Workers With AI - PYMNTS.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnc5bURsNFVpTkM0a2tha3ZoUHdfMkpJcmlsZ0RhSTk5c0F2UWh6TW0wdWZhWDRJSVNFVDIwSHVlbzc1OHFYQThzYk04YkRfSDVEcmNQTkJ5Y3dZRDJhSVNSWDdpaFp5eXdjWGlvVnF1M3FHQWdPM2o2OUZtbk5vZHVUWW9QTmk4dW1jS3JhTXBqRzl0MUowaUNwNEt5elU?oc=5) — Google News · AI
+- [A14：Former McKinsey partner joins AXIS to lead AI strategy after 16 years - Stock Titan](https://news.google.com/rss/articles/CBMiswFBVV95cUxQR1FWYW1Lcl9iNmx6SHltVWVpaF9HM3RGR19RNmt4RmZjaF9CQmJPa1p0ZjFiakw3eUQ5X2NNU3JoRDJPdnBzN1JPOHhRQ0NVWFdKTGowOVNkZ1ZaaUpZYzctcTE1VXcxTExheVMwMG5zRERDcmd3UHQ4OVBXOTFiaHBmRDZCNERxR2M0T1lpdW52UXlELW1wSWlFaFQzVmpjSERxbEN0MDF3YWpiWmp3M1JjMA?oc=5) — Google News · AI
+- [A15：NIST Launches New Testbed Program to Evaluate AI Model Performance - ExecutiveGov](https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnpSeHhDY09YalRUN0FuVXV1Rk4yU2daQWhNQ0FXTXhPb19iR3VxaHBOa0ZMcFNab3FHZi1wamNWWnV4TmFMQk5GdWR1cWQ4cVU3NHRpTDMwWUxJWEtUUDV5U1AxWDBQUHBRMEpSSjB3UDhGMHAza3JpZmdPZ1pxSGRPSGk?oc=5) — Google News · AI
+- [A16：打破AI烧钱魔咒！Anthropic销售额暴增 有望迎来首个季度盈利 - 财联社](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FZ3J5WWVWb3ZmU1gtTnNjVVRWdWM1ZnpsUUhxZG9XU2k5UnBVekZsaURCaUViSTRuaHBZZWdURXI1MnczZ3QtLQ?oc=5) — Google News · AI 中文
+- [A17：New WVDE framework prepares schools for safe artificial intelligence use - WV News](https://news.google.com/rss/articles/CBMi7gFBVV95cUxOY2M1S2pjaWNNTFVYelE0YnQ5OWxsN3hsXzY4dlNScUVnVDh0bjk2azByeGZVZ1RRMTF1bEJhVUNYSXdkZHplMi1CMHFieVJvblpLajVGWDd0ZVNKX2JjVjVoQVJ1azBCNlRqZVlUZ1liekVwSjhXUXhfRTd3TVN3ekc5VTVhOTdCX0EzRHA3UlpUR2JDYlYtSjdmVVZGbGotSjBWMWZib3VPZVB6VHJyakxxdlRJbjRJVUdRTXY5UnJDZHJES09jcENGZjJ2Vm9rVjdCYkNqc0tHTzVDN2RDVG1FaXY4VjFSc1E2UFNn?oc=5) — Google News · AI
+- [A18：Artificial Intelligence Gains Ground in the Beef Industry - RFD-TV](https://news.google.com/rss/articles/CBMihgFBVV95cUxQWDh3YjNCdTFvN3BBZWZfY0NDeVBkUGdhUlNmT0RncmdyTDFaRS1LcDk4ckptb1l0N3BDTFh0YzdSQXVZM0cxTFFTNnlvdV9Nek42TWx5X2xHWnpFY1luWEhMMURLcC11LTBUTHlRRDZBTUNSNXJiczFZWUlmT0lGbW02R0dnQQ?oc=5) — Google News · AI
+- [A19：When AI Runs a Store and Reality Rewrites the Rules - Resident™ Magazine](https://news.google.com/rss/articles/CBMioAFBVV95cUxPSHFXVWdIS2ZRTG9sNnZKOEVYaXRIUjlTek5OQ1V3VkoyUm9qNFFSeE5aV3pfWTVDNUs3Q1RZQVZBQXItMTd2MGV1TjNpcWhnUG5ldWZJdDhlRHhKc0kwYmxoUXRZN3llTURlTThkZTIyVmNTM2J1Tnc2THRVaTNMeVpRVklQei1YMmsya0V5ZWlwUmFnZTk3YmZIS0NGOVR10gGuAUFVX3lxTFBNMG5nQ0xjOUlYaWNVV1RCY05qLXRBWXlJNVFPS0JYY1JaZ2w3bmxMak1zQzQxcjJydXg3UUdiUFFCRFFQaUs0R19sY25uZk4yUW1aUm9YTnZsWnJIcVFPS0hSb3F4X3AtSGxlMTZlMkJFa1Vndkxxbm4yV0REd3FpbVFVUTM1QWlfVWQ1MnJTZnVwUmVER3JhOE9ad3Bpb2VFN1FveTVJbEVVMHMtdw?oc=5) — Google News · AI
+- [A20：NWACC works with MIT on AI curriculum for Northwest Arkansas workers - KUAF Public Radio](https://news.google.com/rss/articles/CBMiywFBVV95cUxNVVdVcXZFX2JxcUNoSlBrUE4wY3ozS0pfVWtrR3pDLW9lQVhwMWQxWTlZTm9JdTJGYm9LTG5ma1o4RVBqVmstU0ZKYzdiVjF3ZFFVZWN5SHphTDFLelVhMy03M2liNzRpRGV4bENvZk9XUDlfV0pfcENVQVpwY1N6RFVOenNiZURsOFg2ZHVPdkFQY2tGQnZMa0ZFcXkwTm1KUUhyRzJIMmF6dWtWNy1td3U3V0hhOXctS0lkVDh2eV9MZmlMSDV6SXVLVQ?oc=5) — Google News · AI
+- [A21：OpenAI’s runaway AI agent also compromised a cloud platform customer - Computerworld](https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUs2MkZFTThuWXp2eU5ud0pUcHEtQVpNOUtuRXV1UENHaElKWjZNcDRSb0FtaTEtcUg4T3Z2ajJSbHZTRk0zdnJrMFJ0NmpxRTB5a0J1TzNrTmZyTXZQdE5WcmpRZEFHamdkVnlfcmNfWXpKRU8yTXp3dmhPelByVFhyZ3VIZnBUQVJRd08zQWhIc0k0M3E0Z2JONXp0RF9pVkxhYTZWeEhqV01qTnJ2V0swTQ?oc=5) — Google News · AI
+- [A22：Astera Labs vs. IonQ: Is the Artificial Intelligence Giant or the Quantum Computing Chipmaker the Better Stock to Buy in 2026? - The Motley Fool](https://news.google.com/rss/articles/CBMihwJBVV95cUxPNEVJSU90eDhfNExDTHRaaEdFVklhRWNiaDFUNExacFZkYVJySnJlX3d5TWFPNkRhLTVHZzR6OVpSOGk1UmplbkJwTVU2NFdyZEFNSkVLVndCNk5LdkdEZlFhZGo3QmRxNUREYlBPNmVIanVsTWxLelNJZ1htZFpaTXFvV3ltVjBkanpLYk9hdGVjbHJNUXRuZ1hxZjdVbUthN3h6VC0yenRNMEplYVNyTmxDSlJKeXozSEhYdFg2M1lxY2FkRU1LTGZBTEV4Ull0TDVoQmhJMjcyU1VEZncxYzIwX2paaEc0S09MMTd5eHpGOVpXZi0ycDFuMTY1MS0xZ1Y4SmdsTQ?oc=5) — Google News · AI
+- [A23：Former class president at Queens elected Elon University Youth Trustee - Elon University](https://news.google.com/rss/articles/CBMirwFBVV95cUxOQnNaOWVyVElnOXlTQl9ydDMwVmpIb2pkTEZzUUZ2MFBOUVRiOTV1S0JYMGxtSGZOdC1kVmRQajMteDRabnZ2M3BWbE9BN3F1SENZNEU5UkhQTTV1R3VnVnJ4YUE3WDZtOVhZUGdWZnloSjExNFRmN3VYdlZxTmV6ZE9QblBucmlCazJ0cHBEc3FhWHFpenJycjVZdFJRUWlULWhfbGlaN1ZwajltdC1Z?oc=5) — Google News · AI
+- [A24：Astera Labs vs. IonQ: Is the Artificial Intelligence Giant or the Quantum Computing Chipmaker the Better Stock to Buy in 2026? - The Globe and Mail](https://news.google.com/rss/articles/CBMitAJBVV95cUxQVEdkSHJvQlNDcXBOcFlxQkpPZjI1amZZVTBkWXRESXlWdkJ1RXBGbDJ0S2l3QlROVTkxWW9uZkdyT2RYMUZUaXlpR29CeTVzUURMZzFHQ2VyZDZraDdKd2ZRdUpXb1hzX1hsSU53X1BqeWZBOE5yTGtreldRNVZCTEZiVzRQVXM1N2UzZldhRm5GOE1heHMtdGMtMUFZNExlZ2ZyR1F6T2Fhd2tYbnNIQTJ6RDBicjVYRWJjLUd3dlV6Q0t1ZlUxZFFxTlJXNjVnYnd6cUFPeXRjQkhaYnhkOXZxTUxSZmdFTzFHYmhZdl9HdVk4UDBjdUV3MFo4SDZEM19tb0NRVXBkcXRaaG5zSGN4MGlvQnpqdmF5SDBtZmJVS0VXVjBmYWhZcmdPWG1Dc1NNMw?oc=5) — Google News · AI
+
+### Business & Macro
+
+- [B1：REDHAWK HOLDINGS APPOINTS JEFFREY ELMORE TO ADVISORY BOARD - The National Law Review](https://news.google.com/rss/articles/CBMimwFBVV95cUxPakRsZ01zTUFGU3c2WE9tN2N6TF9UQXYyOU1rdG96V0JSNmdCSnF1c0xWMVF3N0xhVkg1TnlyREZIY2RtamRvc3ZZNkJXNlZxNC1jVzhhbEhncFlxSWVGODJIWi16Z3g2eWxBMmRYRGs5bUxXQms5c3dFYzBWb2hzQ2FUNk9JQXh4XzlpM19uYTZKYkdOeEl0Q1dmTQ?oc=5) — Google News · Technology Business
+- [B2：Global economic changes offer Africa chance to prosper, Cardoso, Okonjo-Iweala say - The Nation Newspaper](https://news.google.com/rss/articles/CBMisAFBVV95cUxQMF9rc1V0aGRSXzhtZ2xMbTYtTUI1NC13c3pUUUptTlVSV3lyeVBmdXhQSGFjVFByb0NYM19CTGhuU0xrUlk5VGszT1F5bm9KZ3R0ZVhXbWppSzFyQzF0clZ4czlaWVB5WUc2RjYtQlRKcE5nXzU2VDRINl9jb0FRUktxT19XNEJ6dmtlSktzNS1NNHVrcFdYNDdfZHFjUWI4NEs5VDI5V0lfc1ZLNzlRedIBtgFBVV95cUxNV0kxQlJvcnEwSnZNVTRjTVFlaHVtZEF4anI2TDh2M1dnanpCODQ2X0NPNmpsYnBsUldyLVVPT3dLQWZxb0lKSzRCamtyYURWVDlzZi11WnY2dnJ4ZktFdHV3UVJLWGhSMXlvSUpsYWx4V3pSay1DdGJRV0ZEUTBxc3p3eWNhT1l0VnBlRkpxRl9TWmctQm1WWTlQRmpxejNrcGJzMjRUbHdZbU00cUZ0V1RydExYUQ?oc=5) — Google News · Global Economy
+- [B3：Nigeria: Dangote reshapes Africa’s refining landscape… a major industrial bet yet to be proven - Africa News Agency](https://news.google.com/rss/articles/CBMiwAFBVV95cUxORFhKWWFkT3NVMklIazRqMlFYbzd1cWpxblBOOGVEODNwT1ZDZWZVb1NXRDNLLUpMbU9vanY4WW5leTVwQnA4aWt5X1paUS0xX290MlVId3hXV01zcllqNktJaVI1a1RSMmx2ZmlrZVd2Ql9PVEg5OVhiLWFONEhLUDFXZVZWOGk1M2FxVzBvb3NEZUh0NnlsRnEtY0F3UU1kclJqVkVJMEdvT0xuN0xBQUFTYUZ3SGJOeXRyZUJBWEM?oc=5) — Google News · Global Economy
+- [B4：Behind the Deal: Sendero Consulting Acquires Torq Consulting in Eight-Figure Transaction - D Magazine](https://news.google.com/rss/articles/CBMivgFBVV95cUxOT0pFaUdiWFNQQ1UxNjM0OGtEczlvU1J4eXhIa2tZRkx1bThSNWVDMWhMR28wOEZOckpTeUZsejRpcnMtN3I4VFM0a3p0d0xiVFdmZHNPVjU0MVNtUlBpSWdodDY5bG9ndG9lS0FRNVNMSm1lR21YYmNvcGNwalR5NlVhc2VTZFdVSDBiSGJJSm9sbmxXQTRoMjNjSDFlQ1dsQ3c0bUcwYXlPejU5WEJtWGpScnZaWWt1RW5sWVVB?oc=5) — Google News · Technology Business
+- [B5：Gold Holds Near $4,000 as Markets Brace for Federal Reserve Rate Decision - CryptoRank](https://news.google.com/rss/articles/CBMijwFBVV95cUxOWmpFOXNnbTZKUndMRDNrSE1rRU5ONDhib1lYT01iT2V5OUgwNUNHZHY0OFFKNkRsdEw0X0JoWjhHdkduNGFGMXROT0FlMFRWaGlleGhMN1JNUDFDMWRrMlFGTTdYNENkWE1ucEJXU0RVRktPMElVc1B2R3JDR3Jua2VIeXcwRHNMTnFyODlLVQ?oc=5) — Google News · Markets Policy
+- [B6：Becton Dickinson (NYSE:BDX) Gains Fresh Operating Focus - Kalkine Media](https://news.google.com/rss/articles/CBMinwFBVV95cUxPbEpzaGdCaUhSS2owWjJ4RE9YN296anAxcjRQMXZiRnBUZ1hVYS1fS2s1RXJhWlpiTkVlVVNIQ0pEZmZQbC1zSzZpZWtmeXQ1QWF3bG0tdklWbV91eFg2ZnFpVk14MTh3SVdDNGNOLWpla3lfSWpuVW5FZEZVLTBUbVF5UlBsaVVLWHh4ZHJZV1A5MU9Venh1a1FRWDNXSDA?oc=5) — Google News · Technology Business
+- [B7：Opinion: America's AI bubble consolation prize - fiercewireless.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWGRkOHNuM1Bnci00VXdTZVFjM1NKODFuMHY4UlZ4TGtMZS1KR25KRWdBejJiZmh6YndSbWdvUkxKUkM5NG5oeVpRNEF0OWZqQ1ZmS3dUU1Z1QWNoMFAwZzZMOTZWa21yNzJPU3ZzTE03OV9XS1habDNUVWlaNFhFRjVxQ2htZDYy?oc=5) — Google News · Global Economy
+- [B8：The Trump administration manufacturing economy: an enhanced U.S. industrial policy? - Springer Nature Link](https://news.google.com/rss/articles/CBMibEFVX3lxTE5IWE9MVUw4TlZjNjdzbi1HNkdSQ2RvcE9qUU1BdkJuZnIwM2hSVDJGSkJjSjU0VDdid2FNYTdxZnFQWmd3eEhOcmJFQjlUVUYtdGgyM3ptQlhxckl0ZWVxTGdqUWtYRkpKblJyVg?oc=5) — Google News · Global Economy
+- [B9：NZD/USD (NZDUSD) Surges 0.55% on Jul 29: What Does the Market Value? - TradingKey](https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnVBMjNNUkl0aDRuM25JcnFOWWtKVlVxS0NMUzVsdzRXbWdNSGNDSkhHcDNtRHdBSGZySFB6Z25YMHJzMXN1cnhQZGs2ZXEzRnp5bVk4SUNBOURxMnlsZnN1eDdUUmlZU25JbEFUR3hYdEJGSnlIbUlTNDdOSzVGakFmZURPUy1Cc1FOV1JB?oc=5) — Google News · Markets Policy
+- [B10：Bank Of Canada Lays Out Its Thinking As The Loonie Tracks Washington - Bitcoin World](https://news.google.com/rss/articles/CBMidkFVX3lxTFA4SlBtWlNqSS1jOTRmUi1XQnFocFh5bGZnSWUtMDJRUEZ2ZzhyWUt3RWE0ZXJDbC1Ba1dXZ0tZYkxtcWFBbnM4ZEJZTDRIaDEtVFN0V3dleUVTRUFzMUhKaEw1dFFPdDZ3b1VTOVM1b3dBUEZhVlE?oc=5) — Google News · Markets Policy
+- [B11：Okonjo-Iweala Calls For AI, Renewable Energy Investments To Tackle Economic Shocks - channelstv.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxNSG16dlVTVnh3RTdXWGpJWTJmVEMtbXlxVG9hd1ZfbU12bFB3WlFSUkhwck4zUXdpYmQ3TXBPXzE3dUdNTDBTVk1udnNNaGFpZ0FieUI0OXQ2RmxKSjZSRzhpUEVVeG1DOTNSbkpsNl9mQm9vZkJSR2xldTgzc0drSXRWcFJYcHpWSG5WSTBRQ3pVYWoyMjNlRHM1d2xjdTJmcHJqMkJLM1lvbVhaSjJqWVBLVWM?oc=5) — Google News · Global Economy
+- [B12：Fort Worth Company Joins Consortium Planning $5B Persian Gulf Refinery Project - Fort Worth Inc.](https://news.google.com/rss/articles/CBMingFBVV95cUxOX215UDhZZmlpM3VfbXpRVW5HVlNNcVJEaGdmUG8yWlZ2eUloczlfUU9IVWxNdWJ6ZlRfc1ZBRnVSeGdnNm5FZGpaTlRfcFd6QnR3d0tZTWRHX2lsWTZyYmhoNjU1TDBlTW1nbm8tNW9La1JKSDhqOVE1d1I0eUNPa09HWFFNSFJZdEV3YVJWSU9yck1OYmNYMGJRaW1SZw?oc=5) — Google News · Technology Business
+- [B13：Russia’s rupee trade proposal opens new economic opportunities for Bangladesh - weeklyblitz.net](https://news.google.com/rss/articles/CBMisgFBVV95cUxQcXUxSXNtWkRlNG5EM2E2YjV2aEs5WXdiOHdQVmc1OWdJbjdxSFEtVEhaNllBUUFJbVNhNVp1NXUzaHJ2MWxxa3pjeTBrdmVRNVFUSENxRXpuTW1Ga3plM1drSkdSaXNpS0pfbGlWTlZFNzRXVDQ5OFFjSzdQQU1KaTVtdHdHRVdlYldrWC1HUlJobXVTaG4wWXdrY0tOdHZxaXYzNHAzVUFkN1BnVXhSX3ZR?oc=5) — Google News · Global Economy
+- [B14：Bangladesh Semiconductor Sector Growth | Bangladesh steps up in global chip race - The Daily Star](https://news.google.com/rss/articles/CBMilwFBVV95cUxNNnZrOFFQZElHLWN2ZUJTZmRjN2F2R0ZObHhodzNuODlQUHJ5OFFfSk94dTMxbnZNTUJndm5rOElseUY2VmV1cGRXbkJ2Y3VzSUNPd2tXZUtzY0RVcy1YUFZlenptakpxOWs2bW5qMVRMWUhHOThYb2dMUktuZGRYd2ZwdFFGSzlGQ0FOdlZDZmpPZk81QkxR?oc=5) — Google News · Global Economy
+- [B15：Hun Manet directs ministry to map regional potential for industrial hubs - Khmer Times](https://news.google.com/rss/articles/CBMisgFBVV95cUxPNm95cy1Fd0lQY1BpWXFVa2MxX29FX1hXbVFodVNJYV95Tk92ZVJycGg1aFN5UGRLQTVpd0lGdjEyTmpHdENQaGF5ano5NG9jaC0xMHdlVGF1c2ZpUFFkd1RMYW1lVlZnaU1neWFiUkFYdEZ3Ym9kenBsdXh0QW8tVzNJLXdFaHN6ekNHVEEtdkp1UDR0aC1MUl9oSGs4Yk5PdWZOQkVlV05mVExRZFotVl9n?oc=5) — Google News · Global Economy
+- [B16：Amid global uncertainty, structural reforms of last decade keep India's economy resilient: Finance Ministry - India's News.Net](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdXcyQTJpWW5jeWxmVHlYRHpkYW1seXlKdWZxOUtPbks2WkVTbU1uTEFjdFVtWkZOWG5YLUcyMG1hZkdob1BRbjZXSUNzTUVXeWpSZnZscDF2dzlpZ1FKOTdlMzdNWjN4bkJXeEpHY2pFWkFQR0g5dTdRWHN5T3MwX1JSLXBmSDlhMjZaSTB4aWxsSjdISE4zYnVVZ01US0NjTWJkaDlEdlBJbzFXUUJZN2pfQnRfNV95QmJtRHgtckN0OGNTSzBfX3JIREdYVG5oMkVEZzYwaXc1MEU0SlE?oc=5) — Google News · Global Economy
+- [B17：Govt's proposed Rs 277 crore MSME investment set to boost India's economy: Industry officials - India's News.Net](https://news.google.com/rss/articles/CBMiygFBVV95cUxOQThDam5fUkloWDM0T01ocDBKd3k5SWc5YlBMdEFra1pCdEdUNTVPT1NDY2FlZmZFb0puWG9jdF9acjBRR0JpbldxUVd1dm9IYTVFQlNzLTB4RWsyN1ZTUG5GVnFJcmhzRnNkeFVPMVpXeG9oc01RR0JNU0xNaVFhVnRudGgxREV2RHk0aGhRbEtJQ1NhN05YRENFa0xtZmVLM3FPOGNaSkh4dFV0R1FoZVZObkJiaThqamhGY0hXWk5YTGdaOFd3VWtR?oc=5) — Google News · Global Economy
+- [B18：Wildfires near Bordeaux bring more troubles to France's wine industry - ABC News - Breaking News, Latest News and Videos](https://news.google.com/rss/articles/CBMirgFBVV95cUxNU0pfNmpZNlMzWUNuRnBxRzdpWGtzTFdhemFKVDlmakpzdHJ2OFJHOC1rSmlZMmFLby03cGlka3pONk1PZWp4RURHZjdDN2JjdG5OWHlxS2ZBWG9ZdDB2TWRBUFdPaHVLc01YR3EzcnlIUk55U0JfOVNFVkJmSjdrU0ZQUUg4Zi1RS0haU0Jjd1VqSFY2cEVZNFNXelhWT2RidEV4bl9kVjROYk1MdHfSAbMBQVVfeXFMTWpseGlWODFkamtQM2Q2N01CbVVDdGxXS1NERklnVVZwcXUxWFBfYl9mU0t2MWt0SG5TMVRLSE1KMGFpcFBsczVrd2FFN1dDY3hpTldJZW1ZOEpENjRLLVkzRURjVGVodG1KQ0k2NVI0MWswUWFxTVZsN0Z0WGl2RDZjeGZaYjJqWENQOTZVc1QxM0l6b05BN0F6TlM3dUowemx3TzlCNnRMcng0djRIcW1YSWs?oc=5) — Google News · Global Economy
+- [B19：Linde to Report Q2 Earnings: Here's What Investors Should Know - TradingView](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQkxrUEFjSTRHMGExWDhua3JSNS1GcFQweFI0cmVmZ1NHalRjcS10aTFWZDRRa2VuMEJRLWw0SjJ5LWlqYUZTeFIxcjJYYndpVTJuWTFQRERZNkZ0VFhONXB4X2k0cjFlRENKZ3BZQTRRV01fUG1kVjAtSVBzbGNmdjl3TjBmcFlMQWFuY3hGc3BlQXd3MXRLYkVwMVItWEZnNjhTb2ZLVWhrZTdtdTZxc0pNdEVXYlFH?oc=5) — Google News · Technology Business
+- [B20：Tom Lee Says AI 'Bottleneck' Stocks Like MU Could Stabilize After Fed Decision — 'A Lot Of Fear Is Baked Into The Prices Of These Stocks' - TradingView](https://news.google.com/rss/articles/CBMinAJBVV95cUxNSV9MRHV0R1VHZFB0aVlnMnByaGh1blpIOC1aYU8xdmczNFlWVmZPU3VDYjZMaDZHMzF1UjFzTk96ZEpmRzZRdUlScl85UExSU2RHRDk3d0RlbFpvSVRIeTBtek5EMkxIYjFRX0VsbGVoWmRMX3NvVl9fMlN4c3kySVZOZnQ1Rkw3ZHJMa0picGRmcHU0ZjdKN2xwenBzUjcxRkJFSHJTUmpBbXBHN2UyZEtrM1I0bl84T2FNY0FwaG0yN0ZSc040TS0tdnA2TUg5SHU1TDV5VFR2NTI4dWRrelVOdzFfeFRycDZiY1o2cG9ZWWZFc1hKaHl0M09Xb2ozdUM0YjNfTGV3UFJTdk8wRU1kZWUxNmtBRVNNbA?oc=5) — Google News · Markets Policy
+- [B21：Indian economy shows recovery despite global uncertainties, private investment gains momentum: Report - India's News.Net](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMmRUdVYydVk0bUFHMnlrMDA4RUVjdHlwZEJBVHVIandOZ240Y2JHVHBfaFdXbmF4c3dVR1otZFZadHVtMWZkNU0zdGVSX1NYTmhvRmpyS2Q1a2lBdl9fcmZMcENpazVnUEVXR2pOQWZEZ2lpZFNBTU81a0ttTVF4Y2JoenVCUDNwZjRyeE0zckJmclE4azBlZFRwbHJFSXdHNGVUVjg3U0ZHbkRBSjE5UzJwQl83YjFXcmg5UkJMWjhpRXhwUENfb1FpM0h3MTZFLUdHaU9ycWc?oc=5) — Google News · Global Economy
+- [B22：Student entrepreneurs learn business by starting one - rochester.edu](https://news.google.com/rss/articles/CBMilgFBVV95cUxOWGo1dW1OQkNVYVZCRVh4REpwakVnQlFOOExocW0yVkJFcjh2NXFRUHgwSnNMMlBudjYwNzFRNkkyZGtJNElUVl8yM3pEN1JqWE1yX01aWU5HWm04UllQMXJKV0drM05tM0N2QkdaNEYwRFdsdnpPdC00UllSUXptdV9RclBVVGw1WVRxUU81MzlCMjVXSWc?oc=5) — Google News · Technology Business
+- [B23：Gold: Fed Policy Risk Limits CTA-Driven Upside, TD Securities Says - Bitcoin World](https://news.google.com/rss/articles/CBMie0FVX3lxTFB4ZUFSMl93a3FZYlJqVm45Y3RxRllfMlU1UUphSjBfRnVmc1BxNTlITVNsbjd2UjRtaEU5WlF0TVBtZ2t5QlM1dUQ1cFpEYllqQjd2dTFscWNQd1E2WmQ4LWpSWGxLVFZzNGJqQkNGN3Z4VnhPUDJhZHRkNA?oc=5) — Google News · Markets Policy
+- [B24：Alternative Energy Market to Reach USD 4,018.0 Billion by 2035, - openPR.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxQNk5RZ2dmTUhXV2h2cDlhUzJZZk4tVEp3R01LMG5fYXR1R2FYcXdRMlZUSl9fVWM0SEF3azJpc0YyZnkyZFUtR2VENzRENVJkVW9EV0llS2Y1YXRFN1RYQnN0czNqazNWaWZOX215NlRHMHhGVHlBYUJ5dU8taTJ0b0hrVEhSQUlIcl80YWxwLUpLQndSU1VaTDkySWtwMzg?oc=5) — Google News · Technology Business
