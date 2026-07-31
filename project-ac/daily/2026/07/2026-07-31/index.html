@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-31 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-07-31</h1>
+    <p class="subtitle">内容工程本周的内部当前版本、限定内容审核和方案对比实验已形成可复核结果；周五进一步明确由咸芝士直接把 Markdown 交给 Frank、再由 Frank 控制后续上传，并完成两份材料的本地准备，但仍不可发送。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-31/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 内容工程已完成周内目标核对，并把给 Frank 的说明与正文准备为两份本地 Markdown；访问与导出、具体直传平台、发送决定、实际发送和回执仍未完成，AC / ACM 工程验收也无新增确认。</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">6</span><span class="meta">已完成 3 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">4</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">3</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">4</span><span class="meta">P0 0 / P1 0</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：内容工程本周的内部当前版本、限定内容审核和方案对比实验已形成可复核结果；周五进一步明确由咸芝士直接把 Markdown 交给 Frank、再由 Frank 控制后续上传，并完成两份材料的本地准备，但仍不可发送。</li><li>周五变化：给 Frank 的正文保持已审核内容不变，并新增一页先读说明；材料集合只有两份 Markdown，没有原始材料、内部控制记录或工程交付附件。</li><li>验证结论：内容工程工作区完整性、来源登记、三份设计桥接和路由校验通过。该结果只证明本地登记与结构一致，不证明业务事实、访问授权、外部发送、工程交付或生产效果。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">内容工程周内目标</span><span class="desc">负责人确认的内部当前版本已经形成，可用大白话说明项目目的、八类上下文、证据边界、未知事项和下一责任</span><div class="pill-row"><span class="pill">✅内部目标完成</span></div></div><div class="card"><span class="title">限定内容与实验</span><span class="desc">三段内容建模完成限定审核；一项方案对比实验得出继续使用现有基线，正式生产架构仍未决定</span><div class="pill-row"><span class="pill">✅内部结果可复核；🟡架构待评估</span></div></div><div class="card"><span class="title">给 Frank 的材料</span><span class="desc">一页说明与一份已审核正文已本地备妥；尚未完成发送前审核、访问与导出批准、平台选择和发送决定</span><div class="pill-row"><span class="pill">🟡本地备妥，未发送</span></div></div><div class="card"><span class="title">对外传递路径</span><span class="desc">已明确由咸芝士直接把 Markdown 交给 Frank，再由 Frank 控制后续上传；本地文件夹不代表访问批准或已经发送</span><div class="pill-row"><span class="pill">🟡路径明确，权限未开</span></div></div><div class="card"><span class="title">关联 AC / ACM 项目</span><span class="desc">本周可复核证据中没有新增工程接收、开发启动、上线或业务效果确认</span><div class="pill-row"><span class="pill">🟡等待工程反馈</span></div></div><div class="card"><span class="title">Dashboard</span><span class="desc">本日简报只记录改变整周判断的业务增量，作为周看板完结条件；看板生成和归档维护不计为业务进展</span><div class="pill-row"><span class="pill">✅范围受控</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">内容工程负责人当日对话</span><span class="desc">已登记的负责人回复支持周五内部边界确认、直传路径澄清和两份材料的本地准备；这些回复不等同于访问与导出批准、实际发送、Frank 收件或工程结果。</span></div><div class="card"><span class="title">当天 Codex 对话可读性</span><span class="desc">Codex 对话索引读取继续超时，未获得可独立引用的额外会话摘要。这不等同于没有聊天、调研或验证工作，本简报不据此补造对话事实。</span></div><div class="card"><span class="title">AC Intelligence 日结</span><span class="desc">本次自动化只归纳可复核业务证据，并仅生成日报与当日 Dashboard 衍生页；不读取或披露敏感值，不修改业务代码，不提交或推送 Git。</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：Project AC / CE Context Engineering / AC Intelligence</li><li>汇报类型：跨项目日结（周五增量收口）</li><li>汇报日期：2026-07-31（Asia/Shanghai）</li><li>当前状态：🟡 内容工程已完成周内目标核对，并把给 Frank 的说明与正文准备为两份本地 Markdown；访问与导出、具体直传平台、发送决定、实际发送和回执仍未完成，AC / ACM 工程验收也无新增确认。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">本地材料准备被误读为已经发送</span><span class="desc">保持“本地备妥、未发送”；发送前分别确认准确范围、访问与导出、具体平台和是否发送。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">内容审核或实验结果被误读为业务与工程完成</span><span class="desc">明确内容模型没有产生真实业务答案，实验结论也不是生产架构决定；相关事项继续由对应负责人确认。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">AC / ACM 工程接续缺少新增反馈</span><span class="desc">继续向白果索取最小工程状态、问题反馈方式和首个可验证节点；没有证据时保持未知。</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div><div class="card"><span class="title">Codex 对话索引不可读</span><span class="desc">只采用已登记、来源边界明确的负责人回复；索引恢复后再做来源限定补充。</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>完成当日日报与 Dashboard 衍生页的一致性校验，不把生成和归档维护计为业务成果。</li><li>保持给 Frank 的两份材料不发送，直到负责人完成发送前审核、访问与导出决定、平台选择和准确发送决定。</li><li>仅在获得可复核证据时更新 Frank 收件、后续上传、ACM 工程状态或业务效果，不从本地文件存在推断外部结果。</li><li>不修改内容工程原始证据或业务代码，不提交或推送 Git。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-07-31-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
