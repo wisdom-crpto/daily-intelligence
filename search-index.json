@@ -1,6 +1,500 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-08-02",
+    "generated_at": "2026-08-01T23:04:12.600496+00:00",
+    "model": "glm-5.1",
+    "mode": "model",
+    "thesis": "AI 的叙事正从“劳动力替代”转向“资源与基建重构”，资本加速涌入算力基建与边缘数据，而劳动力市场的真实压力不是失业而是薪资重估。",
+    "summary": "- **AI**：AI 对就业的真正威胁被证实是薪资下降而非失业 [A14]，同时 AI 数据需求导致珍稀书籍被毁以喂养模型 [A11]，引发数据供应链伦理危机。 - **商业**：全球供应链重构加速，越南进出口额望破万亿美元 [B10]，孟加拉国与加拿大争夺芯片与关键矿产的技术经济底座 [B9][B4]。 - **宏观**：美日联合干预汇市支撑日元 [B7]，同时多国政府采用冻结燃料价格等行政手段缓冲能源冲击 [B17][B24]，逆周期调节与汇率干预并行。",
+    "relative_html": "2026/08/2026-08-02/Daily%20Intelligence.html",
+    "markets": [
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "value": 25373.8496,
+        "change_pct": 1.0,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "黄金",
+        "symbol": "GC=F",
+        "value": 4049.1001,
+        "change_pct": -1.24,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+        "interpretation": "避险需求回落"
+      },
+      {
+        "name": "原油",
+        "symbol": "CL=F",
+        "value": 84.67,
+        "change_pct": 1.29,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+        "interpretation": "通胀压力上升"
+      },
+      {
+        "name": "美元指数",
+        "symbol": "DX-Y.NYB",
+        "value": 99.8,
+        "change_pct": -0.21,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+        "interpretation": "外部压力缓解"
+      },
+      {
+        "name": "十年美债收益率",
+        "symbol": "^TNX",
+        "value": 4.745,
+        "change_pct": 1.76,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+        "interpretation": "成长估值承压"
+      },
+      {
+        "name": "BTC",
+        "symbol": "BTC-USD",
+        "value": 62788.0195,
+        "change_pct": -0.04,
+        "direction": "→",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+        "interpretation": "中性"
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "value": 15.99,
+        "change_pct": -6.44,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "value": 200.75,
+        "change_pct": 2.93,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/NVDA",
+        "interpretation": "风险偏好改善"
+      }
+    ],
+    "topics": [
+      "AI",
+      "technology",
+      "business",
+      "macro"
+    ],
+    "quote": {
+      "english": "The greatest danger in times of turbulence is not the turbulence; it is to act with yesterday’s logic.",
+      "speaker": "Peter Drucker",
+      "chinese": "动荡时期最大的危险不是动荡本身，而是继续用昨天的逻辑行动。"
+    },
+    "sources": {
+      "ai": [
+        {
+          "title": "\"Everyone Has Been Sold a Lie\" on AI",
+          "summary": "Article URL: https://www.youtube.com/watch?v=pHcZpvIfho0 Comments URL: https://news.ycombinator.com/item?id=49139325 Points: 1 # Comments: 0",
+          "url": "https://www.youtube.com/watch?v=pHcZpvIfho0",
+          "published": "Sat, 01 Aug 2026 22:50:30 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T22:50:30+00:00"
+        },
+        {
+          "title": "Mexico became a surprise cornerstone of America's AI boom",
+          "summary": "Article URL: https://www.ft.com/content/ac3274ac-86ca-46ac-bc7b-029fb9dcd173 Comments URL: https://news.ycombinator.com/item?id=49139280 Points: 2 # Comments: 1",
+          "url": "https://www.ft.com/content/ac3274ac-86ca-46ac-bc7b-029fb9dcd173",
+          "published": "Sat, 01 Aug 2026 22:45:32 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T22:45:32+00:00"
+        },
+        {
+          "title": "The Math Superstar Who's Terrified of AI–and Just Took a Job at OpenAI",
+          "summary": "Article URL: https://www.wsj.com/tech/ai/openai-jacob-tsimerman-fields-medal-ai-safety-391d0f79 Comments URL: https://news.ycombinator.com/item?id=49139278 Points: 1 # Comments: 1",
+          "url": "https://www.wsj.com/tech/ai/openai-jacob-tsimerman-fields-medal-ai-safety-391d0f79",
+          "published": "Sat, 01 Aug 2026 22:45:30 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T22:45:30+00:00"
+        },
+        {
+          "title": "Bestprompts.sh – Best AI Prompts",
+          "summary": "Article URL: https://bestprompts.sh Comments URL: https://news.ycombinator.com/item?id=49139269 Points: 1 # Comments: 0",
+          "url": "https://bestprompts.sh",
+          "published": "Sat, 01 Aug 2026 22:44:27 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T22:44:27+00:00"
+        },
+        {
+          "title": "AI opens new era in cognitive studies of wild primates",
+          "summary": "Article URL: https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates Comments URL: https://news.ycombinator.com/item?id=49139232 Points: 1 # Comments: 0",
+          "url": "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates",
+          "published": "Sat, 01 Aug 2026 22:40:22 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T22:40:22+00:00"
+        },
+        {
+          "title": "From MIT: AI financial advice is surprisingly good",
+          "summary": "Article URL: https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions Comments URL: https://news.ycombinator.com/item?id=49139102 Points: 14 # Comments: 8",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+          "published": "Sat, 01 Aug 2026 22:25:12 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T22:25:12+00:00"
+        },
+        {
+          "title": "Show HN: Pronto – real‑time wire for AI agents (70k+ feeds connected)",
+          "summary": "Article URL: https://pronto.stream/ Comments URL: https://news.ycombinator.com/item?id=49139058 Points: 1 # Comments: 0",
+          "url": "https://pronto.stream/",
+          "published": "Sat, 01 Aug 2026 22:21:01 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T22:21:01+00:00"
+        },
+        {
+          "title": "Was AI Responsible for Finding the Coldcard Security Flaw?",
+          "summary": "Article URL: https://cryptonews.net/news/security/33234551/ Comments URL: https://news.ycombinator.com/item?id=49139030 Points: 1 # Comments: 1",
+          "url": "https://cryptonews.net/news/security/33234551/",
+          "published": "Sat, 01 Aug 2026 22:17:17 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T22:17:17+00:00"
+        },
+        {
+          "title": "人工智能从干活到负责|自动驾驶|系统|复利|客服|曾鸣_手机新浪网 - finance.sina.cn",
+          "summary": "人工智能从干活到负责|自动驾驶|系统|复利|客服|曾鸣_手机新浪网    finance.sina.cn",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTFpwVzNROHY1WV9jbUN2V3VXelB2cU9GRWRoalB5SjJ2Y1daQ3JHOUEzdEYtc0xsbk1xWjdrZEdnYm1IWjlxcUZTYVFNV3JRdGhaRmRQMXB3S1E3T3J2c0liT1BpdzhtYXFWdkJQRGllNm1kakdvRGRiTXI3THE4OEM3Qll5MEVGODZr?oc=5",
+          "published": "Sat, 01 Aug 2026 22:04:03 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-01T22:04:03+00:00"
+        },
+        {
+          "title": "Google Earth removes artificial intelligence image generation feature - The Jerusalem Post",
+          "summary": "Google Earth removes artificial intelligence image generation feature    The Jerusalem Post",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11QURXX2stVklORmd3LXVyMFpXSl9iR0M1cXotcXpVME1NT0pWYmJTWGlIOG9PcUNLam9iRlktd09sOVkwdldLQUdSVDRTRy10M1V6LWJmTVpwc1BGeHJN?oc=5",
+          "published": "Sat, 01 Aug 2026 21:28:55 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-01T21:28:55+00:00"
+        },
+        {
+          "title": "Book sellers raise alarm over 'horrific' destruction of rare titles to feed AI",
+          "summary": "Article URL: https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain Comments URL: https://news.ycombinator.com/item?id=49138544 Points: 6 # Comments: 1",
+          "url": "https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain",
+          "published": "Sat, 01 Aug 2026 21:11:45 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T21:11:45+00:00"
+        },
+        {
+          "title": "Using Meta AI via WhatsApp for OpenCode",
+          "summary": "Article URL: https://github.com/amita-seal/wa-metaai Comments URL: https://news.ycombinator.com/item?id=49138536 Points: 1 # Comments: 0",
+          "url": "https://github.com/amita-seal/wa-metaai",
+          "published": "Sat, 01 Aug 2026 21:10:44 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T21:10:44+00:00"
+        },
+        {
+          "title": "上半年AI热钱涌动，国资基金抢滩人工智能｜2026张江AI小镇生态日现场侧记 - 财联社",
+          "summary": "上半年AI热钱涌动，国资基金抢滩人工智能｜2026张江AI小镇生态日现场侧记    财联社",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rTE5hdFRhVEI1V3RPSkVHQ2MwTl91WUNWQV9RMUJ5YmE2S0R3bEFJc3g2c18wakVuU1ZHWjNFSUczaVFiMWo2dQ?oc=5",
+          "published": "Sat, 01 Aug 2026 21:09:43 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-01T21:09:43+00:00"
+        },
+        {
+          "title": "AI's real threat to jobs isn't job loss, it's lower paychecks, new research says",
+          "summary": "Article URL: https://www.businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7 Comments URL: https://news.ycombinator.com/item?id=49138483 Points: 6 # Comments: 0",
+          "url": "https://www.businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7",
+          "published": "Sat, 01 Aug 2026 21:05:00 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T21:05:00+00:00"
+        },
+        {
+          "title": "Ask HN: How are you using AI to learn?",
+          "summary": "It's time to start learning advanced topics again and I thought it'd be at least interesting to take advantage of LLM's to help me learn better or faster. I've read here that some of you are using \"socratic skills\" where you give the LLM some content and then you get a series of questions in order to learn but I don't think it's the only approach to this. I'll start tackling the \"Attention is all you need\" paper and then I want to go deeper. What's your approach? Comments URL: https://news.ycombinator.com/item?id=49138466 Points: 4 # Comments: 7",
+          "url": "https://news.ycombinator.com/item?id=49138466",
+          "published": "Sat, 01 Aug 2026 21:03:58 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T21:03:58+00:00"
+        },
+        {
+          "title": "Show HN: Lumaris – AI biotech intelligence briefs (sample: EGFR resistance)",
+          "summary": "Article URL: https://lumaris.nanocorp.app/reports/egfr-resistance-nsclc-2026 Comments URL: https://news.ycombinator.com/item?id=49138404 Points: 1 # Comments: 0",
+          "url": "https://lumaris.nanocorp.app/reports/egfr-resistance-nsclc-2026",
+          "published": "Sat, 01 Aug 2026 20:56:38 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T20:56:38+00:00"
+        },
+        {
+          "title": "Show HN: Voris: privacy-first analytics for the AI-influenced web",
+          "summary": "Article URL: https://voris.ai/ Comments URL: https://news.ycombinator.com/item?id=49138012 Points: 2 # Comments: 0",
+          "url": "https://voris.ai/",
+          "published": "Sat, 01 Aug 2026 20:17:59 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T20:17:59+00:00"
+        },
+        {
+          "title": "Why Artificial Intelligence Data Centers Are Powering the Future of Digital Infrastructure Through High Performance Computing, Sustainable Innovation, and Intelligent Cloud Ecosystems - Spherical Insights",
+          "summary": "Why Artificial Intelligence Data Centers Are Powering the Future of Digital Infrastructure Through High Performance Computing, Sustainable Innovation, and Intelligent Cloud Ecosystems    Spherical Insights",
+          "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQLWIwU3R3SW1KV3IzdzZkNk0zZ0ZjVG13YW1tUzlJcXJIcl9wM2tnUFFpWUVRUlpBQ0dXWmIxZVZLeFNUcG1OdHdHQVR5aEZhWVRmVTdkQklzd1hFVGpORWNaV1A5WWNHalE0V1VfMTEyZlJpQzZSdGl2NFF0c3VYWnprZHJhTTRMNzhJYmVkVExZOFI2T0tQem9sR0UxbU9fMXFuZUU3OVh3Q2F1R08zaDdMN3M2d2NURjhSMHJNOXhhbF9pamlRMzBXSEp3MmVQdkZ4QkpCS1JqRkpVXzR5QVdKWEtUUVJUSWx6TlhWdURjOW9vOThBTEJjd2J1OWtjdE5qNHd4Y0pvSlJ3UkhxbHNER1hCUFYzSlJ5bzM1b3VySU8wLU9mMUJRaThrUENGU2VaLURlWHRWdXJOalBUTUdqRQ?oc=5",
+          "published": "Sat, 01 Aug 2026 20:08:22 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-01T20:08:22+00:00"
+        },
+        {
+          "title": "\"AI Brendans\" or \"Virtual Brendans\" (2025)",
+          "summary": "Article URL: https://www.brendangregg.com/blog/2025-11-28/ai-virtual-brendans.html Comments URL: https://news.ycombinator.com/item?id=49137898 Points: 2 # Comments: 0",
+          "url": "https://www.brendangregg.com/blog/2025-11-28/ai-virtual-brendans.html",
+          "published": "Sat, 01 Aug 2026 20:07:07 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T20:07:07+00:00"
+        },
+        {
+          "title": "‘More than just objects’: Australian book sellers raise alarm over ‘horrific’ destruction of rare titles to feed AI - The Guardian",
+          "summary": "‘More than just objects’: Australian book sellers raise alarm over ‘horrific’ destruction of rare titles to feed AI    The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTTJBXzBtYmdvNlM2ZERtalkzZDdhUmVXckdVVmVxdnJTUGJYTTBaTlhSVUNVUXhRVkxsMlc4SU5BR2xhYjZ0Tkd6cllkRHlFMzRGVVhuZW0yTEpYZHduMWNiajZfUUMwTDEyZF91S0p3U0NVNEhsNnRiV01ZR29hSGUtaHlVbTNlVTRCLUh0bmxVYjZ3Y3kzWVdyblVsYkljcnFvQk5OQTg5WXg2cEVfVVpYLWdPNzZtMHFlQg?oc=5",
+          "published": "Sat, 01 Aug 2026 20:01:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-01T20:01:00+00:00"
+        },
+        {
+          "title": "Which web browser has no AI?",
+          "summary": "I think it's time to stay away from softwares or tools which have AI features. First find the good enough web browser which has no AI. \"No AI\", I mean totally no AI features, not the options to close AI features. Because using AI or adding AI features can influence many aspects of the softwares (decisions, philosophy, UI, details, attitudes to users, privacy, security, etc.), and reflects the abilities and purposes of the developer or company. Comments URL: https://news.ycombinator.com/item?id=49137677 Points: 7 # Comments: 9",
+          "url": "https://news.ycombinator.com/item?id=49137677",
+          "published": "Sat, 01 Aug 2026 19:39:10 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T19:39:10+00:00"
+        },
+        {
+          "title": "The Index – a hand-checked catalog of AI tools",
+          "summary": "Article URL: https://theindex.agnissanisaac.com/ Comments URL: https://news.ycombinator.com/item?id=49137637 Points: 2 # Comments: 0",
+          "url": "https://theindex.agnissanisaac.com/",
+          "published": "Sat, 01 Aug 2026 19:33:48 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T19:33:48+00:00"
+        },
+        {
+          "title": "AI #179 Part 2: Hearing the Fire Alarm",
+          "summary": "Article URL: https://thezvi.substack.com/p/ai-179-part-2-hearing-the-fire-alarm Comments URL: https://news.ycombinator.com/item?id=49137626 Points: 4 # Comments: 0",
+          "url": "https://thezvi.substack.com/p/ai-179-part-2-hearing-the-fire-alarm",
+          "published": "Sat, 01 Aug 2026 19:32:28 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T19:32:28+00:00"
+        },
+        {
+          "title": "Show HN AI Data Center Alert",
+          "summary": "Article URL: https://aidatacenterimpact.com/ Comments URL: https://news.ycombinator.com/item?id=49137505 Points: 4 # Comments: 1",
+          "url": "https://aidatacenterimpact.com/",
+          "published": "Sat, 01 Aug 2026 19:18:52 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-01T19:18:52+00:00"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "Resetting Ghana: creating jobs, ensuring accountability, and promoting shared prosperity — the role of CIPAC - MyJoyOnline",
+          "summary": "Resetting Ghana: creating jobs, ensuring accountability, and promoting shared prosperity — the role of CIPAC    MyJoyOnline",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSnFGVkZqSmtteDhPWVVZSTYxUkp4QVZSVXVmQ0dCcl9yQnJkSVFVdGVGbUpTcTNFVnhqeUd4R2RNLWhGTk1HclR1SE9NSXBYa0lvQURxYjdwc2tpaWJfSFA3eDdNMUNHR2xDd0ZHZ3hHczRkdmFWenhNZGJYeVBhOFpNU1IwOThpT2xLaDkycGNza0YwajVTSUFsY1pIZVVLbW9Sa2dLTUxqa0otaE55Y1czc3lwdDV6WlVsaHp4bUQtTzF5bEh1b3VWLU8?oc=5",
+          "published": "Sat, 01 Aug 2026 21:54:26 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T21:54:26+00:00"
+        },
+        {
+          "title": "3 Japanese Growth Stocks Backed By Strong Earnings And Healthy Balance Sheets - simplywall.st",
+          "summary": "3 Japanese Growth Stocks Backed By Strong Earnings And Healthy Balance Sheets    simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLVFNSExWQ2dnbDI3T0l2alB5aDZGbUxtNW9Bdzc1QVJrcV8xcTZiSHpxUmFNZFJvNEZ5OVFGcG1VTVFmR25ic3NlZVJXbTZ3Z1QwTUctbHBKR3NKUU11RjhXcm1qdFl0RnhhUFBjd0pHVWFFUVM2RXN2OTJvdzR2MldmSU1OOUs0Z0QyMG5BaUdoNF83M2h5V2s5Y21DZGVNeF81cGh5NGx1cmR4QThKS0FVNDBsa3lEOXlXY1BLWHpEVW9yWVg3dVpnMWozaGZ2THlhcFZCLWJtZWtO0gHiAUFVX3lxTE4xYTBHdVpZQlZiYkZkT2EtUENTU3Z2YTRTTHhvTC04dmF3Um85bmtEd29JZ1BNYTBCZ1hqa2lTT2Z4aVlMamlXLUZNbm1SZERKdHF1Zjh1THFHNElEdEFfckRfeXNQUUZGcmJMMzY2TE02cjJNSlpfckc2SFJpako1UzJKNU5PSnBXX3lyYWNyTVZnemNCb2o4T2Fsb0VwOHRPcjBUTV9mT3N2TFFWNHVaRDNDcExkdGU4V3dEU3dTb3R0cTNFU0Q1LVkxWVRHVVlldXVrT2dTQUpoVFZWV0hGN0E?oc=5",
+          "published": "Sat, 01 Aug 2026 20:28:03 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T20:28:03+00:00"
+        },
+        {
+          "title": "Canadian aquaculture gets a high-tech makeover: How innovation could strengthen future food supplies - Digital Journal",
+          "summary": "Canadian aquaculture gets a high-tech makeover: How innovation could strengthen future food supplies    Digital Journal",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaTlCZnBQU25RSkw5azZDUDd6U29XbVFWSTZsb3pTVzA1R1ZXcjdkSGJJcUZxRUY4VDJGcnhnYjlCSHh2MU5MSDN0SENZdnAzQldOcjBlejZKVk5EX0N2bGhIMWNmaTlhZDRVQlVESEpZQ1o5ekNBNjFEbXVLdllQZkxaU2pZMW1Tc0Q2S29ldUdDUnRxYzBLdlV0UnRfR1M3VDk4M1FHVl9ZeDVVdnZCc1lZWVJ3VUtjMXFaSV93X3ZaQnY4X3J6OU1MaU5USHJmcDlDazVB?oc=5",
+          "published": "Sat, 01 Aug 2026 20:22:48 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T20:22:48+00:00"
+        },
+        {
+          "title": "Canada’s minerals are becoming the foundation of its technology economy - Digital Journal",
+          "summary": "Canada’s minerals are becoming the foundation of its technology economy    Digital Journal",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWNBWmF4VXR3VU5YTmE3cTZTMlpqVjVKSGlvbm9fS2VOR2YzY0MtSy1kZ05ZQW1ZR2U0VkFHdXA4MWRVUGlwc3JvaklMUnRNTDlYRlFwZTNkX0hSM191NXRGS1dydjh5RDZ3dkNHdXNlck41RWxwUkVrUXlRUXFMQzlUUlBMQjlqdG9oSGNma1NjVVNWdl9ibkZQUkZYbzQyWHVGMmJQeGRzN2hfdDdj?oc=5",
+          "published": "Sat, 01 Aug 2026 20:16:17 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T20:16:17+00:00"
+        },
+        {
+          "title": "Why Artificial Intelligence Data Centers Are Powering the Future of Digital Infrastructure Through High Performance Computing, Sustainable Innovation, and Intelligent Cloud Ecosystems - Spherical Insights",
+          "summary": "Why Artificial Intelligence Data Centers Are Powering the Future of Digital Infrastructure Through High Performance Computing, Sustainable Innovation, and Intelligent Cloud Ecosystems    Spherical Insights",
+          "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQLWIwU3R3SW1KV3IzdzZkNk0zZ0ZjVG13YW1tUzlJcXJIcl9wM2tnUFFpWUVRUlpBQ0dXWmIxZVZLeFNUcG1OdHdHQVR5aEZhWVRmVTdkQklzd1hFVGpORWNaV1A5WWNHalE0V1VfMTEyZlJpQzZSdGl2NFF0c3VYWnprZHJhTTRMNzhJYmVkVExZOFI2T0tQem9sR0UxbU9fMXFuZUU3OVh3Q2F1R08zaDdMN3M2d2NURjhSMHJNOXhhbF9pamlRMzBXSEp3MmVQdkZ4QkpCS1JqRkpVXzR5QVdKWEtUUVJUSWx6TlhWdURjOW9vOThBTEJjd2J1OWtjdE5qNHd4Y0pvSlJ3UkhxbHNER1hCUFYzSlJ5bzM1b3VySU8wLU9mMUJRaThrUENGU2VaLURlWHRWdXJOalBUTUdqRQ?oc=5",
+          "published": "Sat, 01 Aug 2026 20:08:22 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T20:08:22+00:00"
+        },
+        {
+          "title": "Why Smartwatch Batteries Are Powering the Next Generation of Wearable Technology Through Longer Battery Life, Fast Charging, and Advanced Energy Management - Spherical Insights",
+          "summary": "Why Smartwatch Batteries Are Powering the Next Generation of Wearable Technology Through Longer Battery Life, Fast Charging, and Advanced Energy Management    Spherical Insights",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNWFBpRjNnRTlYUHN0cTNpdDZOYk8tMGRyOUh0RDJWdW5KNksybi1QSEh1NkswOUNvWk4yNElCVDJHNkxJTHBzMjlYbXhJN256WVJURGtTbXp3dUtVTEw5N0w4NXlTQUtEQXM4VjFGMGJtbzgtTGlWbkgwakUzZnN3YUN1ZnZxQmp6SElhVzdRNGJWYXdkcmhEdUh6NmFxV09UbmNLVjJYem92UWxhbzlTMm9MOHpHelRzM3FHNmkyczlhRjN2NHdhakJMNGd1b0VkazVqanN5bG05S2MxZV9RVVlkZWc1dE9Sb2pCejRZM0xhSmlKY0toT2FWY3lodHJaNEV0bVNOaVlZdjN2djM5cDVMMmg2RmxfUVE5bFNn?oc=5",
+          "published": "Sat, 01 Aug 2026 19:38:07 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T19:38:07+00:00"
+        },
+        {
+          "title": "US Treasury intervenes to support yen after Japan steps in, FT reports - Reuters",
+          "summary": "US Treasury intervenes to support yen after Japan steps in, FT reports    Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0lVZ3FOWEp0MkVGaWc4UkprSmVwZlZMSzBQRlBuQ3UzOEVuN09za080MDFQTHFfOVFGU1hsOUF3THBnbGc0Tk4zdi1sR0xBdHhJV3FiOTNmaEZkbWNWQ0VMRjROZXJUQ1VwX1BrS3NvdWRDYThPSWVhdnhZUmxHWHNsVEFRYTZFXy1CeTJVdW13SVpqcl9wdTBoRjdINnV6R0tEcTI3Qnpjc3RpLWxQOVVB?oc=5",
+          "published": "Sat, 01 Aug 2026 19:13:43 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-01T19:13:43+00:00"
+        },
+        {
+          "title": "MobileMoney Fintech Bridges Skills Gap for Ghanaian Students - News Ghana",
+          "summary": "MobileMoney Fintech Bridges Skills Gap for Ghanaian Students    News Ghana",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUVpra1N0RUk0YnM4Y1JkRmlBbU1WTUhyM2p0Mjl3OWRSZER3emo5Zi1zNUJPUEVuSklKcENkYmpFQ0FHZXVCWHVXYlM5Q3BrVEdONlBEal9aUW1aUzIzMFM3ZUlSMV9kSTFjc0pLUWhsZlZKMVVyTFdHMG9OMVZjbGRvWEtoNW5mZE4xdlEzMHBJRDFB?oc=5",
+          "published": "Sat, 01 Aug 2026 18:56:07 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T18:56:07+00:00"
+        },
+        {
+          "title": "Is Bangladesh ready to build semiconductor chips? - The Daily Star",
+          "summary": "Is Bangladesh ready to build semiconductor chips?    The Daily Star",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUxBeEN6SUJFek8tYUZtaW9ZQ3ZtMUJWRFdrUnBlX3JMdzVRTEJ5MUdXUGRUUDlEOVBHTzlSMTJRbjNST3N3cC1mdEFBNEZjaVNaT0RWNGloTkE5VVl3WnNoTUxLczBHblB2TWtqNW9aRmhyOFNTQUJOX0dpLTVkSVExd05abDAybzdNaWJ4TGRnbDJYRW9SWjlCSVhjb2JHRmp5dlhqM0JScDFHSkFEMA?oc=5",
+          "published": "Sat, 01 Aug 2026 18:29:45 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T18:29:45+00:00"
+        },
+        {
+          "title": "Vietnam's total import and export turnover in 2026 could exceed US$1 trillion. - Vietnam.vn",
+          "summary": "Vietnam's total import and export turnover in 2026 could exceed US$1 trillion.    Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYXNHY3VqRDA0a2xrVFBUbVBOYkFDcktIbWZZTkUzMmhmaVJ0N1dKUndYX3hvbTE4Y09RbmlzNnNGRjV5WDBrQjZhVUlHLVBXazZ2ckxUbGF1VDY2RzlZRERjZENwQnl2V0pvLWZRTU15RHJjTDhmTW1raGwza2E1UzduNmE4SndUazVzMnpGMndFelFfcmNjc0VLelFsUGVaUkZTVzZvVkhpa24tVmtNVFZB?oc=5",
+          "published": "Sat, 01 Aug 2026 18:15:24 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T18:15:24+00:00"
+        },
+        {
+          "title": "Global economy: risk is not destiny - The Financial Express",
+          "summary": "Global economy: risk is not destiny    The Financial Express",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTWh4OXlhQ3MwY1FmX01jZ091b0M3RzlFRE9vN21jOG5UNkljY1VPSGFRejQ5WWpoUE84ejNDVDFkRTBrZFlTRW1reGJmZkx1UEZoVVBBQ0c3ZTl6NXBaZ1JGaTBabW9TazRydjgwT2x5WUE5d3N1bC1CZElPNm93Wg?oc=5",
+          "published": "Sat, 01 Aug 2026 18:10:38 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T18:10:38+00:00"
+        },
+        {
+          "title": "If the Fed trusts this single 2.2% metric, Bitcoin could break $65.3k and ignite a path to $68k - CryptoRank",
+          "summary": "If the Fed trusts this single 2.2% metric, Bitcoin could break $65.3k and ignite a path to $68k    CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTWdHQjlGWGdXWlc5WWs1b3VHb1JwMlJ5Y3g3N3dfX1hJVHJkREN0bnlNOWlMNWZwMHE1ckpWNWw4YmVCcjMtaG5CMHRsM0Q4emt0RkJhLWo2NnBnWVIxUk8wRllnbk1fVC05SmE0QlBTbEVhQVM3N3Z1WnotN1NIS1VzM1RKSWVidm45dkxIVXo2THpLLXhBN3FpN29JYnJGUURKQ0dxREFTa1NRcjF4TTZWVmZudFU5NEhzRTVidXFwTWEweElSNExSNA?oc=5",
+          "published": "Sat, 01 Aug 2026 17:52:13 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-01T17:52:13+00:00"
+        },
+        {
+          "title": "Bangladesh Eyes a Share of Trillion-Dollar Chip Market - Daily Observer",
+          "summary": "Bangladesh Eyes a Share of Trillion-Dollar Chip Market    Daily Observer",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1CTEF4ZnFHLUZmRE55dTMtbU9GNVVLcjJoakc1Y1IwWF9vZm1pVExpd19MSmtvQXk5cGZRSlcwY05lRXhoSGNPOGNn?oc=5",
+          "published": "Sat, 01 Aug 2026 16:02:16 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T16:02:16+00:00"
+        },
+        {
+          "title": "Việt Nam, Czech Republic step up local investment, trade cooperation - vietnamnews.vn",
+          "summary": "Việt Nam, Czech Republic step up local investment, trade cooperation    vietnamnews.vn",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDJaTFNBREstZGFSSGstWHhtT0VxN3pLZU12ejVWVUZfQ0xOMzIwSUd4ekxDbmR0Y1RQNDFEZUhuYm9QOUlXY0JTQWFReUs1WURDNEE4emhwYXMyelA0NGM5ZlAxOTRUR013YU9nVUstSWg4VWNrSXpPem00V1FMX3JhWEt2UkNfUXQxa3Y2S0h6YzREUjBla2NJSEZwU00tbTRiUVlZX0ZsYTBIUEtj?oc=5",
+          "published": "Sat, 01 Aug 2026 15:36:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T15:36:00+00:00"
+        },
+        {
+          "title": "Hitachi Stock Leads 3 Japanese Picks Built For Higher Rates And AI Infrastructure - simplywall.st",
+          "summary": "Hitachi Stock Leads 3 Japanese Picks Built For Higher Rates And AI Infrastructure    simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcjFRck4zS2hxRzZ2bkc0OWR5TWpOVnVGMjJuS2dDc1NtVTBtMGRwNnF4dEZPQzQtWm9MQllIOUd3UDZfczljSTFvWVQ1MmZOMU5tU1VmZWdJTEQydmNKYmN6cGtmdUJWV1llcElDczd3VDFUUDhnR21Gc0piZ2xGWk4wV3BSOGtlOWpILTBUbXdvOUtDWm9jZjlnM2YzeHhqYUZjVXVmSkJRR2htcnVoekRqRlBRSWdQNFZkdHQ0QlpuZjZIT1RLZXBJQVgybFXSAdQBQVVfeXFMUHVWTDVyZWc0R1hQWkF5OC1hZFZfTkJiY3VPNm5CTkw3eUFpcVhuXzFEZXJ1Tk5yYUZKaU1STElEUUE5d05fY1pMV0l4QkNVSHotZlc0SGhkVjgwbnNwcEl0V3JtUGxlN3dVdlVfZTVHYVRjTmtkcXFGel9YcnBURlk0ZVdaaUtTNjhpVmVIX0RLSElQN1E1S1V5NUUyb194d21zM3F6N2o1Uy0tQ01kcDBTSjU0ODM4bmdCU3plS0NwM29XanNHQXFVanlMWHlXak8xdGc?oc=5",
+          "published": "Sat, 01 Aug 2026 15:15:16 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T15:15:16+00:00"
+        },
+        {
+          "title": "Rising Incomes in Vietnam: New Businesses Opportunities - The Borgen Project",
+          "summary": "Rising Incomes in Vietnam: New Businesses Opportunities    The Borgen Project",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HdnQ3cmVXdktlNlU3d21ObDhSMmhDOWhMelc5YU1CdWVQclM3ZXZKQ2RTRUxKNnpSOFVLLWoxVTB6VkhHV0FTREhJYy1sSmx0RW1odk9GanVwaTJnOG83TnZB?oc=5",
+          "published": "Sat, 01 Aug 2026 14:30:19 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T14:30:19+00:00"
+        },
+        {
+          "title": "Economists: Freezing Fuel Prices Empowers Industrial Sectors to Sustaining Activity - jordannews.jo",
+          "summary": "Economists: Freezing Fuel Prices Empowers Industrial Sectors to Sustaining Activity    jordannews.jo",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWnZfdGROU0hnalU5cDN4d2hnWTFFdURPcnJ1VjdldHo5VEI3cmNNX0puc0tCY1NDaDNoNTItZ25YUkdVd21kQ3RCYWZjUVZ4RzltTXJGNGRyOU50Q2h0ajhGOGV2cVBaVVB2elpzTUtzOEJRT1U1dm8tS29mM0lFTi1iSFdZVkVaOW5FS0NmOWpxVXNKY0ZUQk94TDhzd1FwWUZ0NGM2UVNUNmZndDc2MWlGQTVuUW5OcUstVVUxaW9mWW5xM1p2bEFZSnRhSWs?oc=5",
+          "published": "Sat, 01 Aug 2026 13:33:42 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T13:33:42+00:00"
+        },
+        {
+          "title": "Thai Industrial Real Estate Market in the First Half of 2026 Continues to Grow Strong Demand for Space Drives Land Prices Upward - TerraBKK",
+          "summary": "Thai Industrial Real Estate Market in the First Half of 2026 Continues to Grow Strong Demand for Space Drives Land Prices Upward    TerraBKK",
+          "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxPZV9zSFk2VmpyV1lwclpybEZ5bV9oaDNIVE9LQ3M4cldybk5uOUc2cDE3YzE4Q0h1RGhKcWVIbWN6cUlLZjU3cFFlRXM1V1UzaFpuNnhsQXUyS2Jjc3ZSNXE2ZWdtMU04b05JMHJmcGhiODNlS1h6R0xDc1FDeVhYUjBfUnVmS3FRMGYydEVqcWJkOXJIS3RhRFc4M2k0TGVXYXhKMkc3QjhlTWg4eWlHRllXb21fZEdWZnp2a1VIZHZfWWZKRHU1OHdxZ1hCdm5lemdRakFBZElyNHdUdjMwdHM1OC1xOFlmaFpEc0E4U0JTci1HR0tlU09yRXRTSzhNclJwbWlQcTlaRzN4SnV5NUVpQl82T0FKZ1RHZEpGSlh1cDljeXZOdk53RmY0aTdubm9uQ01WenR5YVhXVDVmd3dfUjFRTE9qVEIwN3BmTmtSb2d0bFZSNnlzTkhDX1hyNnduUk83UGl1VmRDamUyWUhvdVlWSUYxLVg3NmVZX3JkcE8tLVVaSDJJWmd6NnFYRld5ZEY3cVNoOHRicjA0eVViXzVrRVVvemNweTdXQlNmTWxGQUR6WXpnREEwNThXNGlZcGdWUTFmMTF1aUJPN0pyaHJidGhGVEN5TExB?oc=5",
+          "published": "Sat, 01 Aug 2026 13:32:48 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T13:32:48+00:00"
+        },
+        {
+          "title": "政策发力提效 推动经济持续向新向优向好发展 - chinanews.com.cn",
+          "summary": "政策发力提效 推动经济持续向新向优向好发展    chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3VlBpNEdyX1p5THhzS2VqazNiWWlSM3B0bXRlUDFXRXJ4Q3dFd3N3ZWRVdkRyYjl0U19zcVF2bVBvX3dUSGJyUXhQOWp2MU9KY3lOMUhCWjVfUy1fTkticTMxemxVSjhu?oc=5",
+          "published": "Sat, 01 Aug 2026 13:25:26 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-08-01T13:25:26+00:00"
+        },
+        {
+          "title": "政策发力提效 推动经济持续向新向优向好发展 - finance.sina.com.cn",
+          "summary": "政策发力提效 推动经济持续向新向优向好发展    finance.sina.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02amlfUE1sRjRGOWhZelo3VEhQM2pJSTJ1ZWFRNDJPb0FibFdPZUxycXpnZ0VoZ2pvcEU5VXFqQWhDMjVyaDZ0aFllNXFoeU14bGFhM2VkUDdIaUZUM2gzbjhTUmt5b2haRkRPRUxCSjgxRXBjOXRGUA?oc=5",
+          "published": "Sat, 01 Aug 2026 12:32:00 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-08-01T12:32:00+00:00"
+        },
+        {
+          "title": "Crypto Fundamental Analysis: Central banks keep market caution in place - FOREX.com",
+          "summary": "Crypto Fundamental Analysis: Central banks keep market caution in place    FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPREhjYU5QUldmSlotUmJRelVDcmlNREt4TmN1Q0J5S1ZtWjFaN0tBWnZMQjV2VzJ0RmxNYktRdm85bkNpM2hXeTdMd29xLTZKcHNFOVV2VUdFaWdQNkRXS3dELTRacHRycXZfY0NUemtjNThRVXI0MHE0Z2ZmcEFjY0ZVNGJEbjdBbWpZLWl5UlY2cnd3dzNQNUxDd0VBekZUWUNLclNScExPdFZKbkFJNFVzWHFjYjJFMThZR0FubGpWXzNV0gHEAUFVX3lxTE9ESGNhTlBSV2ZKWi1SYlF6VUNyaU1ES3hOY3VDQnlLVm1aMVo3S0FadkxCNXZXMnRGbE1iS1F2bzluQ2kzaFd5N0x3b3EtNkpwc0U5VXZVR0VpZ1A2RFdLd0QtNFpwdHJxdl9jQ1R6a2M1OFFVcjQwcTRnZmZwQWNjRlU0YkRuN0FtalktaXlSVjZyd3d3M1A1TEN3RUF6RlRZQ0tyU1JwTE90VkpuQUk0VXNYcWNiMkUxOFlHQW5salZfM1U?oc=5",
+          "published": "Sat, 01 Aug 2026 12:30:23 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-01T12:30:23+00:00"
+        },
+        {
+          "title": "India, Rwanda identify critical minerals, healthcare, digital technologies as priority areas for trade coope.. - manufacturing.economictimes.indiatimes.com",
+          "summary": "India, Rwanda identify critical minerals, healthcare, digital technologies as priority areas for trade coope..    manufacturing.economictimes.indiatimes.com",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPbVV5Rk1FYmF6U2JFSTFjQVFSYkpJUERUby1UaTdNZk0wT0lOUHdxWGNSMF80V29tZTBMOFEtZlV1RTAwZWZObG92WFJkc0tfU0UtSHVVWnE2RHAyR1ZybldwSFhMSGdBS0kzaURqTTZuSzlsbWhBZmd1ZnhOUy1vZEVYcnBJMjI1Y2pzejlJOHltT3BBZVBiQ2JRbV82Tl8wS3ZnRktCbHdOUU9BSDhNUTYtaUFMMTJ0Z2JOY0M3MVZjQjBrY0RoV0dCT0tEVTMwS205YlQwMndJaW5IdGRaeFk3SUtWVEVDTElKMkNqQTdHR19GTHNISXgyRk1FdkRET2J2Sk5tNElaVXdyVWJsMHBqR3A1Ri1RVUHSAZoCQVVfeXFMT21VeUZNRWJhelNiRUkxY0FRUmJKSVBEVG8tVGk3TWZNME9JTlB3cVhjUjBfNFdvbWUwTDhRLWZVdUUwMGVmTmxvdlhSZHNLX1NFLUh1VVpxNkRwMkdWcm5XcEhYTEhnQUtJM2lEak02bks5bG1oQWZndWZ4TlMtb2RFWHJwSTIyNWNqc3o5STh5bU9wQWVQYkNiUW1fNk5fMEt2Z0ZLQmx3TlFPQUg4TVE2LWlBTDEydGdiTmNDNzFWY0Iwa2NEaFdHQk9LRFUzMEttOWJUMDJ3SWluSHRkWnhZN0lLVlRFQ0xJSjJDakE3R0dfRkxzSEl4MkZNRXZERE9idkpObTRJWlV3clVibDBwakdwNUYtUVVB?oc=5",
+          "published": "Sat, 01 Aug 2026 11:41:36 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-01T11:41:36+00:00"
+        },
+        {
+          "title": "Trump stands to profit off US policy announcements by selling fast access to his social media posts - ABC News - Breaking News, Latest News and Videos",
+          "summary": "Trump stands to profit off US policy announcements by selling fast access to his social media posts    ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY3JHZTltR2R5OFNuRzE5bGFRem1jU2VLN0JqOVJMcXJUU05qZWJaemNQb2VVTjA0ZkUyclZvVkptSWwtaE5hSXZlVHlGZzdCUlZmYkZRSTVsaFhWdFBaZmMteHh6YnR2WFhsVlA1VTdxazdXclJtR1lhREtwUzV0QlNxZzBMdUROeW1JM1NkY1JaVWstS3I4S0NqWWhFcGfSAaQBQVVfeXFMTTdOS0s5X3pnUVAtUUN3OHlKRVczTU9XR0dQZmVfQjRXUWJReDYzZTdhcnVwUGZGVThkTHNQY3RtQ3dCWXhMd2hCdzR3RVBqX2NBTmQ4UnJxZmgySVdsZkRieG1zbDY4YzZ4VElPa1I5S1dHa0pBTnBSUUdFMWVXV3RqcmxhZG1EYVZsR3liZmotTDRXU2xoUklfSkZpa3E1VUJscWU?oc=5",
+          "published": "Sat, 01 Aug 2026 11:39:05 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-01T11:39:05+00:00"
+        },
+        {
+          "title": "Government Freezes Fuel Prices to Cushion Global Energy Shocks and Protect National Economy - وكالة الانباء الاردنية",
+          "summary": "Government Freezes Fuel Prices to Cushion Global Energy Shocks and Protect National Economy    وكالة الانباء الاردنية",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVlSYzlmVHVDSVZONjdYTXItdXBtV0w3SVEwcW5RUWdqYXBfLWNpdkhJbndxNlpsZ2hzdk9ldXdoYWNKdkJWT1lxMEpyODlZR3YxMHg2bU5KLTdnRENKLTJXUWtxeFhPcDlINFVSd21abnRxQ0FubHBYNHlRZzV5eFVPbkVDZUl2ZDd0T1MwVUl0S0NjWnk4NmRjZ0FDOXhKWTRoS3dHTEVMMkF4WDcxcW1xMGJ5RU1pcEwxNg?oc=5",
+          "published": "Sat, 01 Aug 2026 11:25:29 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-01T11:25:29+00:00"
+        }
+      ]
+    },
+    "search_text": "  Daily Intelligence\n  2026 08 02｜Sunday\n\n   Today’s Thesis｜今日一句话\nAI 的叙事正从“劳动力替代”转向“资源与基建重构”，资本加速涌入算力基建与边缘数据，而劳动力市场的真实压力不是失业而是薪资重估。\n\n   ① Executive Summary｜30 秒\n    AI  ：AI 对就业的真正威胁被证实是薪资下降而非失业 [A14]，同时 AI 数据需求导致珍稀书籍被毁以喂养模型 [A11]，引发数据供应链伦理危机。\n    商业  ：全球供应链重构加速，越南进出口额望破万亿美元 [B10]，孟加拉国与加拿大争夺芯片与关键矿产的技术经济底座 [B9][B4]。\n    宏观  ：美日联合干预汇市支撑日元 [B7]，同时多国政府采用冻结燃料价格等行政手段缓冲能源冲击 [B17][B24]，逆周期调节与汇率干预并行。\n\n   ② AI Daily\n\n    1. 劳动力价值重估：降薪先于失业\n  What Happened  : 新研究指出，AI 对工作的真正威胁是降低薪水而非直接导致失业 [A14]。\n  Why It Matters  : 颠覆了“AI 替代工作”的显性恐慌叙事，将焦点转移到劳动力购买力收缩这一更隐蔽、更长期的系统性风险上。\n  Second order Effect  : 薪资下降 → 个体更依赖 AI 工具提效保岗 → 岗位技能溢价被稀释 → 薪资进一步承压。\n\n    2. 数据供应链的物理掠夺\n  What Happened  : 澳大利亚书商发出警告，珍稀书籍正被大量销毁以供给 AI 训练数据 [A11]。\n  Why It Matters  : 揭示了合成数据瓶颈下，AI 对长尾、高质量人类数据的掠夺已触及文化遗产底线，物理孤本的消亡意味着知识定价权的永久转移。\n  Second order Effect  : 稀缺物理数据被毁 → 数据垄断加剧 → 闭源模型掌握唯一知识源 → 开源与闭源的知识代差固化。\n\n    3. 算力基建的地缘转移\n  What Happened  : 墨西哥成为美国 AI 繁荣的意外基石 [A2]，同时中国国资基金抢滩 AI 基建 [A13]。\n  Why It Matters  : 算力需求正重塑北美与亚洲的产业地理，近岸外包与国资主导成为算力基建的两大分流路径。\n  Second order Effect  : 地缘算力依赖形成 → 能源与电网协议重写 → 数据中心选址成为国家博弈筹码。\n\n   ③ Business Daily\n\n  科技/制造  ：全球供应链正向上游基础材料与芯片代工延伸。越南 2026 年进出口总额预计突破 1 万亿美元 [B10]，孟加拉国正评估进入万亿芯片市场的可行性 [B9][B13]，加拿大则将关键矿产确立为其技术经济的基石 [B4]。在亚洲，日立等日本企业因高利率环境下的 AI 基础设施需求而受到资本追捧 [B15]。\n\n  能源  ：AI 算力推高电力需求 [A18]，而现实能源冲击正迫使政府出手。约旦政府冻结燃料价格以保护国民经济 [B24]，经济学家认为此举有助于工业部门维持活动 [B17]。行政限价与 AI 数据中心的刚性用电需求叠加，正在扭曲全球能源定价机制。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？   汇率干预与行政限价并行。美国财政部在日本干预后介入支撑日元 [B7]；约旦等新兴经济体通过冻结燃料价格切断全球能源冲击的传导 [B24]。\n\n  为什么发生？   全球资本流动失衡导致日元极度承压，触及金融系统稳定底线；而地缘冲突与 AI 算力激增推高了底层能源价格，直接威胁新兴工业国的生产成本与基本面。\n\n  资本如何流动？   （推断）资本正从需行政干预保稳定的脆弱市场，流入具有基建确定性的市场（日本 AI 基建 [B15]、中国国资 AI 基金 [A13]）及近岸外包地（墨西哥 [A2]、越南 [B10]）。\n\n  接下来关注什么？   日元干预的持续性及美债收益率联动；行政限价解除后的通胀补跌风险；AI 数据中心对当地电网的实际负荷冲击。\n\n   ⑤ Signal Dashboard\n\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   25,373.85   ↑ +1.00%   风险偏好改善  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,049.10   ↓  1.24%   避险需求回落  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   84.67   ↑ +1.29%   通胀压力上升  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   99.80   ↓  0.21%   外部压力缓解  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.75   ↑ +1.76%   成长估值承压  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   62,788.02   →  0.04%   中性  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   15.99   ↓  6.44%   风险偏好改善  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   200.75   ↑ +2.93%   风险偏好改善  \n\n   ⑥ Deep Insight\n\n  AI 的隐性剥削：薪资重估与数据掠夺的双螺旋  \n\n当前关于 AI 冲击的公共叙事，大多停留在“机器替代人类工作”的显性恐慌中。然而，今日的两条底层信号揭示了更隐蔽、更具破坏性的机制：AI 对劳动力的剥削不在于剥夺工作机会，而在于剥夺工作的定价权；AI 对知识的剥削不在于复制，而在于对物理知识载体的销毁与垄断。\n\n新研究明确指出，AI 对工作的真正威胁是降低薪水而非直接导致失业 [A14]。这是一个典型的“竞底机制”：AI 并未让岗位消失，而是将岗位拆解为被 AI 增强的微任务，从而打破了原有职业的技能护城河。当员工被迫使用 AI 提效以保住工作时，其超额产出被雇主和工具提供商捕获，而劳动力本身的议价能力被稀释。这形成了一个自我强化的闭环：薪资下降 → 依赖 AI 提效保岗 → 岗位价值被进一步拆解与稀释 → 薪资继续下降。\n\n与此同时，在数据供应链的源头，一场更不可逆的掠夺正在发生。澳大利亚书商警告，珍稀书籍正被大规模销毁以喂给 AI 模型 [A11]。在合成数据触及性能天花板之际，大模型对高质量、非数字化、长尾人类知识的渴求达到了饥渴状态。销毁物理书籍以提取数据，不仅是文化遗产的损失，更是知识定价权的永久转移。一旦物理孤本被毁，其承载的独有知识便只存在于闭源模型的权重中，人类将永远失去对这些知识的公开验证与修正能力。稀缺物理数据被毁 → 数据垄断加剧 → 开源与闭源模型的知识代差固化。\n\n这两个看似独立的趋势——劳动力的薪资重估与物理知识的数据化掠夺——正在形成双螺旋。劳动者用被压低的薪水，去消费那些用他们自己被销毁的公共知识训练出来的 AI 服务，而 AI 厂商则同时收割了劳动者的廉价劳动和免费的数据资产。\n\n反方观点认为，AI 将创造大量高薪新岗位（如 AI 伦理官、提示词工程师）以抵消降薪效应，且数字复用不会真正耗尽物理书籍，反而会提升其稀缺性溢价。证伪条件：未来 6 个月内，非 AI 核心岗位的薪资中位数若止跌回升，则降薪竞底机制不成立；若珍稀书籍交易价格因 AI 数据需求暴涨而非被销毁，则数据掠夺逻辑不成立。在证伪之前，这一双螺旋机制值得所有依赖专业知识生存的个体与组织高度警惕。\n\n   ⑦ Tomorrow Watch\n1. 验证日元兑美元汇率是否在美日联合干预后稳定在干预线以上 [B7]。\n2. 追踪约旦及类似采用行政限价国家的燃料储备与财政补贴消耗速度 [B24]。\n3. 关注越南官方发布 2026 年上半年进出口总额数据，验证是否逼近万亿美元门槛 [B10]。\n4. 观察澳大利亚及全球书商针对珍稀书籍被毁的集体诉讼或立法动议 [A11]。\n5. 验证 MIT 研究中提及的 AI 理财建议效果，在主流券商 App 中是否引发新功能上线潮 [A6]。\n\n   ⑧ One Chart\n\n [Daily Market Pulse](assets/chart.svg)\n\n图表显示风险资产（纳指、英伟达）与避险资产（黄金、VIX）呈现明显的反向运动。这反映了市场在利率高位（十年美债收益率 4.75%）下，资金在科技成长与避险逻辑间的短期再平衡，但相关性的持续性需视下周宏观数据而定，不可将此短期相关性视为长期稳态因果。\n\n   ⑨ Quote of the Day\n\n  “The greatest danger in times of turbulence is not the turbulence; it is to act with yesterday’s logic.”  \n  — Peter Drucker\n\n  中文理解  ：动荡时期最大的危险不是动荡本身，而是继续用昨天的逻辑行动。\n\n  Why it matters today  ：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。\n   ⑩ Action Items｜今天值得思考什么\n1. 思考：你所在行业的薪资结构是否正被 AI 工具的普及暗中压低，而非岗位被直接裁撤 [A14]。\n2. 验证：企业内部的知识库或物理档案，是否正被低价收购用于 AI 训练，评估其长期知识资产损失 [A11]。\n3. 比较：越南、孟加拉国等新兴制造国在芯片与基础代工上的承接能力差异 [B9][B10]。\n4. 追踪：美日汇率干预后的资本流动数据，判断是短期投机平仓还是长期头寸转移 [B7]。\n5. 关注：各国针对 AI 数据中心高能耗的电网政策与补贴，寻找基建合规套利空间 [A18]。\n\n   信息边界\n本报告来源覆盖 Hacker News、Google News 等英文与中文聚合端，时效截至 2026 年 8 月 1 日晚。市场数据为最近交易日快照。新闻来源多为二手聚合，重要推断与信号需读者回溯原文验证。未引入任何外部事实或未提供材料支持的数据。\n\n\n   Sources\n\n    AI\n\n  [A2：Mexico became a surprise cornerstone of America's AI boom](https://www.ft.com/content/ac3274ac 86ca 46ac bc7b 029fb9dcd173) — Hacker News · AI\n  [A6：From MIT: AI financial advice is surprisingly good](https://mitsloan.mit.edu/ideas made to matter/ai financial advice surprisingly good especially if you ask right questions) — Hacker News · AI\n  [A11：Book sellers raise alarm over 'horrific' destruction of rare titles to feed AI](https://www.theguardian.com/technology/2026/aug/02/australian book sellers alarm destruction rare titles ai supply chain) — Hacker News · AI\n  [A13：上半年AI热钱涌动，国资基金抢滩人工智能｜2026张江AI小镇生态日现场侧记   财联社](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rTE5hdFRhVEI1V3RPSkVHQ2MwTl91WUNWQV9RMUJ5YmE2S0R3bEFJc3g2c18wakVuU1ZHWjNFSUczaVFiMWo2dQ?oc=5) — Google News · AI 中文\n  [A14：AI's real threat to jobs isn't job loss, it's lower paychecks, new research says](https://www.businessinsider.com/ai could lower workers pay job market impact 2026 7) — Hacker News · AI\n  [A18：Why Artificial Intelligence Data Centers Are Powering the Future of Digital Infrastructure Through High Performance Computing, Sustainable Innovation, and Intelligent Cloud Ecosystems   Spherical Insights](https://news.google.com/rss/articles/CBMiwwJBVV95cUxQLWIwU3R3SW1KV3IzdzZkNk0zZ0ZjVG13YW1tUzlJcXJIcl9wM2tnUFFpWUVRUlpBQ0dXWmIxZVZLeFNUcG1OdHdHQVR5aEZhWVRmVTdkQklzd1hFVGpORWNaV1A5WWNHalE0V1VfMTEyZlJpQzZSdGl2NFF0c3VYWnprZHJhTTRMNzhJYmVkVExZOFI2T0tQem9sR0UxbU9fMXFuZUU3OVh3Q2F1R08zaDdMN3M2d2NURjhSMHJNOXhhbF9pamlRMzBXSEp3MmVQdkZ4QkpCS1JqRkpVXzR5QVdKWEtUUVJUSWx6TlhWdURjOW9vOThBTEJjd2J1OWtjdE5qNHd4Y0pvSlJ3UkhxbHNER1hCUFYzSlJ5bzM1b3VySU8wLU9mMUJRaThrUENGU2VaLURlWHRWdXJOalBUTUdqRQ?oc=5) — Google News · AI\n\n    Business & Macro\n\n  [B4：Canada’s minerals are becoming the foundation of its technology economy   Digital Journal](https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWNBWmF4VXR3VU5YTmE3cTZTMlpqVjVKSGlvbm9fS2VOR2YzY0MtSy1kZ05ZQW1ZR2U0VkFHdXA4MWRVUGlwc3JvaklMUnRNTDlYRlFwZTNkX0hSM191NXRGS1dydjh5RDZ3dkNHdXNlck41RWxwUkVrUXlRUXFMQzlUUlBMQjlqdG9oSGNma1NjVVNWdl9ibkZQUkZYbzQyWHVGMmJQeGRzN2hfdDdj?oc=5) — Google News · Technology Business\n  [B7：US Treasury intervenes to support yen after Japan steps in, FT reports   Reuters](https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0lVZ3FOWEp0MkVGaWc4UkprSmVwZlZMSzBQRlBuQ3UzOEVuN09za080MDFQTHFfOVFGU1hsOUF3THBnbGc0Tk4zdi1sR0xBdHhJV3FiOTNmaEZkbWNWQ0VMRjROZXJUQ1VwX1BrS3NvdWRDYThPSWVhdnhZUmxHWHNsVEFRYTZFXy1CeTJVdW13SVpqcl9wdTBoRjdINnV6R0tEcTI3Qnpjc3RpLWxQOVVB?oc=5) — Google News · Markets Policy\n  [B9：Is Bangladesh ready to build semiconductor chips?   The Daily Star](https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUxBeEN6SUJFek8tYUZtaW9ZQ3ZtMUJWRFdrUnBlX3JMdzVRTEJ5MUdXUGRUUDlEOVBHTzlSMTJRbjNST3N3cC1mdEFBNEZjaVNaT0RWNGloTkE5VVl3WnNoTUxLczBHblB2TWtqNW9aRmhyOFNTQUJOX0dpLTVkSVExd05abDAybzdNaWJ4TGRnbDJYRW9SWjlCSVhjb2JHRmp5dlhqM0JScDFHSkFEMA?oc=5) — Google News · Global Economy\n  [B10：Vietnam's total import and export turnover in 2026 could exceed US$1 trillion.   Vietnam.vn](https://news.google.com/rss/articles/CBMisgFBVV95cUxNYXNHY3VqRDA0a2xrVFBUbVBOYkFDcktIbWZZTkUzMmhmaVJ0N1dKUndYX3hvbTE4Y09RbmlzNnNGRjV5WDBrQjZhVUlHLVBXazZ2ckxUbGF1VDY2RzlZRERjZENwQnl2V0pvLWZRTU15RHJjTDhmTW1raGwza2E1UzduNmE4SndUazVzMnpGMndFelFfcmNjc0VLelFsUGVaUkZTVzZvVkhpa24tVmtNVFZB?oc=5) — Google News · Global Economy\n  [B13：Bangladesh Eyes a Share of Trillion Dollar Chip Market   Daily Observer](https://news.google.com/rss/articles/CBMiSkFVX3lxTE1CTEF4ZnFHLUZmRE55dTMtbU9GNVVLcjJoakc1Y1IwWF9vZm1pVExpd19MSmtvQXk5cGZRSlcwY05lRXhoSGNPOGNn?oc=5) — Google News · Global Economy\n  [B15：Hitachi Stock Leads 3 Japanese Picks Built For Higher Rates And AI Infrastructure   simplywall.st](https://news.google.com/rss/articles/CBMizwFBVV95cUxNcjFRck4zS2hxRzZ2bkc0OWR5TWpOVnVGMjJuS2dDc1NtVTBtMGRwNnF4dEZPQzQtWm9MQllIOUd3UDZfczljSTFvWVQ1MmZOMU5tU1VmZWdJTEQydmNKYmN6cGtmdUJWV1llcElDczd3VDFUUDhnR21Gc0piZ2xGWk4wV3BSOGtlOWpILTBUbXdvOUtDWm9jZjlnM2YzeHhqYUZjVXVmSkJRR2htcnVoekRqRlBRSWdQNFZkdHQ0QlpuZjZIT1RLZXBJQVgybFXSAdQBQVVfeXFMUHVWTDVyZWc0R1hQWkF5OC1hZFZfTkJiY3VPNm5CTkw3eUFpcVhuXzFEZXJ1Tk5yYUZKaU1STElEUUE5d05fY1pMV0l4QkNVSHotZlc0SGhkVjgwbnNwcEl0V3JtUGxlN3dVdlVfZTVHYVRjTmtkcXFGel9YcnBURlk0ZVdaaUtTNjhpVmVIX0RLSElQN1E1S1V5NUUyb194d21zM3F6N2o1Uy0tQ01kcDBTSjU0ODM4bmdCU3plS0NwM29XanNHQXFVanlMWHlXak8xdGc?oc=5) — Google News · Technology Business\n  [B17：Economists: Freezing Fuel Prices Empowers Industrial Sectors to Sustaining Activity   jordannews.jo](https://news.google.com/rss/articles/CBMizwFBVV95cUxNWnZfdGROU0hnalU5cDN4d2hnWTFFdURPcnJ1VjdldHo5VEI3cmNNX0puc0tCY1NDaDNoNTItZ25YUkdVd21kQ3RCYWZjUVZ4RzltTXJGNGRyOU50Q2h0ajhGOGV2cVBaVVB2elpzTUtzOEJRT1U1dm8tS29mM0lFTi1iSFdZVkVaOW5FS0NmOWpxVXNKY0ZUQk94TDhzd1FwWUZ0NGM2UVNUNmZndDc2MWlGQTVuUW5OcUstVVUxaW9mWW5xM1p2bEFZSnRhSWs?oc=5) — Google News · Global Economy\n  [B24：Government Freezes Fuel Prices to Cushion Global Energy Shocks and Protect National Economy   وكالة الانباء الاردنية](https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVlSYzlmVHVDSVZONjdYTXItdXBtV0w3SVEwcW5RUWdqYXBfLWNpdkhJbndxNlpsZ2hzdk9ldXdoYWNKdkJWT1lxMEpyODlZR3YxMHg2bU5KLTdnRENKLTJXUWtxeFhPcDlINFVSd21abnRxQ0FubHBYNHlRZzV5eFVPbkVDZUl2ZDd0T1MwVUl0S0NjWnk4NmRjZ0FDOXhKWTRoS3dHTEVMMkF4WDcxcW1xMGJ5RU1pcEwxNg?oc=5) — Google News · Global Economy\n"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-08-01",
     "generated_at": "2026-07-31T23:03:44.931808+00:00",
     "model": "glm-5.1",
