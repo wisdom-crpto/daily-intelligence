@@ -67,7 +67,7 @@ jobs:
           FALLBACK_ONLY: ${{ inputs.fallback_only }}
         run: |
           args=(--date "${{ steps.report.outputs.date }}" --archive-root "$GITHUB_WORKSPACE")
-          if [[ "$FALLBACK_ONLY" == "true" ]]; then
+          if [[ "$GITHUB_EVENT_NAME" == "schedule" || "$FALLBACK_ONLY" == "true" ]]; then
             args+=(--fallback-only)
           elif [[ -z "${OPENAI_API_KEY:-}" ]]; then
             echo "OPENAI_API_KEY secret is required for the full report." >&2
