@@ -495,6 +495,500 @@
   },
   {
     "schema_version": 1,
+    "date": "2026-08-03",
+    "generated_at": "2026-08-04T01:42:03.941100+00:00",
+    "model": "glm-5.1",
+    "mode": "model",
+    "thesis": "AI竞争的决胜点正从模型规模转向基础设施的生产级可用性，而全球监管的分化（欧盟强制透明、美国自愿测试、中国开源生态）正在重塑资本与技术流动的路径。",
+    "summary": "- **AI**：AI基础设施从原型走向生产，开源运维的隐性成本成为核心瓶颈，资本加速涌入“词元工厂”与上下文层 [A2][B15][A21]。 - **商业**：高端算力价格持续上行，驱动企业向具有明确软件边缘的AI标的集中；医疗与新能源领域出现显著并购与垂直整合 [B15][A11][B6][B16]。 - **宏观**：全球政策与实体信号背离——ISM制造业景气度创4年新高，但央行政策不透明性加剧，高利率对农业等脆弱部门的打击正在显现 [B22][B19][B9]。",
+    "relative_html": "2026/08/2026-08-03/Daily%20Intelligence.html",
+    "markets": [
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "value": 25913.8965,
+        "change_pct": 2.13,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "黄金",
+        "symbol": "GC=F",
+        "value": 4105.1001,
+        "change_pct": 1.38,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+        "interpretation": "避险/通胀对冲增强"
+      },
+      {
+        "name": "原油",
+        "symbol": "CL=F",
+        "value": 80.77,
+        "change_pct": -4.61,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+        "interpretation": "通胀压力缓解"
+      },
+      {
+        "name": "美元指数",
+        "symbol": "DX-Y.NYB",
+        "value": 99.996,
+        "change_pct": 0.2,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+        "interpretation": "金融条件偏紧"
+      },
+      {
+        "name": "十年美债收益率",
+        "symbol": "^TNX",
+        "value": 4.686,
+        "change_pct": -1.24,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+        "interpretation": "利好久期资产"
+      },
+      {
+        "name": "BTC",
+        "symbol": "BTC-USD",
+        "value": 63611.0117,
+        "change_pct": 0.2,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+        "interpretation": "中性"
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "value": 15.86,
+        "change_pct": -0.81,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+        "interpretation": "市场稳定"
+      },
+      {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "value": 206.64,
+        "change_pct": 2.93,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/NVDA",
+        "interpretation": "风险偏好改善"
+      }
+    ],
+    "topics": [
+      "AI",
+      "technology",
+      "business",
+      "macro"
+    ],
+    "quote": {
+      "english": "Compound interest is the eighth wonder of the world.",
+      "speaker": "Attributed to Albert Einstein",
+      "chinese": "复利的力量来自时间、持续性和不被中断的积累。"
+    },
+    "sources": {
+      "ai": [
+        {
+          "title": "The Next Five Years – Economics of AI – Patrick Collison",
+          "summary": "Article URL: https://next-five-years.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49163332 Points: 1 # Comments: 0",
+          "url": "https://next-five-years.vercel.app/",
+          "published": "Tue, 04 Aug 2026 01:15:13 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-04T01:15:13+00:00"
+        },
+        {
+          "title": "How are you operating AI infrastructure in production?",
+          "summary": "There are many open-source projects across inference, orchestration, observability, vector search, data pipelines, evaluation, and model management. Most are relatively easy to test, but production operation is a different problem. For those running open-source AI infrastructure in production: - What are you running, for what workload, and would you recommend? - Do you operate yourself versus consume as a managed service? - Have you replaced or abandoned any tools because they were too difficult or expensive to operate? - What problems only appeared after moving beyond the prototype stage? - Anything that you would do differently if rebuilding the stack today? Thanks Comments URL: https://news.ycombinator.com/item?id=49163280 Points: 1 # Comments: 0",
+          "url": "https://news.ycombinator.com/item?id=49163280",
+          "published": "Tue, 04 Aug 2026 01:05:25 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-04T01:05:25+00:00"
+        },
+        {
+          "title": "8月3日AI人工智能ETF平安（512930）份额增加4400.00万份，最新份额48.33亿份，最新规模29.54亿元 - 手机新浪网",
+          "summary": "8月3日AI人工智能ETF平安（512930）份额增加4400.00万份，最新份额48.33亿份，最新规模29.54亿元    手机新浪网",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMmtkdmVtdkJ2bUx1SjVqXzZvS0VOUzF1UVZIVzdjeVdrMVEzNkIwczh6c252ZjgyaE5nZmN3UEhsSkJfSGR6TldONDJORWhKbWQzYVRoakpwc1FzYzVXby1JQVYwVVFDVE9jUVdydWdzc0VxV19WaVdYbUx6RFcyaFZUZw?oc=5",
+          "published": "Tue, 04 Aug 2026 01:04:34 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-04T01:04:34+00:00"
+        },
+        {
+          "title": "Artificial Intelligence And Growing Biosecurity Concerns – Analysis - Eurasia Review",
+          "summary": "Artificial Intelligence And Growing Biosecurity Concerns – Analysis    Eurasia Review",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUEswR25na2RkUXZ2SU1FVEZXczJHbndKTnRuV2loWUt1Q3dWVTFkOVhhOTAtM2lvM0VJdzN2bWpqdVZhMkV4cDItTlctZU5JNURwM1owb3htYnk1SUdSb29zdEJJTmczQjRHelhkY3JCOEwwaXk1RHZhWFhpamc5amJUajJTSXdtNWdqUDdPWS00RDZZSUFXaTVfVVNtUnA0ZWRwY0xqa2c?oc=5",
+          "published": "Tue, 04 Aug 2026 01:02:04 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-04T01:02:04+00:00"
+        },
+        {
+          "title": "Hugging Face CEO发声：中国正赢得AI竞赛美企闭门造车恐将落后- AI 人工智能 - cnBeta.COM",
+          "summary": "Hugging Face CEO发声：中国正赢得AI竞赛美企闭门造车恐将落后- AI 人工智能    cnBeta.COM",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PMWdzUkVRaEo1bG91RUg1bWdFLXM3YzhtQmRzck9VRUpXV2otdzVmeVhpd3ZfZ3ZnRlpoX1JRVFhDbXFUMkhWTTBMZWhEdG52Z09CUXBzMGozS1BWN01YMw?oc=5",
+          "published": "Tue, 04 Aug 2026 01:02:00 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-04T01:02:00+00:00"
+        },
+        {
+          "title": "针对高级AI黑客能力监管加码美国政府即将公布自愿性安全测试规范- AI 人工智能 - cnBeta.COM",
+          "summary": "针对高级AI黑客能力监管加码美国政府即将公布自愿性安全测试规范- AI 人工智能    cnBeta.COM",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qSS10blNYV1RjWC1oZy02RFhhaXNtWGZkeFh6QW5FQjY1MUk5RVpSOTVoc3NheXFQVU5RN0E4R3VUeE9aaGN6ZnNmRElsVFNEZ3Vld2liLUZoWTc3eVNzQg?oc=5",
+          "published": "Tue, 04 Aug 2026 01:02:00 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-04T01:02:00+00:00"
+        },
+        {
+          "title": "9router-Python – Python SDK for the 9Router AI gateway (35 models)",
+          "summary": "Article URL: https://github.com/ChristopherDond/9router-python Comments URL: https://news.ycombinator.com/item?id=49163215 Points: 2 # Comments: 0",
+          "url": "https://github.com/ChristopherDond/9router-python",
+          "published": "Tue, 04 Aug 2026 00:55:20 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-04T00:55:20+00:00"
+        },
+        {
+          "title": "欧盟人工智能法案透明度新规正式生效AI内容与深伪技术需进行明确标识- Europe 欧洲 - cnBeta.COM",
+          "summary": "欧盟人工智能法案透明度新规正式生效AI内容与深伪技术需进行明确标识- Europe 欧洲    cnBeta.COM",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zSE4td0VvX3NGcFhPSlFNQlF1S3luNU9abjRNUHlIekhscEFHRlV4Zy1hTThIUGJOZUkzdlhoNHpTSEJ5WEtQclVRbDB4aHV5cjF5X0lPSEhMUGYwU1hOaw?oc=5",
+          "published": "Tue, 04 Aug 2026 00:54:00 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-04T00:54:00+00:00"
+        },
+        {
+          "title": "跨越数字与物理边界 ——记者“探店”2026世界人工智能大会展区 - 新浪新闻_手机新浪网",
+          "summary": "跨越数字与物理边界 ——记者“探店”2026世界人工智能大会展区    新浪新闻_手机新浪网",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLMHZRQWtMWDVsbE0xdTA3Ym5KS25hRy1IaDAzZjUwOVNtY3V2QmVMYURRNzhhSGZzM2FRRkNablN1QVdDaVhhY3FsOW4tRWJBSlhQUTN0aC1VN0FiWmo2Q0pOcWVmdldNeUhsSkstUDllbG9INFE?oc=5",
+          "published": "Tue, 04 Aug 2026 00:51:58 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-04T00:51:58+00:00"
+        },
+        {
+          "title": "AI's Manifesto War",
+          "summary": "Article URL: https://www.axios.com/2026/08/02/ai-manifesto-open-weight-models Comments URL: https://news.ycombinator.com/item?id=49163120 Points: 2 # Comments: 0",
+          "url": "https://www.axios.com/2026/08/02/ai-manifesto-open-weight-models",
+          "published": "Tue, 04 Aug 2026 00:39:23 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-04T00:39:23+00:00"
+        },
+        {
+          "title": "AI Stocks with a Clear Enterprise Software Edge in 2026",
+          "summary": "Article URL: https://simplywall.st/stocks/ca/software/tsx-dcbo/docebo-shares/news/ai-stocks-with-a-clear-enterprise-software-edge-in-2026 Comments URL: https://news.ycombinator.com/item?id=49163101 Points: 1 # Comments: 0",
+          "url": "https://simplywall.st/stocks/ca/software/tsx-dcbo/docebo-shares/news/ai-stocks-with-a-clear-enterprise-software-edge-in-2026",
+          "published": "Tue, 04 Aug 2026 00:35:45 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-04T00:35:45+00:00"
+        },
+        {
+          "title": "Show HN: \"Hedgehog\" - An Opinionated workflow for building with AI",
+          "summary": "Article URL: https://github.com/skyf0xx/hedgehog Comments URL: https://news.ycombinator.com/item?id=49163090 Points: 1 # Comments: 1",
+          "url": "https://github.com/skyf0xx/hedgehog",
+          "published": "Tue, 04 Aug 2026 00:34:11 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-04T00:34:11+00:00"
+        },
+        {
+          "title": "The Chinese AI labs are making four pretty different bets. I work at one of them",
+          "summary": "Article URL: https://reddit.com/comments/1veipya/ Comments URL: https://news.ycombinator.com/item?id=49163044 Points: 2 # Comments: 1",
+          "url": "https://reddit.com/comments/1veipya/",
+          "published": "Tue, 04 Aug 2026 00:26:26 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-04T00:26:26+00:00"
+        },
+        {
+          "title": "人工智能多项成果落地生根 河南AI产业全搜索 - 大河网",
+          "summary": "人工智能多项成果落地生根 河南AI产业全搜索    大河网",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OSjlWQVk1NE1GX3pkcjdxcWZaZHc3Tjg2N2VFUlp1QldQWEp3T0g3S2lzMTM0bG9TQ0plVFF0cGItVHBaU2N2cjdHWVJXLWxLWnRORmtPMA?oc=5",
+          "published": "Tue, 04 Aug 2026 00:07:43 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-04T00:07:43+00:00"
+        },
+        {
+          "title": "Ask HN: Does AI research need \"world models\" more than bigger LLMs?",
+          "summary": "It seems that generating hypotheses is no longer the main problem. The harder problem may be continuously collecting real-world data, building accurate world models, and using them to guide experiments. Is this where automated research is heading? Comments URL: https://news.ycombinator.com/item?id=49162887 Points: 2 # Comments: 1",
+          "url": "https://news.ycombinator.com/item?id=49162887",
+          "published": "Mon, 03 Aug 2026 23:59:28 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-03T23:59:28+00:00"
+        },
+        {
+          "title": "奥尔特曼自称修正认知：AI发展不会引发全球性“就业危机” - 财联社",
+          "summary": "奥尔特曼自称修正认知：AI发展不会引发全球性“就业危机”    财联社",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1TRElkRmxPQlFETWRmazZlWHhRUFVOYnUzc2hJZjcxdEFHS2tBLUhveEtqdlhzOFIyaFFuamNiMHR2MFhMTnJnNQ?oc=5",
+          "published": "Mon, 03 Aug 2026 23:57:15 GMT",
+          "source": "Google News · AI 中文",
+          "_date": "2026-08-03T23:57:15+00:00"
+        },
+        {
+          "title": "Are AI companies scanning and destroying millions of books, including rare titles? - Snopes",
+          "summary": "Are AI companies scanning and destroying millions of books, including rare titles?    Snopes",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1TMElVYzYtMzFlbWFzeXVrOGRnR0JPZWt0YWNENHEtcDhGenRfV1VVa1ZzM25iZ284RG9KTDFNSl9DLWMxckRWZFJnLUJoOXZPbFRjb1NRcVZQYkhkYkE4OGstcld5Sk1HekZjNjNWeXl6VnNDVFpHWQ?oc=5",
+          "published": "Mon, 03 Aug 2026 23:48:45 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-03T23:48:45+00:00"
+        },
+        {
+          "title": "Harvard begins study of AI toys and child development | ETIH EdTech News - EdTech Innovation Hub",
+          "summary": "Harvard begins study of AI toys and child development | ETIH EdTech News    EdTech Innovation Hub",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU3dDalFEb1NfSVA2SmVBQ3psUjlWUktwYnduM1RKUW0zbHZRUGhraG5udDY5T1EyN0hTTWpDZGNxN3VFdldmS3l0aGhFb3poNUFqZUxXRU9MNkpOWEVNWnQ5RElNQmxYcEwwa21mNU5MOGJqaVYtdHJMTmFOVlRHbkphTk1jRWE2NWs2N0V2RWZReVV1cE9SLVZkeDgxVTVLZ2Q5OEZiZlNvWEM5UFhhYkhTSzRVNFFCQnVvalBR?oc=5",
+          "published": "Mon, 03 Aug 2026 23:47:44 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-03T23:47:44+00:00"
+        },
+        {
+          "title": "AI Expo returns with focus on real-world applications - Quad City Herald",
+          "summary": "AI Expo returns with focus on real-world applications    Quad City Herald",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUHBrc0x2THBYWThHTnMybTJ6ZDZXalJFZmo5NlI4YVdBOHBTWW50djBkVXdPRU8zREtTNGFEbnR0S0VYdzQ4dUZYblljQjU4WXdnSV92Zzg1UURqU05JMkloOElFRHZlenNTWGx0SVZuTEpyYWZEQjdBbjd3TllURFlmaTJEWE0wUF9naWl6TG5adEVTZmtV?oc=5",
+          "published": "Mon, 03 Aug 2026 23:43:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-03T23:43:00+00:00"
+        },
+        {
+          "title": "UK's first class of students aiming for a bachelor's degree in artificial intelligence set to begin studies - WUKY",
+          "summary": "UK's first class of students aiming for a bachelor's degree in artificial intelligence set to begin studies    WUKY",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOekZNM05YaXZDV0lfb2pSRTh2U3hxWmRGSzNOZ3RLMUpEZGhRUXR0b3AybXV1VFYtVGxDNkVKWF96VmpuOVJfVHVwRTQ4SVNTMElnMUFsMWNzcGxsOWNrbFFVcWtBN1N4RzNPUGJCQjNCVnV2RnNRNGRFN3pJOU9DbDE2cTBpMDJwMHBBenlCWEJIczJJb0JrY3NHazNCelZzdnphN0lWZnQxNFlha1lucktiMkRWWXZvUWkyWHgyblFkVGRYeEIzTkdyeGh6R1lncGdwRDhMR2tsMWFuY3BSRg?oc=5",
+          "published": "Mon, 03 Aug 2026 23:42:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-03T23:42:00+00:00"
+        },
+        {
+          "title": "This Week in AI Native Companies #2: The context layer gets funded",
+          "summary": "Article URL: https://www.insideainative.com/p/this-week-in-ai-native-companies-555 Comments URL: https://news.ycombinator.com/item?id=49162757 Points: 2 # Comments: 0",
+          "url": "https://www.insideainative.com/p/this-week-in-ai-native-companies-555",
+          "published": "Mon, 03 Aug 2026 23:39:00 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-03T23:39:00+00:00"
+        },
+        {
+          "title": "Ask a GW Expert: How Could Tax Policy Mitigate Harms Caused by Artificial Intelligence? - GW Today",
+          "summary": "Ask a GW Expert: How Could Tax Policy Mitigate Harms Caused by Artificial Intelligence?    GW Today",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd2tKRk4yTndWcWk1YVFLWnd1cmlfNGV0UFlJZVVkalF1SE9BZTNDallZQ284aHdQNS1ZVkwwN285QUM0OUNRTHJyZ1ltSVk0ejRmSXFNY0NGYktrS1BvZTdSVTZ2Y3AtNmc4WXQweHRSTUtZSWl6UFRibEQ4cGF4T2UtM1Z3d2RKT2RjUVhKT1lvci00MjJ5RWlfQTlWTXNBdmQ4VWkzVQ?oc=5",
+          "published": "Mon, 03 Aug 2026 23:35:45 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-03T23:35:45+00:00"
+        },
+        {
+          "title": "AI website builders: 10 prompt-to-app tools compared by pricing and code export",
+          "summary": "Article URL: https://github.com/umairalisadaqat/awesome-ai-website-builders Comments URL: https://news.ycombinator.com/item?id=49162703 Points: 1 # Comments: 0",
+          "url": "https://github.com/umairalisadaqat/awesome-ai-website-builders",
+          "published": "Mon, 03 Aug 2026 23:32:01 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-03T23:32:01+00:00"
+        },
+        {
+          "title": "One chart shows the incredible reversal at American tech companies - The Washington Post",
+          "summary": "One chart shows the incredible reversal at American tech companies    The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSm9URlBaU2tId1JjVG1QYjl6dDljRnROWlNJaEVBb1hMemYtWEFHbldTY3JEVUdxdWZYV3RHNWhfLUNwOVdkaUppWUt4NVlWVEtmMllyNmN4VEJVbkdVUUxTU1hsQW9OMzNWV3AxQVYtejFJWUctVzE2ekFLeDgxbVM4dUgydlBLc0JhYTlQWU5UVVVaQlBjbnl0T1MtODV6V0dZZFozUHFBc3d6eDZUR2RkRQ?oc=5",
+          "published": "Mon, 03 Aug 2026 23:30:00 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-03T23:30:00+00:00"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "'Big opportunities' for investors in infrastructure, health, logistics: Catalonia President in first Asean visit - The Business Times",
+          "summary": "'Big opportunities' for investors in infrastructure, health, logistics: Catalonia President in first Asean visit    The Business Times",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaUY2bVAtLVFIZ2pjS0JNVUN5VkRKRFdoRHR1QjM2OWZ6SkszZ3JqR2hRN2RHOUdaNmxadUpYS29DSElvenNiT2hrb3RSMHNEcXBGVThlY2h3OVBlRGFuVl84bnE1T2RQOTVrQnJ0bGJfdl9BN1hkTklKbmtiSWFqRmo0MWd5cEhKeDUtRzNLejhhQU12U2RKSjdTbXRUUXJ1OGdfX21DUHVZcEhvakNOeGQ0TmpZNlJKMnhLdEJOM0hXR1JhQUpkMDRn?oc=5",
+          "published": "Tue, 04 Aug 2026 00:00:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-04T00:00:00+00:00"
+        },
+        {
+          "title": "能源行业出海如何应对调整期？ - finance.people.com.cn",
+          "summary": "能源行业出海如何应对调整期？    finance.people.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tMUdjRTVoZTNocGhhdnplOElfaHh5el8xTlk3dUFZZm42cXZXWXVuMEpkNEN4emlYdjhtcDFPY2RYRld0T01WS1ZjQS1kdWpoajJpYVlLWUVYVTdYeWx0RUF1eVVOY2tBR2E5cWNn?oc=5",
+          "published": "Mon, 03 Aug 2026 23:25:00 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-08-03T23:25:00+00:00"
+        },
+        {
+          "title": "Industry in a bind - The Daily Star",
+          "summary": "Industry in a bind    The Daily Star",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fbnN1UjFKTTBoYWJVQ3E5Yy1jMUIxalk0T0xwbnF1eHpnWFVpZHUxazF3eHhSdmdXbUJaQVkyYTFnYWc4T3hjc0FHQ1ZtUWtFc1hra0V1MXk4RTVzZzJZbURKblVWc2NMemNVODdBbG5IX0ZESFZrcmF1aFc?oc=5",
+          "published": "Mon, 03 Aug 2026 22:08:14 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-03T22:08:14+00:00"
+        },
+        {
+          "title": "Pax Silica: Industrial or imperial policy? (2) - Inquirer.net",
+          "summary": "Pax Silica: Industrial or imperial policy? (2)    Inquirer.net",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzJRZXBrMnFBOTBLYXJOSTdqOTJYRnNEX1RCQzVyRGhUdmhqX1BVSVlPZC1oemZZRjJmZGRVbDRydDQzV21ySk03VTNHSFVNbmg4UzBXSml2NnRFa2NkMklnWFJXbUxOeGhPN2hvUlRlTjBPSDdMX0tvOW5fS0k4S19hc3DSAYoBQVVfeXFMT25kRHFaVHZTUG85RUJKbTVfLTVRdDVJVmJlbHZBWXoyOF9aQ0w3b3dxSmtFZEV4SGVCVDQ4VUg1Z3dENFR5b285T1F2VUw1LVhyYWNlUHFCbmRsR01OVG5fVlhERkNwemxBQ1FnMHdINThBT1plQlgzZk42bi1JbzNhZ25xWTd0OEhn?oc=5",
+          "published": "Mon, 03 Aug 2026 21:20:00 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-03T21:20:00+00:00"
+        },
+        {
+          "title": "RBI MPC June 2026 LIVE: Repo Rate Held at 5.25%, FY27 Growth Cut to 6.6%,Inflation Raised to 5.1% - Goodreturns",
+          "summary": "RBI MPC June 2026 LIVE: Repo Rate Held at 5.25%, FY27 Growth Cut to 6.6%,Inflation Raised to 5.1%    Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjJEMTQ5VWtBY3NKcE5HSVpheTZtR05lVDVmN05hTnBydnAxaDRqYXBRRGdvbmlZNk45bUZsNHVGNkVFbHE5bTlZZFQ4MjRIcllvRnRtYzNRZ2hid2RoaTRINkY1S1pUVDBObkhFYUMzMHlVT3lWeER4OGRLaUNidnQxZzJRakRuc25yOF9wTjFHbHh4ZU15a3lqOXVBVEtaUnQyZUlpZ211MjhuWjRobTh2WGVHWlBfOTFsOGY2ZzBHc0I4V1ktcy1lQ0FPTTJWSjh3RV9fMjZodw?oc=5",
+          "published": "Mon, 03 Aug 2026 20:56:02 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T20:56:02+00:00"
+        },
+        {
+          "title": "BWXT Selling Medical Business to Nordic Capital in Transaction Valued at up to $800 Million - Business Wire",
+          "summary": "BWXT Selling Medical Business to Nordic Capital in Transaction Valued at up to $800 Million    Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWWRVV3lYeHJ5UEh4N3R0Q2trd3NBTlk4cnlWUFRFN0NxOF80dy00NlpVNzQwMHA5Zk0xd09TUGtWNzdZdk83YVJOc3VFUVdTeFBqMjVmbldLWWlwOW9QWThhb0Z5NlVmbV9PYnp3SllTSFJhMzVna2JIU1FMa2tlQlh4UlVKY2NUeXR5cjR2WGlnSmhwUFhmbWhoQTZ0RlN6UTJucDVRQ0VqYndCSTh3dFNwcEZFV1I4VEVJR3VNYjU4bHRVbktFcDdabWFvYUVRZ1diZ3BCT0hiUTdqYTZYQWNsM0k?oc=5",
+          "published": "Mon, 03 Aug 2026 20:05:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-03T20:05:00+00:00"
+        },
+        {
+          "title": "EUR/USD Analysis: Euro Starts the Week Showing Weakness - FOREX.com",
+          "summary": "EUR/USD Analysis: Euro Starts the Week Showing Weakness    FOREX.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjJrRG1lNWlxQ0NvbjlQcGcxMmFqNDhwY0ZyWno0VFhtVUR1NzhGLXlWREtGRHZpTlMxbVY4UndvZGVLUjhONmdzMFFYS1JUTEh4LVpPemxUZm5MM2xTYXFFMlBHTkpsV3A0QWtPNTlnN2lhQVRwbVllVHF2TUtoR0dDbWdiaGRaMjY2aE1mY0ExSGR3YWFiQlVISmV6Wm5va05DMlpuazhQT0NGa1HSAa4BQVVfeXFMUFYya0RtZTVpcUNDb245UHBnMTJhajQ4cGNGclp6NFRYbVVEdTc4Ri15VkRLRkR2aU5TMW1WOFJ3b2RlS1I4TjZnczBRWEtSVExIeC1aT3psVGZuTDNsU2FxRTJQR05KbFdwNEFrTzU5ZzdpYUFUcG1ZZVRxdk1LaEdHQ21nYmhkWjI2NmhNZmNBMUhkd2FhYkJVSEplelpub2tOQzJabms4UE9DRmtR?oc=5",
+          "published": "Mon, 03 Aug 2026 19:49:52 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T19:49:52+00:00"
+        },
+        {
+          "title": "Global mining trends and new opportunities for Ukraine - PwC",
+          "summary": "Global mining trends and new opportunities for Ukraine    PwC",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xZXdNWFlpZVl0Y3Vad1BjWGk1OWs5cEdZNGtvOXNzQm5UZG9wdzBnNm1uUEEtSXlqRVdCcWdPbnptUFc2ak9MNjNBX18wWEhlX2k4ckJpOXNXTmtGcUI5aU11bTRaZUQwVGxhaDZtTjk?oc=5",
+          "published": "Mon, 03 Aug 2026 19:48:49 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-03T19:48:49+00:00"
+        },
+        {
+          "title": "Higher Interest Rates Could Hit Farmers Hard as Fed Faces Mounting Inflation Pressure - Agrolatam",
+          "summary": "Higher Interest Rates Could Hit Farmers Hard as Fed Faces Mounting Inflation Pressure    Agrolatam",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTDZ2QnJ4OTZSS3lHQjJmSTRWN1FSeXdDY01PV3FxdU55Z2pDWno5MXFfdS03eUN2VC02aHA5TGlkRklrbEo5djhUVU5RdW1uOFJLZTR1M2JEWHRkZ2t2TEh3RThiVmwwSnVwLUNBZ3RSSUVXT2JfbU9keVdndWM5c0FQV0pCd0J6RmE5aUtRd1BDRjg?oc=5",
+          "published": "Mon, 03 Aug 2026 19:41:15 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T19:41:15+00:00"
+        },
+        {
+          "title": "China Turns to ‘AI Communism’ to Drive Its Next Industrial Revolution - visiontimes.com",
+          "summary": "China Turns to ‘AI Communism’ to Drive Its Next Industrial Revolution    visiontimes.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeVI3MTFwQkF3ajZqVF80RjFfaXVPdzA1WGRkdFZMb2RGdWt0SkZZZXZLSUNNQWhtWnc0a3NLOFhLNmJ2QkNWNnZZdlhzVEE2aW4zNEhQMzNLU2JQZDJDZjhZeDFLUlFzN080Z3QyWUppdFQ3aHEyUlZmcHA1OUt0TmppMG5pV1lSdENTclJ5cmVKMnNyTFctbXdnVnlmTEg1Y0xINkt3cHl3NGw4YldjNg?oc=5",
+          "published": "Mon, 03 Aug 2026 19:04:45 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-03T19:04:45+00:00"
+        },
+        {
+          "title": "白宫“力挺”稳定币：奖励并非银行“杀手”，《清晰法案》僵局有望破冰 - 新浪财经",
+          "summary": "白宫“力挺”稳定币：奖励并非银行“杀手”，《清晰法案》僵局有望破冰    新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQaGpnYWJHeklTUFRfQTBZeHJ4TGd4Y0JFSDBUdldYay1wSERoT1BicDVEbjJXTDR4eVlCbHFyY2h6TlpjZEJqMHRKaVhwbEx2ckJReXlya0ZZWWl4dFVaVVJTa3g0b0hpQURYQnpIbjVjVWdPd2ticEtaWm1ST0xfZm5sdi16TE5NZWdtaXZzOGw5clFCQkE4MS1zd1pGaE9ING91MklFZV9JclZGbDVDaW1RbldNbHQ3dlRyeE84SHJIRkxiQ0hLaTV5RFlXRlJoT0VxTnRkMUh2dC05eVhyQWFSMHpoM3VjNUcxMTNqLXJZanBuRF9sZzRnYlZrd3ZBUXpTdDEtc1VvVXNrLXdLNjFwMVRZQ19KclpYaXlwVnZCQW9FQ1hDd21WWXhTU1UxZTVobVlTUjJoLWdjQzVFSmJXSnBqV0I5SGc?oc=5",
+          "published": "Mon, 03 Aug 2026 19:03:03 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-08-03T19:03:03+00:00"
+        },
+        {
+          "title": "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030, 2040 and Beyond - LiteFinance",
+          "summary": "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030, 2040 and Beyond    LiteFinance",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeElueWM4b01fQWpUbVpoOHdMYkw3SkQ5QldoaHBvSVh0QUhDeF9iTWZVM0NqZFV1cXg5QzRCU3NpM05kMkgtaEJUa2hvWTBrWTVSaEY1R2wyM1BkMnFXdHF6TnhqVF8tRXozYXBhMW16WnVWelhwOXBWT3ZnbnlTaDctU2RqYmlfVXc?oc=5",
+          "published": "Mon, 03 Aug 2026 19:00:51 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T19:00:51+00:00"
+        },
+        {
+          "title": "Future Center - The New Development Paradigm in the Middle East - مركز المستقبل",
+          "summary": "Future Center - The New Development Paradigm in the Middle East    مركز المستقبل",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcE14NFBaWHZILWQxTkRDQU1JLThIenkxZGIydVBfSFFXNHlWWC1nV3M1QVRtNWxhb0JlYnd1OU1iVTl3aG5DVG1Valk5anlReTg5N1RieUxfRldqb253Tm82TVdKMkswa1V1M0Z3ZFo2Zm1rMlZ0SzlhZm9Ual9neW5Ya2FSd20yNHgyZDFCbXVETVIyWVVUVWdnd2J4dFU3QnRQTy1KMmlONGtma3RBdjVUbw?oc=5",
+          "published": "Mon, 03 Aug 2026 18:42:10 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-03T18:42:10+00:00"
+        },
+        {
+          "title": "Okonjo-Iweala urges Nigeria to embrace better maintenance culture, says Delta can become the next industrial hub - Pulse Nigeria",
+          "summary": "Okonjo-Iweala urges Nigeria to embrace better maintenance culture, says Delta can become the next industrial hub    Pulse Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRU1zVVkzQ1VaY0I3LXdVc0NGd0FiRzVyVm9PNDQySGNWY0E5NUNOcXAtbElhV3RzazRFWVJubjVpX01GdkNMdGhXcVltbmVZNlhjTHQwbVZGQlUyMjVKMkVXWjhyNWFjQnpXdXRUM1hBTVNvbzRZN08xT2w2N1RKcENzc3dhdjFzMy0xN003aXVIY20wel9jSFJVZi11cmxKV01xSkNIdExJVkdVSjFvanNyTWJSSE1hcVdkcHpmcjQxQ25sNlpOZkRQUlBtLTg0MHdlbTR6NzUtOEUxd3NSX0JFYWRCRHc5Yzc4MEh6RQ?oc=5",
+          "published": "Mon, 03 Aug 2026 18:33:45 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-03T18:33:45+00:00"
+        },
+        {
+          "title": "高端算力价格持续上行 多家上市公司布局“词元工厂” - 新浪财经",
+          "summary": "高端算力价格持续上行 多家上市公司布局“词元工厂”    新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSnZoYzhONUl0N250akNFRWtiUUx4R3dxX203Wmg2RHdxSG5HWG1KM1dPR2haOUZ3bFFQV01VdjBPQ1NhTktxT0lCUHpFWHZsb0NkTWl1VmF0eElOVGlaVkFfQVNDQ09LWjVZWkl2UkRPOHRSZXIwQW1XcTNUWnNkV0dmMA?oc=5",
+          "published": "Mon, 03 Aug 2026 18:31:09 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-08-03T18:31:09+00:00"
+        },
+        {
+          "title": "Tandem PV buys nexTC to bring solar coating technology in-house - The Business Journals",
+          "summary": "Tandem PV buys nexTC to bring solar coating technology in-house    The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS2xVZms2YUtuS2lmVG9NRmY1c1dqR0VKQ2U3dVlLN2xxMkpycHRjVEktRHJRdE12a0FfY1lqanhYVmRhQngzcU53NXpPSjNkckpFQURsMk1QVFZHQVVGbFozYzhzTmNGWUJkcGN3U2s3V1NMNHRwbi13SGZVY3dqbHNZaHFfX1N5QmNKdWp1Zw?oc=5",
+          "published": "Mon, 03 Aug 2026 17:18:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-03T17:18:00+00:00"
+        },
+        {
+          "title": "Yen Steadies Near Post-Intervention Highs As Markets Await BoJ Minutes - Bitcoin World",
+          "summary": "Yen Steadies Near Post-Intervention Highs As Markets Await BoJ Minutes    Bitcoin World",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcnJweFpuOEFtTHMtTjRiZFpCZjdBRWdOUnRtT2lkZ1J2TVVYRlFsR1JCaEpNTkoyT1RnTzlnVzR3c1IyUzVDTjhVQXdJMFBNT2JNam1taDhFTFlvWWVpbTdPYVpHV2tmc1p2ZGNFd3VEYkVjUlc3QlNxd3lDUjNLMl9n?oc=5",
+          "published": "Mon, 03 Aug 2026 17:10:11 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T17:10:11+00:00"
+        },
+        {
+          "title": "EURUSD Forecast & Predictions for 2026, 2027–2028, and Beyond until 2030 - LiteFinance",
+          "summary": "EURUSD Forecast & Predictions for 2026, 2027–2028, and Beyond until 2030    LiteFinance",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdXpMYXFwYjRweDlrWDMxd3Frek5neEJzME85WWhhb2dpU0xJVTFsUXBRX251QmZ4T21lcWp5OV8yOG0xUDZBcGNabFF0WkZhazNkYXRneERUN0NTeERjX0R6Y1RXeFFRSjEtZUhZUGowdFlfYU4tRDYtNkhJQ2tmTXdKX1BNY1lnRk1vY1NTMXJnZw?oc=5",
+          "published": "Mon, 03 Aug 2026 16:57:17 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T16:57:17+00:00"
+        },
+        {
+          "title": "Economist Mark Zandi warns Fed Chair’s ‘opaque’ policy could trigger ‘serious market sell-off’ - financialexpress.com",
+          "summary": "Economist Mark Zandi warns Fed Chair’s ‘opaque’ policy could trigger ‘serious market sell-off’    financialexpress.com",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWkR2UEFVWFJrS2ZlVF9Ua25pUkVWVENmZzlJQVlwd1FxX09UM0oySXl5bDRuczh3UnVJMUJDcDk5MzJmc2JjcHJ4d2Nva3hPY3VJWkpXRHpQU0F2Q29YdVNoZmhoRGhMbnlMV0Vhemhzc0VjRE5SMVppcENHV1g4d3ZxdUo2TEtReGphQmZqal9MZ0ZIQTA0WGpkNEtTVjVWd3JCTG1YaWVwRkZjTDFWUExjN1JrRW9MS1h4TWFueW1wWFRFM2RSOXJRWF9IYkk0YW83VUZCU2pVWms1ajkxQlY1dWvSAesBQVVfeXFMTXBKQ3R4LWV5N2hzVlRXemNJYVV2aGlSY0lJNG9JSlowcl9KUTNUcDJaZ1gxQWYxMV94aVpvZkdwUWhzbFl3TVNZcmVpUG10eHN2b25BeTNUS2QwWXZrUVBIZlJnZmkxS1h3YTFOb3VSbXFvRklMLXlfNXBtWG43ZGpLMU1YSWZubGxGOTdlTVpwQndLYWpHWnFnRTQ2ZFR4LWp6ekVsamljUXdwNVBzMjZfMTZ5M2xtWmNDQ3BmWm1wMEN1bVdTdlExODh0N1lUcWtFaWMzMnZsR0pmbjhsV1E2Nm5mWU1YR3lDYw?oc=5",
+          "published": "Mon, 03 Aug 2026 16:57:14 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T16:57:14+00:00"
+        },
+        {
+          "title": "Derivatives Trading Sinks At NSE On RBI Curbs - NDTV Profit",
+          "summary": "Derivatives Trading Sinks At NSE On RBI Curbs    NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX20wcFdUWk5aUERsRW9pUko1RzFLZDJPSGg2NlNhVWZjcEJ5WVh2dU9qS2N0YkE2Z1QwUVR4X2x6VU9hbW9seXF4Y2VyY2Y0MVRuZmxGeGljTGp0V3VoVkhHTnc1RmREbi0tS2JFbDVBblJSSGwxOUxqVXBlVlNkN1E5bTJvOFhTaEI1YXBOOFEyUWJyeVJWdkJYNNIBmwFBVV95cUxQX20wcFdUWk5aUERsRW9pUko1RzFLZDJPSGg2NlNhVWZjcEJ5WVh2dU9qS2N0YkE2Z1QwUVR4X2x6VU9hbW9seXF4Y2VyY2Y0MVRuZmxGeGljTGp0V3VoVkhHTnc1RmREbi0tS2JFbDVBblJSSGwxOUxqVXBlVlNkN1E5bTJvOFhTaEI1YXBOOFEyUWJyeVJWdkJYNA?oc=5",
+          "published": "Mon, 03 Aug 2026 16:39:31 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T16:39:31+00:00"
+        },
+        {
+          "title": "Qatar financial system demonstrates strong resilience in 2025: QCB | Gulf Times - Gulf Times",
+          "summary": "Qatar financial system demonstrates strong resilience in 2025: QCB | Gulf Times    Gulf Times",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVzUybTE1QVRPV3k5QlVYbmYzZURHczNJcjdFbjFmTWxBSk16V2pfUFhYOU90OXZCaDNuYmJfR2dYaTFkU3FFNHg1TnN2ZVM0eGNxQk5ldmo1RXl4VGVaMG4xZzZFYXpfU2c1dEtXaFg1cVJWWmdZTXBGRy0zeVpobkY2R01tVG1zb2pvbXFzYWhKUGpheGg2LThudW1acGxrUm95MW5HRXNjV0k1Q1BBVC1Na1lzQW1mV2hsatIBvAFBVV95cUxNVzUybTE1QVRPV3k5QlVYbmYzZURHczNJcjdFbjFmTWxBSk16V2pfUFhYOU90OXZCaDNuYmJfR2dYaTFkU3FFNHg1TnN2ZVM0eGNxQk5ldmo1RXl4VGVaMG4xZzZFYXpfU2c1dEtXaFg1cVJWWmdZTXBGRy0zeVpobkY2R01tVG1zb2pvbXFzYWhKUGpheGg2LThudW1acGxrUm95MW5HRXNjV0k1Q1BBVC1Na1lzQW1mV2hsag?oc=5",
+          "published": "Mon, 03 Aug 2026 16:36:00 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-03T16:36:00+00:00"
+        },
+        {
+          "title": "Dr. Copper Signals Boom As ISM PMI Hits 4-Year High - Global X Copper Miners ETF (ARCA:COPX) - Benzinga",
+          "summary": "Dr. Copper Signals Boom As ISM PMI Hits 4-Year High - Global X Copper Miners ETF (ARCA:COPX)    Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZ241RzFDWDRYVG96QVhkT0xESWlhWVZxN3dVcVZBWDJEQmMxY1hVSnkxWWN6M1ZESVh2UkFabHQ5OHRFYlVZRUtYa3hWWFdIbl9hVFQ5d3ZXMlprd1NhM3dpc25lS2xmMXVremctQVkxdGpZbUZYZ2FPVW14cG5pX09jMWhNLUFYczlBR0JqdEhxM3F3SjVoS2FwVXJRSU9pb0VGelFRUjlQaEMtMVpkX0FXaGRLbVN4OEpqQTA0YWpiR1F1SFE?oc=5",
+          "published": "Mon, 03 Aug 2026 16:22:06 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-03T16:22:06+00:00"
+        },
+        {
+          "title": "India Industrial Output Hits 23-Month High of 7.3% in June - Whalesbook",
+          "summary": "India Industrial Output Hits 23-Month High of 7.3% in June    Whalesbook",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWjdTbDdFbHFVMmRmVGRkNHBLaVROclhfUE9CZWItY2VQTEVsUkpGdzNvdngwZUtUSzhTN2ota3I2cHMzcDZoWWZLXzlZQUdlLWhpb0MzSEJvRUU2UktMbVhybTRTMjEyT3dtQVJOUGhoSWFndkpLNHB4STlWYWRUbkxJNGlkTTdGa0wtRk8zb0JMbHVDZWdPN0JrbTZPMm5tT05sVjdwYV80ZXF2VU1oczZLSlNweVV5MkIzNm5Cd2QzVlNLR0FTUlVHbzhpSjFfeWc?oc=5",
+          "published": "Mon, 03 Aug 2026 15:56:42 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-03T15:56:42+00:00"
+        },
+        {
+          "title": "2026-2031年中国yd赢点体育网址行业发展前景预测报告- TGBUS - 电玩巴士",
+          "summary": "2026-2031年中国yd赢点体育网址行业发展前景预测报告- TGBUS    电玩巴士",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92aXZha1BZQTJyZUlWTGplclNBTU1xbUdZZ0RSa3UxWThlbmZ2dlhoMGpYRkQ5SFBOd3NpOWhmR01WdFJMZXNxVjZwbGtPUTlNQ0ZIMU1veC13UWM?oc=5",
+          "published": "Mon, 03 Aug 2026 15:10:38 GMT",
+          "source": "Google News · 行业",
+          "_date": "2026-08-03T15:10:38+00:00"
+        }
+      ]
+    },
+    "search_text": "  Daily Intelligence\n  2026 08 03｜Monday\n\n   Today’s Thesis｜今日一句话\nAI竞争的决胜点正从模型规模转向基础设施的生产级可用性，而全球监管的分化（欧盟强制透明、美国自愿测试、中国开源生态）正在重塑资本与技术流动的路径。\n\n   ① Executive Summary｜30 秒\n    AI  ：AI基础设施从原型走向生产，开源运维的隐性成本成为核心瓶颈，资本加速涌入“词元工厂”与上下文层 [A2][B15][A21]。\n    商业  ：高端算力价格持续上行，驱动企业向具有明确软件边缘的AI标的集中；医疗与新能源领域出现显著并购与垂直整合 [B15][A11][B6][B16]。\n    宏观  ：全球政策与实体信号背离——ISM制造业景气度创4年新高，但央行政策不透明性加剧，高利率对农业等脆弱部门的打击正在显现 [B22][B19][B9]。\n\n   ② AI Daily\n\n    欧盟AI法案透明度新规生效\n  What Happened  ：欧盟人工智能法案透明度条款正式生效，所有AI生成内容与深伪技术必须进行明确标识 [A8]。\n  Why It Matters  ：这为AI原生公司设定了硬性合规边界，迫使应用层和“上下文层”在架构设计上默认内置可追溯性 [A21]。\n  Second order Effect  ：合规成本上升 → 欧盟市场对无溯源能力的美/中闭源API摩擦力增加 → 加速欧洲本土化或开源权重模型的替代进程 [A10]。\n\n    AI基础设施的“生产级”现实检验\n  What Happened  ：开源AI基础设施（推理、编排、可观测性）在向生产环境迁移时，暴露出运维成本与复杂度远超原型的痛点 [A2]。\n  Why It Matters  ：概念验证阶段结束，自建与托管服务的总成本权衡决定了企业AI的真实采用率。\n  Second order Effect  ：运维摩擦力增加 → 企业放弃自建转投托管AI网关（如9router等） [A7] → 缺乏企业级支持的开源栈被边缘化。\n\n    地缘政治下的模型路线分化\n  What Happened  ：Hugging Face CEO指出中国正凭借开源生态赢得AI竞赛，而美国闭门造车恐将落后；中国AI实验室正下注四个截然不同的方向 [A5][A13]。\n  Why It Matters  ：围绕开放权重的“AI宣言之战” [A10] 本质是对全球开发者心智份额与下游应用数据流的争夺。\n  Second order Effect  ：美国管制/闭源模型收紧 → 中国加速开源权重生态与“AI共产主义”产业政策 [B10] → 全球AI技术栈走向双轨制。\n\n   ③ Business Daily\n\n  科技/算力  ：高端算力价格持续上行，多家上市公司开始布局“词元工厂” [B15]。同时，AI人工智能ETF平安（512930）份额单日增加4400万份，最新规模达29.54亿元 [A3]，显示在基础设施运维痛点显现的当下 [A2]，资本依然在裸做多AI算力底层。\n\n  医疗/制造  ：BWXT以最高8亿美元将医疗业务出售给Nordic Capital [B6]；Tandem PV收购nexTC将太阳能涂层技术内部化 [B16]。这反映了在高利率与产业调整期 [B2]，企业通过剥离非核心资产与垂直整合来锁定利润率与供应链安全。\n\n  宏观/工业  ：“铜博士”发出繁荣信号，ISM PMI触及4年高位 [B22]；印度6月工业产出达到7.3%的23个月新高 [B23]。物理世界的工业韧性仍在，与金融条件的紧缩预期形成对冲。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？   实体经济（采矿业景气度、亚洲工业产出）展现出强劲扩张 [B22][B23]，而金融条件因央行政策的不透明而持续紧绷 [B19]。\n\n  为什么发生？   供应链重构与能源转型带来的实物需求，正在与利率敏感部门（如农业 [B9]）脱钩。资本对“政策不透明”的定价不足，导致风险溢价被压抑在低VIX表象之下 [B19]。\n\n  资本如何流动？   资本正流向政策庇护所与硬资产：白宫明确支持稳定币并寻求破冰 [B11]；算力作为新型硬资产持续吸引资金 [B15]；黄金因避险与通胀对冲需求走强。\n\n  接下来关注什么？   联储政策模糊度与市场抛售之间的反身性反馈循环。若高利率对实体部门的打击（如农业、能源出海 [B2][B9]）传导至信贷端，可能触发“政策不透明 → 信任流失 → 抛售 → 流动性危机”的负向循环 [B19]。\n\n (事实：ISM PMI创4年新高、印度工业产出7.3%、RBI维持利率5.25% [B5]；推断：实体与金融经济脱钩、政策不透明将引发抛售) \n\n   ⑤ Signal Dashboard\n\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   25,913.90   ↑ +2.13%   风险偏好改善  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,105.10   ↑ +1.38%   避险/通胀对冲增强  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   80.77   ↓  4.61%   通胀压力缓解  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   100.00   ↑ +0.20%   金融条件偏紧  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.69   ↓  1.24%   利好久期资产  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   63,611.01   ↑ +0.20%   中性  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   15.86   ↓  0.81%   市场稳定  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   206.64   ↑ +2.93%   风险偏好改善  \n\n   ⑥ Deep Insight\n\n    AI 生产级落地的“隐性税”：从词元工厂到合规与运维的代价转移\n\n当前市场正被一种乐观叙事主导：高端算力价格持续上行，企业竞相布局“词元工厂”，AI ETF份额激增 [B15][A3]。表面上看，这是需求远超供给的典型繁荣信号。然而，将视线从算力基建移向应用终端，会发现一个极易被忽略的机制——AI正在从“实验室原型”向“生产级系统”跨越，这一跨越产生的隐性税，可能正在侵蚀词元工厂的边际收益。\n\n首先是运维的隐性税。开源AI工具在测试阶段极易跑通，但进入生产环境后，推理、编排与可观测性的复杂度呈指数级上升 [A2]。企业必须面对一个残酷的权衡：是耗费巨资自建运维团队，还是向托管服务商妥协并让渡数据控制权？这种摩擦力直接挑战了Hugging Face CEO所倡导的开源胜利论 [A5]。如果开源栈的运维成本无法下降，闭源API的“黑盒但省心”优势将在生产阶段重新放大，所谓的开源生态胜利可能仅停留在权重分发层，而非真正的企业计费层。\n\n其次是合规的隐性税。欧盟AI法案透明度新规的生效 [A8]，不仅仅是法律条文的落地，更是对系统架构的强制干预。要在生成内容中实现全链路溯源与显式标识，意味着词元工厂的输出不能是黑盒流，必须嵌入合规元数据。这要求AI原生公司在上下文层进行额外投资 [A21]，而这部分投资不产生直接算力收入，属于纯粹的合规成本。\n\n由此形成了一条关键的因果链：算力规模扩张（词元工厂） → 生成数据激增且无序 → 生产运维与合规溯源要求骤升 → 托管与合规架构成本吞噬算力红利 → 行业利润向少数提供全栈托管与合规解决方案的巨头集中。\n\n  非共识视角  ：当前的算力涨价并非永久性护城河，而是供需错配的临时摩擦。真正的瓶颈不是算力不足，而是“缺乏低成本将算力转化为可靠且合规的生产力”的通道。谁掌握了从裸算力到合规生产力的转化接口，谁才拥有下一阶段的定价权。\n\n  反方观点与证伪条件  ：反方认为，算力就是新时代的石油，只要规模足够大，运维与合规的边际成本将趋近于零，词元工厂本身即是终局。  证伪条件  ：若未来12个月内，开源编排与可观测性工具（如Hedgehog等工作流 [A12]）能够实现一键式生产级部署与合规自证，使得中小企业运维成本断崖式下降，则“运维与合规隐性税”逻辑被证伪，词元工厂的纯算力护城河成立。\n\n   ⑦ Tomorrow Watch\n1. 美国政府针对高级AI黑客能力的自愿性安全测试规范具体文本发布 [A6]。\n2. 日本央行会议纪要发布，观测日元干预高点后的货币政策预期变化 [B17]。\n3. 高端算力价格走势，验证“词元工厂”扩产是否能缓解供给瓶颈 [B15]。\n4. 联储主席政策表态，监测Mark Zandi警告的“政策不透明引发抛售”是否开始定价 [B19]。\n5. 欧盟市场首批因AI透明度新规 [A8] 而下架或整改的AI应用案例。\n\n   ⑧ One Chart\n [Daily Market Pulse](assets/chart.svg)\n图表显示了近期科技股反弹与黄金走强的同步并存。这种风险资产与避险资产同向上涨的现象，暗示市场在定价通胀压力缓解（原油大跌）的同时，仍在购买黄金对冲政策不透明性与地缘摩擦的尾部风险，两者共存而非互斥。\n\n   ⑨ Quote of the Day\n\n  “Compound interest is the eighth wonder of the world.”  \n  — Attributed to Albert Einstein\n\n  中文理解  ：复利的力量来自时间、持续性和不被中断的积累。\n\n  Why it matters today  ：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。\n   ⑩ Action Items｜今天值得思考什么\n1.   追踪  开源AI基础设施项目在向生产环境迁移时的运维成本拐点与弃用率 [A2]。\n2.   验证  欧盟AI法案透明度新规对API调用模式及上下文层架构的实际冲击 [A8][A21]。\n3.   比较  中美AI路径分化：闭源安全测试（美）与开源生态驱动（中）在企业级账单端的真实转化率 [A5][A6][A13]。\n4.   关注  “词元工厂”算力涨价与AI ETF份额激增之间的资本传导效率及潜在泡沫 [A3][B15]。\n5.   思考  在ISM PMI高景气与联储政策不透明并存的宏观环境下，实物资产与久期资产的配置平衡点 [B19][B22]。\n\n   信息边界\n本报告基于2026年8月3日至4日聚合的新闻源与Hacker News讨论生成。市场数据为最近交易日收盘值，存在时差延迟。部分新闻源为二手聚合，重要推断（如运维成本拐点、合规隐性税、政策引发抛售）需回溯原文验证。未包含非材料提供范围内的公司财报或未公开宏观数据。\n\n\n   Sources\n\n    AI\n\n  [A2：How are you operating AI infrastructure in production?](https://news.ycombinator.com/item?id=49163280) — Hacker News · AI\n  [A3：8月3日AI人工智能ETF平安（512930）份额增加4400.00万份，最新份额48.33亿份，最新规模29.54亿元   手机新浪网](https://news.google.com/rss/articles/CBMigwFBVV95cUxQMmtkdmVtdkJ2bUx1SjVqXzZvS0VOUzF1UVZIVzdjeVdrMVEzNkIwczh6c252ZjgyaE5nZmN3UEhsSkJfSGR6TldONDJORWhKbWQzYVRoakpwc1FzYzVXby1JQVYwVVFDVE9jUVdydWdzc0VxV19WaVdYbUx6RFcyaFZUZw?oc=5) — Google News · AI 中文\n  [A5：Hugging Face CEO发声：中国正赢得AI竞赛美企闭门造车恐将落后  AI 人工智能   cnBeta.COM](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PMWdzUkVRaEo1bG91RUg1bWdFLXM3YzhtQmRzck9VRUpXV2otdzVmeVhpd3ZfZ3ZnRlpoX1JRVFhDbXFUMkhWTTBMZWhEdG52Z09CUXBzMGozS1BWN01YMw?oc=5) — Google News · AI 中文\n  [A6：针对高级AI黑客能力监管加码美国政府即将公布自愿性安全测试规范  AI 人工智能   cnBeta.COM](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qSS10blNYV1RjWC1oZy02RFhhaXNtWGZkeFh6QW5FQjY1MUk5RVpSOTVoc3NheXFQVU5RN0E4R3VUeE9aaGN6ZnNmRElsVFNEZ3Vld2liLUZoWTc3eVNzQg?oc=5) — Google News · AI 中文\n  [A7：9router Python – Python SDK for the 9Router AI gateway (35 models)](https://github.com/ChristopherDond/9router python) — Hacker News · AI\n  [A8：欧盟人工智能法案透明度新规正式生效AI内容与深伪技术需进行明确标识  Europe 欧洲   cnBeta.COM](https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zSE4td0VvX3NGcFhPSlFNQlF1S3luNU9abjRNUHlIekhscEFHRlV4Zy1hTThIUGJOZUkzdlhoNHpTSEJ5WEtQclVRbDB4aHV5cjF5X0lPSEhMUGYwU1hOaw?oc=5) — Google News · AI 中文\n  [A10：AI's Manifesto War](https://www.axios.com/2026/08/02/ai manifesto open weight models) — Hacker News · AI\n  [A11：AI Stocks with a Clear Enterprise Software Edge in 2026](https://simplywall.st/stocks/ca/software/tsx dcbo/docebo shares/news/ai stocks with a clear enterprise software edge in 2026) — Hacker News · AI\n  [A12：Show HN: \"Hedgehog\"   An Opinionated workflow for building with AI](https://github.com/skyf0xx/hedgehog) — Hacker News · AI\n  [A13：The Chinese AI labs are making four pretty different bets. I work at one of them](https://reddit.com/comments/1veipya/) — Hacker News · AI\n  [A21：This Week in AI Native Companies  2: The context layer gets funded](https://www.insideainative.com/p/this week in ai native companies 555) — Hacker News · AI\n\n    Business & Macro\n\n  [B2：能源行业出海如何应对调整期？   finance.people.com.cn](https://news.google.com/rss/articles/CBMibkFVX3lxTE5tMUdjRTVoZTNocGhhdnplOElfaHh5el8xTlk3dUFZZm42cXZXWXVuMEpkNEN4emlYdjhtcDFPY2RYRld0T01WS1ZjQS1kdWpoajJpYVlLWUVYVTdYeWx0RUF1eVVOY2tBR2E5cWNn?oc=5) — Google News · 行业\n  [B5：RBI MPC June 2026 LIVE: Repo Rate Held at 5.25%, FY27 Growth Cut to 6.6%,Inflation Raised to 5.1%   Goodreturns](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjJEMTQ5VWtBY3NKcE5HSVpheTZtR05lVDVmN05hTnBydnAxaDRqYXBRRGdvbmlZNk45bUZsNHVGNkVFbHE5bTlZZFQ4MjRIcllvRnRtYzNRZ2hid2RoaTRINkY1S1pUVDBObkhFYUMzMHlVT3lWeER4OGRLaUNidnQxZzJRakRuc25yOF9wTjFHbHh4ZU15a3lqOXVBVEtaUnQyZUlpZ211MjhuWjRobTh2WGVHWlBfOTFsOGY2ZzBHc0I4V1ktcy1lQ0FPTTJWSjh3RV9fMjZodw?oc=5) — Google News · Markets Policy\n  [B6：BWXT Selling Medical Business to Nordic Capital in Transaction Valued at up to $800 Million   Business Wire](https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWWRVV3lYeHJ5UEh4N3R0Q2trd3NBTlk4cnlWUFRFN0NxOF80dy00NlpVNzQwMHA5Zk0xd09TUGtWNzdZdk83YVJOc3VFUVdTeFBqMjVmbldLWWlwOW9QWThhb0Z5NlVmbV9PYnp3SllTSFJhMzVna2JIU1FMa2tlQlh4UlVKY2NUeXR5cjR2WGlnSmhwUFhmbWhoQTZ0RlN6UTJucDVRQ0VqYndCSTh3dFNwcEZFV1I4VEVJR3VNYjU4bHRVbktFcDdabWFvYUVRZ1diZ3BCT0hiUTdqYTZYQWNsM0k?oc=5) — Google News · Technology Business\n  [B9：Higher Interest Rates Could Hit Farmers Hard as Fed Faces Mounting Inflation Pressure   Agrolatam](https://news.google.com/rss/articles/CBMikwFBVV95cUxOTDZ2QnJ4OTZSS3lHQjJmSTRWN1FSeXdDY01PV3FxdU55Z2pDWno5MXFfdS03eUN2VC02aHA5TGlkRklrbEo5djhUVU5RdW1uOFJLZTR1M2JEWHRkZ2t2TEh3RThiVmwwSnVwLUNBZ3RSSUVXT2JfbU9keVdndWM5c0FQV0pCd0J6RmE5aUtRd1BDRjg?oc=5) — Google News · Markets Policy\n  [B10：China Turns to ‘AI Communism’ to Drive Its Next Industrial Revolution   visiontimes.com](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeVI3MTFwQkF3ajZqVF80RjFfaXVPdzA1WGRkdFZMb2RGdWt0SkZZZXZLSUNNQWhtWnc0a3NLOFhLNmJ2QkNWNnZZdlhzVEE2aW4zNEhQMzNLU2JQZDJDZjhZeDFLUlFzN080Z3QyWUppdFQ3aHEyUlZmcHA1OUt0TmppMG5pV1lSdENTclJ5cmVKMnNyTFctbXdnVnlmTEg1Y0xINkt3cHl3NGw4YldjNg?oc=5) — Google News · Global Economy\n  [B11：白宫“力挺”稳定币：奖励并非银行“杀手”，《清晰法案》僵局有望破冰   新浪财经](https://news.google.com/rss/articles/CBMiygJBVV95cUxQaGpnYWJHeklTUFRfQTBZeHJ4TGd4Y0JFSDBUdldYay1wSERoT1BicDVEbjJXTDR4eVlCbHFyY2h6TlpjZEJqMHRKaVhwbEx2ckJReXlya0ZZWWl4dFVaVVJTa3g0b0hpQURYQnpIbjVjVWdPd2ticEtaWm1ST0xfZm5sdi16TE5NZWdtaXZzOGw5clFCQkE4MS1zd1pGaE9ING91MklFZV9JclZGbDVDaW1RbldNbHQ3dlRyeE84SHJIRkxiQ0hLaTV5RFlXRlJoT0VxTnRkMUh2dC05eVhyQWFSMHpoM3VjNUcxMTNqLXJZanBuRF9sZzRnYlZrd3ZBUXpTdDEtc1VvVXNrLXdLNjFwMVRZQ19KclpYaXlwVnZCQW9FQ1hDd21WWXhTU1UxZTVobVlTUjJoLWdjQzVFSmJXSnBqV0I5SGc?oc=5) — Google News · 行业\n  [B15：高端算力价格持续上行 多家上市公司布局“词元工厂”   新浪财经](https://news.google.com/rss/articles/CBMigwFBVV95cUxOSnZoYzhONUl0N250akNFRWtiUUx4R3dxX203Wmg2RHdxSG5HWG1KM1dPR2haOUZ3bFFQV01VdjBPQ1NhTktxT0lCUHpFWHZsb0NkTWl1VmF0eElOVGlaVkFfQVNDQ09LWjVZWkl2UkRPOHRSZXIwQW1XcTNUWnNkV0dmMA?oc=5) — Google News · 行业\n  [B16：Tandem PV buys nexTC to bring solar coating technology in house   The Business Journals](https://news.google.com/rss/articles/CBMijwFBVV95cUxNS2xVZms2YUtuS2lmVG9NRmY1c1dqR0VKQ2U3dVlLN2xxMkpycHRjVEktRHJRdE12a0FfY1lqanhYVmRhQngzcU53NXpPSjNkckpFQURsMk1QVFZHQVVGbFozYzhzTmNGWUJkcGN3U2s3V1NMNHRwbi13SGZVY3dqbHNZaHFfX1N5QmNKdWp1Zw?oc=5) — Google News · Technology Business\n  [B17：Yen Steadies Near Post Intervention Highs As Markets Await BoJ Minutes   Bitcoin World](https://news.google.com/rss/articles/CBMiggFBVV95cUxOcnJweFpuOEFtTHMtTjRiZFpCZjdBRWdOUnRtT2lkZ1J2TVVYRlFsR1JCaEpNTkoyT1RnTzlnVzR3c1IyUzVDTjhVQXdJMFBNT2JNam1taDhFTFlvWWVpbTdPYVpHV2tmc1p2ZGNFd3VEYkVjUlc3QlNxd3lDUjNLMl9n?oc=5) — Google News · Markets Policy\n  [B19：Economist Mark Zandi warns Fed Chair’s ‘opaque’ policy could trigger ‘serious market sell off’   financialexpress.com](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWkR2UEFVWFJrS2ZlVF9Ua25pUkVWVENmZzlJQVlwd1FxX09UM0oySXl5bDRuczh3UnVJMUJDcDk5MzJmc2JjcHJ4d2Nva3hPY3VJWkpXRHpQU0F2Q29YdVNoZmhoRGhMbnlMV0Vhemhzc0VjRE5SMVppcENHV1g4d3ZxdUo2TEtReGphQmZqal9MZ0ZIQTA0WGpkNEtTVjVWd3JCTG1YaWVwRkZjTDFWUExjN1JrRW9MS1h4TWFueW1wWFRFM2RSOXJRWF9IYkk0YW83VUZCU2pVWms1ajkxQlY1dWvSAesBQVVfeXFMTXBKQ3R4LWV5N2hzVlRXemNJYVV2aGlSY0lJNG9JSlowcl9KUTNUcDJaZ1gxQWYxMV94aVpvZkdwUWhzbFl3TVNZcmVpUG10eHN2b25BeTNUS2QwWXZrUVBIZlJnZmkxS1h3YTFOb3VSbXFvRklMLXlfNXBtWG43ZGpLMU1YSWZubGxGOTdlTVpwQndLYWpHWnFnRTQ2ZFR4LWp6ekVsamljUXdwNVBzMjZfMTZ5M2xtWmNDQ3BmWm1wMEN1bVdTdlExODh0N1lUcWtFaWMzMnZsR0pmbjhsV1E2Nm5mWU1YR3lDYw?oc=5) — Google News · Markets Policy\n  [B22：Dr. Copper Signals Boom As ISM PMI Hits 4 Year High   Global X Copper Miners ETF (ARCA:COPX)   Benzinga](https://news.google.com/rss/articles/CBMixgFBVV95cUxOZ241RzFDWDRYVG96QVhkT0xESWlhWVZxN3dVcVZBWDJEQmMxY1hVSnkxWWN6M1ZESVh2UkFabHQ5OHRFYlVZRUtYa3hWWFdIbl9hVFQ5d3ZXMlprd1NhM3dpc25lS2xmMXVremctQVkxdGpZbUZYZ2FPVW14cG5pX09jMWhNLUFYczlBR0JqdEhxM3F3SjVoS2FwVXJRSU9pb0VGelFRUjlQaEMtMVpkX0FXaGRLbVN4OEpqQTA0YWpiR1F1SFE?oc=5) — Google News · Global Economy\n  [B23：India Industrial Output Hits 23 Month High of 7.3% in June   Whalesbook](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWjdTbDdFbHFVMmRmVGRkNHBLaVROclhfUE9CZWItY2VQTEVsUkpGdzNvdngwZUtUSzhTN2ota3I2cHMzcDZoWWZLXzlZQUdlLWhpb0MzSEJvRUU2UktMbVhybTRTMjEyT3dtQVJOUGhoSWFndkpLNHB4STlWYWRUbkxJNGlkTTdGa0wtRk8zb0JMbHVDZWdPN0JrbTZPMm5tT05sVjdwYV80ZXF2VU1oczZLSlNweVV5MkIzNm5Cd2QzVlNLR0FTUlVHbzhpSjFfeWc?oc=5) — Google News · Global Economy\n"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-08-02",
     "generated_at": "2026-08-01T23:04:12.600496+00:00",
     "model": "glm-5.1",

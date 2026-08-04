@@ -1,0 +1,51 @@
+{
+  "model": "gpt-5.4-mini",
+  "lookback_hours": 48,
+  "max_items_per_report": 24,
+  "output_dir": "output",
+  "dios_output_dir": "Daily-Intelligence",
+  "market_symbols": {
+    "Nasdaq": "^IXIC",
+    "黄金": "GC=F",
+    "原油": "CL=F",
+    "美元指数": "DX-Y.NYB",
+    "十年美债收益率": "^TNX",
+    "BTC": "BTC-USD",
+    "VIX": "^VIX",
+    "NVIDIA": "NVDA"
+  },
+  "feeds": {
+    "ai": [
+      {
+        "name": "Google News · AI",
+        "url": "https://news.google.com/rss/search?q=%22artificial+intelligence%22+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+      },
+      {
+        "name": "Google News · AI 中文",
+        "url": "https://news.google.com/rss/search?q=AI+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+when%3A2d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Hacker News · AI",
+        "url": "https://hnrss.org/newest?q=AI"
+      }
+    ],
+    "industry": [
+      {
+        "name": "Google News · Global Economy",
+        "url": "https://news.google.com/rss/search?q=global+economy+industries+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+      },
+      {
+        "name": "Google News · Markets Policy",
+        "url": "https://news.google.com/rss/search?q=markets+central+bank+trade+policy+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+      },
+      {
+        "name": "Google News · 行业",
+        "url": "https://news.google.com/rss/search?q=%E8%A1%8C%E4%B8%9A+%E7%BB%8F%E6%B5%8E+%E6%94%BF%E7%AD%96+when%3A2d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · Technology Business",
+        "url": "https://news.google.com/rss/search?q=technology+business+energy+healthcare+manufacturing+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+      }
+    ]
+  }
+}
