@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-08-10 ACM-AC Intelligence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#17202a;
+      --muted:#667085;
+      --accent:#155eef;
+      --paper:#fff;
+      --bg:#eef3fb;
+      --line:#d8e3f1;
+      --soft:#f8fbff;
+      --good:#0f9d58;
+      --warn:#f59e0b;
+      --bad:#dc2626;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at top left, rgba(21,94,239,.10), transparent 28%),
+        linear-gradient(180deg, #f7faff 0%, var(--bg) 100%);
+      color:var(--ink);
+      font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    }
+    main {
+      max-width:1120px;
+      margin:24px auto 48px;
+      padding:0 20px;
+    }
+    .hero, .panel {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 14px 40px rgba(16,24,40,.06);
+    }
+    .hero {
+      padding:28px 30px;
+      margin-bottom:18px;
+    }
+    .eyebrow {
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+    h1 {
+      margin:.3rem 0 .5rem;
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.05;
+    }
+    .subtitle {
+      color:var(--muted);
+      max-width:860px;
+      margin:0;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .nav a, .button-link {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-weight:600;
+    }
+    .nav a:hover, .button-link:hover { background:#ecf4ff; border-color:#bdd3f8; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+      margin:0 0 18px;
+    }
+    .metric {
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 18px 16px;
+      box-shadow:0 12px 30px rgba(16,24,40,.04);
+    }
+    .metric .label {
+      display:block;
+      color:var(--muted);
+      font-size:.9rem;
+      margin-bottom:8px;
+    }
+    .metric .value {
+      font-size:2rem;
+      line-height:1;
+      font-weight:800;
+    }
+    .metric .meta {
+      display:block;
+      margin-top:8px;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .stack {
+      display:grid;
+      gap:18px;
+    }
+    .panel {
+      padding:22px 22px 18px;
+    }
+    h2 {
+      margin:0 0 12px;
+      font-size:1.1rem;
+    }
+    h3 {
+      margin:0;
+      font-size:1rem;
+    }
+    p { margin:.55rem 0; }
+    .muted { color:var(--muted); }
+    .keypoints, .mini-list {
+      margin:0;
+      padding-left:1.1rem;
+    }
+    .keypoints li, .mini-list li {
+      margin:.45rem 0;
+    }
+    .table-wrap { overflow-x:auto; }
+    table {
+      width:100%;
+      border-collapse:collapse;
+      font-size:.95rem;
+    }
+    th, td {
+      text-align:left;
+      padding:.72rem .7rem;
+      border-bottom:1px solid #e7eef8;
+      vertical-align:top;
+    }
+    th {
+      color:var(--muted);
+      font-weight:700;
+      background:#f8fbff;
+      position:sticky;
+      top:0;
+    }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+    .card {
+      display:block;
+      text-decoration:none;
+      color:var(--ink);
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px 16px 14px;
+    }
+    .card:hover {
+      background:#f2f7ff;
+      border-color:#bfd2ff;
+    }
+    .card .title {
+      display:block;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .card .meta, .card .desc {
+      display:block;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .risk-high { color:var(--bad); font-weight:700; }
+    .risk-mid { color:var(--warn); font-weight:700; }
+    .risk-low { color:var(--good); font-weight:700; }
+    .pill-row {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .pill {
+      padding:6px 10px;
+      border-radius:999px;
+      background:#f4f8fe;
+      border:1px solid var(--line);
+      font-size:.86rem;
+      color:var(--muted);
+    }
+    .section-link {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    @media (max-width:900px) {
+      .grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:700px) {
+      main { padding:0 14px; }
+      .hero, .panel { border-radius:16px; }
+      .hero { padding:22px 18px; }
+      .panel { padding:18px 16px 14px; }
+      .metric .value { font-size:1.7rem; }
+    }
+    </style>
+</head>
+<body>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">AC Intelligence · Daily Board</div>
+    <h1>2026-08-10</h1>
+    <p class="subtitle">今日 CE 的可观察增量是从已登记的 SOP 初稿建立了客户类型与十五组工作流的受限审核路径，并生成“短中文说明 + 可回填 Excel”的十三姨首轮本地审核包；它只为人工审核准备，不能证明工作流、SLA、角色、自动化或系统现状为真，也不构成发送、收件或生产动作。</p>
+    <div class="nav">
+      <a href="../../../../index.html">总看板</a>
+      <a href="../../../../latest.html">最新日报</a>
+      <a href="../../../../weekly/2026/week-33/index.html">本周看板</a>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="metric"><span class="label">当前状态</span><span class="value">🟡 CE 已把一份受限的 Merchant Support SOP 初稿登记为新的 P0–P3 审核基准，并在记录中完成 P0/P1 与 P2 准备；当前首轮十三姨审核包仅 owner-review-ready、未发送，P2 领域回应、P3、Frank/Eywa、FDE、生产和 Step 6 均未打开。</span><span class="meta">来自晨报基础信息</span></div>
+    <div class="metric"><span class="label">进展事项</span><span class="value">6</span><span class="meta">已完成 0 项</span></div>
+    <div class="metric"><span class="label">风险项</span><span class="value">6</span><span class="meta">需要持续跟踪</span></div>
+    <div class="metric"><span class="label">新增对话主题</span><span class="value">5</span><span class="meta">今日收口主题数</span></div>
+    <div class="metric"><span class="label">今日计划</span><span class="value">6</span><span class="meta">P0 2 / P1 4</span></div>
+  </section>
+
+  <section class="grid">
+    <div class="stack">
+      <section class="panel">
+        <h2>今日速读</h2>
+        <ul class="keypoints"><li>一句话结论：今日 CE 的可观察增量是从已登记的 SOP 初稿建立了客户类型与十五组工作流的受限审核路径，并生成“短中文说明 + 可回填 Excel”的十三姨首轮本地审核包；它只为人工审核准备，不能证明工作流、SLA、角色、自动化或系统现状为真，也不构成发送、收件或生产动作。</li><li>CE 主线：DEC-20260810-001 选择 SRC-20260810-001 为本轮唯一业务内容基准并禁止把旧八卡、Dossier、OMP、12/34 等内容映入新基线；后续记录显示 P0/P1 已通过 CE-owner review、P2 准备已通过，而领域审核仍待独立人类回应。</li><li>审核接口：DEC-20260810-011 选定一份简短中文说明和 Excel 回填表为首轮入口（七项整体判断、十五组工作流、负责人口径及 CE 协助）；详细 v0.2.0 Markdown 保留为内部底稿。REV-20260810-009 是 Codex 本地完整性检查，无 gate effect，不能代替人类领域审核。</li><li>验证结论：CE L2/L3 三份 bridge 均为 OK；workspace validation 仍失败，raw/input 94 份对 checksum sidecar 93 份，且两份既有外发 L1 文稿缺显式状态。该失败不证明或否定外部传输、业务正确性、工程交付或系统效果。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>进展看板</h2>
+        <div class="cards"><div class="card"><span class="title">CE 主线：新 SOP 基准与 P0/P1</span><span class="desc">SRC-20260810-001 登记一份作者、文档时点和证据方法未标注的 SOP 初稿；CE 的 P0/P1 记录只确认其受限的结构化表示，不确认任何步骤、时效、阈值、责任、告警或自动化的真实有效性</span><div class="pill-row"><span class="pill">🟡来源转述 / 人审仍需</span></div></div><div class="card"><span class="title">CE 主线：P2 审核准备</span><span class="desc">十三姨作为候选领域审核人、咸芝士直接人工发送及“回复先进入 raw”的路径已在记录中选择；精确发送仍须单独授权，actual send 与 receipt 均为 false</span><div class="pill-row"><span class="pill">🟡本地 ready-not-sent</span></div></div><div class="card"><span class="title">CE 主线：当前审核包与里程碑</span><span class="desc">当前首轮包是短 Markdown 加 Excel；详细 v0.2.0 仅为内部底稿。P2 结果等待领域回应，P3、G4.6、FDE 与 Step 6 held，既有 G4 overall 仍 partial</span><div class="pill-row"><span class="pill">🟡待具名领域审核</span></div></div><div class="card"><span class="title">CE sources / claims / gaps</span><span class="desc">今日 source extraction 全部标为 provisional / human review required；实际系统、字段/权限、数据新鲜度、生产运行、覆盖完整性及工作流的真实业务对应仍 unresolved</span><div class="pill-row"><span class="pill">🟡证据缺口未闭合</span></div></div><div class="card"><span class="title">关联 AC / ACM 项目</span><span class="desc">Project-AC、acm、global-disable-automation、deOMPlization 无当日 Git commit。acm 仍可见未提交的定价守卫、资源锁/冲突与 scheduler 相关实现和测试改动，但未取得本日报独立、可复现的测试通过、部署或运行回执</span><div class="pill-row"><span class="pill">🟡工作树观察，验证未知</span></div></div><div class="card"><span class="title">Dashboard</span><span class="desc">本日报按 daily-only 方式派生当日 brief.md、index.html，并更新 Project-AC 总入口和 latest.html；既有周报目录保持不变</span><div class="pill-row"><span class="pill">🟢已生成待核对</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>新增对话看板</h2>
+        <div class="cards"><div class="card"><span class="title">CE 审核推进</span><span class="desc">当前对话形成了“初稿仅作来源基准、先结构再领域审核”的 P0–P3 顺序；旧八卡/OMP/工程材料被明确排除，不能用来补写新 SOP 的未知事实。</span></div><div class="card"><span class="title">审核包形态</span><span class="desc">首轮以低负担的中文说明和 Excel 回填表收集整体、十五组工作流、负责人及 CE 支持需求；本地检查只验证可填写性和结构，不把 AI 输出升级为业务确认。</span></div><div class="card"><span class="title">发送与证据边界</span><span class="desc">包处于 owner-review-ready-not-sent；没有发送授权、实际发送、收件或十三姨回应。后续人工回应应先以原始材料注册，才可进行 CE 派生归纳。</span></div><div class="card"><span class="title">ACM 工作树</span><span class="desc">可见实现范围涉及特殊采购/销售价格、scheduler 默认配置、资源锁与冲突控制的相关文件；当前仅是未提交工作树证据，不能视为上线防护或运行结果。</span></div><div class="card"><span class="title">当天 Codex 对话索引</span><span class="desc">对话索引在约一分钟的有界读取内未返回可独立引用的当天摘要；按“不可读/未知”处理，不等同于没有聊天、调研、只读平台操作或验证工作。</span></div></div>
+      </section>
+    </div>
+    <div class="stack">
+      <section class="panel">
+        <h2>项目快照</h2>
+        <ul class="mini-list"><li>项目名称：Project AC / CE Context Engineering / AC Intelligence</li><li>汇报类型：跨项目日报（同日增量）</li><li>汇报日期：2026-08-10（Asia/Shanghai）</li><li>当前状态：🟡 CE 已把一份受限的 Merchant Support SOP 初稿登记为新的 P0–P3 审核基准，并在记录中完成 P0/P1 与 P2 准备；当前首轮十三姨审核包仅 owner-review-ready、未发送，P2 领域回应、P3、Frank/Eywa、FDE、生产和 Step 6 均未打开。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>风险与阻塞</h2>
+        <div class="cards"><div class="card"><span class="title">SOP 初稿被误读为现行事实</span><span class="desc">保留 source-reported / provisional 限制；对步骤、SLA、阈值、角色、告警、自动化和系统现状逐项等待具名人工审核或独立证据。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">审核准备被误读为已发送或已获确认</span><span class="desc">固定写明 owner-review-ready-not-sent、send authorization false、receipt false；仅人工实际事件可改变此状态。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">CE raw/checksum 覆盖不完整</span><span class="desc">validation 继续失败：一份 2026-08-04 receipt-class raw 缺 sidecar，计数 94/93；在补齐前不扩大对应材料的证据用途。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">两份旧外发 L1 文稿无显式状态</span><span class="desc">保持验证失败项可见；不推断其发送、收件、上传或下游效果。</span><div class="pill-row"><span class="pill risk-high">影响：高</span></div></div><div class="card"><span class="title">P2 人类领域回应缺失</span><span class="desc">P2 与 P3 分开：先取得十三姨的具名回应并按 raw 登记，再由 CE owner 复核是否关闭 P2；此前不打开 Frank/Eywa、FDE 或 Step 6。</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div><div class="card"><span class="title">ACM 未提交改动缺少独立验证</span><span class="desc">先取得可复现测试证据；不运行生产或写入流程，也不将代码存在等同于部署状态。</span><div class="pill-row"><span class="pill risk-mid">影响：中</span></div></div></div>
+      </section>
+      <section class="panel">
+        <h2>行动清单</h2>
+        <ul class="mini-list"><li>P0：生成并核对 2026-08-10 晨报及 Dashboard 衍生页，确认仅新增当日目录、总入口与 latest.html，不生成或改写周报。</li><li>P0：保持 CE validation 失败项可见：补齐 raw/checksum 覆盖，并为两份旧外发 L1 文稿补显式状态；完成前不扩大其证据用途。</li><li>P1：在独立发送授权与实际人工发送事件前，不发送审核包，不记录收件，也不进行 Frank/Eywa 上游编辑、系统上传、John 处理、FDE handoff 或 Step 6 行动。</li><li>P1：取得十三姨具名领域回应后，原样注册为新 raw，再对十五组工作流的真实有效性、负责人、遗漏和 CE 支持需求作受限归纳；未观察的系统/生产事实继续标记 Unknown。</li><li>P1：为 ACM 工作树的守卫与调度改动取得独立、可复现测试结果；不运行生产或写入流程。</li><li>P1：不修改 CE raw 或业务代码，不提交或推送 Git。</li></ul>
+      </section>
+      <section class="panel">
+        <h2>源文件</h2>
+        <p class="muted">/Users/wisdom/Projects/Project-AC/L1-communication/reports/morning-briefs/2026-08-10-morning-brief-ACM-AC.md</p>
+      </section>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
