@@ -2,99 +2,100 @@
 > 2026-08-13｜Thursday
 
 ## Today’s Thesis｜今日一句话
-AI 发展正从“生成能力竞赛”转向“可靠性与数据确权竞赛”，而宏观层面的通胀降温并未消除输入型风险，资本因此加速从纯软件 AI 向物理 AI 与新能源实体溢出。
+AI 的竞争正在从“谁能做出更强模型”转向“谁能把 AI 嵌进组织流程、责任链和资本链”，而今天的信号显示，落地阻力、治理需求与资金通道正在同时上升 [A1][A16][A19][A20]。
 
 ## ① Executive Summary｜30 秒
-1. **AI**：AI 编码与智能体的验证瓶颈及数据抓取冲突（Twitch）成为核心矛盾，产业界开始建立事故追踪与沙盒可观测性机制 [A3, A8, A13, A22]。
-2. **商业**：物理 AI（机器人）需求证实拓宽，电子皮肤等技术突破加速具身智能落地，中国货币政策定向赋能锂电池等实体制造 [B1, B11, B19]。
-3. **宏观**：美国 7 月通胀降至 3.4% 符合预期，但中国央行警告输入型通胀风险，资本在降息预期与避险情绪交织中流向黄金与新兴市场本土制造 [B23, B24, B3, B5]。
+1. **AI：** 日本企业尚未全面拥抱 AI 的调查结果，说明“技术可用”与“组织采用”之间仍有显著鸿沟；这意味着短期 AI 价值更多取决于流程重构，而非单纯模型能力 [A1]。  
+2. **商业：** 机器人“电子皮肤”与物理 AI 需求扩散的消息，指向硬件侧正在从演示走向更细分的工业场景，AI 价值链开始从软件外溢到传感、制造与系统集成 [B1][B11]。  
+3. **宏观：** 市场同时呈现“股市与 AI 龙头偏强、黄金与美元也偏强”的组合，这更像是风险偏好改善与对冲需求并存，而不是单一方向的明确再定价 [Market Table]。
 
 ## ② AI Daily
 
-### AI 代码验证瓶颈与反噬
-**What Happened**：开发者普遍反映 AI 代码验证已成为主要瓶颈，因担心 AI 代码静默崩溃而不敢交付上线 [A3]；同时“AI 编码及其不满”情绪在技术社区蔓延 [A19]。
-**Why It Matters**：AI 提升了生成速度，但验证成本并未消失，反而从“编写成本”转移为“审查成本”。
-**Second-order Effect**：AI 生成代码量激增 → 人工验证带宽成为硬约束 → 交付风险累积 → 迫使开发流程引入严格的沙盒与运行时可见性工具 [A22]，并催生针对 AI 代码的专门测试框架 [A1]。
+### 1）日本企业 AI 采用仍未全面展开 [A1]
+#### What Happened
+Reuters 调查显示，日本企业“强多数”仍未完全拥抱 AI [A1]。材料没有给出具体比例、行业分布或采用细节，因此只能确认这是一个“普遍滞后”的信号，而不能延伸出更细的全国行业画像 [A1]。
 
-### 数据确权冲突与水印军备竞赛
-**What Happened**：亚马逊默认使用 Twitch 主播内容训练 AI 引发社区强烈不满 [A8]；同时，移除 AI 文本水印的工具已公开出现 [A12]。
-**Why It Matters**：模型对高质量数据的饥渴导致平台单方面更改条款抓取数据，触发创作者反弹；而水印移除工具让 AI 内容溯源失效。
-**Second-order Effect**：平台单方面抓取数据 → 创作者反弹与法律诉讼 → 水印与反水印技术军备竞赛 [A12] → 最终迫使立法确立数据分账机制或强制 opt-out。
+#### Why It Matters
+这条信息的重要性不在于“AI 很热”，而在于它暴露了采用曲线的核心瓶颈：技术供给并不自动转化为组织吸收。换言之，AI 的边际收益并不只由模型性能决定，还取决于流程改造、数据治理、权限分配与责任归属。若企业没有完成这些配套环节，AI 就会停留在试点层面 [A1]。
 
-### 智能体安全与事故追踪建制化
-**What Happened**：英伟达、思科等 120 家组织提议建立 AI 智能体事故追踪机制 [A13]；情报界 CIO 警告自主 AI 智能体正在重塑网络威胁 [A17]。
-**Why It Matters**：智能体从沙盒走向生产环境，其不可预测性带来的不是单一软件崩溃，而是真实世界的物理与网络安全灾难。
-**Second-order Effect**：自主智能体部署 → 网络攻击面扩大与事故频发 [A17] → 行业建立类似航空业的事故追踪库 [A13] → 智能体保险与合规审计成为强制前置条件。
+#### Second-order Effect
+当“是否采用 AI”变成组织结构问题，市场关注点会从算力与模型转向咨询、系统集成、工作流工具、审计与合规。A1 所反映的不是单点落后，而是一个更大的机制：AI 越强，组织越需要重新定义人机分工；分工越难，落地越慢；落地越慢，资本越倾向押注能减少整合摩擦的中间层服务。
+
+### 2）AI 智能体治理开始前移 [A16][A20]
+#### What Happened
+材料显示，英伟达、思科等 120 家组织提议建立 AI 智能体事故追踪机制；同时，情报体系 CIO 们警告自主 AI 智能体正在重塑网络威胁格局 [A16][A20]。这两条信息共同指向同一件事：AI 智能体不再只是“能力展示”，而是被视为需要事故记录、责任追踪与安全治理的对象 [A16][A20]。
+
+#### Why It Matters
+这说明行业的关注重心正在从“能不能自动化”转向“自动化之后如何控制后果”。一旦智能体能够执行动作、调用工具、跨系统操作，风险不再只是输出错误，而是行为错误。治理需求因此前移：不是出事后修补，而是在系统设计阶段就加入追踪、归因和约束 [A16][A20]。
+
+#### Second-order Effect
+治理会反过来塑造产品架构：日志、审计、权限分层、回滚机制和安全沙箱将变成默认功能，而不是可选附件。A1 的组织采用迟缓与 A16/A20 的治理前移之间，形成一个典型反馈环：越想大规模部署，越必须先把事故责任说清；越强调责任，部署速度越可能先慢后快，形成“先阻后通”的采用路径。
+
+### 3）AI 创业与基础设施信号分化 [A2][A17][A19]
+#### What Happened
+Hacker News 出现“AI agent 买卖服务的市场”概念帖，而 Reuters 同时报道 Cerebras 因业绩未达预期股价大跌 16% [A2][A17]。另有关于华尔街与 Nvidia 构建“另类资金管道”支撑 AI 热潮的报道标题出现 [A19]。
+
+#### Why It Matters
+这组材料显示，AI 生态正在同时经历两种相反力量：一边是“更抽象的交易与代理协作设想”，另一边是“更现实的盈利验证压力” [A2][A17][A19]。前者说明想象空间仍在扩张，后者说明资本市场开始要求基础设施公司证明收入质量与兑现速度。也就是说，AI 叙事并没有消失，但估值的耐心正在被财务结果重新校准。
+
+#### Second-order Effect
+如果“agent-to-agent”市场真的形成，它可能会把软件采购、服务分发和结算方式重写为机器可读规则；但与此同时，像 Cerebras 这样的公司若不能持续满足业绩预期，市场会区分“AI 话题”与“AI 盈利”。A2 → A19 → A17 这条链条说明：想象力推动资金流向，资金再倒逼财务验证，验证不及预期时，叙事溢价会迅速收缩。
 
 ## ③ Business Daily
 
-### 制造/机器人：物理 AI 的穿透
-Q2 2026 机器人财报显示物理 AI 需求正在拓宽 [B11]，电子皮肤让机器人更接近人类触觉 [B1]。AI 解决了“如何构建”，但“构建什么”仍由人类意图决定 [B2]。
-**机制**：大模型降本 → 机器人“大脑”成本下降 → 硬件（电子皮肤等）突破补齐感知短板 → 物理 AI 从单一工业场景向泛化服务与家庭场景渗透。
+### 科技：物理 AI 与人机触感继续下沉 [B1][B11]
+“电子皮肤”让机器人更接近人类触觉，而 Q2 2026 机器人财报被解读为物理 AI 需求在扩散 [B1][B11]。这意味着市场关注点正在从“看得见的生成式 AI”转向“摸得到的实体 AI”。这里的关键不是概念更新，而是商业边界变化：当 AI 要进入仓储、制造、医疗辅助或复杂设备操作时，传感器、材料、控制系统与系统集成的价值占比会上升 [B1][B11]。
 
-### 能源：供应链的本土化重构
-非洲国家押注本土太阳能工厂以解决停电和就业问题 [B5]；中国央行货币政策加大对锂电池行业的赋能力度 [B19]。
-**机制**：电网不稳定/碳中和约束 → 依赖进口设备转向本土化制造 → 政策信贷定向倾斜 → 新能源产业链从集中式全球化向分布式本土化重构。
+### 金融：资金通道与风险定价同时变化 [A19][B9][B14]
+关于 AI 热潮的“资金管道”标题，以及尼日利亚央行放松银行交易外汇和国债的借贷规则、SMFG 股价上涨等信号，共同说明金融体系仍在寻找承接实体与主题投资的方式 [A19][B9][B14]。这类材料的共同点是：资金并未停滞，而是在寻找更适合的套利、做市和配置路径。需要强调的是，标题层面的“放松”“上涨”并不自动等于趋势确认，仍需回到原文验证政策细节和市场持续性 [B9][B14]。
 
-### 金融/半导体：算力基础设施金融化
-Cerebras 股价暴跌 16% 因业绩未达预期 [A14]；华尔街和英伟达正在为 AI 热潮构建奇特的资金管道 [A16]。
-**机制**：算力军备竞赛 → 资本支出极度膨胀 → 传统股权融资不足以支撑 → 华尔街设计异形金融管道（如资产证券化/租赁）→ 算力基础设施金融化。
+### 能源：金价与油价分化，反映风险与通胀的双重定价 [B3][Market Table]
+黄金相关标题提示市场仍在讨论降息/通胀/避险的组合，而当天表格中黄金上涨、原油回落，显示市场对“对冲需求”和“通胀压力”的定价并不一致 [B3][Market Table]。这类分化通常意味着投资者并非只在押注单一宏观路径，而是在对冲多个尾部情景。
+
+### 制造/工业：产业竞争力正在被重排 [B20][B5]
+“亚太制造竞争力的六大变化”和非洲自建太阳能工厂的消息，都在说明制造业不再只是成本竞争，而是电力、供应链、技能与本地化能力的综合竞争 [B20][B5]。这类变化的共性是：产业升级越来越依赖基础设施能否稳定供给，而不是单个工厂的效率优化。
 
 ## ④ Macro Observation｜机制分析
+**世界正在发生什么？**  
+从材料看，全球同时出现三条线：一是 AI 从模型能力转向组织落地与治理；二是实体产业开始吸收 AI，尤其是机器人和传感器方向；三是市场在增长、避险与通胀对冲之间并行定价 [A1][A16][B1][B11][Market Table]。
 
-**世界正在发生什么？**
-美国 7 月通胀降至 3.4% 符合华尔街预期 [B23]，市场据此交易降息预期；但中国央行警告输入型通胀风险，认为海外加息可能仍存 [B24]；前中国总理朱镕基逝世 [B18]，其代表的市场经济架构引发历史性回顾。
+**为什么发生？**  
+原因不在于“AI 热度上升”这么简单，而在于技术进入部署阶段后，摩擦成本迅速显性化。企业一旦尝试把 AI 接入流程，就必须处理权限、责任、数据、合规和异常处置；智能体越自动，治理越重要 [A1][A16][A20]。与此同时，物理 AI 的价值链更长，落地会把传感、制造、维护和集成一起拉进来 [B1][B11]。
 
-**为什么发生？**
-全球供应链与政策周期错位。美国通胀降温源于商品价格回落，但服务与工资粘性仍存；中国面临海外利率高位带来的汇率与输入型价格压力，导致内外政策空间受挤压。
+**资本如何流动？**  
+资本正在从“纯叙事”向“可验证现金流”与“可嵌入流程”的方向再分配。AI 基础设施仍有资金关注，但市场也在区分业绩兑现能力；另一方面，黄金、美元、纳指、VIX 的同时变化表明，资金并非单边冒险，而是在风险偏好改善的同时保留对冲仓位 [A17][A19][Market Table]。
 
-**资本如何流动？**
-资本在“软着陆”叙事下回流科技（纳指涨），但同时增持黄金对冲宏观不确定性（黄金涨 [B3]）。资本从纯软件溢出至实体：物理 AI、新能源本土制造与太空经济 [B11, B5, B14]。
-
-**接下来关注什么？**
-美联储对 3.4% 通胀的解读（是否确认降息路径），以及中国应对输入型通胀的政策对冲（降准降息空间是否受压）。
-
-**机制与反身性**：
-通胀降温 → 降息预期升温 → 金融条件宽松 → 资本涌入 AI 算力基建 [A16] → 算力能耗激增 → 电价与能源通胀反弹。此反身性循环意味着，软着陆带来的宽松可能正是引发下一轮能源供需紧张与通胀反弹的种子。
+**接下来关注什么？**  
+核心不是下一条 AI 新闻，而是三种验证：第一，企业采用是否从试点变成流程化；第二，智能体治理是否变成行业默认标准；第三，物理 AI 是否从概念扩散到可持续收入。若这些验证成立，今天看到的不是短期热度，而是 AI 产业从“生成能力”向“组织基础设施”迁移的早期阶段；若验证失败，则说明当前更多仍是叙事先行、落地滞后 [A1][A16][B11]。
 
 ## ⑤ Signal Dashboard
 | 指标 | 最新值 | 今日 | 信号 |
 |---|---:|:---:|---|
 | [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC) | 26,588.49 | ↑ +0.54% | 风险偏好改善 |
-| [黄金](https://finance.yahoo.com/quote/GC%3DF) | 4,459.30 | ↑ +1.74% | 避险/通胀对冲增强 |
-| [原油](https://finance.yahoo.com/quote/CL%3DF) | 82.69 | ↓ -0.61% | 通胀压力缓解 |
+| [黄金](https://finance.yahoo.com/quote/GC%3DF) | 4,465.80 | ↑ +1.89% | 避险/通胀对冲增强 |
+| [原油](https://finance.yahoo.com/quote/CL%3DF) | 82.71 | ↓ -0.59% | 通胀压力缓解 |
 | [美元指数](https://finance.yahoo.com/quote/DX-Y.NYB) | 99.98 | ↑ +0.17% | 金融条件偏紧 |
 | [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX) | 4.68 | → -0.04% | 中性 |
-| [BTC](https://finance.yahoo.com/quote/BTC-USD) | 63,361.58 | ↓ -0.30% | 中性 |
+| [BTC](https://finance.yahoo.com/quote/BTC-USD) | 63,306.01 | ↓ -0.39% | 风险偏好降温 |
 | [VIX](https://finance.yahoo.com/quote/%5EVIX) | 14.55 | ↓ -4.78% | 风险偏好改善 |
 | [NVIDIA](https://finance.yahoo.com/quote/NVDA) | 224.09 | ↑ +3.03% | 风险偏好改善 |
 
 ## ⑥ Deep Insight
-
-### AI 代码验证瓶颈与“生成即负债”范式转移
-
-当前 AI 编码工具的普及正面临一个严峻的范式转移：代码生成的边际成本趋近于零，但代码验证的边际成本并未下降，甚至因幻觉和隐性依赖而上升。开发者普遍反映，AI 代码验证已成为主要瓶颈，由于担心 AI 代码静默崩溃，他们不敢将代码交付上线 [A3]。Cal Newport 提出的“AI 编码及其不满”精准概括了这一困境 [A19]：AI 加速了构建过程，但“构建什么”以及“构建是否可靠”的重担完全压在人类审查者身上 [B2]。
-
-这揭示了一个容易被忽略的非共识视角：在软件工程中，**AI 生成的代码正从“资产”转变为“负债”**。传统上，代码是创造价值的资产；但在 AI 辅助下，未经充分验证的代码引入了未知的技术债和安全漏洞。AI 生成代码量激增 → 人工验证带宽成为硬约束 → 交付风险累积。这种约束反转正在催生新的产业需求：AI 沙盒与运行时可见性工具 [A22]、AI 智能体事故追踪机制 [A13]，以及针对 AI 代码的专门测试框架 [A1]。
-
-更深层的机制在于，AI 编码的“速度暴政”破坏了传统软件工程的反馈循环。过去，编写慢意味着有更多时间在脑内推演；现在，瞬间生成的大段代码剥夺了开发者的心流审查时间，导致“看不过来”的认知过载。此外，AI 课程甚至会将 Golang 错误地生成为围棋游戏内容 [A11]，这种跨语境的幻觉在代码中极难通过肉眼发现，往往在运行时才爆发。
-
-**反方观点**：随着模型能力提升（如推理增强），幻觉率将显著下降，AI 也能自动生成测试用例自我验证，验证瓶颈只是暂时的过渡现象。
-
-**证伪条件**：如果未来 6 个月内，主流 AI 编码工具的代码采纳率从目前的 20-30% 跃升至 70% 以上，且生产环境重大故障率未同比上升，则说明“验证瓶颈”已被模型自身的可靠性进化所消解，而非依赖外部验证工具生态。若非如此，AI 编码工具将被迫降级为“只读参考”而非“直接集成”工具。
+一个容易被忽略的视角是：AI 竞争的下一阶段，真正稀缺的未必是更强的模型，而是“可被组织接受的失败率”。今天的材料里，日本企业尚未全面拥抱 AI [A1]，不是因为它们没看到收益，而是因为一旦 AI 进入真实流程，错误就不再只是技术噪声，而会变成管理、审计、法律和声誉问题。与此同时，行业又在推动智能体事故追踪机制 [A16]，情报系统也开始把自主智能体视为新的威胁源 [A20]。这说明市场正在把 AI 从“能力工具”升级为“责任系统”来处理。  
+非共识之处在于：很多人会把这解读为落地受阻，但更准确的说法是，落地标准正在抬升。过去软件时代，企业可以容忍一定程度的试错；而当 AI 能执行动作、调用接口、影响资金和供应链时，容错率必须被制度化压缩。于是，真正会受益的，不一定只是最会写模型的公司，而是能把验证、追踪、权限、回滚和合规封装成标准件的公司。A1 与 A16/A20 共同指向一个机制：不是 AI 先大规模渗透再补治理，而是治理先成为采用门槛，随后才是规模化。  
+反方观点是：市场最终会优先奖赏性能和成本，治理只是短期摩擦，长期会被平台化解决。这个观点并非没有道理，因为一旦工具链成熟，治理成本会下降，采用速度可能重新加快。证伪条件也很明确：如果未来 1—2 个季度内，企业 AI 采购和智能体部署并未明显受到审计、事故和合规要求拖累，且收入快速增长来自少数基础设施公司而非治理型中间层，那么“责任系统成为核心瓶颈”的判断就需要修正。反过来，如果更多企业开始把事故记录、权限分层和验证流程列为采购前提，那么今天的信号就意味着 AI 正进入一个更慢、更稳、也更难被忽视的制度化阶段。
 
 ## ⑦ Tomorrow Watch
-1. 验证：美国 7 月 CPI 数据的细分项（尤其是核心服务与住房）是否支撑通胀持续降温的叙事 [B23]。
-2. 关注：中国央行针对输入型通胀风险的具体对冲工具落地（如外汇干预或定向流动性投放）[B24]。
-3. 追踪：亚马逊 Twitch 默认数据抓取政策引发的创作者集体诉讼或平台退群规模 [A8]。
-4. 验证：Cerebras 股价暴跌后，市场对非 GPU 算力架构（如晶圆级计算）的资本开支意愿是否发生实质性萎缩 [A14]。
-5. 关注：英伟达等 120 家组织提议的 AI 智能体事故追踪机制是否获得标准制定机构（如 NIST 或 ISO）的采纳程序启动 [A13]。
+1. 关注 Reuters 是否发布更多关于日本企业 AI 采用障碍的细分信息 [A1]。  
+2. 验证 AI 智能体事故追踪机制的提议是否出现更具体的实施框架或成员扩展 [A16]。  
+3. 追踪 Cerebras 业绩后续解读是否延续“AI 基础设施估值分化”主题 [A17]。  
+4. 比较机器人与物理 AI 相关公司是否继续出现“需求扩散”的新表述或财报更新 [B11]。  
+5. 关注市场是否延续“黄金与纳指同强、BTC偏弱”的分化格局 [Market Table]。
 
 ## ⑧ One Chart
-
 ![Daily Market Pulse](assets/chart.svg)
 
-图表显示了风险资产（纳斯达克、英伟达）与避险资产（黄金）的同步走高，而 VIX 指数大幅下降。这种看似矛盾的同向上涨，反映了市场在通胀降温带来的流动性宽松预期下，同时增持风险资产与抗通胀/避险资产，暗示宏观交易处于“软着陆”与“隐性风险”的叠加态中，相关性并非单向因果。
+这张图反映的是同一交易窗口内不同资产的方向差异：风险资产、避险资产与美元并未整齐同向 [Market Table]。它更像是在提示市场处于多重叙事并存的状态，而不是单一宏观预期的完全胜出。
 
 ## ⑨ Quote of the Day
 
@@ -105,41 +106,33 @@ Cerebras 股价暴跌 16% 因业绩未达预期 [A14]；华尔街和英伟达正
 
 **Why it matters today**：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。
 ## ⑩ Action Items｜今天值得思考什么
-1. 思考：你的组织中，AI 生成的代码或内容，审查成本是否已经超过了从零开始编写的成本？
-2. 验证：平台（如 Twitch）的用户协议中关于数据训练的 opt-out 条款是否具备法律可执行性 [A8]。
-3. 追踪：物理 AI（机器人）在 Q2 财报中需求拓宽的具体应用场景，是否正在从仓储物流向更复杂的柔性制造转移 [B11]。
-4. 比较：华尔街为 AI 算力构建的“异形资金管道” [A16] 与传统数据中心 REITs 在融资成本和期限错配上的风险差异。
-5. 关注：中国央行“金融赋能锂电池”政策 [B19] 与非洲本土太阳能工厂建设 [B5] 在供应链重构中的共振效应。
+1. **关注** AI 落地最先卡住的是技术、流程还是责任边界。  
+2. **验证** 智能体治理是否会从倡议走向采购标准。  
+3. **比较** 物理 AI 与纯软件 AI 的商业化路径差异。  
+4. **追踪** 市场是否继续呈现“风险偏好与避险并存”的结构。  
+5. **思考** 当失败率必须被制度化管理时，谁会成为新的基础设施层。
 
 ## 信息边界
-本报告新闻来源覆盖 Hacker News、Google News（科技、宏观、政策）、Reuters、WSJ、Bloomberg 等英文与中文聚合源。时效截至 2026 年 8 月 12 日晚间（UTC）。市场数据为最近交易日收盘值。部分中文新闻经由 Google News RSS 聚合，重要判断请依链接回溯原文验证。未包含未提供的一手产业数据或非公开信源。
+本文仅使用用户提供的 Reuters、Hacker News、Google News 聚合标题/摘要及市场表格数据。由于多条新闻为二手聚合，正文判断中凡涉及具体机制与行业含义，均应回到原始报道核验。市场数据仅反映所给出的最近交易日快照，不代表实时行情；未提供具体日期对应的完整盘中背景，因此有关趋势的表述仅限于材料内可见信号。
 
 
 ## Sources
 
 ### AI
 
-- [A1：Agentic AI tests for orchestrators on CLI](https://github.com/insightitsGit/prism-eval) — Hacker News · AI
-- [A3：Ask HN: Is AI code verification becoming your main bottleneck?](https://news.ycombinator.com/item?id=49279494) — Hacker News · AI
-- [A8：亚马逊将默认使用Twitch主播内容训练AI模型引发社区强烈不满- AI 人工智能 - cnBeta.COM](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsQkNhaEJmOXU1YWdGcE9WR045WVlzd1pOcnhTLV9QcFBfMHZhc3NTR1RlZWptWnVKUTNjVC1kOEVnczh0cmUtWkFSZVRVaUcxNVUtS1ljclFieG00LXZ3bQ?oc=5) — Google News · AI 中文
-- [A11：AI Course for Golang incorrectly generates content about the Go board game](https://github.com/nilbuild/developer-roadmap/issues/10226) — Hacker News · AI
-- [A12：Show HN: Remove AI Watermark from Text](https://nomark.me/#text-watermark) — Hacker News · AI
-- [A13：英伟达、思科等120家组织提议建立AI智能体事故追踪机制 - finance.sina.cn](https://news.google.com/rss/articles/CBMisgFBVV95cUxQb3BlLVRvTFpFX01kS0RUN1d0XzZ3Vlo2b0NnLS11V2xuVThKRHBDdEFNYjByVzl5UF9sTzlFbE9lb3d1Ul9Hdk5mcjlXN2JkMXZwdUVyOFB0d3RfU3lkYTRaLVcyN2hEVmgwVGsyYzhFMGJpSVFXeGh0UGRHZl84cmFqZVdMWWRUUlJhR1FXS1Bwdi1Fd2hXWGhzdnZmWXBLbl84dWxIa1BqQWhzSnNudHFn?oc=5) — Google News · AI 中文
-- [A14：Cerebras shares plummet 16% after results fail to impress investors - Reuters](https://news.google.com/rss/articles/CBMingFBVV95cUxPS3RxTUJxMTh2Mk9XSmgxdm1MZDh6MlRtcVl5aFM1bmF1ajVmWlFnUF9nNU0yYjloQ0pON2VSWFZBYTVldmJ0TGI5N2psYlcwZVRuSURZaUM1NkYzVkh4NGVNRUtjd0F0M3RMTno2X0RSNG9VbF91V2lDOUh0OG5nSDJiY2M4cDdrM1lGRnNicldnNXBBQTBDRFVzNHdJQQ?oc=5) — Google News · AI
-- [A16：Why Wall Street and Nvidia Are Building an Exotic Money Pipeline for the AI Boom](https://www.wsj.com/tech/ai/why-wall-street-and-nvidia-are-building-an-exotic-money-pipeline-for-the-ai-boom-346ba482) — Hacker News · AI
-- [A17：Intelligence Community CIOs Warn Autonomous AI Agents Are Reshaping Cyber Threat Landscape - ExecutiveGov](https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1FLd2hJQWJubUNZel9HZFJvN2ZaeXZBYTJNdnRFWGlGbDY1NnFaV3lSeVhhSkJwdlpsZWdWcFl3bGtJazhLZmVJblNCYVpOUjZmLWFUdUZzSVJRVDRDcjlxVzhvbm5HeUIycVpQRWxKdmt5UXgzdlpieUV6dXJvQzlTQ1FfNDFQV3VfWjF0Vk8?oc=5) — Google News · AI
-- [A19：AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) — Hacker News · AI
-- [A22：AI Agent Sandboxes Stop Escapes. They Don't Tell You What Happened Inside](https://rye.ai/blog/ai-agent-sandboxes-ebpf-runtime-visibility/) — Hacker News · AI
+- [A1：Strong majority of Japanese firms have yet to fully embrace AI: Reuters poll - Reuters](https://news.google.com/rss/articles/CBMisAFBVV95cUxNekllTVFtYmFKdy1HY1ZRWllGSmZLTDUtN3M1cVFOd0taZEZVNF9pcHhIX3czN1JXS0Jzb0RqTl9NWURjWlVFOUo2RDFEQUVtU1phN1pUc2p1ekdmLXYwUVo3RDYtX1NFZnNOa0s4ZE1wQnNZcFE2N2tmRjZWaUYzUGZseFo3OUV2bWJ6OGFGXzdaa3M4UUZhSEpsUjVreEFfWlRlSXNNRzd0OUZDTUo3Zw?oc=5) — Google News · AI
+- [A2：Show HN: A marketplace where AI agents buy services from AI agents](https://aaas-marketplace-1089237826218.asia-northeast1.run.app) — Hacker News · AI
+- [A16：英伟达、思科等120家组织提议建立AI智能体事故追踪机制 - 新浪财经](https://news.google.com/rss/articles/CBMisgFBVV95cUxQb3BlLVRvTFpFX01kS0RUN1d0XzZ3Vlo2b0NnLS11V2xuVThKRHBDdEFNYjByVzl5UF9sTzlFbE9lb3d1Ul9Hdk5mcjlXN2JkMXZwdUVyOFB0d3RfU3lkYTRaLVcyN2hEVmgwVGsyYzhFMGJpSVFXeGh0UGRHZl84cmFqZVdMWWRUUlJhR1FXS1Bwdi1Fd2hXWGhzdnZmWXBLbl84dWxIa1BqQWhzSnNudHFn?oc=5) — Google News · AI 中文
+- [A17：Cerebras shares plummet 16% after results fail to impress investors - Reuters](https://news.google.com/rss/articles/CBMingFBVV95cUxPS3RxTUJxMTh2Mk9XSmgxdm1MZDh6MlRtcVl5aFM1bmF1ajVmWlFnUF9nNU0yYjloQ0pON2VSWFZBYTVldmJ0TGI5N2psYlcwZVRuSURZaUM1NkYzVkh4NGVNRUtjd0F0M3RMTno2X0RSNG9VbF91V2lDOUh0OG5nSDJiY2M4cDdrM1lGRnNicldnNXBBQTBDRFVzNHdJQQ?oc=5) — Google News · AI
+- [A19：Why Wall Street and Nvidia Are Building an Exotic Money Pipeline for the AI Boom](https://www.wsj.com/tech/ai/why-wall-street-and-nvidia-are-building-an-exotic-money-pipeline-for-the-ai-boom-346ba482) — Hacker News · AI
+- [A20：Intelligence Community CIOs Warn Autonomous AI Agents Are Reshaping Cyber Threat Landscape - ExecutiveGov](https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1FLd2hJQWJubUNZel9HZFJvN2ZaeXZBYTJNdnRFWGlGbDY1NnFaV3lSeVhhSkJwdlpsZWdWcFl3bGtJazhLZmVJblNCYVpOUjZmLWFUdUZzSVJRVDRDcjlxVzhvbm5HeUIycVpQRWxKdmt5UXgzdlpieUV6dXJvQzlTQ1FfNDFQV3VfWjF0Vk8?oc=5) — Google News · AI
 
 ### Business & Macro
 
 - [B1：Electronic skin brings robots one step closer to human touch - Digital Journal](https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjJYaWp5cS14YkZVT1JaQzRVY1A1T2VXbW5OUjdXLTVOQUVpLVVoTnV6b3hUT2tMZmZjVmRhTWxtREJUdV9icUlqWEtVZnBWb0k4QjZKdGMwR05JNTRIa2VrWWl4d2F3U0NORjNoSENNZjRiblIyOTVvMTNDd3BhUi1xRUFiNVRKSjdrckhBUmdDU3pCT0ZRV0VqZTdzQktMQWc?oc=5) — Google News · Technology Business
-- [B2：AI Eases Building, Sure, But Knowing What To Build Is Still A Human Task - Automation World](https://news.google.com/rss/articles/CBMixwFBVV95cUxPUjJfZE9QUWY5b29PSHNaTnIzNU9adVQtdnVNZHRBdEVHWXdfcm0wVURNQ3RBdGNHVHAyRFNqa1E2ZzhvczFJMnBkbEtRTUMwRFg3M2V4emljY1oyN04teWZzYmUySnlqelFZT053aFRzZ1AxT1VLNERlUTZGLV9qZ0RXNmYyTVItWUlCTm1XSTJ4Q1Z4V0tuZEFyNmJzZXBBR1FNdFVoV2JSaGpQQmQ4VlNmSjA5ZXVBc09wVFhUdlVQMU5taG4w?oc=5) — Google News · Technology Business
-- [B3：How the market is trading gold as Fed rate hike and inflation odds shift - CNBC](https://news.google.com/rss/articles/CBMihgFBVV95cUxQcE9EUXZra0w3S0ZDbGRzTHRDc1dyMEc0ZkpWVEFaeElqYVN5eWFFdzhPVE1qTDBPdnJPNHc0UlloNlhQem1KQUhhZTVOVTJWT1JCelRnUkpBLU9BaGs2blVNT2NZaUFlYUJpOVRBeVZndE9TaE5aOWxieHlwRFJsLVhRR3p3d9IBiwFBVV95cUxOV0ZZUWFRWEsyVGtkaFdSTGlYRi1BN290OEdpdFJ4dU8yVXFGbksxQmtZN0hfdTRuT05BUHQyR29Hdm5XdHhmOEhTUTNOSmFHTjB3cDRaVnlMTEtTUjJGa3hadFFmLVQ4SkRmbjdSNFJrVjd5cTVja2Q2OG1ZLTNGSTlrdTBiVmJnWUVJ?oc=5) — Google News · Markets Policy
+- [B3：Where gold price is headed next as Fed rate hike and inflation odds change direction - CNBC](https://news.google.com/rss/articles/CBMihgFBVV95cUxQcE9EUXZra0w3S0ZDbGRzTHRDc1dyMEc0ZkpWVEFaeElqYVN5eWFFdzhPVE1qTDBPdnJPNHc0UlloNlhQem1KQUhhZTVOVTJWT1JCelRnUkpBLU9BaGs2blVNT2NZaUFlYUJpOVRBeVZndE9TaE5aOWxieHlwRFJsLVhRR3p3d9IBiwFBVV95cUxOV0ZZUWFRWEsyVGtkaFdSTGlYRi1BN290OEdpdFJ4dU8yVXFGbksxQmtZN0hfdTRuT05BUHQyR29Hdm5XdHhmOEhTUTNOSmFHTjB3cDRaVnlMTEtTUjJGa3hadFFmLVQ4SkRmbjdSNFJrVjd5cTVja2Q2OG1ZLTNGSTlrdTBiVmJnWUVJ?oc=5) — Google News · Markets Policy
 - [B5：African nations bet on homegrown solar factories to cut blackouts and create jobs - The Cool Down](https://news.google.com/rss/articles/CBMipAFBVV95cUxQVnZMdG1rZlFSeG5nQmIwdktNV2JxbTV4MWExQXBaaU5MVGc5eDFTYVFtVmw4NWEwRks2dktRUXYtWnQ5R0VuNnUyUVR1azRKNC1OaXRRZDZjWl94SU5CaFlscHIyQnNUUlZteWxFUWdWUEwyV3RlXzFvRGhwYnY3b1dKS2JSbk9wZXprQUdHR2gzd1R1SG1xdEJKQXQwaWY5Y0E5YQ?oc=5) — Google News · Technology Business
+- [B9：CBN relaxes borrowing rules for banks trading FX, government securities - Punch Newspapers](https://news.google.com/rss/articles/CBMilgFBVV95cUxQczRXbWtvY0JyUEVHczF4Y0VaREsyRW5vdWZMUHRGYmFDUkdQVzlNT3JXalVVZHZ2R192c0JZY0h1dFBSdzdzNEJBN05Xb2ROdUFxOFJlN2d0Q3dSQ3JCV2Q2Vl9Ja04tdUstQXhpOXF6dlVIRHplWURqamFMV0VXX3JlbmQxUzU5Ry1WQXpJZ3AwMXRRVnc?oc=5) — Google News · Markets Policy
 - [B11：Q2 2026 Robotics Earnings Show Physical AI Demand Broadening - ETF Database](https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnoxNlY3cXlveDJNRTNzMjNfLVdzaExvZ2s5Z3dqV1NzcUdLZTJhVUotWktpVVJXX2pvMHNHREdaOUp3djJ3UzYxdEp6a2VlZnVzb0NwbEZOMjJDSUh2eFdUTEJnNmQtb1lIUlBnQ09KWnhPeExQZkF6QV9LSzQ3NWd3WkUxb3BUb01iQ1I5dEljdGRvTTlZdi11Sk9XV21GTlE?oc=5) — Google News · Technology Business
-- [B14：Investing In The Space Economy: The Syntax Space Industry Index - Seeking Alpha](https://news.google.com/rss/articles/CBMimwFBVV95cUxORUptYXl2SnBkeFZieTMzNzVCdE56ejZ1NzY3Sl9qdTloNlFaSnZjZTl6Nk1jNGZLRnJfeFZoOGJYUURLWGdHVl9lNE9lb3RxZFREaGplN3JJZFg4TnpmNGhZVTRNLXVpbTJDRy12ZXRWRXZQVmlTS3paUl9YWnVOTUotTmkxWWhFc0dfOWlPODI3Z0xxamFEaFVESQ?oc=5) — Google News · Global Economy
-- [B18：Former Chinese Premier Zhu Rongji Dies, Market Economy Architect - 조선일보](https://news.google.com/rss/articles/CBMihAFBVV95cUxNQzV3V3hIVDdoX09BX2RwYW9KNzJTWVBZcVFpNlFnY1Fqb0hzSUk1X3VYQ1N3anVHTkVyOXNFTkZmUDVxTGYwWUI2WGstS2F3dU4xMGVmZUhZMkdicnV5ekZjUDJqMXd0aXBjdGw4d0V4eHBiOV8tdWRoNENmeDFMMkdfOGc?oc=5) — Google News · Markets Policy
-- [B19：【新华解读】货币政策执行报告“上新” 金融赋能锂电池等行业力度加大 - 中国金融信息网](https://news.google.com/rss/articles/CBMiakFVX3lxTE94T1YzYzV6Q1RBWGVDVnpXeGF4OU5hZTRocW91cTVZNGNGdTlINm1tY1gwdHdPQnltTU84UDY0a0NRaEdORjhmZU5Kb0Iyc0o3TkVsR0F0VjB3MlFLTG00eFRWSmlhbldBclE?oc=5) — Google News · 行业
-- [B23：Dow Jones Edges Higher As July Inflation Cools To 3.4%, Meeting Wall Street Expectations - International Business Times Australia](https://news.google.com/rss/articles/CBMihAFBVV95cUxNWGlJcVFONnlNT1RTZWFhU1VTV2dDRGxrMGxsc2tUZHJBQ2FyN2J6ZEh0YjhsOExpLUlsWEh2bUZVR2w2T3h5NVFxbk9WSGpzby0wWGExLURoWm1LQ2hWOHpsV3dZTVVZbGZ3a29LRFc5S1BDR1dxc2htMHF3ZjJxZnZabUE?oc=5) — Google News · Markets Policy
-- [B24：PBOC Warns of Imported Inflation Risks, Sees Overseas Rate Hikes as Potentially Milder Than Past Episodes - finance.biggo.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE02dGtIbVg3S2Zfd2tHRnZpaDhOeHhzVkRIcFdIY0JndGd0VkFqM3BIcFpzV2J1NnRSRE94N1JBajJaQ202c0R6blJPTUdrVTdCQUJFWkFoQ1hmdGJCblFSQmVHdlVwSUowWVlaNVdvd1RWYTVpYXc?oc=5) — Google News · Markets Policy
+- [B14：Sumitomo Mitsui Financial Group Inc Stock (SMFG) Moved Up by 3.82% on Aug 12: A Full Analysis - TradingKey](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNHdPdVVKSXRWUmNVeGhQRTgwOTlLajE5dWlTUk93dzV4NnpWdmh6elFHU3EwckprTmhYaWZ1dW1PVGxBOWRVb0NnNEQyS2I4M080Zmo5YWlOZFVHU2F4UHNlZVhTcDhDUFlmQkhCVDE2MnZ3NXBGcThSMVVaaUJBaWVCWVRJb3BEdHVV?oc=5) — Google News · Markets Policy
+- [B20：Six shifts reshaping Asia-Pacific’s industrial competitiveness - TyN Magazine](https://news.google.com/rss/articles/CBMijwFBVV95cUxQSDBDekFFYlZRWkRCRTJmQWhBYzVsRE1xbkgtZEFfMU84MFdpMnM0ZTVYVmktb19xWjI0SWV4a0NteEtqWS1kenU2ZHp4SUJsSFhLcUNHbjlkR21URGlvVmxMRVo4SHgxM1FST0NiSXdhV3VvQUFra21MdGM2VEpZWTNfbFFXdFl6WkV2a0Jydw?oc=5) — Google News · Global Economy
