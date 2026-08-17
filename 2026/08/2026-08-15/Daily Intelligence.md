@@ -1,85 +1,70 @@
 # Daily Intelligence
-
 > 2026-08-15｜Saturday
 
 ## Today’s Thesis｜今日一句话
-
-当前为基础版：信息已归档，但深度机制分析需要配置模型 API 后生成。
+AI 商业化的下一道门槛不是继续增加能力，而是把能力变成可审计、可重复、可承担责任的工作流；市场仍愿意为增长付费，但利率与黄金的组合提醒我们，叙事必须尽快兑现为效率和现金流。[A2][A4][A9][A17]
 
 ## ① Executive Summary｜30 秒
-
-- AI：8月14日AI人工智能ETF平安（512930）份额减少1200.00万份，最新份额47.85亿份，最新规模31.28亿元 - video.sina.com.cn
-- 商业：广发证券：怎么看近期黄金价格的上涨？ - 新浪网
-- 宏观：先观察市场价格与后续数据是否支持当前叙事，避免从单日波动推导长期趋势。
+1. AI：人类在环、知识图谱与结构化反馈工具同时出现，行业价值重心正从“模型展示”移向“可信交付”。[A2][A3][A21]
+2. 商业：AI 支出持续增加但盈利仍被质疑，金融机构也开始强调智能体落地的治理门槛；利润兑现将决定资本是否继续追逐能力。[A4][A9][A17]
+3. 宏观：纳指小幅回落、十年美债收益率上行，而黄金明显走强；这更像成长资产面对贴现率与不确定性同时上升的再定价。
 
 ## ② AI Daily
 
-### 1. 8月14日AI人工智能ETF平安（512930）份额减少1200.00万份，最新份额47.85亿份，最新规模31.28亿元 - video.sina.com.cn [A1]
-
+### 1. “人类在环”重新成为核心设计 [A2]
 #### What Happened
-
-8月14日AI人工智能ETF平安（512930）份额减少1200.00万份，最新份额47.85亿份，最新规模31.28亿元    video.sina.com.cn
+材料讨论护理助理实践中 AI 与隐形人类监督的关系，提示真实工作流并非简单的人机替代。[A2]
 
 #### Why It Matters
-
-需要结合原始报道与后续产品、收入或采用数据验证其重要性。
+高风险行业的昂贵部分不是一次回答，而是错误如何被发现、责任如何被追踪。人类复核若能被明确放在高损失节点，就可能把 AI 从实验工具变成正式流程。
 
 #### Second-order Effect
+任务被拆成可观察节点 → 人类集中复核高风险决策 → 低风险环节自动化 → 组织重新定义岗位与责任。[A2]
 
-事件 → 参与者调整资源配置 → 行业竞争与采用速度可能变化。
-
-### 2. The Invisible Human-in-the-Loop: An Evolutionary Concept Analysis of Artificial Intelligence in Nursing Assistant Practice - Cureus [A2]
-
+### 2. Agent 工具开始争夺上下文控制权 [A3][A21]
 #### What Happened
-
-The Invisible Human-in-the-Loop: An Evolutionary Concept Analysis of Artificial Intelligence in Nursing Assistant Practice    Cureus
+一项工具让代理通过命令行管理知识图谱；另一项工具把文本、截图和网页反馈整理成可追踪会话。[A3][A21]
 
 #### Why It Matters
-
-需要结合原始报道与后续产品、收入或采用数据验证其重要性。
+代理表现不只取决于模型能力，也取决于上下文是否结构化、反馈是否可回溯。最后 10% 的修订与验收往往比初稿更消耗组织时间。
 
 #### Second-order Effect
+反馈结构化 → 代理更少重复犯错 → 验收成本下降 → 工作流数据沉淀为新的产品壁垒。[A3][A21]
 
-事件 → 参与者调整资源配置 → 行业竞争与采用速度可能变化。
-
-### 3. The CLI your AI agent drives to manage your knowledge graph [A3]
-
+### 3. 资本开支与盈利开始正面碰撞 [A4][A17]
 #### What Happened
-
-Article URL: https://useokf.com/ Comments URL: https://news.ycombinator.com/item?id=49325279 Points: 1 # Comments: 0
+材料一方面称 AI 支出继续激增但盈利遥远，另一方面报道 Anthropic 销售增长并可能接近季度盈利；两者均需回到原始财务口径核验。[A4][A17]
 
 #### Why It Matters
-
-需要结合原始报道与后续产品、收入或采用数据验证其重要性。
+市场开始从“投入多少”转向“每单位投入产生多少收入与现金流”。这会筛选能控制推理成本、形成留存和稳定收费的公司。
 
 #### Second-order Effect
-
-事件 → 参与者调整资源配置 → 行业竞争与采用速度可能变化。
+资本开支上升 → 盈利门槛提高 → 客户与投资者要求成本透明 → 资金向可验证单位经济集中。[A4][A17]
 
 ## ③ Business Daily
 
-### 广发证券：怎么看近期黄金价格的上涨？ - 新浪网 [B1]
+### 金融｜智能体进入治理阶段
+金融业材料把落地问题概括为多重关口，说明权限、数据、审计和责任比演示效果更关键。[A9] 真正的商业机会可能在控制面，而不只是模型调用。
 
-广发证券：怎么看近期黄金价格的上涨？    新浪网
+### 医疗｜辅助而非无条件替代
+护理实践中的“人类在环”说明，医疗 AI 的价值来自更好地分配注意力，同时保留专业人员对高风险结果的责任。[A2]
 
-### 荀玉根：牛市第三阶段的新叙事 - 新浪网 [B2]
+### 安全｜并购整合加速
+Datavault AI 被报道拟收购 CyberCatch，把 AI 网络安全纳入量子安全平台。[B13] 协同能否兑现，仍需观察客户、收入与产品整合。
 
-荀玉根：牛市第三阶段的新叙事    新浪网
-
-### 34.6亿人次出游大数据：银发族“重康养、追体验”，2026上半年文旅洞察 - AgeClub [B3]
-
-34.6亿人次出游大数据：银发族“重康养、追体验”，2026上半年文旅洞察    AgeClub
-
-### Thai Baht Rally May Fade on Dovish Central Bank, Analysts Say - livemint.com [B4]
-
-Thai Baht Rally May Fade on Dovish Central Bank, Analysts Say    livemint.com
+### 消费｜银发需求从数量转向体验
+34.6 亿人次出游材料强调银发群体“重康养、追体验”。[B3] 这提示线下服务、信任与产品适配可能比单纯获客更重要。
 
 ## ④ Macro Observation｜机制分析
+世界正在发生什么？成长叙事仍有韧性，但资产信号分化：纳指与 NVIDIA 接近持平，十年美债收益率上行，黄金上涨，VIX下降。事实只能确认价格变化；“避险与风险偏好并存”仍是解释。
 
-基础版不对新闻之间建立未经验证的因果关系。建议依次检查：增长与需求 → 通胀与成本 → 利率与流动性 → 资本流向 → 企业投资。
+为什么发生？一种可能机制是投资者认可 AI 的长期生产率故事，同时要求更快的利润证明。利率上行提高远期现金流贴现率，黄金上涨反映对不确定性或通胀尾部风险的需求，低 VIX 则说明尚未形成广泛恐慌。
+
+资本如何流动？能力叙事 → 资本开支增长 → 盈利验证压力上升 → 资金从宽泛概念转向能证明收入、治理与成本控制的环节。[A4][A9][A17] 估值越高，兑现要求越快；兑现越慢，融资成本越可能反过来压缩创新预算。
+
+接下来关注什么？关键不是单日价格，而是企业是否把审计、反馈和责任写进合同，以及相关收入能否覆盖算力和实施成本。
 
 ## ⑤ Signal Dashboard
-
 | 指标 | 最新值 | 今日 | 信号 |
 |---|---:|:---:|---|
 | [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC) | 26,729.16 | ↓ -0.28% | 中性 |
@@ -87,101 +72,65 @@ Thai Baht Rally May Fade on Dovish Central Bank, Analysts Say    livemint.com
 | [原油](https://finance.yahoo.com/quote/CL%3DF) | 82.23 | ↓ -0.21% | 供需平衡 |
 | [美元指数](https://finance.yahoo.com/quote/DX-Y.NYB) | 99.54 | ↓ -0.13% | 中性 |
 | [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX) | 4.70 | ↑ +1.19% | 成长估值承压 |
-| [BTC](https://finance.yahoo.com/quote/BTC-USD) | 63,010.36 | → -0.02% | 中性 |
+| [BTC](https://finance.yahoo.com/quote/BTC-USD) | 63,010.36 | ↓ -0.02% | 中性 |
 | [VIX](https://finance.yahoo.com/quote/%5EVIX) | 14.25 | ↓ -2.60% | 风险偏好改善 |
 | [NVIDIA](https://finance.yahoo.com/quote/NVDA) | 225.16 | ↓ -0.06% | 中性 |
 
 ## ⑥ Deep Insight
+一个容易被忽略的变化是，AI 的稀缺性正在从“智能本身”迁移到“组织接受智能的能力”。模型越普及，企业越不缺演示，越缺的是把输出放进真实责任链的机制：谁批准、谁复核、错误如何回滚、数据能否追踪、成本是否可控。人类在环、知识图谱和结构化反馈工具看似分散，实质上都在解决同一问题——把概率型输出变成可管理的生产过程。[A2][A3][A21]
 
-深度分析待模型综合。核心原则是：新闻的长期价值不在事件本身，而在它是否改变了约束条件、激励机制和资源配置方向。
+这会改变价值捕获的位置。能力领先仍能获得流量，但长期利润可能更多落在掌握客户流程、权限与反馈闭环的产品上。金融机构的治理关口说明，工作流并不是模型外面的包装，而是采用本身。[A9] 对资本而言，下一阶段不应只问“模型进步多快”，还要问每单位推理是否产生可计量收益、客户是否持续使用、错误成本由谁承担。[A4][A17]
+
+第二层影响是组织设计。若 AI 被嵌入核心流程，管理者需要把任务拆成可观察节点，把隐性经验变成评估标准，把人类复核放在高损失环节。这可能先增加成本，因为企业要建设日志、权限和质量控制；但一旦形成闭环，边际交付成本才可能下降。因此“先治理后提效”看似拖慢采用，实际上可能是规模化的前提。
+
+更深一层看，这种转变还会改变人才结构：能把业务目标翻译为评估集、异常处理规则和升级路径的人，会成为模型与一线团队之间的关键接口。组织若只购买模型而不建设这层能力，就容易把自动化速度误当成生产率，并在错误积累后支付更高的返工成本。
+
+反方观点是，用户最终只会选择能力最强、价格最低的模型，治理层会被平台原生功能商品化。这个判断成立的条件是，不同行业的责任链高度相似，且平台能快速覆盖本地法规与流程差异。我们的判断可被证伪：若未来企业采购仍主要按模型榜单决策，治理工具无法形成独立预算，行业应用留存也没有显著改善，那么价值向工作流迁移的论点就需要下调。
 
 ## ⑦ Tomorrow Watch
-
-- 验证 AI 产品发布是否转化为真实采用。
-- 关注主要央行与监管机构的新表态。
-- 追踪芯片、数据中心和能源供应链信号。
-- 比较市场价格变化与基本面信息是否一致。
-- 观察今日核心叙事是否出现反证。
+1. 验证企业 AI 合同是否明确包含审计、权限与成本上限。[A9]
+2. 关注护理 AI 是否公布可量化的安全结果。[A2]
+3. 追踪结构化反馈工具能否显著降低返工时间。[A21]
+4. 比较十年美债收益率与成长股表现是否继续背离。
+5. 核实 AI 盈利叙事是否获得统一财务口径支持。[A17]
 
 ## ⑧ One Chart
-
 ![Daily Market Pulse](assets/chart.svg)
 
-图表展示最近交易日价格变化，仅用于发现值得进一步研究的异常，不代表因果关系。
+黄金显著走强、十年美债收益率上行，而主要风险资产变化有限。它提示市场同时定价多种风险，但不能仅凭同日相关性推断因果。
 
 ## ⑨ Quote of the Day
-
 > “The big money is not in the buying and selling, but in the waiting.”  
 > — Charlie Munger
 
 **中文理解**：真正的大钱往往不来自频繁买卖，而来自有判断后的耐心等待。
 
-**Why it matters today**：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。
+**Why it matters today**：当 AI 叙事与盈利验证存在时间差，纪律比频繁追逐标题更重要。
 
 ## ⑩ Action Items｜今天值得思考什么
-
-- 关注 AI 能力提升是否变成客户付费。
-- 验证资本开支与收入增长是否匹配。
-- 比较行业叙事与实际订单、库存和招聘。
-- 追踪美元、利率与风险资产之间的联动。
-- 思考什么事实会推翻今天的核心判断。
+1. 关注哪些 AI 产品已经进入正式责任流程。
+2. 验证能力提升是否转化为客户留存和单位经济改善。
+3. 比较通用模型与行业工作流的不同壁垒。
+4. 追踪利率变化对成长资产估值的持续影响。
+5. 思考什么证据会推翻“价值向工作流迁移”的判断。
 
 ## 信息边界
+本期为手动补生成，使用已归档来源与市场数据；不少材料只有聚合标题或摘要，未逐篇核验原文。归档来源存在补跑时效偏移，正文只把较晚材料作为机制验证线索，不把它们倒记为 15 日发生的事实。市场数据为最近可得交易日数据，不构成投资建议。
 
-本期为无模型基础版；聚合新闻可能存在延迟或二手转述，市场数据为最近可得交易日。
+
 
 ## Sources
 
 ### AI
 
-- [A1：8月14日AI人工智能ETF平安（512930）份额减少1200.00万份，最新份额47.85亿份，最新规模31.28亿元 - video.sina.com.cn](https://news.google.com/rss/articles/CBMiggFBVV95cUxOY0k3b0hkdWxPRG9GT0hUX08xTnlKNFgwdkF5T3c2c2JCZVVRaWNYNHk5NEttd0hLemtRS2NvTTJyYlk3ZV85Y3BseFBONEpyckVmVVp2X2IxR2tlb0tObUhQX0ZMQTY3aFRNX081T2REUlIyN1Z5NGgtRzdXSFA5VzJR?oc=5)
-- [A2：The Invisible Human-in-the-Loop: An Evolutionary Concept Analysis of Artificial Intelligence in Nursing Assistant Practice - Cureus](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNakk5ZGUyaWRYWFlvWENjWmRoN0JFX1V4NTlZUjZXV1QySDFKaWs0SkRvYW8zem5BdGtaVmdVVE1GcVo5RGl3STFPdThLVXhaZ2FWNE5JcGFrMnFlWDRxR0p0dHl3aHJ1VFBPWU1HN3lIaldxRjJKQXc2SVhKYTVMUHNQSkhyZHJkby1md09IcFh6dGVPcnAwSjFQVGV4YVM3WXdkNEZVU0hMZEtEY1Nqek92bnRLdHZyclZSZ2ZjVGJZQVZaZnpRd1RiUHREOU9fbjdrRmNUVXR0RHVjTVR4a1J3VFZNbkZxZ19wajcwMWhDdw?oc=5)
-- [A3：The CLI your AI agent drives to manage your knowledge graph](https://useokf.com/)
-- [A4：什么信号？高盛辣评Q2财报：AI支出持续激增，但盈利仍遥遥无期！ - 搜狐网](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbHk1TmRBb0tSVGVseUtlcFhxSUZqZVJfSGRTSGlBTlhyTFhiWkhOYVhPNmNHOVJuNE9wVmdVSzFPdHB1ZTRHallKb1RCR1ZaazA3TTAxUTJ0VzkxZjR4Rk5QdDlfTm1BaUQ1ei1WOEVSeWt0MjZWeFdDUHhfU0VMblFfc3RhSEZp?oc=5)
-- [A5：With OpenRouter, Is Stripe Becoming the Amazon of AI](https://github.com/getlago/lago/wiki/With-OpenRouter,-is-Stripe-becoming-the-Amazon-of-AI)
-- [A6：A proposed artificial intelligence data center carrying an investment of up to EUR 500 million, requiring as much as 50 megawatts of continuous power and thousands of cubic meters of water for cooling, is now being pitched for Oton, Iloilo — but questions rem - facebook.com](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZWRlUFpBT19BeG5jVU0xVTVSeklzVHlabUdYR2RkM19faFRiSG9BWDZ4N0NCMHdJcFFUR1dXUTg2Zk1pN1RqRElDWkthWmY5TVBKWS01S0V0aDA2cGotNWlGOVNETmRrcnVNS003MnFGbXFuZGgwVWJCeU1BS1VBdnQtR1lZSEhDSGpCZU8zMzdQZzUySTl0TUVURS1NM214a25hdTFEUW51dHJoRkthZmFjRXFxSE83T2RqWXdqWW4ydDIzaFQtV0g2WEJrVnB2dGpaS1JENlJUT1pKSlE?oc=5)
-- [A7：BanProof – AI that scans TikTok Shop videos for violation points before you post](https://banproof.io/)
-- [A8：Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/)
-- [A9：金融业深度运用AI智能体要闯过四关 - 新浪网](https://news.google.com/rss/articles/CBMieEFVX3lxTE1yZEJPcElFU3Z4dVo0OFYxU3FDV2NfVWltRXVvV2ZzeXM3aVN2aU42NjQ4U2tqaTBxRmRnTDhyYzg1VkhiVDlhRE9rOUJHODhreEVPY2l4WTdNamlDY0N4bGZVcHhsUlZ2U2dXcURlcE5kUW9HenV1eg?oc=5)
-- [A10：AI Slop Is Real](https://aichatspot.online/what-is-ai-slop-and-does-it-really-ruin-youtube/)
-- [A11：Anthropic CEO says the way for AI to win over the public is to cure cancer](https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8)
-- [A12：Ukraine Finds Nvidia AI Chip in New Russian Missile, HUR Says](https://www.kyivpost.com/post/82225)
-- [A13：Smarter – open-source, declarative AI authoring platform (Django, K8s-inspired)](https://github.com/smarter-sh/smarter)
-- [A14：AI, the Pope, and the philosophy of general practice - InSight+](https://news.google.com/rss/articles/CBMikwFBVV95cUxQTm1rN0lnUDhKRDZwQXN1UFhsS2JMSVNULUp3YURaelYyaFFzS2FDZmVKRlhjX2IwclFBQzFnMEoxcFdfcjNlWTRkbjJiekhKVEZPZ3h2TWpGYU5ERW1NQzZqdi1WcUdvNWo2ZnpzZ1UxRkJwaVFyTFljMmExa1NNbTRNNWJLNXgzYmhSOXJIWVlNd00?oc=5)
-- [A15：Legbar – live AI agent sessions beside GitHub CI, in one terminal](https://github.com/gmhoward9289-ops/legbar)
-- [A16：Artificial Intelligence - yellow.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxNZzJPTFRGakhLNENHX0QzYno1eUdHYnlHU2wyT2lPOGxLcV8tdDB4aEkxUEVMWU9tMzlKN21RbWZJNDQ3WjlfQVpid0RLZnBwdi1zZUh2NDFYSHJUWUFXY1ZRamFIVktWcFdJMDBQa2hja1lwN1ExU212dUFHdzltR1c0TXI?oc=5)
-- [A17：打破AI烧钱魔咒！Anthropic销售额暴增 有望迎来首个季度盈利 - 财联社](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FZ3J5WWVWb3ZmU1gtTnNjVVRWdWM1ZnpsUUhxZG9XU2k5UnBVekZsaURCaUViSTRuaHBZZWdURXI1MnczZ3QtLQ?oc=5)
-- [A18：AI #176 Part 2: Plan B](https://thezvi.substack.com/p/ai-176-part-2-plan-b)
-- [A19：Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe](https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll)
-- [A20：Show HN: VocalCode – push-to-talk dictation for AI coding agents, on-device](https://vocalcode.app/)
-- [A21：Show HN: Remarc – provide more contextual and structured feedback to AI agents](https://github.com/metedata/Remarc)
-- [A22：Inside The Pyro-magic: How Riverfest Fireworks Come To Life Artificial Intelligence (kAwPIGQjjb) - Mshale](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBES01xSXN0VFgzRDROYjhlWjlJaWNZcXc0VlA3Y3VIdVJ4LXQwT242U3B4akhBVjVMY2l1RGozNXgtbkUtMDluTDFDaDJ1OFNJNVBYWlVXVW96a3M?oc=5)
-- [A23：AI Debt Failure Will Prompt Another Wave of Fed Bailouts [pdf]](https://www.myrmikan.com/pub/Myrmikan_Research_2026_08_14.pdf)
-- [A24：Show HN: Conw.ai – Independent local AI platform and developer API](https://conw.ai)
+- [A2：The Invisible Human-in-the-Loop: An Evolutionary Concept Analysis of Artificial Intelligence in Nursing Assistant Practice - Cureus](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNakk5ZGUyaWRYWFlvWENjWmRoN0JFX1V4NTlZUjZXV1QySDFKaWs0SkRvYW8zem5BdGtaVmdVVE1GcVo5RGl3STFPdThLVXhaZ2FWNE5JcGFrMnFlWDRxR0p0dHl3aHJ1VFBPWU1HN3lIaldxRjJKQXc2SVhKYTVMUHNQSkhyZHJkby1md09IcFh6dGVPcnAwSjFQVGV4YVM3WXdkNEZVU0hMZEtEY1Nqek92bnRLdHZyclZSZ2ZjVGJZQVZaZnpRd1RiUHREOU9fbjdrRmNUVXR0RHVjTVR4a1J3VFZNbkZxZ19wajcwMWhDdw?oc=5) — Google News · AI
+- [A3：The CLI your AI agent drives to manage your knowledge graph](https://useokf.com/) — Hacker News · AI
+- [A4：什么信号？高盛辣评Q2财报：AI支出持续激增，但盈利仍遥遥无期！ - 搜狐网](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbHk1TmRBb0tSVGVseUtlcFhxSUZqZVJfSGRTSGlBTlhyTFhiWkhOYVhPNmNHOVJuNE9wVmdVSzFPdHB1ZTRHallKb1RCR1ZaazA3TTAxUTJ0VzkxZjR4Rk5QdDlfTm1BaUQ1ei1WOEVSeWt0MjZWeFdDUHhfU0VMblFfc3RhSEZp?oc=5) — Google News · AI 中文
+- [A9：金融业深度运用AI智能体要闯过四关 - 新浪网](https://news.google.com/rss/articles/CBMieEFVX3lxTE1yZEJPcElFU3Z4dVo0OFYxU3FDV2NfVWltRXVvV2ZzeXM3aVN2aU42NjQ4U2tqaTBxRmRnTDhyYzg1VkhiVDlhRE9rOUJHODhreEVPY2l4WTdNamlDY0N4bGZVcHhsUlZ2U2dXcURlcE5kUW9HenV1eg?oc=5) — Google News · AI 中文
+- [A17：打破AI烧钱魔咒！Anthropic销售额暴增 有望迎来首个季度盈利 - 财联社](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FZ3J5WWVWb3ZmU1gtTnNjVVRWdWM1ZnpsUUhxZG9XU2k5UnBVekZsaURCaUViSTRuaHBZZWdURXI1MnczZ3QtLQ?oc=5) — Google News · AI 中文
+- [A21：Show HN: Remarc – provide more contextual and structured feedback to AI agents](https://github.com/metedata/Remarc) — Hacker News · AI
 
-### 商业与宏观
+### Business & Macro
 
-- [B1：广发证券：怎么看近期黄金价格的上涨？ - 新浪网](https://news.google.com/rss/articles/CBMimAFBVV95cUxONVA4VDRqXzlXbmZNMVdpenpfX0dXUVRqWXd5Uk5OTy1IU05NdG1oZndsMHd1OG1nYWtqV1JReUotMVA5WTZRNnpYWlJFNnhsbG1QSEp3UGpnakYzZkcyajFEVWhSQVVoazI5dnh2M19TczV1bWR0VHlDWXEzQ0hSV09kcGtyUGhBWHhVWThvRVcyaVMwZnZHRA?oc=5)
-- [B2：荀玉根：牛市第三阶段的新叙事 - 新浪网](https://news.google.com/rss/articles/CBMickFVX3lxTFBGbVdUc2VJRUc4VERGRmxVQWJzQlBBUUpGQ0pzd2dUbFl0T0o1TGE4c1hLb2xLaTc3WlFVb25rVVZ6eC15N1Q3SWFFNUtzZ1dBbHlZYWppUldzazRocGtpOFltTzVsOWotelhycU9tS2VIdw?oc=5)
-- [B3：34.6亿人次出游大数据：银发族“重康养、追体验”，2026上半年文旅洞察 - AgeClub](https://news.google.com/rss/articles/CBMiVEFVX3lxTE81SFhBQ0ZIaW9XR2pKVTFaX0dURkdWak9DaXI2ZnJPYnJkb2c0eUhlbGkyYzg2RzJXSUN6R2ZVSkhPNGVpdFdBb0czOHBGX0lhZlJpYw?oc=5)
-- [B4：Thai Baht Rally May Fade on Dovish Central Bank, Analysts Say - livemint.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxPSmNGMmVTTnVaRHJoQ3NKLTZXLWhtc3VHeFdISDk5MnlEQ3N6VGdQejBndVNXSWdBS2lzbUg0UHlWaXIzSl9jR1lfQ0JYczFmcTlxU0Npa3ZoVU1zMlk1dzFMT1RieHRRV1dBbF8wUFlndkYwN1lEaVRHc3Ffb2RQNEZwQy1uSHZtZWVPMXc3YjNKSjJYVkJ0QWpWUzRzcUxJVEtCQ0pkVnJXRWV6NHZaRmln?oc=5)
-- [B5：XRP (XRPUSD) Is down 1.01% on Aug 16: What Do On-Chain Data and Market Sentiment Show? - TradingKey](https://news.google.com/rss/articles/CBMijgFBVV95cUxQQkhOdGZJSjhieHVsNU1WRUk0Y0M5dTJ5bG16aWwtcTBidk41cmZzaDJVSHVFYS1ob0llOXQ5a2lpWVRSZjk4WXcxRFA1T3hfN1Ffd1hobk1QMUYzY2hyc1ppYUxCQmthcVFEUlpfT0R1UlF2S1hZdW1vMUZuNmtrQW5OOG9adEZqMG0wY1Zn?oc=5)
-- [B6：CIO Weekly: Japan—Intervention Adds to Policy Pressure - Neuberger Berman](https://news.google.com/rss/articles/CBMilwFBVV95cUxONl9BYTRNR2tfUjVMMHh6ZV8wUTl5WDhxaU1JLUlsbjlwX1R5WGVhVS05Vlp2Z2t4NHdTcmJRbnFXSDd1T2E2Qkd6UmdpYmdRQmhnLUJMTWhuZHI2amNpRlRucnJiY2QzQnNmMWQ1MmJFZklQUm9sczRZaElLd1NvaDNONlM2WGRPM244MmlXR0ZweXdTb21J?oc=5)
-- [B7：South Korea Trade Balance Edges Higher To $30.39B In July As Exports Hold Steady - Bitcoin World](https://news.google.com/rss/articles/CBMiakFVX3lxTE1ueDdac2hiWkl2X0F6S1BQck9xM3M1T3c1dGxUMm1ySEFFMTZYQ2kzUms4TjlxZmRsbzlaeWhMdUQwSkxsbnpPSUNjeEhOMEN6YVV5N1k2Vk01T3NnZC1jUFJvS1dWTGc5R3c?oc=5)
-- [B8：PBOC is expected to set the USD/CNY reference rate at 6.7382 – Reuters estimate - investingLive](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNVlPbERPWllTRnhlUU56UV95M1d5VHgzV0VIaGlJUDVsMEMzV3ZxcVZnQlNWN1AwME82SXFzOU9nZVNSaEQtNWIzTk1mTXJwY25lXzNTRlBsb1g1aUxqSkdTeGliWExyUWVGckxILWt1S1BSNkVCVldMaUdURVdFTW8wZ0tiSk1DUFN1SzBOVXN1OVdkdlVNN0wzemhfNlVlUGxjWE8wUDM1NEZNZUhDYlh4NHNEcll1?oc=5)
-- [B9：India Q1 GDP growth seen at 7.3% as consumption, capex cushion Iran war shock: ET poll - The Economic Times](https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeXg2cXdEMFBZYTV2T1l0RW5sNDhXZkowSmFQdUxGdHk4cDc1MzhhX0hFZ1VVVFB2VjdjTUI4UzhTZ05kakJOckxDMjR5UWFkRl8weTZkTW1fbVhQTHdVNmItUTIxODU5REQ2VVlOeFp6R1lieHdQVFp4cEFHYUV1ZmpncVlwNHNFVGlzZVJONnRINXpaT2NFZl9LLTUzTWNoNkIzMzV3QzRLS3Q0ZjdhQ2M3amxQLWl0QWFranVrVWRhd3ZrMlJrVS12a1BLNy1KSDl5cGhxbnp4SWxLY3I4c00wM2tKV2p3dGUxR193eVprdUtybzB2btIB-AFBVV95cUxNeXg2cXdEMFBZYTV2T1l0RW5sNDhXZkowSmFQdUxGdHk4cDc1MzhhX0hFZ1VVVFB2VjdjTUI4UzhTZ05kakJOckxDMjR5UWFkRl8weTZkTW1fbVhQTHdVNmItUTIxODU5REQ2VVlOeFp6R1lieHdQVFp4cEFHYUV1ZmpncVlwNHNFVGlzZVJONnRINXpaT2NFZl9LLTUzTWNoNkIzMzV3QzRLS3Q0ZjdhQ2M3amxQLWl0QWFranVrVWRhd3ZrMlJrVS12a1BLNy1KSDl5cGhxbnp4SWxLY3I4c00wM2tKV2p3dGUxR193eVprdUtybzB2bg?oc=5)
-- [B10：token算力贷正在批量入场 广东首推词元金融产品 - 中华网](https://news.google.com/rss/articles/CBMicEFVX3lxTE15SGFlSjNEN1ZnUDJZMVBZRzBsWWxRS1lCTjlfOE55N3BYQ2VpMmVRXzBUMm9YcGJSVVJQMW9yZmxjSFo3amJLR2ExZk4zZmtfV1o0QXZlbk1aR0lTOFdacmJJMFJCUjM0WXVGV0JvU1g?oc=5)
-- [B11：A comparison of labour force participation trends in the euro area and the US - CEPR](https://news.google.com/rss/articles/CBMimAFBVV95cUxPeFhHYjZBeXNiY04tbVdhSzExMHctaktqaXdrMksyeDFIdWJQRUtDMUY3MHpwN0pqTUlfeTl1YkpmVS0wVGFrdl9GT0o1VWJ5ZFhsUEhod3Y5VTdEcnNzOEVkN3Z0S25qUkRxMWItbVJUeGlrS0VPOGh5M1h5SGFpcjNFR2dIZGZZNDVQSkExVkFVYXI4RjhoaQ?oc=5)
-- [B12：【国泰海通消费】市场再平衡，消费再梳理 - 新浪网](https://news.google.com/rss/articles/CBMipAFBVV95cUxPTi1JYTNvekVlZ2Zob0ExYTYyTWprVnJSWmdpUzlEM1RzUW9yUjhWaTV2TVdoTHVBNzRnVnFDaVk1b0FyRmlaRFA3LTFoNFY1dTZ6eE1pSGxQQ2U4QzBpamZvbVBYdDk2RnBlYzVzT0xONnY5Ym52RlpCSFZ1QzdOdjNoWktzanl5Tm9zQ3Y1MEJKZFFzb3hiOUtCQ0liNEpNTEUydA?oc=5)
-- [B13：Datavault AI To Acquire CyberCatch For $94.5 Million To Add AI-Powered Cybersecurity To Quantum-Secured Platform - Pulse 2.0](https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTVpQUxCZlNPSGhIb1NBaU9yLU1lVkpiRTZ5UnktXy14OGdEY0c2WjFEeGRVLVlQdElldXZyQUdFUzZmaExfNXVkRFMyM3A4VjNWSHN6S2hXQm5tbVBQSlBBTFFlQ2ZyejVZQjZOdXFhdnZlTHRQZGQ1MW8za1R3bkpsTm1oY3YwZG9EbmxOd3lZWmkzSjc2OVBST1pwdEN3X25ycmtKZXVwQUJQcUwxTEZwNWlUdUdlQi0yT0VHaDFLTlA2NXY2dGhjRdIB0AFBVV95cUxNYXVUNGtqZ1hMdDIzWk5EWkVKR0ZRSC03U3I2cmFCWTd5WWd6RnJyR3YyY0hxQmM4a0hXMVZobFdMVVViWXRCSHR4YXZiZjNxcFVydGthZWJuZklPdHdCSGhYSVVOOGUzSXY5MlEzSjR0MGdfZ2pHLS1MTEhfak9JQ0FCY0dWLXVtM3pfNjJpLWpPQ28xTU8xSXVXbEFLUmEzWDg3aWgtSjNFQkVGWlF3VGswTDhSYjVEN3lDdHNXR2t4RjJrMHlYYUpBOU5wX3JY?oc=5)
-- [B14：应对气候变化锚定“减碳即增效” - 中国经济网](https://news.google.com/rss/articles/CBMib0FVX3lxTFBSUHRYNTdJdHZuWWRhVXBtay1HTzc4MDlnSlBVcU5SdkRJSjhOankzNG9Iemk5bDV5M0JhTWlOSDg1QjY0dDg4ejVPZUpPc09ORTJBSERYWTBVXzNSelRiWHdIdWVad2pfSEhWRldPNA?oc=5)
-- [B15：China delays July economic data release to late afternoon slot - investingLive](https://news.google.com/rss/articles/CBMimgFBVV95cUxOdVJjWXhybkRoTG1MX3FGRVNNNXQ1WWxFYjhVNi1EZ2wzaVNqN1lUXzhKUDczdjhhbUlkMEdtei0tWGs0LWttZ2tSSUJaZm1tWGYzNmVRRHhfOVdiZHJGSEY3NnlJaDdpdmlEaXExQ1B2a2w4TEZ6RXhwSmZMalNXQTJOTjh4QWFlSk85Uzd0Qk5hVDN4VXF0Z3hn?oc=5)
-- [B16：Australia is spending billions to move beyond fossil fuels — is the energy transition worth the price? - The Times Australia](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLU43eW8tQm1RTWRFTjZfQlFLN3F3WTVIdWdHRmdfV2xoMnNLd2JKeVZ1Z3JHcFJvMjFyc3Qzak9OWW51dE9DaUo3dW5tbTZ0aGhIc3o0T3R0NHZnOU0yOXQtYXk1MHowZ0o1TVFNT3VBUFZOY1lfQjNwQllGbmlGR2Q3cG1JYTBuZUxtVDl0NHRUV0pHQVBBbjVOZGRjTGZkendhNWxva3BORGwycVJYcFM1SWJxTzZuaHUxUFIwNmliOS0xZU9sM1RKYlFzTDc3?oc=5)
-- [B17：Holding the CBR: What Bank of Uganda is pitching to investors - Daily Monitor](https://news.google.com/rss/articles/CBMiugFBVV95cUxQVlZJSWtfU1hEaDhwSVhGZ3BNOGY3R2I5bFh4SzFBYldwYVEtUmhHTjBKOUVDalAtaFdaclBDcXlYMnIydnluVTJSVjRKYmtLYm0wRTBHdnc5QVZaOVRSbk1KZUFpcWtXMWNIM21yYXY3STNTRERWdExIM0FGNGNybFh1VlJlMDRjS0dabnJCdzRpTV83elp6MWZZQmRNYmFJc2owVld2MUoyNGZvcGluRkZWMk1XT2pRd2c?oc=5)
-- [B18：China's corridor proposal - The Financial Express](https://news.google.com/rss/articles/CBMilAFBVV95cUxQWGdaZExnVzFnWExjTVA4dFdfYkRycWo4aUN5VUgzS1BKTkc4RlNic2Zadm5XMDFQSkIwODBZa2hvZW5HNU51ems3b1Y4TmUzY29xb3dXU2x3dGd2ZE4tT2tpV1pYTml3YU5QT2pUeGhjb1NsTzR6YUdpaG53amRMNzV6dUZaR3IxanRvSVhlZmZOTi1B0gGgAUFVX3lxTE81U0hCTnYyeW1oR1dLNHk2VWJJc3E5Q2QtdnlXdHJVQjdHNUJaSG9TUUkzVERSRHlWWkExbWlRRmk1N2R6SzFIM3B6V01LNEFHdFdZQkxDY0dvRC1yeWV5bkRPamw5Ykhzb193Q080YXBseEowU2dLYXRqNWd1cE5GaXNjMWdyT1BSWkRFOVBJWXppaS1EZnNDRURmZUZFX1M?oc=5)
-- [B19：Zhipu AI Co-Founder Tang Jie: Tokens as the Engine of the Intelligent Economy - geopolitechs.org](https://news.google.com/rss/articles/CBMidEFVX3lxTE9PaVY3SmR5ZTdvVHlOdXdxUmltX0ZFS2lCdGZjeTZDWDZncm9oamxRQmRPamxyY3FUa2ZDTkN6aVpCUmJkMGttTEFUXzhVcV91SW83RmhzY0ExcnpoVlZCYmRHcmF5YUlSYlZwcDNUbkZpUl90?oc=5)
-- [B20：Petroleum minister urges latest exploration tech to maximise gas production - Dailynewsegypt](https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzBHWXRON0Q1OTR2QlRnSU0xSGlOM2oxZHAxUF8wanJySXd6djEzMndweHViS3c3S0MzX1ZjNXIzNnB6M3ExZW1oenh0V1k5aDYzeU43ODMtTkhTMF9PN1VxVXdYQ3M3MlF4MVBWU3gzcVB4T2NqZEkyRHRVVGZzMFdTRm1IYzJwYzUzNUQ2ZkNMNlExTmpTZDFFRjNRMmI0X0pLVktiMWh6RnpCZElmU1ZsLV9yZndDY1E?oc=5)
-- [B21：CNN’s Richard Quest to speak at Sapoa’s 60th annual convention - Moneyweb](https://news.google.com/rss/articles/CBMipgFBVV95cUxQLVV4TWRqQmpWQmdUUURCWm9fZy1CY3pTcVhLSm9GY195T3BNdHF1Tm9NQ2lQcXBKWlBHTHBObEY2REN6R1ItWE5idk5HcUtkeDZoN0lNbnFkeUp3RUVXdWRXTm5rYWkzY3lWMVBpVFdTNlRmQ0IwMm41UnRxMFZMVHd1b0pjVlctQXhENndSaDlldk9hdjRiOWNDM05KNENsdlhXT2JB?oc=5)
-- [B22：4 Key Sectors Can Make India A Global Manufacturing Hub By 2047: Niti Aayog - BW Businessworld](https://news.google.com/rss/articles/CBMiugFBVV95cUxNMlJOUlEyb2lIWmhqSGN5bUpLMHVTTkFtTC01NXdidVZ1Nmhnc29UOFlLMFA4NXdadTcwWl9abjNuT2tucm5YcXViNWRudl9fSVJ0RVEzNlAtclU4RGs4bTV1N0lsNlloZVowQmhucnpZUnlmQmNvaFhyc29wUlJyb1JrcXFYbkpiSnJtelNETklMRFF0UXlGTm9GZHpacXBIdHhUT3VwbVNkMkp1QWxJOGdwUlZlT3RudXc?oc=5)
-- [B23：Ethereum Price Today, August 16, 2026: ETH Holds Near $1,880 as Weekend Trading Stays Muted – Check Latest Prices in USD, INR, GBP, Euro & JPY - The Sunday Guardian](https://news.google.com/rss/articles/CBMiigJBVV95cUxQWWw3SHBfM1NIWjdyVkt5bEJwdWtGbUhYeTJHc0pxcDI0X3hnbVJoLXV6Um1oTzF0U003T1lfLUVrODYyMXpTdm9mTHBGazhXYnVadDBtTVB0djhXUXlSRDNuZzZFVGJPX0xQVW1MY0p3ZUszTXVyeEhKUjVEamp5ZGdJbXFyZ1F6QXhpXzh0QWc2clRXRHF0eFRTeG9UNVBtTExZMjllcnhwMFBWNFZ4T2hpTXVrcTdSVDE2a21JcFZ4OUtoc3hieHZDZy1HaEJVc2g3YzBsVGhFemJhV0JLMk52ZFRsNzhpUFozckdhSlc5ZmZDMy00Q0FTbkJvSFk0NGZ5bENkamllZ9IBjwJBVV95cUxOUjNzdHNsbmZxbldtRm1Nd1ZiTVBIZUN0bzBGY3c1QmM2Q0lCZl9XLWJDRVZ4eXE2MTZIaEJOcmhLUjZKR04tRGZtVzZnUWFNRk1kUlc1N2VCT3ZzUWJWZ2FTTFFwYTNMOEl1Tk1TZE1CMXFmLV8zSDFmS0JsX0V5Q3N4TVVxU2szY3VWSmRRUGE1Y2lLQndZem5FMWZnNUJtaER3Q0VIRXB4dHJ1b3oxYnIwNEVFWmhPekhfd0N0TEpTYjNHX0hfZUItQjM2eUppZ1hLdFRtWVVXdGtXeGZtSEJSZHVQdVpfUkdVRWF2VVdGendqY0kzTDN1bEZFdlM3bGpjOXFSa19RT3lLd29z?oc=5)
-- [B24：How the US-EU partnership is fracturingHow the US-EU partnership is fracturing - The Manila Times](https://news.google.com/rss/articles/CBMizgFBVV95cUxQMzFxZGV2VGlDdkxDUS1aRDBQMVA5UjJWUDJ1U2xuU3RDZXQyQ3ZROFI4X1FYeWhscTlORGlPSWwxaE5mNHdSOWVaUk9Ra2hkT1E5TWUxZUNVSWxLWTlueHhkNmVKUXFJWFlGMFpvUDVhNjBnTTdwaXgyVzQzXzJsUF9ZU3F1a0lUQjlfbUM0Y04wekFzQTVLeko3SjEtUElzMjFMa2F4Y2lJZG1LSlNZRGRrdjNUbkxkV0wtTXN1djB1MlJuZ0dkSzlXdzF4QdIB0wFBVV95cUxNUEJfNHYtazlkZmRQRGxlcGYxRFF5dHZxWjZVUGlnT1RGR0NlcTlzN1JkUjJXdWp6d1pId0ZlMHZsakVVaFJRTUJRUkdLRWVLZWtyN2dZSnpzeTNDbU81OXNvMFNyTWo4cnFZLXhYSkRyWDBXNC1qUENWOXRqU19UNzgydnp4UjBPdnczUFk3NGFHd3E5OE01c0cxbWhvMXhlMlhRREpBTG9kZVVmS2FuUkJoTXBLODZjZ3ZkeFl3WGc3akpMOVNFUzc5N2x0Z0N5ZVM0?oc=5)
+- [B3：34.6亿人次出游大数据：银发族“重康养、追体验”，2026上半年文旅洞察 - AgeClub](https://news.google.com/rss/articles/CBMiVEFVX3lxTE81SFhBQ0ZIaW9XR2pKVTFaX0dURkdWak9DaXI2ZnJPYnJkb2c0eUhlbGkyYzg2RzJXSUN6R2ZVSkhPNGVpdFdBb0czOHBGX0lhZlJpYw?oc=5) — Google News · 行业
+- [B13：Datavault AI To Acquire CyberCatch For $94.5 Million To Add AI-Powered Cybersecurity To Quantum-Secured Platform - Pulse 2.0](https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTVpQUxCZlNPSGhIb1NBaU9yLU1lVkpiRTZ5UnktXy14OGdEY0c2WjFEeGRVLVlQdElldXZyQUdFUzZmaExfNXVkRFMyM3A4VjNWSHN6S2hXQm5tbVBQSlBBTFFlQ2ZyejVZQjZOdXFhdnZlTHRQZGQ1MW8za1R3bkpsTm1oY3YwZG9EbmxOd3lZWmkzSjc2OVBST1pwdEN3X25ycmtKZXVwQUJQcUwxTEZwNWlUdUdlQi0yT0VHaDFLTlA2NXY2dGhjRdIB0AFBVV95cUxNYXVUNGtqZ1hMdDIzWk5EWkVKR0ZRSC03U3I2cmFCWTd5WWd6RnJyR3YyY0hxQmM4a0hXMVZobFdMVVViWXRCSHR4YXZiZjNxcFVydGthZWJuZklPdHdCSGhYSVVOOGUzSXY5MlEzSjR0MGdfZ2pHLS1MTEhfak9JQ0FCY0dWLXVtM3pfNjJpLWpPQ28xTU8xSXVXbEFLUmEzWDg3aWgtSjNFQkVGWlF3VGswTDhSYjVEN3lDdHNXR2t4RjJrMHlYYUpBOU5wX3JY?oc=5) — Google News · Technology Business
