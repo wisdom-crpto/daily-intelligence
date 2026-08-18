@@ -1,6 +1,500 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-08-18",
+    "generated_at": "2026-08-17T23:04:07.746523+00:00",
+    "model": "glm-5.1",
+    "mode": "model",
+    "thesis": "AI 代理正从技术奇观转变为组织约束（生成死代码、改变初级岗位、需要控制图），而宏观紧缩（顽固通胀与长端收益率飙升）正在收紧资本，迫使 AI 从“不惜代价的增长”转向“可衡量的效率”。",
+    "summary": "- **AI**：AI 代理正在生成大量死代码并重塑初级岗位，迫使组织引入控制图与静态分析工具进行治理，同时 AI 的超强说服力与信息污染风险开始显现 [A4, A7, A11, A12]。 - **商业**：Target 采用数字孪生优化库存 [A9]，EY 将实习转为长期驻场以应对 AI 对初级工作的替代 [A11]，企业正从概念验证转向用 AI 解决物理与运营瓶颈。 - **宏观**：美国长端收益率因赤字与顽固通胀飙升 [B1, B13]，触发华尔街风险警告；美元受财政与贸易政策拖累走弱 [B23]，资本向黄金等避险资产转移 [B9]。",
+    "relative_html": "2026/08/2026-08-18/Daily%20Intelligence.html",
+    "markets": [
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "value": 26644.9102,
+        "change_pct": -0.32,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EIXIC",
+        "interpretation": "风险偏好降温"
+      },
+      {
+        "name": "黄金",
+        "symbol": "GC=F",
+        "value": 4471.3999,
+        "change_pct": 2.08,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/GC%3DF",
+        "interpretation": "避险/通胀对冲增强"
+      },
+      {
+        "name": "原油",
+        "symbol": "CL=F",
+        "value": 85.04,
+        "change_pct": 3.2,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/CL%3DF",
+        "interpretation": "通胀压力上升"
+      },
+      {
+        "name": "美元指数",
+        "symbol": "DX-Y.NYB",
+        "value": 99.581,
+        "change_pct": -0.09,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+        "interpretation": "中性"
+      },
+      {
+        "name": "十年美债收益率",
+        "symbol": "^TNX",
+        "value": 4.724,
+        "change_pct": 0.6,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5ETNX",
+        "interpretation": "成长估值承压"
+      },
+      {
+        "name": "BTC",
+        "symbol": "BTC-USD",
+        "value": 64231.6484,
+        "change_pct": 2.25,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/BTC-USD",
+        "interpretation": "风险偏好改善"
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "value": 15.19,
+        "change_pct": 6.6,
+        "direction": "↑",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/%5EVIX",
+        "interpretation": "避险升温"
+      },
+      {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "value": 225.01,
+        "change_pct": -0.07,
+        "direction": "↓",
+        "status": "ok",
+        "source_url": "https://finance.yahoo.com/quote/NVDA",
+        "interpretation": "中性"
+      }
+    ],
+    "topics": [
+      "AI",
+      "technology",
+      "business",
+      "macro"
+    ],
+    "quote": {
+      "english": "Prediction is very difficult, especially if it’s about the future.",
+      "speaker": "Attributed to Niels Bohr",
+      "chinese": "预测未来很难，所以更重要的是识别关键变量和更新机制。"
+    },
+    "sources": {
+      "ai": [
+        {
+          "title": "Rysh – an AI harness where Claude and Codex agents work as a team (Go)",
+          "summary": "Article URL: https://github.com/rysh-ai/rysh-cli-code Comments URL: https://news.ycombinator.com/item?id=49338780 Points: 1 # Comments: 0",
+          "url": "https://github.com/rysh-ai/rysh-cli-code",
+          "published": "Mon, 17 Aug 2026 22:51:16 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T22:51:16+00:00"
+        },
+        {
+          "title": "Building an AI Text Detector from Scratch",
+          "summary": "Article URL: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch Comments URL: https://news.ycombinator.com/item?id=49338761 Points: 1 # Comments: 0",
+          "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+          "published": "Mon, 17 Aug 2026 22:50:03 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T22:50:03+00:00"
+        },
+        {
+          "title": "Cumora, a cross-platform team chat where AI agents work alongside humans",
+          "summary": "Article URL: https://github.com/yetone/cumora Comments URL: https://news.ycombinator.com/item?id=49338707 Points: 1 # Comments: 0",
+          "url": "https://github.com/yetone/cumora",
+          "published": "Mon, 17 Aug 2026 22:46:00 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T22:46:00+00:00"
+        },
+        {
+          "title": "AI writes dead code – the Go team's deadcode tool finds it in one command",
+          "summary": "Article URL: https://towardsdev.com/how-to-find-and-remove-the-dead-code-your-agent-wrote-752eb1e738d0?sk=283d17fe49cb51c9936d99371e7a9d2a Comments URL: https://news.ycombinator.com/item?id=49338608 Points: 1 # Comments: 0",
+          "url": "https://towardsdev.com/how-to-find-and-remove-the-dead-code-your-agent-wrote-752eb1e738d0?sk=283d17fe49cb51c9936d99371e7a9d2a",
+          "published": "Mon, 17 Aug 2026 22:36:06 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T22:36:06+00:00"
+        },
+        {
+          "title": "AI at work puts new pressure on managers - WSBT",
+          "summary": "AI at work puts new pressure on managers    WSBT",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQ0pVR1VGdEktdVBCQUJieEVyVzZSWWlPQzI1aE5KZnJRcGV2ZW9HTWZEY1J4bnpURzlBMzliVnhnU1JWaHlvZGdyeVp2dDI4dFVkeHFONGdoMzlIWEdaek5CVVRyMHZfU2J2Q20teE42SFRoOWhvbzM2SXZRZ05VTHhQdUllWl8wUDM1TEhWRzYxS2JYQnJ1OVBpRGdGQXo0dFl0VDRnS1ZrUXV2N3UzQ3Q2UzRYa0NjWUxadXY5OS1TV2prajFmQ2JUaHlidlJnYnptSzRkWjhEeXEtOHpERXdn?oc=5",
+          "published": "Mon, 17 Aug 2026 22:20:29 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T22:20:29+00:00"
+        },
+        {
+          "title": "Agentic AI in a Smolbox",
+          "summary": "Article URL: https://remyhax.xyz/posts/smolbox/ Comments URL: https://news.ycombinator.com/item?id=49338338 Points: 3 # Comments: 1",
+          "url": "https://remyhax.xyz/posts/smolbox/",
+          "published": "Mon, 17 Aug 2026 22:07:38 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T22:07:38+00:00"
+        },
+        {
+          "title": "Control Charts Make AI Agents Cheaper, Less Necessary, and More Useful",
+          "summary": "Article URL: https://newoldweb.com/control-charts-make-ai-agents-less-necessary-and-more-useful Comments URL: https://news.ycombinator.com/item?id=49338144 Points: 1 # Comments: 0",
+          "url": "https://newoldweb.com/control-charts-make-ai-agents-less-necessary-and-more-useful",
+          "published": "Mon, 17 Aug 2026 21:48:14 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T21:48:14+00:00"
+        },
+        {
+          "title": "My friends all hate AI; I just joined an AI startup",
+          "summary": "Article URL: https://www.fast.ai/posts/2026-08-18-returning-to-AI/ Comments URL: https://news.ycombinator.com/item?id=49338139 Points: 3 # Comments: 0",
+          "url": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
+          "published": "Mon, 17 Aug 2026 21:47:30 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T21:47:30+00:00"
+        },
+        {
+          "title": "Target is Using Digital Twins to Strategize Its Inventory - WWD",
+          "summary": "Target is Using Digital Twins to Strategize Its Inventory    WWD",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ3FBNzZDb25aQ3VRbHlXdU5FbWhCd2tuaUtNT3JHa0FMZGxreFdYQ01ZQm1Yc2t2VFFnOHdqNjhhdE1TX1plek8wT2NwdUpNcHRyTElUd3NhMFNWMmR6blRSRHVCTEs3NEJVaEc2SmpuSmI0Q3dyY1B5VmRpdFg3SFMxMW9JTXNicFJWWXFXMHd1SWduQVk0UGxXYlY3YmY4ZGc?oc=5",
+          "published": "Mon, 17 Aug 2026 21:47:13 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T21:47:13+00:00"
+        },
+        {
+          "title": "Foreign psyops campaign targeting American consumer AI (2025)",
+          "summary": "Article URL: https://www.ynetnews.com/tech-and-digital/article/rj00kxqzaxx Comments URL: https://news.ycombinator.com/item?id=49338098 Points: 3 # Comments: 0",
+          "url": "https://www.ynetnews.com/tech-and-digital/article/rj00kxqzaxx",
+          "published": "Mon, 17 Aug 2026 21:44:05 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T21:44:05+00:00"
+        },
+        {
+          "title": "EY turning internships into yearlong residencies as AI changes entry-level work",
+          "summary": "Article URL: https://www.businessinsider.com/ey-internship-residency-career-ai-skills-2026-8 Comments URL: https://news.ycombinator.com/item?id=49338000 Points: 2 # Comments: 0",
+          "url": "https://www.businessinsider.com/ey-internship-residency-career-ai-skills-2026-8",
+          "published": "Mon, 17 Aug 2026 21:36:25 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T21:36:25+00:00"
+        },
+        {
+          "title": "AI systems out-persuade expert humans",
+          "summary": "Article URL: https://arxiv.org/abs/2606.16475 Comments URL: https://news.ycombinator.com/item?id=49337662 Points: 1 # Comments: 0",
+          "url": "https://arxiv.org/abs/2606.16475",
+          "published": "Mon, 17 Aug 2026 21:08:33 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T21:08:33+00:00"
+        },
+        {
+          "title": "Anthropic Revenue Skyrockets, Boosting AI Stocks - StartupHub.ai",
+          "summary": "Anthropic Revenue Skyrockets, Boosting AI Stocks    StartupHub.ai",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUUlRWVExTWcyc1d6XzJqdVZpdThJbFpmdEp0cUpCdWNOTllneER1OFVvXzZnWnRIWVdiclVuV1Z1T3JZQnlaUFNRMFJ4WnNwVlB3aUhIUkJ0Z0plSXpsR09hNmFnaUFPNktIRGVUbk8tRFplVFdBWUc5ZlFhUjJDUWczNllMeWo0eWZKNjdkSW5XRXpVZUNIbVl4UlVMQ0UzT3NlLUtad3QtbzVWaEYw?oc=5",
+          "published": "Mon, 17 Aug 2026 21:08:05 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T21:08:05+00:00"
+        },
+        {
+          "title": "Show HN: Personal AI tutor that builds and probes your understanding",
+          "summary": "I used to learn from books and courses. But I kept realising I hadn't built a real mental model. I always needed an LLM on the side to fill in what the books skipped. So, I stopped using books as my direct source of truth and started using LLMs itself: to design the curriculum and probe whether I understood the topic. Suki - it's opensource. Given a topic it builds a curriculum from beginner to advanced, then probes your understanding chapter by chapter. Link - https://github.com/grandimam/suki Let me know what you guys think about it. Comments URL: https://news.ycombinator.com/item?id=49337613 Points: 1 # Comments: 0",
+          "url": "https://github.com/grandimam/suki",
+          "published": "Mon, 17 Aug 2026 21:04:38 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T21:04:38+00:00"
+        },
+        {
+          "title": "Alternatives to Open Source Software Tainted by AI",
+          "summary": "Article URL: https://codeberg.org/ethical-foss/open-slopware Comments URL: https://news.ycombinator.com/item?id=49337597 Points: 4 # Comments: 2",
+          "url": "https://codeberg.org/ethical-foss/open-slopware",
+          "published": "Mon, 17 Aug 2026 21:03:05 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T21:03:05+00:00"
+        },
+        {
+          "title": "Evaluating AI Agents as Products",
+          "summary": "Article URL: https://www.marble.onl/posts/evaluating_ai_product_quality.html Comments URL: https://news.ycombinator.com/item?id=49337534 Points: 1 # Comments: 0",
+          "url": "https://www.marble.onl/posts/evaluating_ai_product_quality.html",
+          "published": "Mon, 17 Aug 2026 20:57:59 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T20:57:59+00:00"
+        },
+        {
+          "title": "Maj. Gen. Robert Kinney on DIA’s AI Sprint, MCP Adoption - ExecutiveGov",
+          "summary": "Maj. Gen. Robert Kinney on DIA’s AI Sprint, MCP Adoption    ExecutiveGov",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUxTVjVuQzRSV0p1bVEwMXNMaGlvN09mbWJ0QzlnekYySzJGZTl2QnlzR05Md3FUOTB2TGNXcDdsZDY5bUV5WEhTQVA5Z2FVQlc0QWR4Y3pZSGlJNUhrMm43RjY0TVVwSVNVWkw0ZDQ4NzItSUVCdVk1NWFUeVhGa2NSNml5TkJTbEktT3JiQXRudEk?oc=5",
+          "published": "Mon, 17 Aug 2026 20:55:31 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T20:55:31+00:00"
+        },
+        {
+          "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+          "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 39 # Comments: 15",
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+          "published": "Mon, 17 Aug 2026 20:46:10 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T20:46:10+00:00"
+        },
+        {
+          "title": "Artificial intelligence giant OpenAI was instrumental in catching a South Palm Beach, Florida, man who turned to ChatGPT to plot a horrific, violent revenge scheme against his former girlfriend. Darren Zhou, a 25-year-old former Goldman Sachs analyst, though - facebook.com",
+          "summary": "Artificial intelligence giant OpenAI was instrumental in catching a South Palm Beach, Florida, man who turned to ChatGPT to plot a horrific, violent revenge scheme against his former girlfriend. Darren Zhou, a 25-year-old former Goldman Sachs analyst, though    facebook.com",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMmpQazIwNmNkQWtzMU9TR1ZDdEdCOC1YTjd5Y1JQSGdHT0JuS1VYVGRMTDhoWS1WRzlEcUVUSHBwZ3lOZ2RNSWw0a25xTDA3ZGtXQUFhVG43LVdUTUJoYTJWNEdCMEhWNUVkNDA1aTZPMEFiRmFrYTdUUFh2SEQyZ0lqQjZVSXhjaTlkZFc0eV9SUFZvQnB4a0prSUd0ZnBmeFlFZ0gtNGtyWDRKQVYyck5sQXlSYVFzZnk0Z0tScVFtU0Y1WThYVS1qWVNwWTRfWFJNTmJXVjVFX0VIMW1CdzAyYw?oc=5",
+          "published": "Mon, 17 Aug 2026 20:45:45 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T20:45:45+00:00"
+        },
+        {
+          "title": "Cloud-Based Artificial Intelligence Classification of Common Intracranial Tumors on Magnetic Resonance Imaging - cureus.com",
+          "summary": "Cloud-Based Artificial Intelligence Classification of Common Intracranial Tumors on Magnetic Resonance Imaging    cureus.com",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSW9GQ0tFZnJ0akdDTXVmRVhZWVJ6RWJCODFEZDEzbXJaR2JTLW00aUY0RXA0MnBzdGxPejEzVHd2a0lpWGNsMEJXT3VNdmkzeTdwX3paLW4xOUZJVnRQV2pNYzRhWDJqVWpmaGRSSlpMZUZxbXhHd19hQjVlYWJidndlclI5Um5WbW5GUk1ySGN0aml2T252bk5YWEhaRnkzYVhOelBsUHNCQzRyOThtT0ZSX1pTZ3VCeklWaUtTVnM5OWM2U29JS04yOGtDZ2RiUHMyNExzdFVfbXhxTmw0LXJId0plSTYxQmZYR1RxZkt1R0VvOEpIbVlEZkM?oc=5",
+          "published": "Mon, 17 Aug 2026 20:45:43 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T20:45:43+00:00"
+        },
+        {
+          "title": "Artificial Intelligence - Yellow.com",
+          "summary": "Artificial Intelligence    Yellow.com",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2aDVGLVAyRVlBOEpSLVVndXJOM0JYQTRDZlF0T29lUFIzN0tNWUY2cmNib0t5bGhYT0RIVXJkVHE3Mm1yRmgyOVRQZjZXQXpkMG83OC15OXh0YkdVNFZ1dVNQNEhiNThBRXRfMVZWSkRwLTA?oc=5",
+          "published": "Mon, 17 Aug 2026 20:41:12 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T20:41:12+00:00"
+        },
+        {
+          "title": "The medieval understanding of intelligence is exactly what we need in the age of A.I. - America Magazine",
+          "summary": "The medieval understanding of intelligence is exactly what we need in the age of A.I.    America Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVjRrTFNRcmpmVUNGWExJU00ta3dHWGdjYllSUEdhdlhMTlhWQnVta3hWZkhTVk5YLTQ2YzY0cm95RVMtbWJPWUR3a04yTnp2eUdkaHB6dnFtem9ieERvQ1czU08xMEx0ZUZQSUJTRUktanFSU1dSeEx1d2NCQXFiWjEwNU1lQXZFRDZZbVBlM0p2bEhfMkFkaTNIQ3ZDOVA4bjdwUldmM0JDdlE0eFdDZGdHdw?oc=5",
+          "published": "Mon, 17 Aug 2026 20:39:45 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T20:39:45+00:00"
+        },
+        {
+          "title": "Alberta's AI data centre gamble: Big investment or local burden?",
+          "summary": "Article URL: https://financialpost.com/technology/alberta-ai-data-centre-investment-local-burden Comments URL: https://news.ycombinator.com/item?id=49337270 Points: 4 # Comments: 0",
+          "url": "https://financialpost.com/technology/alberta-ai-data-centre-investment-local-burden",
+          "published": "Mon, 17 Aug 2026 20:36:06 +0000",
+          "source": "Hacker News · AI",
+          "_date": "2026-08-17T20:36:06+00:00"
+        },
+        {
+          "title": "Executives put the spotlight on AI’s reliability issue - CIO Dive",
+          "summary": "Executives put the spotlight on AI’s reliability issue    CIO Dive",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ1pha0JtUmtTTmpIV3ZYSEJPWHFmLWVvSzJiMHJaRnZ6TTRRUTdqcEFoQ1hxdTBqSC1la1J3M3k0Wlk5NzF2d3E0blZ5M2gyeGQtaHAyV3R5dnpvM1ZJWmg2VVRlcjZGMXl5dTE0bHc1TTMwS3pkZHpBU3FCRnpSTHR3SVc?oc=5",
+          "published": "Mon, 17 Aug 2026 20:35:11 GMT",
+          "source": "Google News · AI",
+          "_date": "2026-08-17T20:35:11+00:00"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "U.S. long bonds surge as deficits and sticky inflation rattle markets - CHOSUNBIZ - Chosunbiz",
+          "summary": "U.S. long bonds surge as deficits and sticky inflation rattle markets - CHOSUNBIZ    Chosunbiz",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT3lhRmt0ZWZhMEZqVlNnNlZqZXJpSkxwWGVQRzNQc1RiWVJUZHB4UkdrOWJ5Z25JS3hERTgzUm82VGdDSTBhLUdzcUFfLUQ5RDlUSHdrd3BZX0VlLURNMHJCT2NUT2FnZ25Yc1ZXMnl2d2xEXzFYb00tVk9zOEUzR2J2ajFtNElo0gGcAUFVX3lxTE5vT1NiU3lXZ3BRd1pxVWc4VEt1c21BOFB3Yk1EaDBWZUVoUVFhSHdSOFRyQU1GMmg3SmhGY2tFTGdWUUFwRVNNMGVTd1ZHQVhuQVdXVEczTFl1LVdpTVA1S1J2MTRWOGpkbXVudTJzbW5OdWo4REFXQ21NajhqeDcxc01xdVRUbzl3QnV6R0todW5lbEdOZ2E1amNhMw?oc=5",
+          "published": "Mon, 17 Aug 2026 22:28:00 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T22:28:00+00:00"
+        },
+        {
+          "title": "Software Composition Analysis Market to Reach $981.62 Bn by 2031 as Open Source Security and Cloud Deployment Drive Market Growth - Barchart.com",
+          "summary": "Software Composition Analysis Market to Reach $981.62 Bn by 2031 as Open Source Security and Cloud Deployment Drive Market Growth    Barchart.com",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMXY1Q1lhWVFBX2ZuckJldXF3a2NfQ2xTam9fUDdsNm9JZzlWVnRXcXY4T1RGcjRjZWowQ0dQLWhneXdwVXRnLTBTMEdBRXlvLWZtbm9mTExCS3VJQXptZ1J4S0FKTzJLSm9lai1vdGwwZHJ6WUhHdDBLNFlKTTJ4QU90N1NLUnNKbWZTZ0dTU2ppNDR0bllKYXV5X2RmSkszN183cWpLRUVjakR1VXJwSGExQzMtQXNtYkx3azJfMFZFc2FGcnMxYXBlMVpVRUh0Vnl6VlZjUE5zLTgxdUhkUlJpZWs1R0ZNc2NtNTZrRzA3aTZkdHBLQWxwbjlqOFZsa3c?oc=5",
+          "published": "Mon, 17 Aug 2026 22:24:06 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-17T22:24:06+00:00"
+        },
+        {
+          "title": "Why Bangladesh, a global top producer, still imports fish - The Daily Star",
+          "summary": "Why Bangladesh, a global top producer, still imports fish    The Daily Star",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWFlUcVMxYTdRSjNNaGY0ejdnWlpFWTZpUllwVUQ5cTg2VUV3RkdrWk9Ec0lfWWI4Sk5uZncyWV9uNGJTNmdrMWZoeW92LXNBek1ValNDRndhaHhicXlIWVFKZHp5QzQ5SXpGV2xDUjRERzJITWVXcm5IdjVpS1BTejNmYTZiblFNdEJ6a2xEYnUzVmhYclY1M1d3TkQwSE5OMVhnSVJtMmE1VGNMd3Z5UU13?oc=5",
+          "published": "Mon, 17 Aug 2026 21:41:31 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T21:41:31+00:00"
+        },
+        {
+          "title": "SCHOTT Pharma Advances Climate Action With Updated Science-based Climate Targets - Yahoo Finance",
+          "summary": "SCHOTT Pharma Advances Climate Action With Updated Science-based Climate Targets    Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHpMelJlLVV6QXlwOVdNTi15b1lvdlozMzBnOThWTkFsbE9wcXQwLXN4ZnBkcUZReFRfWlBnN0p3Smk0cmhtbTRfc2toS0NQbHlOOC1ORllaOHNEcWhkY0FoWlNiQ2VPMDlMRFFuOEpqVEVxcDFtU3NORncyTnNGQnhBcERjRlpKcm5mTWpGX2RlT0l6OUppbHBZb0tFaWc?oc=5",
+          "published": "Mon, 17 Aug 2026 21:17:25 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-17T21:17:25+00:00"
+        },
+        {
+          "title": "America needs a new formula for chemical safety and domestic manufacturing - Plastics News",
+          "summary": "America needs a new formula for chemical safety and domestic manufacturing    Plastics News",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWDJBejRTYVUyajdOaTRnZXpta3c4S0dUQk8zU0c0MjlmU1hibEU5WHpqMmNpZXhjT1lYZXIwOEFIWkJjcGRTNkw1Nld0dHRNVGtINjMtR1dsQ3ZWU21rVlR2QUQ4cXBQRXBObkR0WTZxQ0x3VGNtN09YeVF5RUNrbi1maTJRb1dRYzJNRw?oc=5",
+          "published": "Mon, 17 Aug 2026 20:58:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-17T20:58:00+00:00"
+        },
+        {
+          "title": "How Can the Global Economy Move toward Steady Growth? - Springer Nature Link",
+          "summary": "How Can the Global Economy Move toward Steady Growth?    Springer Nature Link",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmdzA2bXVFUHFlcGJpQU4tblQtVWhIR3V5QXUwdUFnclJjSDdZbDhNUlhtNmtlU0pRR29OMk1pWWRBQmtuUERTM1NTUF9jYnBFV3BSUmtqT0FzVUlPSmVxQVlsV2VsaHV6ZEthM1pjYw?oc=5",
+          "published": "Mon, 17 Aug 2026 20:47:16 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T20:47:16+00:00"
+        },
+        {
+          "title": "Arthur Hayes Predicts HYPE Token Could Hit $150 by August 2026 - CryptoRank",
+          "summary": "Arthur Hayes Predicts HYPE Token Could Hit $150 by August 2026    CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVmpZcHVQNDZRNW1fQVNsUUtoTXhWU09hXy10a04yYTgycGFScmlvaHpIdGtKUXBnSXVMd3ZDV20xdFp0ckJ4WURKa2lycUFUR1I3OFBiejctbGYtRTA4d1FpU1p3SURaNmJCRUkzbEtwXy1LY0taUlZRaDF4QW5KS2ZCNUVGWjRUM0NOMFdnZFBMeVBtQ25NdFlxc0E0eF9Y?oc=5",
+          "published": "Mon, 17 Aug 2026 20:22:03 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T20:22:03+00:00"
+        },
+        {
+          "title": "Industry: Weak economic data a “warning signal for authorities” - Table.Briefings",
+          "summary": "Industry: Weak economic data a “warning signal for authorities”    Table.Briefings",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM3ZGVzVYVXJyWGpTcEdCZ0Z2S0JxWVJiM1FkRVhtWlJFZkpGSWdhNVpOZVlLNURUaHc4V3FzYlNVeVp4TndXaHc1eVlpcTZ4Nk1xVXZaN3J0QVEyd2lZODZfZTlrdGt3TE96NG13RTRhWEh3a05KMjNUTkRFX0F0ZTBXTzJhdWNFa01BNEEtazNGVmpkVWJQSkRn?oc=5",
+          "published": "Mon, 17 Aug 2026 20:15:21 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T20:15:21+00:00"
+        },
+        {
+          "title": "Gold posts second straight weekly gain, eyes $4,400 level - Kuwait Times",
+          "summary": "Gold posts second straight weekly gain, eyes $4,400 level    Kuwait Times",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVGhsOGhYQUJNOFNIVXhkSklPZWRXNUo2RTczMmJtNjlwMEZlVmhwUmJJMzJ6Zml1dXcwRjB1d2NwMTRMWkttQ19HSXVxVU42V1lzUHlDWjRac0RNZnF3RzlfMG5fOW5DbUlta2lUblkzMEVaWWZFVlFhR2h6N2l5VXFVVjEtSWh3MEV3RzdwZGhzT0NJNjgyc0VSc1ptTklqbnpONzY5Q0MySFcwY2xGadIBtAFBVV95cUxNdzZVZXRRTXNVQWo4Y015RTVYOG5Fam5Ma3BmSUlyZng2ZTE4bVJLOUhfWDVGaklrUWxpT01nSGM3V29jbE50b0dubVBndnBHQ1JhOHlHelVXaU5aVlAzQ0JadXVvejFqVWYtZFkzZzJ1MVBhaGtUZ3I2Y3FvZDdHajNzb0ZSOUJSMG90N2VQcXJwZXNEaFQ3X3VxR3dfUXVIcE1BWWtuRkpnMUF4V01MbU1KbEo?oc=5",
+          "published": "Mon, 17 Aug 2026 18:50:09 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T18:50:09+00:00"
+        },
+        {
+          "title": "Integrated efforts needed to develop textile, jute sectors: minister - newagebd.net",
+          "summary": "Integrated efforts needed to develop textile, jute sectors: minister    newagebd.net",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnhLdGVtam0xcUVzOW1xSHktR2JmZEZkUExPdmIyZ0d1OUZZOUl5SDBjRW4wWVhFUWpwdkQwQzJLeEIwdnBMZXlqeGYzR3N4QUpsaFJJY0M1X1FzaVdvQ3gyR0s2Ml9oZU0yZVdMS3duWGNRTi1HMWEtcHczcE9VZUtiVjBGUWFPUjk2S1NIYU90cDhMVzhBaUVYSTNfd1JEVnNJNkIzWGpVa0VEWHFKNA?oc=5",
+          "published": "Mon, 17 Aug 2026 18:46:55 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T18:46:55+00:00"
+        },
+        {
+          "title": "Victory Trivalent International Small-Cap Fund Q2 2026 Commentary - Seeking Alpha",
+          "summary": "Victory Trivalent International Small-Cap Fund Q2 2026 Commentary    Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMFRvdmpKSEgtV1RlNnptek5tZmFlWU5QTHloeDVkalZVNXZOaFRHa0xveFFRblRNWHlTTklrcFB6OGRxeGw4aDR3U09aWnBCdGh5MUlYRXBjdGhhM3RNcldQU1o1bEU4V2dfdC12VS1yeHEwTk1BSzBsWFVESmpxOEhXQmJ1VXBUWnVwOERKaU9Jak1IbmRvWFk2ZW1JTi1SQnExRUNpeGpwZw?oc=5",
+          "published": "Mon, 17 Aug 2026 18:45:00 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T18:45:00+00:00"
+        },
+        {
+          "title": "Israel's deep-tech boom reshapes how founders are trained - The Jerusalem Post",
+          "summary": "Israel's deep-tech boom reshapes how founders are trained    The Jerusalem Post",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLS05VHNiWVhHSVdsbklyQmxQOF9KSFV4Y0NPUHoxZGw4cmJpNXNMUzJaRk5qT2l2N3I2UTQyaEQ4d3gwT2dCTWJPR0xIZ3E4TnNsTTViMFZxb19WZmU4bm5fOGE2YnRpc21tNWlBTUxyd3hXbFVFZFhTTTdrV0ZfUXladGY1Zw?oc=5",
+          "published": "Mon, 17 Aug 2026 18:34:42 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-17T18:34:42+00:00"
+        },
+        {
+          "title": "Bond Market Triggers Wall Street Risk Warnings As Long Yields Surge - TradingView",
+          "summary": "Bond Market Triggers Wall Street Risk Warnings As Long Yields Surge    TradingView",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOektFSUlyNTA4VDIzcGRXQS1Jd24ycEtHNllZZXUzUUdBb0dUZk1TTVhOaGp4cHlvYVZoMWR0c05GWFNvOUVKN2Q5SW1QSnk0TWhuR3htWmZEdG9UZzN6S1dHcE9pWUdMQk9lczdGYmhrSTZiS1N3N1hFSkROdVhSdzdIMUJsYldzazFmS1o1WW9Felh0MElnRmluUTA4TDBCb2VtNTU4RnN2dE82aHJ3S2dEcnF5OFlFLUxVNktzN1pZd3F2SGU0?oc=5",
+          "published": "Mon, 17 Aug 2026 18:23:36 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T18:23:36+00:00"
+        },
+        {
+          "title": "Taiwan’s Dy Economic Affairs Minister to Lead Tech & Industry Delegation to Bengaluru - asiancommunitynews.com",
+          "summary": "Taiwan’s Dy Economic Affairs Minister to Lead Tech & Industry Delegation to Bengaluru    asiancommunitynews.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0xmUjFMOWEyVXhnWTA2WUx3emg3OEZLY2NJYldfZ0prS0Jrdk1BWjBpMnhxakZDUmF1bVpiUFZ5VkVOeWF2amkxNWhBN3MtTGRweERxVlhWbjNVSFplZ2pZNHN2NldLVEx0dHZnejJsYndzRUZTY216Q3pZV21BM3p0Y0xfcHlQRlVVTDNmMUFCTHhna3ZkbDk2amxZR0hjZnF2QXlfS25jZXpIVE92Q2VLU24tNkJ1NXc?oc=5",
+          "published": "Mon, 17 Aug 2026 18:10:52 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T18:10:52+00:00"
+        },
+        {
+          "title": "Euro Slips Below 1.1600 As Dollar Rebound Cools; Markets Eye Fed, ECB Signals - Bitcoin World",
+          "summary": "Euro Slips Below 1.1600 As Dollar Rebound Cools; Markets Eye Fed, ECB Signals    Bitcoin World",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yNDNoMk5mWlFkUlZDdzgxaVdUY1NEQWR4aHJTZ0hFazlFRVQtUVJZaTBjNGVLcWpEdVhPT0ZLTlNvR1lXVjF1WVFoYkVheEFwUUhWTGhXTGhIWG9ESG9EZUlpZm9qSXNXbFZLU0xEVDR0cUw0?oc=5",
+          "published": "Mon, 17 Aug 2026 18:10:11 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T18:10:11+00:00"
+        },
+        {
+          "title": "Industrial scale illegal commercial fishing continues to undermine seafood economy - The Cordova Times",
+          "summary": "Industrial scale illegal commercial fishing continues to undermine seafood economy    The Cordova Times",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWjRMc1pDOVJTSW80MVBPeHZHUFNCYkNYd2RZanlzb1NoYkNXNW5OOVNVZjZob3BRX0ZhWjVlUkFRWk1vMDFUMkdIalpRVTAydzlBVThINFFjb0RfMEFMNjFRWTZKOUJxQllPT1FqV2FwTFZzQTllSlZKdkFlM1NpU2RIeTljZEh6X28xUG83QVhITVlGNHFvbXIxOFRMeW5tc2RoMEtOMVFOZ1pqc1JQRi1namxJc0ZWcXNNYjZDMA?oc=5",
+          "published": "Mon, 17 Aug 2026 18:02:10 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T18:02:10+00:00"
+        },
+        {
+          "title": "From Research to Practice: NASENI and The Gambia Plan to Build Africa’s Technology Future - Daily Trust",
+          "summary": "From Research to Practice: NASENI and The Gambia Plan to Build Africa’s Technology Future    Daily Trust",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVy1GOGNHVkxQTHJqbTY4WWs2UzFEbnd2QzBhbTVyLUVFV1ZFMkQ1MndFb2tTUG9yT2tXZXFFX3ZDcUhicU5RV3JkLVc1ZHhFSDU2WWhsdWNCSHFma2hrZ1VOakg5aVJ2akd5WU92VUQ0WGV3bXd6S2dXbFl4bjBXX0M3Ym9IZlZGcnNQMUJDNktnTnBURGI5WDFtM3liUWJoeEtCRExmcXJ1WDg0U1FIUA?oc=5",
+          "published": "Mon, 17 Aug 2026 17:40:10 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-17T17:40:10+00:00"
+        },
+        {
+          "title": "Indian delegation in Dhaka to explore trade, investment - The Daily Star",
+          "summary": "Indian delegation in Dhaka to explore trade, investment    The Daily Star",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM1NSRFVpTy1OTXhEbXoxeGFUTlR4cnJ1b0tKb2dmVmJ3VEpDVmdoX3VVM3FBR2FoTUJVUmM4alo3NlpOV2hWUTRxVjRBbTVhTEx3U3gzUHNQa1RzZWx3VHN5NFVINWFGcnhuSG12d0dRMG1JV1B0T2ZaOG5PN3Fhb0JaRzRFdi05bjZTQUI5bGU5RTlibEVhajV1QWpYT0wzeHJmRVVtTzdfQnRQWkhfelBRSXo?oc=5",
+          "published": "Mon, 17 Aug 2026 17:39:22 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T17:39:22+00:00"
+        },
+        {
+          "title": "NRB Bank launches Visa Islamic signature credit card - The Daily Star",
+          "summary": "NRB Bank launches Visa Islamic signature credit card    The Daily Star",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUmd6Sm5Sd09HOUtsVlNabXNIYzFyVFhmTDcxWEowYTVtNEEzTFhFNTMwZE9MaUd2V1lFcXVDb0gtZ2hKSUlhMWhzdkhCSVFyY3JBMmQ4MVJEcUxTZWtQemktMnJIN2dmeVR4UmtfOW9zRDlSWXFzNXZGZ2t2VmVaTDNldUc3VUVrdTY3QU8tNkhNamVwUDhlSzh1a18wbnVKR0NWTS1lOG1LMUZvUHJmQVQzcWNhdUY4UVo3bTF3?oc=5",
+          "published": "Mon, 17 Aug 2026 17:27:52 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T17:27:52+00:00"
+        },
+        {
+          "title": "City Of Mesa, Arizona: A High-Growth Market - Business Facilities",
+          "summary": "City Of Mesa, Arizona: A High-Growth Market    Business Facilities",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZeTUxR1FGd3pwSFBCT2k5R2NjZDVueF9nS0EzNXZPM1BQblBnem1QWVE4bXpYS1hOTTVYZENxaHVsYTE4NUVyOWNZX0ctTjFKVW1LZ2VmMnI1Q3d3d1pNMUFnd0h0OWtacjBONmFoV3ljUFhvZ0U3cVFFd2Vydw?oc=5",
+          "published": "Mon, 17 Aug 2026 17:00:00 GMT",
+          "source": "Google News · Technology Business",
+          "_date": "2026-08-17T17:00:00+00:00"
+        },
+        {
+          "title": "Can Kevin Warsh Shrink the Fed’s $6.75 Trillion Balance Sheet? - equiti.com",
+          "summary": "Can Kevin Warsh Shrink the Fed’s $6.75 Trillion Balance Sheet?    equiti.com",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEU4TG5JSmRfbFpIdVNldFRxeHJyVzc1Z3lMSWp1SUNEdHpPWC1aSjBQa3c3b2gtcWZyblJWbmVGNEJDVUpEa0pTb1JMS0ZjcXlVQ2hmYW1hbE9LelNwMWpEYnFzdkVidERmT2YtWnMyd0xOWHlWMmZpRTJIRXFJYnNia1hLWTlnS25BVDZfUFdNQUl4MmhPN1B3Wkp5UTBV?oc=5",
+          "published": "Mon, 17 Aug 2026 16:59:02 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T16:59:02+00:00"
+        },
+        {
+          "title": "Yen Intervention Explained: What’s True, What’s Not and What Markets Should Watch - equiti.com",
+          "summary": "Yen Intervention Explained: What’s True, What’s Not and What Markets Should Watch    equiti.com",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNajJWc3V4NUhqUFZwUmdhTWh3eTNueFVGREF4ckpWTzFVUGY1TnI5V1d2TERFU3dFYzZSZ3JRNjM0cXZTM2xTbmQ0WXZBcDE0d3laa2c5OTcxUjJHVnZKY3lkVnRiWGkwenI0NjFvNDlwdnVEVjluVmJBWE8zYVhLLUhSUUtfQUhfZDBtVkxRZllaOTJYWDhucWNzXzZnNXBXU1NIbnFiaGI?oc=5",
+          "published": "Mon, 17 Aug 2026 16:56:59 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T16:56:59+00:00"
+        },
+        {
+          "title": "US Dollar Index Stumbles as Washington’s Fiscal and Trade Policies Weigh on the Greenback - Bitcoin World",
+          "summary": "US Dollar Index Stumbles as Washington’s Fiscal and Trade Policies Weigh on the Greenback    Bitcoin World",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80di1IUUhZUlMxRzVzb3c3Z19MNHo4SnZyOVdMcVo1N3lla2gwMGw1THp1eTh5d0tIcVdPa0Zfbk9fWUFsWlhLNFVrSnpwd2lGVHZHLXN5bFkzVUVGeklCNVhnY3VCMTN5eXhCdVRjc1BmZG1zMG51NWln?oc=5",
+          "published": "Mon, 17 Aug 2026 16:40:11 GMT",
+          "source": "Google News · Markets Policy",
+          "_date": "2026-08-17T16:40:11+00:00"
+        },
+        {
+          "title": "The global stakes of China's slowdown - Axios",
+          "summary": "The global stakes of China's slowdown    Axios",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mcXBKNFVDUWZQbFp2Z3RPQTcxVFVUTDVteVdZVUJzSURxQUpaX3ZSaUtrUWM3STEtNkY0aTdwcWphc1RQQkttUktLMnVqOFRTX3RVaW5lQ1FBdDV3eGc?oc=5",
+          "published": "Mon, 17 Aug 2026 16:08:47 GMT",
+          "source": "Google News · Global Economy",
+          "_date": "2026-08-17T16:08:47+00:00"
+        }
+      ]
+    },
+    "search_text": "  Daily Intelligence\n  2026 08 18｜Tuesday\n\n   Today’s Thesis｜今日一句话\nAI 代理正从技术奇观转变为组织约束（生成死代码、改变初级岗位、需要控制图），而宏观紧缩（顽固通胀与长端收益率飙升）正在收紧资本，迫使 AI 从“不惜代价的增长”转向“可衡量的效率”。\n\n   ① Executive Summary｜30 秒\n    AI  ：AI 代理正在生成大量死代码并重塑初级岗位，迫使组织引入控制图与静态分析工具进行治理，同时 AI 的超强说服力与信息污染风险开始显现 [A4, A7, A11, A12]。\n    商业  ：Target 采用数字孪生优化库存 [A9]，EY 将实习转为长期驻场以应对 AI 对初级工作的替代 [A11]，企业正从概念验证转向用 AI 解决物理与运营瓶颈。\n    宏观  ：美国长端收益率因赤字与顽固通胀飙升 [B1, B13]，触发华尔街风险警告；美元受财政与贸易政策拖累走弱 [B23]，资本向黄金等避险资产转移 [B9]。\n\n   ② AI Daily\n\n    AI 代理的隐性成本与工业级控制\n  What Happened  ：AI 代理在生成代码时产生了大量死代码，Go 语言团队发布了  deadcode  工具来清理 [A4]；同时，业界开始引入统计过程控制中的控制图，以使 AI 代理更便宜、更可控 [A7]，并将其作为产品进行评估 [A16]。\n  Why It Matters  ：代理的自主性带来了隐性技术债和运营风险。当 AI 从辅助工具变为自主执行者，其生成的冗余代码不仅消耗算力，更构成安全漏洞；控制图的引入标志着对 AI 的治理从“提示词工程”走向“工业过程控制”。\n  Second order Effect  ：AI 生成代码规模扩大 → 死代码与隐性依赖积累 → 安全与维护成本激增 → 专门的 AI 代码审计与静态分析工具市场爆发。\n\n    AI 对初级岗位的结构性替代与组织重塑\n  What Happened  ：由于 AI 改变了入门级工作的性质，EY 将传统的实习制转为为期一年的驻场制 [A11]；同时，职场 AI 的普及给管理者带来了识别人类工作与 AI 输出的新压力 [A5]。\n  Why It Matters  ：AI 正在掏空传统的“学徒期”初级任务，使得新手无法通过基础工作积累经验。企业必须延长培养周期（如 EY 的驻场制），而管理者则面临信任与验证的逆向选择——当 AI 说服力超越人类专家 [A12]，如何判断下属提交的是独立思考还是 AI 合成？\n  Second order Effect  ：AI 替代初级任务 → 传统实习失效 → 培训周期延长与成本上升 → 管理层验证成本激增 → 组织层级与考核机制重构。\n\n    AI 作为信息战载体：认知漏洞的武器化\n  What Happened  ：外国心理战活动开始针对美国消费级 AI [A10]；同时，以色列被曝光创建虚假智库，很可能旨在欺骗并误导 AI 聊天机器人的输出 [A18]。\n  Why It Matters  ：LLM 的超强说服力 [A12] 使其成为完美的宣传放大器。恶意行为者不再需要说服人，只需污染 AI 的训练或检索数据源。当用户向 AI 寻求真相时，AI 可能输出了精心设计的虚假叙事。\n  Second order Effect  ：恶意行为者创建虚假信息源 → AI 代理摄取并内化虚假叙事 → 用户因信任 AI 而接受虚假叙事 → 认知操纵规模化与自动化。\n\n   ③ Business Daily\n\n  科技/制造  ：Target 采用数字孪生技术制定库存战略 [A9]。机制：通过在虚拟空间映射物理库存与供应链，企业能在不干扰现实运营的情况下进行压力测试与策略推演，这标志着 AI 从内容生成深入到物理系统的优化与控制。\n\n  专业服务  ：EY 将实习转为一年期驻场 [A11]。机制：AI 压缩了基础数据处理的时间价值，使得原本需要三年积累的初级技能在数月内被 AI 掌握。延长驻场期是为了让新人在 AI 免除繁杂工作后，能专注于培养 AI 无法替代的复杂判断与客户关系。\n\n  能源/基础设施  ：阿尔伯塔省的 AI 数据中心博弈：巨额投资还是本地负担？[A23]。机制：AI 算力需求正与电网容量及碳排放硬约束发生碰撞。数据中心带来的巨额资本投资与地方电网负荷、水耗及电价之间的冲突，正在重塑 AI 基础设施的地理分布逻辑。\n\n  医疗  ：基于云的 AI 对颅内肿瘤进行分类 [A20]。机制：云端算力集中了顶尖诊断模型，突破了边缘设备的算力限制，但同时也将关键医疗数据的隐私与延迟问题推向了网络安全的中心。\n\n   ④ Macro Observation｜机制分析\n\n  世界正在发生什么？   \n美国长端国债收益率飙升 [B1, B13]，黄金连续上涨剑指 4400 美元 [B9]，美元指数受华盛顿财政与贸易政策打压而走弱 [B23]。中国放缓的全球外溢效应显现 [B24]，部分行业疲软数据发出警告 [B8]。\n\n  为什么发生？   \n[事实] 美国长债收益率上升、赤字高企、通胀顽固 [B1]。[推断] 市场正在对美国的财政可持续性进行定价，要求更高的期限溢价。同时，[事实] 华盛顿的财政与贸易政策正在施压美元 [B23]，[推断] 这削弱了全球对美元资产的绝对信任，促使资本寻找非美元避险资产。\n\n  资本如何流动？   \n资本正从对利率敏感的成长股（纳斯达克微跌）流向避险与通胀对冲资产（黄金大涨）[B9]。同时，市场在试探日元干预的底线 [B22]，并关注美联储与 ECB 的信号分化 [B15]。\n\n  接下来关注什么？   \n[待验证信号] 财政赤字与长端收益率的反身性螺旋：收益率上升 → 债务利息支出增加 → 赤字扩大 → 需要发行更多债 → 收益率进一步上升。若此反身性循环确立，将对所有依赖远期折现的资产（包括 AI 基础设施投资）产生系统性压制。\n\n   ⑤ Signal Dashboard\n\n  指标   最新值   今日   信号  \n        : :   :     \n  [Nasdaq](https://finance.yahoo.com/quote/%5EIXIC)   26,644.91   ↓  0.32%   风险偏好降温  \n  [黄金](https://finance.yahoo.com/quote/GC%3DF)   4,471.40   ↑ +2.08%   避险/通胀对冲增强  \n  [原油](https://finance.yahoo.com/quote/CL%3DF)   85.04   ↑ +3.20%   通胀压力上升  \n  [美元指数](https://finance.yahoo.com/quote/DX Y.NYB)   99.58   ↓  0.09%   中性  \n  [十年美债收益率](https://finance.yahoo.com/quote/%5ETNX)   4.72   ↑ +0.60%   成长估值承压  \n  [BTC](https://finance.yahoo.com/quote/BTC USD)   64,231.65   ↑ +2.25%   风险偏好改善  \n  [VIX](https://finance.yahoo.com/quote/%5EVIX)   15.19   ↑ +6.60%   避险升温  \n  [NVIDIA](https://finance.yahoo.com/quote/NVDA)   225.01   ↓  0.07%   中性  \n\n   ⑥ Deep Insight\n\n  AI 的隐性技术债与宏观紧缩的致命交叉  \n\n当前市场对 AI 的估值逻辑建立在“生产率无限提升”的线性外推上，却严重忽视了 AI 代理系统正在快速积累的隐性技术债。今天 Go 语言团队专门发布工具清理 AI 生成的死代码 [A4]，绝非偶然事件，而是揭示了一个深层机制：AI 代理的代码生成量与其产生的冗余、不可维护及不安全代码量呈正相关。\n\n在宏观宽松周期，技术债是被容忍的，因为资本成本低廉，企业有充足的资源去支付“代码重构税”与“算力浪费税”。然而，当下宏观环境正在发生质变：美国长债收益率飙升 [B1, B13]，顽固通胀与巨额赤字正在推高无风险利率 [B1]。这意味着资本成本正在急剧上升。\n\n当宏观紧缩与 AI 技术债相遇，会产生一个极易被忽视的反馈循环：企业为降本增效引入 AI 代理 → AI 代理生成大量包含死代码的代码库 → 系统维护成本与安全漏洞激增 → 在高利率环境下，这些隐性成本的折现值极高，直接侵蚀企业利润 → 企业被迫投入更多资本购买安全分析工具（如软件成分分析市场预期大涨 [B2]）与控制机制（如控制图 [A7]） → AI 的净效率大打折扣。\n\n更深一层，AI 对初级岗位的替代 [A11] 正在切断人类工程师处理技术债的供应链。传统上，初级工程师承担着代码重构与测试的“偿债”工作；当这些岗位被 AI 取代，而 AI 本身又缺乏全局架构视野时，系统将陷入只借不还的“技术破产”边缘。高管们已经开始聚焦 AI 的可靠性问题 [A24]，这标志着信任红利正在耗尽。\n\n因此，AI 的下一波红利不属于那些能生成最多代码的模型，而是属于那些能证明其生成代码总拥有成本（TCO）最低的系统。在长端收益率高企的当下，任何无法证明其能削减系统性技术债的 AI 投入，都将面临严峻的资本审查。\n\n  反方观点  ：AI 代理的代码生成能力将快速进化，具备自我审查与重构能力，死代码只是技术早期的阵痛，长期看将被模型自迭代彻底消除；同时，AI 提升的顶层效率远超底层维护成本。\n\n  证伪条件  ：1. AI 生成代码的漏洞率与死代码率在不依赖外部静态分析工具的情况下，实现内生性持续下降；2. 美债收益率见顶回落，重新进入宽松周期，使得技术债的资本成本不再是企业核心考量。\n\n   ⑦ Tomorrow Watch\n1. 关注美国三十年期国债拍卖的认购倍数，验证海外资本对长期财政赤字的容忍度。\n2. 验证 EY 驻场项目在咨询行业的跟风效应，观察其他四大是否调整初级招聘策略。\n3. 追踪 Go 语言  deadcode  工具在 GitHub 上的 Star 增长，作为衡量 AI 代码污染严重程度的代理指标。\n4. 关注针对 LLM 的虚假智库与数据投毒事件的进一步曝光，验证信息战升级趋势。\n5. 观察日元兑美元汇率在干预传闻下的波动，确认主权债务市场的风险传染路径。\n\n   ⑧ One Chart\n\n [Daily Market Pulse](assets/chart.svg)\n\n图表展示了长端美债收益率与纳斯达克指数近期的走势分化。收益率上行通常对成长股估值产生压制，二者呈现负相关性；但近期 AI 叙事在一定程度上对冲了这种估值压制，这种相关性能否持续，取决于 AI 降本增效能否转化为实质性的自由现金流。\n\n   ⑨ Quote of the Day\n\n  “Prediction is very difficult, especially if it’s about the future.”  \n  — Attributed to Niels Bohr\n\n  中文理解  ：预测未来很难，所以更重要的是识别关键变量和更新机制。\n\n  Why it matters today  ：这句话不是装饰，而是今天观察 AI、商业和宏观变化时的一个思考框架：先看机制，再看价格；先看约束，再看叙事。\n   ⑩ Action Items｜今天值得思考什么\n1.   验证   你的组织中 AI 生成代码的占比与死代码/安全漏洞率的真实比例。\n2.   比较   传统初级岗位培训成本与 AI 时代延长驻场制培训的总拥有成本。\n3.   追踪   美国期限溢价的变化，评估其对长期科技基础设施投资的折现率影响。\n4.   关注   企业内部对 AI 代理引入控制图与统计过程控制的进度，衡量 AI 治理成熟度。\n5.   思考   当 AI 具备超强说服力时，组织内部应建立何种交叉验证机制以防范信息污染。\n\n   信息边界\n本报告事实性内容严格限定于上述提供的 AI SOURCES (A1 A24) 与 BUSINESS AND MACRO SOURCES (B1 B24)。市场数据反映 2026 08 17 及之前的最近交易日收盘或实时状况。新闻来源多为二手聚合，涉及的具体公司战略、政策干预及市场预测需读者回到原文链接进行独立验证。宏观推断基于既有事实的机制推演，非确定性预言。\n\n\n   Sources\n\n    AI\n\n  [A4：AI writes dead code – the Go team's deadcode tool finds it in one command](https://towardsdev.com/how to find and remove the dead code your agent wrote 752eb1e738d0?sk=283d17fe49cb51c9936d99371e7a9d2a) — Hacker News · AI\n  [A5：AI at work puts new pressure on managers   WSBT](https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQ0pVR1VGdEktdVBCQUJieEVyVzZSWWlPQzI1aE5KZnJRcGV2ZW9HTWZEY1J4bnpURzlBMzliVnhnU1JWaHlvZGdyeVp2dDI4dFVkeHFONGdoMzlIWEdaek5CVVRyMHZfU2J2Q20teE42SFRoOWhvbzM2SXZRZ05VTHhQdUllWl8wUDM1TEhWRzYxS2JYQnJ1OVBpRGdGQXo0dFl0VDRnS1ZrUXV2N3UzQ3Q2UzRYa0NjWUxadXY5OS1TV2prajFmQ2JUaHlidlJnYnptSzRkWjhEeXEtOHpERXdn?oc=5) — Google News · AI\n  [A7：Control Charts Make AI Agents Cheaper, Less Necessary, and More Useful](https://newoldweb.com/control charts make ai agents less necessary and more useful) — Hacker News · AI\n  [A9：Target is Using Digital Twins to Strategize Its Inventory   WWD](https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ3FBNzZDb25aQ3VRbHlXdU5FbWhCd2tuaUtNT3JHa0FMZGxreFdYQ01ZQm1Yc2t2VFFnOHdqNjhhdE1TX1plek8wT2NwdUpNcHRyTElUd3NhMFNWMmR6blRSRHVCTEs3NEJVaEc2SmpuSmI0Q3dyY1B5VmRpdFg3SFMxMW9JTXNicFJWWXFXMHd1SWduQVk0UGxXYlY3YmY4ZGc?oc=5) — Google News · AI\n  [A10：Foreign psyops campaign targeting American consumer AI (2025)](https://www.ynetnews.com/tech and digital/article/rj00kxqzaxx) — Hacker News · AI\n  [A11：EY turning internships into yearlong residencies as AI changes entry level work](https://www.businessinsider.com/ey internship residency career ai skills 2026 8) — Hacker News · AI\n  [A12：AI systems out persuade expert humans](https://arxiv.org/abs/2606.16475) — Hacker News · AI\n  [A16：Evaluating AI Agents as Products](https://www.marble.onl/posts/evaluating ai product quality.html) — Hacker News · AI\n  [A18：Israel creates fake think tank in likely attempt to dupe AI chatbots](https://responsiblestatecraft.org/israel influence chatgpt/) — Hacker News · AI\n  [A20：Cloud Based Artificial Intelligence Classification of Common Intracranial Tumors on Magnetic Resonance Imaging   cureus.com](https://news.google.com/rss/articles/CBMi AFBVV95cUxOSW9GQ0tFZnJ0akdDTXVmRVhZWVJ6RWJCODFEZDEzbXJaR2JTLW00aUY0RXA0MnBzdGxPejEzVHd2a0lpWGNsMEJXT3VNdmkzeTdwX3paLW4xOUZJVnRQV2pNYzRhWDJqVWpmaGRSSlpMZUZxbXhHd19hQjVlYWJidndlclI5Um5WbW5GUk1ySGN0aml2T252bk5YWEhaRnkzYVhOelBsUHNCQzRyOThtT0ZSX1pTZ3VCeklWaUtTVnM5OWM2U29JS04yOGtDZ2RiUHMyNExzdFVfbXhxTmw0LXJId0plSTYxQmZYR1RxZkt1R0VvOEpIbVlEZkM?oc=5) — Google News · AI\n  [A23：Alberta's AI data centre gamble: Big investment or local burden?](https://financialpost.com/technology/alberta ai data centre investment local burden) — Hacker News · AI\n  [A24：Executives put the spotlight on AI’s reliability issue   CIO Dive](https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ1pha0JtUmtTTmpIV3ZYSEJPWHFmLWVvSzJiMHJaRnZ6TTRRUTdqcEFoQ1hxdTBqSC1la1J3M3k0Wlk5NzF2d3E0blZ5M2gyeGQtaHAyV3R5dnpvM1ZJWmg2VVRlcjZGMXl5dTE0bHc1TTMwS3pkZHpBU3FCRnpSTHR3SVc?oc=5) — Google News · AI\n\n    Business & Macro\n\n  [B1：U.S. long bonds surge as deficits and sticky inflation rattle markets   CHOSUNBIZ   Chosunbiz](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT3lhRmt0ZWZhMEZqVlNnNlZqZXJpSkxwWGVQRzNQc1RiWVJUZHB4UkdrOWJ5Z25JS3hERTgzUm82VGdDSTBhLUdzcUFfLUQ5RDlUSHdrd3BZX0VlLURNMHJCT2NUT2FnZ25Yc1ZXMnl2d2xEXzFYb00tVk9zOEUzR2J2ajFtNElo0gGcAUFVX3lxTE5vT1NiU3lXZ3BRd1pxVWc4VEt1c21BOFB3Yk1EaDBWZUVoUVFhSHdSOFRyQU1GMmg3SmhGY2tFTGdWUUFwRVNNMGVTd1ZHQVhuQVdXVEczTFl1LVdpTVA1S1J2MTRWOGpkbXVudTJzbW5OdWo4REFXQ21NajhqeDcxc01xdVRUbzl3QnV6R0todW5lbEdOZ2E1amNhMw?oc=5) — Google News · Markets Policy\n  [B2：Software Composition Analysis Market to Reach $981.62 Bn by 2031 as Open Source Security and Cloud Deployment Drive Market Growth   Barchart.com](https://news.google.com/rss/articles/CBMiggJBVV95cUxPMXY1Q1lhWVFBX2ZuckJldXF3a2NfQ2xTam9fUDdsNm9JZzlWVnRXcXY4T1RGcjRjZWowQ0dQLWhneXdwVXRnLTBTMEdBRXlvLWZtbm9mTExCS3VJQXptZ1J4S0FKTzJLSm9lai1vdGwwZHJ6WUhHdDBLNFlKTTJ4QU90N1NLUnNKbWZTZ0dTU2ppNDR0bllKYXV5X2RmSkszN183cWpLRUVjakR1VXJwSGExQzMtQXNtYkx3azJfMFZFc2FGcnMxYXBlMVpVRUh0Vnl6VlZjUE5zLTgxdUhkUlJpZWs1R0ZNc2NtNTZrRzA3aTZkdHBLQWxwbjlqOFZsa3c?oc=5) — Google News · Technology Business\n  [B8：Industry: Weak economic data a “warning signal for authorities”   Table.Briefings](https://news.google.com/rss/articles/CBMimgFBVV95cUxPM3ZGVzVYVXJyWGpTcEdCZ0Z2S0JxWVJiM1FkRVhtWlJFZkpGSWdhNVpOZVlLNURUaHc4V3FzYlNVeVp4TndXaHc1eVlpcTZ4Nk1xVXZaN3J0QVEyd2lZODZfZTlrdGt3TE96NG13RTRhWEh3a05KMjNUTkRFX0F0ZTBXTzJhdWNFa01BNEEtazNGVmpkVWJQSkRn?oc=5) — Google News · Global Economy\n  [B9：Gold posts second straight weekly gain, eyes $4,400 level   Kuwait Times](https://news.google.com/rss/articles/CBMisAFBVV95cUxQVGhsOGhYQUJNOFNIVXhkSklPZWRXNUo2RTczMmJtNjlwMEZlVmhwUmJJMzJ6Zml1dXcwRjB1d2NwMTRMWkttQ19HSXVxVU42V1lzUHlDWjRac0RNZnF3RzlfMG5fOW5DbUlta2lUblkzMEVaWWZFVlFhR2h6N2l5VXFVVjEtSWh3MEV3RzdwZGhzT0NJNjgyc0VSc1ptTklqbnpONzY5Q0MySFcwY2xGadIBtAFBVV95cUxNdzZVZXRRTXNVQWo4Y015RTVYOG5Fam5Ma3BmSUlyZng2ZTE4bVJLOUhfWDVGaklrUWxpT01nSGM3V29jbE50b0dubVBndnBHQ1JhOHlHelVXaU5aVlAzQ0JadXVvejFqVWYtZFkzZzJ1MVBhaGtUZ3I2Y3FvZDdHajNzb0ZSOUJSMG90N2VQcXJwZXNEaFQ3X3VxR3dfUXVIcE1BWWtuRkpnMUF4V01MbU1KbEo?oc=5) — Google News · Markets Policy\n  [B15：Euro Slips Below 1.1600 As Dollar Rebound Cools; Markets Eye Fed, ECB Signals   Bitcoin World](https://news.google.com/rss/articles/CBMidEFVX3lxTE9yNDNoMk5mWlFkUlZDdzgxaVdUY1NEQWR4aHJTZ0hFazlFRVQtUVJZaTBjNGVLcWpEdVhPT0ZLTlNvR1lXVjF1WVFoYkVheEFwUUhWTGhXTGhIWG9ESG9EZUlpZm9qSXNXbFZLU0xEVDR0cUw0?oc=5) — Google News · Markets Policy\n  [B22：Yen Intervention Explained: What’s True, What’s Not and What Markets Should Watch   equiti.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNajJWc3V4NUhqUFZwUmdhTWh3eTNueFVGREF4ckpWTzFVUGY1TnI5V1d2TERFU3dFYzZSZ3JRNjM0cXZTM2xTbmQ0WXZBcDE0d3laa2c5OTcxUjJHVnZKY3lkVnRiWGkwenI0NjFvNDlwdnVEVjluVmJBWE8zYVhLLUhSUUtfQUhfZDBtVkxRZllaOTJYWDhucWNzXzZnNXBXU1NIbnFiaGI?oc=5) — Google News · Markets Policy\n  [B23：US Dollar Index Stumbles as Washington’s Fiscal and Trade Policies Weigh on the Greenback   Bitcoin World](https://news.google.com/rss/articles/CBMiekFVX3lxTE80di1IUUhZUlMxRzVzb3c3Z19MNHo4SnZyOVdMcVo1N3lla2gwMGw1THp1eTh5d0tIcVdPa0Zfbk9fWUFsWlhLNFVrSnpwd2lGVHZHLXN5bFkzVUVGeklCNVhnY3VCMTN5eXhCdVRjc1BmZG1zMG51NWln?oc=5) — Google News · Markets Policy\n  [B24：The global stakes of China's slowdown   Axios](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mcXBKNFVDUWZQbFp2Z3RPQTcxVFVUTDVteVdZVUJzSURxQUpaX3ZSaUtrUWM3STEtNkY0aTdwcWphc1RQQkttUktLMnVqOFRTX3RVaW5lQ1FBdDV3eGc?oc=5) — Google News · Global Economy\n"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-08-17",
     "generated_at": "2026-08-16T23:08:46.525890+00:00",
     "model": "gpt-5.4-mini",
