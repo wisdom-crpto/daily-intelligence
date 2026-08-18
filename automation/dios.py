@@ -642,7 +642,6 @@ def main() -> int:
         type=Path,
         help="归档根目录；GitHub Actions 使用仓库根目录",
     )
-    parser.add_argument("--fallback-only", action="store_true", help="不调用模型")
     args = parser.parse_args()
     core.load_dotenv(ROOT / ".env")
     config = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
@@ -666,13 +665,9 @@ def main() -> int:
         item["interpretation"] = market_interpretation(item)
 
     quote = choose_quote(report_date, archive_root)
-    model = os.environ.get("OPENAI_MODEL", config.get("model", "gpt-5.4-mini"))
-    use_model = bool(os.environ.get("OPENAI_API_KEY")) and not args.fallback_only
-    if use_model:
-        markdown = core.call_openai(dios_prompt(date_text, ai_items, industry_items, markets, quote), model)
-        markdown = enforce_model_report(markdown, model, ai_items, industry_items, quote)
-    else:
-        markdown = fallback_dios(date_text, ai_items, industry_items, markets, quote)
+    model = os.environ.get("OPENAI_MODEL", config.get("model", "gpt-5.6-sol"))
+    markdown = core.call_openai(dios_prompt(date_text, ai_items, industry_items, markets, quote), model)
+    markdown = enforce_model_report(markdown, model, ai_items, industry_items, quote)
 
     make_chart_svg(markets, assets_dir / "chart.svg", report_date.isoformat())
     make_cover_png(assets_dir / "cover.png", report_date.isoformat())
@@ -687,8 +682,8 @@ def main() -> int:
         "schema_version": 1,
         "date": report_date.isoformat(),
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "model": model if use_model else None,
-        "mode": "model" if use_model else "fallback",
+        "model": model,
+        "mode": "model",
         "thesis": thesis,
         "summary": summary,
         "relative_html": f"{report_date:%Y}/{report_date:%m}/{report_date.isoformat()}/Daily%20Intelligence.html",

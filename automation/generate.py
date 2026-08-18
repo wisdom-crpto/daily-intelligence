@@ -155,6 +155,7 @@ def call_openai(prompt: str, model: str) -> str:
     api_key = os.environ.get("OPENAI_API_KEY", "")
     base_url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
     timeout = int(os.environ.get("OPENAI_TIMEOUT_SECONDS", "180"))
+    reasoning_effort = os.environ.get("OPENAI_REASONING_EFFORT", "low")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY 未配置")
 
@@ -165,6 +166,7 @@ def call_openai(prompt: str, model: str) -> str:
     payload = json.dumps(
         {
             "model": model,
+            "reasoning": {"effort": reasoning_effort},
             "instructions": instructions,
             "input": prompt,
         }
@@ -517,7 +519,6 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="生成每日 AI 与行业新闻观察")
     parser.add_argument("--date", help="报告日期，格式 YYYY-MM-DD，默认今天")
     parser.add_argument("--config", default=str(ROOT / "config.json"), help="配置文件路径")
-    parser.add_argument("--fallback-only", action="store_true", help="不调用模型，仅生成基础版")
     args = parser.parse_args()
 
     load_dotenv(ROOT / ".env")
@@ -530,15 +531,9 @@ def main() -> int:
     limit = int(config.get("max_items_per_report", 18))
     ai_items = collect_sources(config["feeds"]["ai"], hours, limit)
     industry_items = collect_sources(config["feeds"]["industry"], hours, limit)
-    model = os.environ.get("OPENAI_MODEL", config.get("model", "gpt-5.4-mini"))
-
-    use_model = bool(os.environ.get("OPENAI_API_KEY")) and not args.fallback_only
-    if use_model:
-        ai_markdown = call_openai(ai_prompt(report_date, ai_items), model)
-        industry_markdown = call_openai(industry_prompt(report_date, industry_items), model)
-    else:
-        ai_markdown = fallback_report("全球 AI 动态日报", report_date, ai_items, False)
-        industry_markdown = fallback_report("行业与宏观每日观察", report_date, industry_items, True)
+    model = os.environ.get("OPENAI_MODEL", config.get("model", "gpt-5.6-sol"))
+    ai_markdown = call_openai(ai_prompt(report_date, ai_items), model)
+    industry_markdown = call_openai(industry_prompt(report_date, industry_items), model)
 
     files = [
         ("ai-news", "全球 AI 动态日报", ai_markdown),
@@ -576,7 +571,7 @@ def main() -> int:
     )
 
     print(f"完成：{output_dir}")
-    print(f"AI 来源 {len(ai_items)} 条；行业来源 {len(industry_items)} 条；模式：{'模型综合' if use_model else '基础版'}")
+    print(f"AI 来源 {len(ai_items)} 条；行业来源 {len(industry_items)} 条；模式：模型综合")
     return 0
 
 
