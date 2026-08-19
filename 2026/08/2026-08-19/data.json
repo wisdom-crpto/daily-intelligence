@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T00:30:00+08:00",
+  "model": "codex-web-research",
+  "mode": "model",
+  "thesis": "市场正在把 AI 从“能力期权”重新定价为“现金流资产”：当长端利率和能源成本同时上升，模型更强已不够，只有能在可审计流程中持续节省时间、电力和资本的 AI 才能保住估值。",
+  "summary": "AI 采用正从职业替代叙事转向任务级重组；产业价值从 GPU 扩散到供电、散热、网络与运维；8 月 18 日纳指下跌 1.3%，长端利率迫使市场审计 AI 投入的现金流质量。",
+  "relative_html": "2026/08/2026-08-19/Daily%20Intelligence.html",
+  "topics": ["AI", "technology", "business", "macro", "interest-rates", "semiconductors"],
+  "quote": {
+    "english": "Price is what you pay. Value is what you get.",
+    "speaker": "Warren Buffett",
+    "chinese": "价格是你付出的，价值是你真正得到的。"
+  },
+  "markets": [
+    {"name":"Nasdaq","symbol":"^IXIC","value":26289.71,"change_pct":-1.33,"direction":"↓","status":"ok","source_url":"https://finance.yahoo.com/quote/%5EIXIC","interpretation":"AI/半导体估值承压"},
+    {"name":"S&P 500","symbol":"^GSPC","value":7691.76,"change_pct":-0.69,"direction":"↓","status":"ok","source_url":"https://finance.yahoo.com/quote/%5EGSPC","interpretation":"风险偏好降温"},
+    {"name":"Dow","symbol":"^DJI","value":53343.40,"change_pct":-0.22,"direction":"↓","status":"ok","source_url":"https://finance.yahoo.com/quote/%5EDJI","interpretation":"低久期相对抗跌"},
+    {"name":"10Y Treasury","symbol":"^TNX","value":4.72,"change_pct":null,"direction":"→","status":"approx","source_url":"https://home.treasury.gov/resource-center/data-chart-center/interest-rates","interpretation":"成长估值折现率上升"},
+    {"name":"30Y Treasury","symbol":"US30Y","value":5.33,"change_pct":null,"direction":"↑","status":"approx","source_url":"https://home.treasury.gov/resource-center/data-chart-center/interest-rates","interpretation":"期限溢价升温"},
+    {"name":"BTC","symbol":"BTC-USD","value":64600,"change_pct":null,"direction":"→","status":"approx","source_url":"https://finance.yahoo.com/quote/BTC-USD","interpretation":"未同步跟随科技股下挫"}
+  ],
+  "sources": {
+    "ai": [
+      {"title":"Understanding the AI economy","summary":"Google ATLAS studies 15 million aggregated and de-identified interactions across more than 150 countries.","url":"https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/","published":"2026-07-23","source":"Google","_date":"2026-07-23T00:00:00Z"},
+      {"title":"How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects","summary":"Open models are deployed on government infrastructure for scientific imaging workflows.","url":"https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/","published":"2026-07-21","source":"Meta","_date":"2026-07-21T00:00:00Z"},
+      {"title":"OpenAI News","summary":"Official product, safety, education and third-party cyber evaluation updates.","url":"https://openai.com/news/","published":"2026-08-06","source":"OpenAI","_date":"2026-08-06T00:00:00Z"}
+    ],
+    "business_macro": [
+      {"title":"onsemi Reports Second Quarter 2026 Results","summary":"Revenue was $1.604 billion; AI data center was described as the fastest-growing business.","url":"https://investor.onsemi.com/news-releases/news-release-details/onsemi-reports-second-quarter-2026-results","published":"2026-08-03","source":"onsemi Investor Relations","_date":"2026-08-03T20:05:00Z"},
+      {"title":"AMD Reports Second Quarter 2026 Earnings","summary":"Official second-quarter earnings update covering cloud and AI infrastructure.","url":"https://newsroom.amd.com/news/amd-2q-2026-earnings/","published":"2026-08-04","source":"AMD Newsroom","_date":"2026-08-04T00:00:00Z"},
+      {"title":"How major US stock indexes fared Tuesday 8/18/2026","summary":"S&P 500 fell 0.7%, Dow 0.2%, Nasdaq 1.3%, with AI-related semiconductor shares among the heaviest weights.","url":"https://apnews.com/article/63300d6f51d4d27ce881cc6c11719171","published":"2026-08-18","source":"Associated Press","_date":"2026-08-18T20:35:29Z"},
+      {"title":"Federal Reserve calendar: August 2026","summary":"The minutes of the July 28-29 FOMC meeting are scheduled for August 19.","url":"https://www.federalreserve.gov/newsevents/2026-august.htm","published":"2026-08-19","source":"Federal Reserve","_date":"2026-08-19T00:00:00Z"},
+      {"title":"Daily Treasury Rates","summary":"Official U.S. Treasury daily interest-rate reference.","url":"https://home.treasury.gov/resource-center/data-chart-center/interest-rates","published":"2026-08-18","source":"U.S. Treasury","_date":"2026-08-18T00:00:00Z"}
+    ]
+  },
+  "search_text": "2026-08-19 AI 现金流 长端利率 能源成本 Google ATLAS Meta Genesis onsemi AMD 半导体 FOMC 纳斯达克 可审计工作流 任务级重组 数据主权 电力链 折现率"
+}

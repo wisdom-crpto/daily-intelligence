@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">2026-08-18 U.S. equity index daily changes</title><desc id="desc">Dow fell 0.22 percent, S&amp;P 500 fell 0.69 percent, Nasdaq fell 1.33 percent, Russell 2000 fell 1.28 percent.</desc>
+  <rect width="1200" height="680" rx="30" fill="#0b1526"/><text x="70" y="82" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="36" font-weight="700">Risk repricing led by long-duration assets</text><text x="70" y="125" fill="#9fb1c8" font-family="sans-serif" font-size="23">U.S. equity index change · 18 Aug 2026</text>
+  <line x1="270" y1="185" x2="270" y2="585" stroke="#52657d" stroke-width="2"/><line x1="270" y1="585" x2="1110" y2="585" stroke="#52657d" stroke-width="2"/>
+  <g fill="#dce7f5" font-family="sans-serif" font-size="24"><text x="82" y="250">Dow</text><text x="82" y="345">S&amp;P 500</text><text x="82" y="440">Russell 2000</text><text x="82" y="535">Nasdaq</text></g>
+  <g fill="#f26b6b"><rect x="270" y="215" width="139" height="48" rx="9"/><rect x="270" y="310" width="435" height="48" rx="9"/><rect x="270" y="405" width="806" height="48" rx="9"/><rect x="270" y="500" width="838" height="48" rx="9"/></g>
+  <g fill="#fff" font-family="sans-serif" font-size="24" font-weight="700"><text x="425" y="248">-0.22%</text><text x="720" y="343">-0.69%</text><text x="930" y="438">-1.28%</text><text x="958" y="533">-1.33%</text></g>
+  <text x="70" y="635" fill="#8295ad" font-family="sans-serif" font-size="20">Source: AP market close data · Direction and magnitude, not an investment recommendation</text>
+</svg>
