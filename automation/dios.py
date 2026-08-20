@@ -124,6 +124,56 @@ QUOTES = [
         "Arthur Conan Doyle",
         "世界充满显而易见却无人真正观察的信号，洞察常来自重新看见这些信号。",
     ),
+    (
+        "The first principle is that you must not fool yourself — and you are the easiest person to fool.",
+        "Richard Feynman",
+        "第一原则是不要欺骗自己，而自己恰恰是最容易被欺骗的人。",
+    ),
+    (
+        "Without data, you're just another person with an opinion.",
+        "W. Edwards Deming",
+        "没有数据支撑，观点就很难与普通意见区分开。",
+    ),
+    (
+        "The purpose of computing is insight, not numbers.",
+        "Richard Hamming",
+        "计算的目的不是堆积数字，而是获得洞察。",
+    ),
+    (
+        "Nothing is particularly hard if you divide it into small jobs.",
+        "Henry Ford",
+        "把复杂问题拆成足够小的任务后，困难往往会显著下降。",
+    ),
+    (
+        "There is nothing so useless as doing efficiently that which should not be done at all.",
+        "Peter Drucker",
+        "最高效地完成一件本不该做的事，仍然没有价值。",
+    ),
+    (
+        "An investment in knowledge pays the best interest.",
+        "Benjamin Franklin",
+        "对知识的投资，往往能带来最持久的回报。",
+    ),
+    (
+        "The measure of intelligence is the ability to change.",
+        "Attributed to Albert Einstein",
+        "衡量智慧的重要标准，是能否根据新证据改变判断。",
+    ),
+    (
+        "Simplicity is prerequisite for reliability.",
+        "Edsger W. Dijkstra",
+        "简洁不是装饰，而是可靠性的前提。",
+    ),
+    (
+        "You cannot improve what you do not measure.",
+        "Lord Kelvin",
+        "没有持续衡量，就很难知道改善是否真实发生。",
+    ),
+    (
+        "Facts are stubborn things.",
+        "John Adams",
+        "事实很顽固，最终会迫使叙事接受检验。",
+    ),
 ]
 
 
@@ -194,8 +244,8 @@ def market_markdown(markets: List[Dict[str, object]]) -> str:
 
 
 def choose_quote(report_date: dt.date, archive_root: Path, lookback_days: int = 10) -> tuple:
-    """Choose a deterministic quote for a date while avoiding recent repeats."""
-    recent_keys = set()
+    """Choose a deterministic quote without repeating until the pool is exhausted."""
+    last_used: Dict[tuple, dt.date] = {}
 
     def remember_from_markdown(markdown_path: Path) -> None:
         try:
@@ -208,11 +258,33 @@ def choose_quote(report_date: dt.date, archive_root: Path, lookback_days: int = 
         quote_match = re.search(r">+\s*[“\"](.+?)[”\"]", section.group(1))
         speaker_match = re.search(r">\s*—\s*(.+)", section.group(1))
         if quote_match and speaker_match:
-            recent_keys.add((quote_match.group(1).strip(), speaker_match.group(1).strip()))
+            key = (quote_match.group(1).strip(), speaker_match.group(1).strip())
+            try:
+                issue_date = dt.date.fromisoformat(markdown_path.parent.name)
+            except ValueError:
+                return
+            if issue_date < report_date:
+                last_used[key] = max(issue_date, last_used.get(key, dt.date.min))
 
-    for offset in range(1, lookback_days + 1):
-        past = report_date - dt.timedelta(days=offset)
-        day_dir = archive_root / f"{past:%Y}" / f"{past:%m}" / past.isoformat()
+    history_roots = {archive_root.resolve()}
+    local_release = ROOT / "pages-repo"
+    if local_release.is_dir():
+        history_roots.add(local_release.resolve())
+    if ROOT.name == "automation":
+        history_roots.add(ROOT.parent.resolve())
+
+    day_dirs = set()
+    for history_root in history_roots:
+        day_dirs.update(path.parent for path in history_root.glob("*/*/*/data.json"))
+        day_dirs.update(path.parent for path in history_root.glob("*/*/*/Daily Intelligence.md"))
+
+    for day_dir in sorted(day_dirs):
+        try:
+            issue_date = dt.date.fromisoformat(day_dir.name)
+        except ValueError:
+            continue
+        if issue_date >= report_date:
+            continue
         data_path = day_dir / "data.json"
         try:
             data = json.loads(data_path.read_text(encoding="utf-8"))
@@ -223,11 +295,15 @@ def choose_quote(report_date: dt.date, archive_root: Path, lookback_days: int = 
         english = quote.get("english")
         speaker = quote.get("speaker")
         if english and speaker:
-            recent_keys.add((english, speaker))
+            key = (english.strip(), speaker.strip())
+            last_used[key] = max(issue_date, last_used.get(key, dt.date.min))
         else:
             remember_from_markdown(day_dir / "Daily Intelligence.md")
 
-    candidates = [q for q in QUOTES if (q[0], q[1]) not in recent_keys] or QUOTES
+    candidates = [q for q in QUOTES if (q[0], q[1]) not in last_used]
+    if not candidates:
+        oldest = min(last_used.get((q[0], q[1]), dt.date.min) for q in QUOTES)
+        candidates = [q for q in QUOTES if last_used.get((q[0], q[1]), dt.date.min) == oldest]
     return random.Random(report_date.toordinal()).choice(candidates)
 
 

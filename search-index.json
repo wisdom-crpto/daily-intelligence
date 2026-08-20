@@ -1,6 +1,153 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-08-20",
+    "generated_at": "2026-08-20T10:00:00+08:00",
+    "model": "gpt-5.6-sol",
+    "mode": "model",
+    "thesis": "债券市场已经从宏观背景变成政策约束：当财政部需要主动回购来压低长端收益率、而美联储仍担心通胀，AI 的竞争也必须从“扩大算力”转向“证明每一单位资本、电力与验证成本都能产生回报”。",
+    "summary": "AI 研究代理的瓶颈正在从生成转向验证；xAI 的 10GW 目标把模型竞争转化为能源与融资约束；美国财政部扩大国债回购稳定长债，但 FOMC 纪要仍保留潜在加息路径。",
+    "relative_html": "2026/08/2026-08-20/Daily%20Intelligence.html",
+    "topics": [
+      "AI",
+      "agents",
+      "science",
+      "data-centers",
+      "Treasury",
+      "Federal Reserve",
+      "macro"
+    ],
+    "quote": {
+      "english": "Nothing is particularly hard if you divide it into small jobs.",
+      "speaker": "Henry Ford",
+      "chinese": "把复杂问题拆成足够小的任务后，困难往往会显著下降。"
+    },
+    "markets": [
+      {
+        "name": "S&P 500",
+        "symbol": "^GSPC",
+        "value": null,
+        "change_pct": 0.2,
+        "direction": "↑",
+        "status": "approx",
+        "source_url": "https://apnews.com/article/9e355be634e4a21059fc1d1f20a1239e",
+        "interpretation": "三日跌势暂止"
+      },
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "value": null,
+        "change_pct": 0.2,
+        "direction": "↑",
+        "status": "approx",
+        "source_url": "https://apnews.com/article/9e355be634e4a21059fc1d1f20a1239e",
+        "interpretation": "AI 股压力暂缓"
+      },
+      {
+        "name": "Dow",
+        "symbol": "^DJI",
+        "value": null,
+        "change_pct": 0.2,
+        "direction": "↑",
+        "status": "approx",
+        "source_url": "https://apnews.com/article/9e355be634e4a21059fc1d1f20a1239e",
+        "interpretation": "盈利支撑"
+      },
+      {
+        "name": "Long Treasury yields",
+        "symbol": "US30Y",
+        "value": null,
+        "change_pct": -0.6,
+        "direction": "↓",
+        "status": "directional",
+        "source_url": "https://apnews.com/article/bd0cead63ff1b7f2e99d4c8cce0a28d3",
+        "interpretation": "回购缓解流动性压力"
+      },
+      {
+        "name": "Gold",
+        "symbol": "GC=F",
+        "value": null,
+        "change_pct": 0.5,
+        "direction": "↑",
+        "status": "directional",
+        "source_url": "https://www.axios.com/2026/08/13/gold-inflation-rates-iran",
+        "interpretation": "财政与通胀对冲"
+      }
+    ],
+    "sources": {
+      "ai": [
+        {
+          "title": "Can AI agents conduct open-ended AI research?",
+          "summary": "Two case studies evaluate frontier agents on open-ended unpublished research problems.",
+          "url": "https://arxiv.org/abs/2607.27191",
+          "published": "2026-07-31",
+          "source": "arXiv",
+          "_date": "2026-07-31T00:00:00Z"
+        },
+        {
+          "title": "AI Research Agents Narrow Scientific Exploration",
+          "summary": "Research agents may converge on similar ideas and narrow exploration.",
+          "url": "https://arxiv.org/abs/2605.27905",
+          "published": "2026-05-27",
+          "source": "arXiv",
+          "_date": "2026-05-27T00:00:00Z"
+        },
+        {
+          "title": "The Age of AI Agents Demands A New Scientific Paradigm",
+          "summary": "Agent output is growing faster than human verification capacity.",
+          "url": "https://arxiv.org/abs/2607.26064",
+          "published": "2026-06-18",
+          "source": "arXiv",
+          "_date": "2026-06-18T00:00:00Z"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "xAI targets 10GW of data-center capacity by 2027",
+          "summary": "xAI said it aims to increase power capacity roughly sevenfold.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-will-increase-data-center-capacity-7x-by-2027-targeting-10-gigawatts-of-compute-up-to-usd500-billion-in-revenue-by-the-end-of-next-year",
+          "published": "2026-08-13",
+          "source": "Tom's Hardware",
+          "_date": "2026-08-13T10:00:00Z"
+        },
+        {
+          "title": "Google Q2 earnings beat expectations on AI boom",
+          "summary": "Alphabet reported strong results and AI-supported cloud growth.",
+          "url": "https://apnews.com/article/f914606d842d4c6848019083d667fc3a",
+          "published": "2026-07-22",
+          "source": "Associated Press",
+          "_date": "2026-07-22T20:36:57Z"
+        },
+        {
+          "title": "US stocks halt slide after Treasury moves to ease bond pressure",
+          "summary": "Stocks rose about 0.2% after Treasury expanded buybacks and yields eased.",
+          "url": "https://apnews.com/article/9e355be634e4a21059fc1d1f20a1239e",
+          "published": "2026-08-19",
+          "source": "Associated Press",
+          "_date": "2026-08-19T03:05:36Z"
+        },
+        {
+          "title": "An alarmed bond market gets the administration to act",
+          "summary": "Treasury said it would more than double government bond buybacks.",
+          "url": "https://apnews.com/article/bd0cead63ff1b7f2e99d4c8cce0a28d3",
+          "published": "2026-08-19",
+          "source": "Associated Press",
+          "_date": "2026-08-19T18:30:11Z"
+        },
+        {
+          "title": "Many Fed officials see higher rates if inflation stays high",
+          "summary": "July meeting minutes retained the possibility of higher policy rates.",
+          "url": "https://apnews.com/article/0030d04832b89b564b743b34ab2cd8de",
+          "published": "2026-08-19",
+          "source": "Associated Press",
+          "_date": "2026-08-19T18:38:42Z"
+        }
+      ]
+    },
+    "search_text": "2026-08-20 AI agents scientific verification research diversity xAI 10GW data center Treasury bond buybacks Federal Reserve inflation long yields capital costs"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-08-19",
     "generated_at": "2026-08-19T00:30:00+08:00",
     "model": "codex-web-research",
@@ -45,7 +192,7 @@
       {
         "name": "Dow",
         "symbol": "^DJI",
-        "value": 53343.40,
+        "value": 53343.4,
         "change_pct": -0.22,
         "direction": "↓",
         "status": "ok",
