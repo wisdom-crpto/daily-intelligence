@@ -1,9 +1,8 @@
 name: Daily Intelligence
 
 on:
-  schedule:
-    # GitHub cron uses UTC. 23:00 UTC is 07:00 the next day in Asia/Shanghai.
-    - cron: "0 23 * * *"
+  # Automatic publishing runs locally on the Mac. Keep this workflow only for
+  # an explicitly requested recovery run because it consumes the API secret.
   workflow_dispatch:
     inputs:
       report_date:
