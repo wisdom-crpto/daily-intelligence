@@ -1,6 +1,82 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-08-25",
+    "generated_at": "2026-08-25T07:02:00+08:00",
+    "model": "gpt-5.6-sol",
+    "mode": "model",
+    "thesis": "AI 的下一轮生产力竞争不再取决于谁能调用最强模型，而取决于谁能把真实工作上下文送进代理、把推理与后训练成本压进可持续区间，并用宏观数据证明这些效率足以覆盖资本成本。",
+    "summary": "Teams 对话进入编码代理；Ray 全栈优化把竞争推向任务成本；GDP、企业利润与 PCE 将共同检验 AI 投资回报。",
+    "relative_html": "2026/08/2026-08-25/Daily%20Intelligence.html",
+    "topics": [
+      "AI",
+      "GitHub Copilot",
+      "Microsoft Teams",
+      "Ray",
+      "NVIDIA",
+      "inference economics",
+      "GDP",
+      "corporate profits",
+      "PCE"
+    ],
+    "quote": {
+      "english": "The first principle is that you must not fool yourself—and you are the easiest person to fool.",
+      "speaker": "Richard Feynman",
+      "chinese": "首要原则是不欺骗自己，而自己恰恰是最容易被欺骗的人。"
+    },
+    "markets": [
+      {
+        "name": "GPU-native data processing cost",
+        "symbol": "DATA-COST",
+        "value": -80,
+        "unit": "percent case study",
+        "direction": "↓",
+        "status": "reported case study",
+        "source_url": "https://www.nvidia.com/en-us/events/ray-summit/",
+        "interpretation": "系统优化释放 ROI"
+      },
+      {
+        "name": "BEA macro release window",
+        "symbol": "BEA-0826",
+        "value": 3,
+        "unit": "major releases",
+        "direction": "→",
+        "status": "scheduled",
+        "source_url": "https://www.bea.gov/news/schedule",
+        "interpretation": "增长利润通胀共同验证"
+      }
+    ],
+    "sources": {
+      "ai": [
+        {
+          "title": "Turn conversations into code with GitHub Copilot in Microsoft Teams",
+          "summary": "Teams conversations can become context for GitHub Copilot coding tasks.",
+          "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/turn-conversations-into-code-with-github-copilot-in-microsoft-teams/4548305",
+          "published": "2026-08-21",
+          "source": "Microsoft Tech Community"
+        },
+        {
+          "title": "NVIDIA at Ray Summit 2026",
+          "summary": "Full-stack inference and post-training sessions cover kernels, serving, topology-aware scheduling and GPU-native data processing.",
+          "url": "https://www.nvidia.com/en-us/events/ray-summit/",
+          "published": "2026-08-25",
+          "source": "NVIDIA"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "Release Schedule",
+          "summary": "GDP second estimate, corporate profits, and Personal Income and Outlays are scheduled for August 26 at 8:30 ET.",
+          "url": "https://www.bea.gov/news/schedule",
+          "published": "2026-08-24",
+          "source": "U.S. Bureau of Economic Analysis"
+        }
+      ]
+    },
+    "search_text": "2026-08-25 AI context GitHub Copilot Microsoft Teams Ray NVIDIA inference post-training GPU data cost GDP corporate profits PCE unit economics"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-08-24",
     "generated_at": "2026-08-24T07:10:00+08:00",
     "model": "gpt-5.6-sol",
