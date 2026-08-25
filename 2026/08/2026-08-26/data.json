@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:02:00+08:00",
+  "model": "gpt-5.6-sol",
+  "mode": "model",
+  "thesis": "今天不是再增加一个 AI 叙事的日子，而是把技术承诺送进同一套验证框架：系统效率要经受真实负载，资本回报要经受增长、利润与通胀数据，只有可复现的改善才配获得下一轮预算。",
+  "summary": "Ray Summit 进入复现检验；上下文连接需要治理；BEA 同日数据窗口将检验 AI 投资的增长、利润与贴现率假设。",
+  "relative_html": "2026/08/2026-08-26/Daily%20Intelligence.html",
+  "topics": ["AI", "Ray", "NVIDIA", "GitHub Copilot", "Microsoft Teams", "verification", "GDP", "corporate profits", "PCE"],
+  "quote": {
+    "english": "It is a capital mistake to theorize before one has data.",
+    "speaker": "Arthur Conan Doyle",
+    "chinese": "在掌握数据之前就建立理论，是一个根本性的错误。"
+  },
+  "markets": [
+    {
+      "name": "GPU-native data processing cost",
+      "symbol": "DATA-COST",
+      "value": -80,
+      "unit": "percent case study",
+      "direction": "↓",
+      "status": "reported case study; requires replication",
+      "source_url": "https://www.nvidia.com/en-us/events/ray-summit/",
+      "interpretation": "需验证基线与迁移性"
+    },
+    {
+      "name": "BEA macro release window",
+      "symbol": "BEA-0826",
+      "value": 3,
+      "unit": "major releases",
+      "direction": "→",
+      "status": "scheduled; not released at cutoff",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "interpretation": "增长利润通胀共同验证"
+    }
+  ],
+  "sources": {
+    "ai": [
+      {
+        "title": "NVIDIA at Ray Summit 2026",
+        "summary": "Sessions cover kernels, distributed serving, topology-aware scheduling, GPU-native data processing and open-model post-training.",
+        "url": "https://www.nvidia.com/en-us/events/ray-summit/",
+        "published": "2026-08-25",
+        "source": "NVIDIA"
+      },
+      {
+        "title": "Turn conversations into code with GitHub Copilot in Microsoft Teams",
+        "summary": "Teams conversations can become context for GitHub Copilot coding tasks.",
+        "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/turn-conversations-into-code-with-github-copilot-in-microsoft-teams/4548305",
+        "published": "2026-08-21",
+        "source": "Microsoft Tech Community"
+      }
+    ],
+    "business_macro": [
+      {
+        "title": "Release Schedule",
+        "summary": "GDP second estimate, corporate profits, and Personal Income and Outlays are scheduled for August 26 at 8:30 ET.",
+        "url": "https://www.bea.gov/news/schedule",
+        "published": "2026-08-24",
+        "source": "U.S. Bureau of Economic Analysis"
+      }
+    ]
+  },
+  "search_text": "2026-08-26 AI Ray NVIDIA inference post-training verification GitHub Copilot Microsoft Teams GDP corporate profits PCE evidence reproducibility"
+}
