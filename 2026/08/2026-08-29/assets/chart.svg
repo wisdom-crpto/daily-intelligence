@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Prototype-to-Deployment Evidence Funnel</title><desc id="desc">AI products narrow from many prototypes to fewer governed deployments as evidence requirements rise.</desc>
+  <rect width="960" height="520" rx="28" fill="#0b1220"/><text x="64" y="70" fill="#f8fafc" font-family="sans-serif" font-size="32" font-weight="700">Prototype-to-Deployment Evidence Funnel</text>
+  <g font-family="sans-serif" text-anchor="middle"><path d="M100 120 H860 L760 205 H200 Z" fill="#2563eb"/><text x="480" y="165" fill="white" font-size="22" font-weight="700">大量原型 · MANY PROTOTYPES</text>
+  <path d="M200 220 H760 L680 300 H280 Z" fill="#0ea5e9"/><text x="480" y="267" fill="white" font-size="21" font-weight="700">真实试点 · REAL USERS</text>
+  <path d="M280 315 H680 L610 390 H350 Z" fill="#14b8a6"/><text x="480" y="360" fill="white" font-size="20" font-weight="700">任务评估 · EVALUATION</text>
+  <path d="M350 405 H610 L555 470 H405 Z" fill="#22c55e"/><text x="480" y="445" fill="#052e16" font-size="19" font-weight="700">可治理部署</text></g>
+  <text x="72" y="495" fill="#94a3b8" font-family="sans-serif" font-size="16">证据要求：用户结果 · 失败分类 · 人工兜底 · 单位成本 →</text>
+</svg>

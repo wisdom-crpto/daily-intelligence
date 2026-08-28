@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:00:00+08:00",
+  "model": "gpt-5.6-sol",
+  "mode": "model",
+  "thesis": "AI 产品的瓶颈正从能否做出演示转向能否在真实用户、明确风险和单位经济约束下稳定工作；原型数量越多，部署证据、评估设计与责任边界就越值钱。",
+  "summary": "泰国加速项目把重点从原型转向真实部署证据；本地生态连接试点渠道；宏观约束提高可验证回报门槛。",
+  "relative_html": "2026/08/2026-08-29/Daily%20Intelligence.html",
+  "topics": ["AI", "deployment", "evaluation", "Thailand", "healthcare", "education", "startups", "GDP", "PCE"],
+  "quote": {
+    "english": "Ideas are easy. Implementation is hard.",
+    "speaker": "Guy Kawasaki",
+    "chinese": "想法容易，实施很难。"
+  },
+  "markets": [
+    {"name":"Q2 real GDP","symbol":"US-GDP-Q2","value":1.5,"unit":"percent SAAR","direction":"→","status":"official second estimate","source_url":"https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026","interpretation":"增长温和，私人需求较强"},
+    {"name":"July personal saving rate","symbol":"US-SAVING-JUL","value":3.0,"unit":"percent","direction":"↓","status":"official July 2026 release","source_url":"https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026","interpretation":"消费缓冲有限"}
+  ],
+  "sources": {
+    "ai": [{"title":"Supporting Thailand’s next generation of AI startups","summary":"OpenAI and Thailand's MHESI launched an eight-week accelerator for ten health, wellness and education startups, with deployment and evaluation milestones.","url":"https://openai.com/index/supporting-next-generation-ai-startups-thailand/","published":"2026-08-28","source":"OpenAI"}],
+    "business_macro": [
+      {"title":"Supporting Thailand’s next generation of AI startups","summary":"The program provides API credits, mentors and local institutional networks; usage figures are company disclosures.","url":"https://openai.com/index/supporting-next-generation-ai-startups-thailand/","published":"2026-08-28","source":"OpenAI"},
+      {"title":"GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026","summary":"Real GDP grew 1.5% SAAR, private domestic final demand 4.2%, and real GDI 2.2%.","url":"https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026","published":"2026-08-26","source":"U.S. Bureau of Economic Analysis"},
+      {"title":"Personal Income and Outlays, July 2026","summary":"Personal income rose 0.4%, real PCE was nearly unchanged, saving rate was 3.0%, and core PCE was 3.3% year over year.","url":"https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026","published":"2026-08-26","source":"U.S. Bureau of Economic Analysis"}
+    ]
+  },
+  "search_text": "2026-08-29 AI deployment evaluation Thailand healthcare education startups prototype GDP PCE"
+}
