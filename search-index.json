@@ -1,6 +1,120 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-08-31",
+    "generated_at": "2026-08-31T09:50:00+08:00",
+    "model": "Codex",
+    "mode": "model",
+    "thesis": "AI 的扩张正在同时触及物理设备与资本预算：接口标准降低接入成本，但只有把操作权限、失败成本和客户回报一起纳入验收，算力增长才可能转化为可持续生产率。",
+    "summary": "MHS 进入有限研究预览；NVIDIA 财报与前瞻指引须分开；消费数据提示预算约束，设备自动化更需结果验证。",
+    "relative_html": "2026/08/2026-08-31/Daily%20Intelligence.html",
+    "topics": [
+      "AI",
+      "MHS",
+      "Anthropic",
+      "physical AI",
+      "NVIDIA",
+      "capital expenditure",
+      "PCE",
+      "safety"
+    ],
+    "quote": {
+      "english": "For a successful technology, reality must take precedence over public relations, for nature cannot be fooled.",
+      "speaker": "Richard P. Feynman",
+      "chinese": "技术要成功，现实必须优先于公关，因为自然无法被愚弄。",
+      "source_url": "https://ntrs.nasa.gov/api/citations/20010069514/downloads/20010069514.pdf"
+    },
+    "markets": [
+      {
+        "name": "NVIDIA FY27 Q2 revenue",
+        "symbol": "NVDA-REVENUE-Q2FY27",
+        "value": 96.221,
+        "unit": "USD billion",
+        "direction": "↑",
+        "status": "company reported; quarter ended 2026-07-26; unaudited",
+        "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+        "interpretation": "供应商收入，不等于客户投资回报"
+      },
+      {
+        "name": "NVIDIA FY27 Q3 revenue outlook",
+        "symbol": "NVDA-OUTLOOK-Q3FY27",
+        "value": 108.0,
+        "unit": "USD billion",
+        "range_low": 105.84,
+        "range_high": 110.16,
+        "direction": "N/A",
+        "status": "forward-looking guidance, not actual revenue",
+        "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+        "interpretation": "前瞻中值及上下 2% 区间"
+      },
+      {
+        "name": "US July real PCE monthly change",
+        "symbol": "US-REAL-PCE-JUL2026",
+        "value": 0.0,
+        "unit": "percent month over month, rounded",
+        "direction": "→",
+        "status": "official estimate, rounded to one decimal",
+        "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+        "interpretation": "近乎持平，不等于精确零变化"
+      },
+      {
+        "name": "US July personal saving rate",
+        "symbol": "US-SAVING-JUL2026",
+        "value": 3.0,
+        "unit": "percent of disposable personal income",
+        "direction": "N/A",
+        "status": "official estimate",
+        "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+        "interpretation": "储蓄缓冲指标，非增长率"
+      },
+      {
+        "name": "China August 2026 manufacturing PMI",
+        "symbol": "CN-PMI-AUG2026",
+        "value": null,
+        "unit": "index",
+        "direction": "N/A",
+        "status": "not verified in this run; publication status unknown",
+        "interpretation": "不使用旧年份替代，不推断尚未发布"
+      }
+    ],
+    "sources": {
+      "ai": [
+        {
+          "title": "Model Hardware Standard",
+          "summary": "Official project page: limited research preview, application-based access, open source planned.",
+          "url": "https://modelhardwarestandard.com/",
+          "published": null,
+          "source": "Model Hardware Standard"
+        },
+        {
+          "title": "Previewing the Model Hardware Standard",
+          "summary": "Company announcement describes hardware drivers and agent interfaces; expert oversight remains necessary.",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          "published": "2026-08-27",
+          "source": "Anthropic"
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "summary": "Q2 revenue $96.221bn; Q3 revenue guidance $108bn plus or minus 2%, not realized results.",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+          "published": "2026-08-26",
+          "source": "NVIDIA"
+        },
+        {
+          "title": "Personal Income and Outlays, July 2026",
+          "summary": "Real PCE monthly change rounded to 0.0%; saving rate 3.0%; income rose 0.4% and nominal PCE 0.2%.",
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+          "published": "2026-08-26",
+          "source": "U.S. Bureau of Economic Analysis"
+        }
+      ]
+    },
+    "search_text": "2026-08-31 MHS Anthropic NVIDIA 硬件标准 研究预览 物理设备 权限 安全 结果验证 资本开支 财报 指引 消费 PCE PMI 待核实 Feynman"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-08-29",
     "generated_at": "2026-08-29T07:00:00+08:00",
     "model": "gpt-5.6-sol",

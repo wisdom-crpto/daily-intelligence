@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+<title id="title">NVIDIA revenue: reported quarter versus outlook</title>
+<desc id="desc">USD billions. FY27 Q2 actual 96.221. FY27 Q3 guidance midpoint 108, range 105.84 to 110.16. Zero baseline, actual filled and outlook outlined.</desc>
+<rect width="900" height="460" rx="20" fill="#0c1728"/>
+<g font-family="Arial,sans-serif" fill="#e8f0fc">
+<text x="36" y="48" font-size="25" font-weight="bold">Revenue is observed. Outlook is not.</text>
+<text x="36" y="79" font-size="17" fill="#a8bad1">NVIDIA | USD billions | published 2026-08-26</text>
+<g stroke="#34465f" stroke-width="1"><path d="M210 115V322 M363.3 115V322 M516.7 115V322 M670 115V322 M823.3 115V322"/></g>
+<text x="36" y="166" font-size="20">FY27 Q2</text><text x="36" y="190" font-size="15" fill="#a8bad1">REPORTED</text>
+<rect x="210" y="140" width="491.8" height="64" rx="5" fill="#67d4ff"/>
+<text x="688" y="181" font-size="23" text-anchor="end" fill="#071222">96.221</text>
+<text x="36" y="268" font-size="20">FY27 Q3</text><text x="36" y="292" font-size="15" fill="#a8bad1">GUIDANCE</text>
+<rect x="210" y="240" width="552" height="64" rx="5" fill="none" stroke="#f6c76a" stroke-width="3" stroke-dasharray="9 5"/>
+<path d="M750.96 272H773.04 M750.96 257V287 M773.04 257V287" stroke="#f6c76a" stroke-width="3"/>
+<text x="730" y="281" font-size="23" text-anchor="end" fill="#f6c76a">108.0</text>
+<g font-size="16" fill="#a8bad1" text-anchor="middle"><text x="210" y="347">0</text><text x="363.3" y="347">30</text><text x="516.7" y="347">60</text><text x="670" y="347">90</text><text x="823.3" y="347">120</text></g>
+<text x="36" y="393" font-size="17">Q3 outlook range: 105.84–110.16 (±2%). Not realized revenue.</text>
+<text x="36" y="428" font-size="14" fill="#a8bad1">Source: NVIDIA FY27 Q2 financial results. Q2 ended July 26, 2026.</text>
+</g></svg>
