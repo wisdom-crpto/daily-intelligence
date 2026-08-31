@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title desc">
+  <title id="title">US July 2026 PCE price inflation</title>
+  <desc id="desc">Year-over-year changes: headline PCE 3.7 percent and core PCE 3.3 percent. Both use the same zero baseline. Source: BEA release dated August 26, 2026. Official estimates, subject to revision.</desc>
+  <rect width="1000" height="460" rx="20" fill="#0b1729"/>
+  <g font-family="Arial, sans-serif">
+    <text x="44" y="56" fill="#f1f5f9" font-size="28" font-weight="700">Prices: two comparable readings</text>
+    <text x="44" y="88" fill="#a5b4c8" font-size="18">July 2026 · percent change from a year earlier</text>
+    <g stroke="#30415b" stroke-width="1">
+      <path d="M240 125V328 M390 125V328 M540 125V328 M690 125V328 M840 125V328"/>
+    </g>
+    <text x="44" y="180" fill="#e2e8f0" font-size="22">Headline PCE</text>
+    <text x="44" y="265" fill="#e2e8f0" font-size="22">Core PCE</text>
+    <rect x="240" y="145" width="555" height="50" rx="5" fill="#5dd5ef"/>
+    <rect x="240" y="230" width="495" height="50" rx="5" fill="#9bafff"/>
+    <text x="808" y="179" fill="#f8fafc" font-size="24" font-weight="700">3.7%</text>
+    <text x="748" y="264" fill="#f8fafc" font-size="24" font-weight="700">3.3%</text>
+    <g fill="#a5b4c8" font-size="17" text-anchor="middle">
+      <text x="240" y="352">0</text><text x="390" y="352">1</text><text x="540" y="352">2</text><text x="690" y="352">3</text><text x="840" y="352">4%</text>
+    </g>
+    <text x="44" y="401" fill="#c4cfdd" font-size="17">Core excludes food and energy; do not add these two measures.</text>
+    <text x="44" y="430" fill="#8fa2ba" font-size="16">Source: BEA, Aug 26, 2026 · Official estimates; subject to revision</text>
+  </g>
+</svg>
