@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T07:20:00+08:00",
+  "information_cutoff": "2026-09-01T07:20:00+08:00",
+  "model": "Codex",
+  "mode": "model",
+  "thesis": "AI 入口正在从“吸引使用”转向“分配注意力与商业机会”：当广告、推荐和生成式搜索进入同一决策界面，真正稀缺的不是更多曝光，而是用户控制、来源选择与可复核的增量价值。",
+  "summary": "OpenAI 披露 ChatGPT Ads 年化收入运行率达到 10 亿美元；Google 将生成式搜索的站点控制与展示指标推向全球；宏观增长放缓提高增量价值的证明门槛。",
+  "relative_html": "2026/09/2026-09-01/Daily%20Intelligence.html",
+  "topics": [
+    "AI",
+    "advertising",
+    "ChatGPT Ads",
+    "Google Search",
+    "publisher controls",
+    "measurement",
+    "Goodhart law",
+    "GDP"
+  ],
+  "quote": {
+    "english": "Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.",
+    "speaker": "Charles Goodhart",
+    "chinese": "一旦某个已观察到的统计规律被施加压力、用作控制目标，它往往会失效。",
+    "source_url": "https://www.bankofengland.co.uk/-/media/boe/files/events/2026/money-workshop-slides.pdf"
+  },
+  "markets": [
+    {
+      "name": "ChatGPT Ads annualized revenue run rate",
+      "symbol": "CHATGPT-ADS-ARR",
+      "value": 1.0,
+      "unit": "USD billions",
+      "direction": "↑",
+      "status": "company disclosed 2026-08-31; not audited annual revenue",
+      "source_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/",
+      "interpretation": "运行率，不是全年已实现收入"
+    },
+    {
+      "name": "US real GDP Q2 2026 second estimate",
+      "symbol": "US-GDP-Q2-2026-2ND",
+      "value": 1.5,
+      "unit": "percent annualized quarter over quarter",
+      "direction": "↓",
+      "status": "official second estimate; subject to revision",
+      "source_url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+      "interpretation": "相较 Q1 的 2.1% 放缓；不是同比"
+    },
+    {
+      "name": "Verified net publisher value from generative search",
+      "symbol": "GENAI-PUBLISHER-NET-VALUE",
+      "value": null,
+      "unit": null,
+      "direction": "N/A",
+      "status": "not observed; no matched cross-platform sample",
+      "interpretation": "未知不等于零或负值"
+    }
+  ],
+  "sources": {
+    "ai": [
+      {
+        "title": "A milestone in expanding access to AI",
+        "summary": "OpenAI company disclosure on ChatGPT Ads revenue run rate, reach, principles, rollout and selected advertiser outcomes.",
+        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/",
+        "published": "2026-08-31",
+        "source": "OpenAI"
+      }
+    ],
+    "business_macro": [
+      {
+        "title": "New opportunities, control and insights for website owners",
+        "summary": "Google company disclosure on generative Search controls, Search Console visibility metrics and reported product reach.",
+        "url": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/",
+        "published": "2026-08-31",
+        "source": "Google"
+      },
+      {
+        "title": "Gross Domestic Product",
+        "summary": "Q2 2026 second estimate: real GDP increased at a 1.5% annualized rate, compared with 2.1% in Q1.",
+        "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+        "published": "2026-08-26",
+        "source": "U.S. Bureau of Economic Analysis"
+      },
+      {
+        "title": "Workshop on analysing the information content of money",
+        "summary": "Bank of England workshop slides reproducing Charles Goodhart's 1975 formulation.",
+        "url": "https://www.bankofengland.co.uk/-/media/boe/files/events/2026/money-workshop-slides.pdf",
+        "published": "2026",
+        "source": "Bank of England"
+      }
+    ]
+  },
+  "search_text": "2026-09-01 Tuesday AI advertising ChatGPT Ads OpenAI Google Search AI Overviews AI Mode publisher controls Search Console measurement attribution incremental value Goodhart GDP 生成式搜索 广告 出版者 控制 展示 增量 归因"
+}
