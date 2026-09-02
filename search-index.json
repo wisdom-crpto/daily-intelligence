@@ -1,6 +1,128 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-09-02",
+    "generated_at": "2026-09-02T09:04:00+08:00",
+    "model": "gpt-5.6-sol",
+    "mode": "model",
+    "thesis": "前沿 AI 正从“同一模型、统一入口”转向“同一能力、分层授权”：竞争优势不再只由基准分数决定，而由谁能把权限、监控、数据托管和人工复核写成可执行的交付契约决定。",
+    "summary": "OpenAI 将 Astra 定为首个达到 Critical 网络安全门槛的模型；Anthropic 将同一底模按防护与访问拆分，并推出客户自持日志的企业防护架构。",
+    "relative_html": "2026/09/2026-09-02/Daily%20Intelligence.html",
+    "topics": [
+      "AI",
+      "Astra",
+      "frontier safeguards",
+      "cybersecurity",
+      "authorization",
+      "monitoring",
+      "data custody",
+      "EFS",
+      "Fable 5.1",
+      "Mythos 5.1"
+    ],
+    "quote": {
+      "english": "Every access to every object must be checked for authority.",
+      "speaker": "Jerome H. Saltzer and Michael D. Schroeder",
+      "chinese": "对每一个对象的每一次访问，都必须检查其是否获得授权。",
+      "source_url": "https://web.mit.edu/saltzer/www/publications/protection/Basic.html"
+    },
+    "markets": [
+      {
+        "name": "Astra cyber jailbreak refusal rate",
+        "symbol": "ASTRA-CYBER-REFUSAL",
+        "value": 91.5,
+        "unit": "percent",
+        "status": "company evaluation; specific jailbreak set",
+        "source_url": "https://openai.com/index/path-to-astra/",
+        "interpretation": "not a production attack-block rate"
+      },
+      {
+        "name": "GPT-5.6 Sol cyber jailbreak refusal rate",
+        "symbol": "GPT56SOL-CYBER-REFUSAL",
+        "value": 59,
+        "unit": "percent",
+        "status": "company evaluation; comparator on same disclosure",
+        "source_url": "https://openai.com/index/path-to-astra/",
+        "interpretation": "not all deployment configurations"
+      },
+      {
+        "name": "Astra ExploitBench known-vulnerability score",
+        "symbol": "ASTRA-EXPLOITBENCH",
+        "value": 100,
+        "unit": "percent",
+        "status": "company evaluation; known-vulnerability benchmark",
+        "source_url": "https://openai.com/index/path-to-astra/",
+        "interpretation": "internal contamination concern prompted a separate newer set"
+      },
+      {
+        "name": "EFS co-design customers",
+        "symbol": "ANTHROPIC-EFS-CODESIGN",
+        "value": 100,
+        "unit": "organizations minimum",
+        "status": "company disclosed as more than 100",
+        "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+        "interpretation": "not active or paying customer count"
+      },
+      {
+        "name": "July 2026 US trade release",
+        "symbol": "US-TRADE-JUL-2026",
+        "value": null,
+        "unit": null,
+        "status": "scheduled for 2026-09-03 08:30 ET; not yet observed",
+        "source_url": "https://www.bea.gov/news/schedule",
+        "interpretation": "future release is not a result"
+      }
+    ],
+    "sources": {
+      "ai": [
+        {
+          "title": "Path to Astra: critical capabilities and frontier safeguards",
+          "url": "https://openai.com/index/path-to-astra/",
+          "source": "OpenAI",
+          "published": "2026-09-01",
+          "summary": "Company assessment of Astra critical cyber capability, evaluations, safeguards, access limits and planned system card.",
+          "primary": true
+        },
+        {
+          "title": "Claude Fable 5.1 and Mythos 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "source": "Anthropic",
+          "published": "2026-09-01",
+          "summary": "Company model announcement covering shared base model, differentiated safeguards, access, price and benchmark claims.",
+          "primary": true
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "Developing Enterprise Frontier Safeguards with our customers",
+          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+          "source": "Anthropic",
+          "published": "2026-09-01",
+          "summary": "Company architecture and rollout disclosure for customer-controlled monitoring storage and review.",
+          "primary": true
+        },
+        {
+          "title": "Release Schedule",
+          "url": "https://www.bea.gov/news/schedule",
+          "source": "U.S. Bureau of Economic Analysis",
+          "published": "2026-09-01",
+          "summary": "Official schedule for September 2026 trade, GDP and personal income releases; schedule is not a result.",
+          "primary": true
+        },
+        {
+          "title": "Basic Principles of Information Protection",
+          "url": "https://web.mit.edu/saltzer/www/publications/protection/Basic.html",
+          "source": "MIT / Saltzer and Schroeder",
+          "published": null,
+          "summary": "Undated MIT-hosted author page reproducing the original complete-mediation wording; page publication date is not disclosed.",
+          "primary": true
+        }
+      ]
+    },
+    "search_text": "2026-09-02 Wednesday Astra Critical cyber capability OpenAI Anthropic Claude Fable 5.1 Mythos 5.1 Enterprise Frontier Safeguards EFS customer controlled storage authorization monitoring complete mediation BEA trade schedule 前沿模型 网络安全 分层授权 数据托管 客户密钥 人工复核"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-09-01",
     "generated_at": "2026-09-01T07:20:00+08:00",
     "information_cutoff": "2026-09-01T07:20:00+08:00",
