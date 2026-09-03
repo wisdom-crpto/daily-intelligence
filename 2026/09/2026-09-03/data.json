@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T08:43:14:z",
+  "model": "gpt-5.6-sol",
+  "mode": "model",
+  "thesis": "商务智能体的竞争正在转向交易控制面：目录真值、工具权限、界面批准、实时复核与领域评测共同决定系统能否从“会推荐”安全走向“可成交”。",
+  "summary": "Anthropic 发布商务智能体蓝图与工程指南；商业指标仍属公司披露，美国 7 月贸易数据在本期截点后发布。",
+  "relative_html": "2026/09/2026-09-03/Daily%20Intelligence.html",
+  "topics": [
+    "AI",
+    "commerce agents",
+    "Claude",
+    "agent loop",
+    "skills",
+    "tools",
+    "approval",
+    "maker-checker",
+    "retail",
+    "trade"
+  ],
+  "quote": {
+    "english": "Simplicity does not precede complexity, but follows it.",
+    "speaker": "Alan J. Perlis",
+    "chinese": "简单并不先于复杂，而是在复杂之后形成。",
+    "source_url": "https://cs.yale.edu/homes/perlis-alan/quotes.html"
+  },
+  "markets": [
+    {
+      "name": "Shopping-agent cart size uplift, maximum reported",
+      "symbol": "CLAUDE-CART-MAX",
+      "value": 35,
+      "unit": "percent",
+      "status": "company reported maximum; sample and baseline not disclosed",
+      "source_url": "https://claude.com/blog/claude-for-commerce-agents",
+      "interpretation": "not an average or independently verified causal effect"
+    },
+    {
+      "name": "Purchase completion likelihood uplift, maximum reported",
+      "symbol": "CLAUDE-COMPLETE-MAX",
+      "value": 60,
+      "unit": "percent",
+      "status": "company reported maximum; sample and baseline not disclosed",
+      "source_url": "https://claude.com/blog/claude-for-commerce-agents",
+      "interpretation": "metric differs from cart size and is not additive"
+    },
+    {
+      "name": "U.S. international trade, July 2026",
+      "symbol": "US-TRADE-JUL-2026",
+      "value": null,
+      "unit": null,
+      "status": "scheduled for 2026-09-03 08:30 EDT; unobserved at cutoff",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "interpretation": "scheduled release is not a result"
+    }
+  ],
+  "sources": {
+    "ai": [
+      {
+        "title": "Building commerce agents with Claude",
+        "url": "https://claude.com/blog/claude-for-commerce-agents",
+        "source": "Anthropic",
+        "published": "2026-09-02",
+        "summary": "Company announcement of reference shopping and merchant agents, integrations, guardrails, and customer outcome claims.",
+        "primary": true
+      },
+      {
+        "title": "A guide to the anatomy of effective commerce agents",
+        "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+        "source": "Anthropic",
+        "published": "2026-09-02",
+        "summary": "Company engineering guidance on agent architecture, skills, tools, latency, safety and evaluations.",
+        "primary": true
+      }
+    ],
+    "business_macro": [
+      {
+        "title": "Claude for commerce",
+        "url": "https://claude.com/solutions/commerce",
+        "source": "Anthropic",
+        "published": "2026-09-02",
+        "summary": "Company solution page describing business positioning, reference-code limits, approval controls and partner statements.",
+        "primary": true
+      },
+      {
+        "title": "Release Schedule",
+        "url": "https://www.bea.gov/news/schedule",
+        "source": "U.S. Bureau of Economic Analysis",
+        "published": "2026-09-02",
+        "summary": "Official schedule showing the July 2026 U.S. trade release time; schedule is not an observed result.",
+        "primary": true
+      },
+      {
+        "title": "Epigrams in Programming",
+        "url": "https://cs.yale.edu/homes/perlis-alan/quotes.html",
+        "source": "Yale University / Alan J. Perlis",
+        "published": null,
+        "summary": "Undated Yale-hosted reproduction identifying the quote and its 1982 SIGPLAN provenance; webpage publication date is not disclosed.",
+        "primary": true
+      }
+    ]
+  },
+  "search_text": "2026-09-03 Thursday Claude commerce agents 商务智能体 购物智能体 商家智能体 单智能体 技能 工具 权限 暂存 批准 交易控制面 目录真值 美国贸易 BEA"
+}
