@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T09:17:50+08:00",
+  "model": "gpt-5.6-sol",
+  "mode": "model",
+  "thesis": "AI 普及的下一道门槛不是再发一个工具，而是把短课、真实任务、结果核验与同伴复盘连成学习闭环；宏观数据同时提醒，数字能力扩张仍会通过硬件进口与成本结构进入实体账本。",
+  "summary": "Google 扩展教师 AI 微课程，但培训完成不等于教学成效；美国 7 月贸易逆差扩大，计算机及配件进口显著上升。",
+  "relative_html": "2026/09/2026-09-04/Daily%20Intelligence.html",
+  "topics": [
+    "AI",
+    "education",
+    "teacher training",
+    "microlearning",
+    "workflow",
+    "evaluation",
+    "Google",
+    "trade",
+    "capital goods",
+    "computers"
+  ],
+  "quote": {
+    "english": "A program without a loop and a structured variable isn't worth writing.",
+    "speaker": "Alan J. Perlis",
+    "chinese": "没有循环和结构化变量的程序，不值得写。",
+    "source_url": "https://cs.yale.edu/homes/perlis-alan/quotes.html"
+  },
+  "markets": [
+    {
+      "name": "U.S. goods and services trade deficit, July 2026",
+      "symbol": "US-TRADE-DEFICIT-JUL-2026",
+      "value": 88.6,
+      "unit": "USD billion",
+      "status": "official seasonally adjusted nominal release",
+      "source_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
+      "interpretation": "up 17.4 billion from revised June"
+    },
+    {
+      "name": "U.S. capital goods imports monthly change, July 2026",
+      "symbol": "US-CAPITAL-IMPORT-CHANGE-JUL-2026",
+      "value": 14.4,
+      "unit": "USD billion",
+      "status": "official monthly change",
+      "source_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
+      "interpretation": "category includes computers, accessories and semiconductors; cause not identified"
+    }
+  ],
+  "sources": {
+    "ai": [
+      {
+        "title": "Start the year AI-ready with the Google AI Educator Series",
+        "url": "https://blog.google/products-and-platforms/products/education/new-ai-educator-trainings-september-2026/",
+        "source": "Google",
+        "published": "2026-09-03",
+        "summary": "Company announcement of free micro-courses, monthly modules and September 19 event.",
+        "primary": true
+      }
+    ],
+    "business_macro": [
+      {
+        "title": "U.S. International Trade in Goods and Services, July 2026",
+        "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
+        "source": "U.S. Bureau of Economic Analysis / U.S. Census Bureau",
+        "published": "2026-09-03",
+        "summary": "Official trade release with imports, exports, balance and category detail.",
+        "primary": true
+      },
+      {
+        "title": "Epigrams in Programming",
+        "url": "https://cs.yale.edu/homes/perlis-alan/quotes.html",
+        "source": "Yale University / Alan J. Perlis",
+        "published": null,
+        "summary": "Yale-hosted reproduction identifying the quote as epigram 18.",
+        "primary": true
+      }
+    ]
+  },
+  "search_text": "2026-09-04 Friday Google AI Educator Series 教师 AI 培训 微课程 徽章 工作流 评估 美国贸易 BEA 资本品 计算机进口"
+}
