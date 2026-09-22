@@ -1,0 +1,26 @@
+profile_schema: "1"
+workspace_kind: publication-repository
+lifecycle: active
+default_sensitivity: internal
+current_pointer: CURRENT.md
+
+modules:
+  - automation
+  - publication
+
+path_roles:
+  historical:
+    - project-ac
+  implementation:
+    - automation
+    - .github
+  generated: []
+  runtime: []
+  release:
+    - 20??
+    - index.html
+    - latest.html
+    - search-index.json
+  protected: []
+
+relationships: []
