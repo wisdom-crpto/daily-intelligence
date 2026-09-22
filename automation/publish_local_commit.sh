@@ -101,6 +101,10 @@ EOF
   fi
 
   if [ "$ahead" -gt 0 ]; then
+    # Check the final tree after remote refresh; never mutate or commit here.
+    if [ -f "$PAGES_REPO_DIR/automation/refresh_homepage.py" ]; then
+      "${PUBLISH_PYTHON_BIN:-/usr/bin/python3}" -B "$PAGES_REPO_DIR/automation/refresh_homepage.py" --check || return 3
+    fi
     $GIT_BIN merge-base --is-ancestor "origin/$BRANCH" HEAD || {
       echo "Remote ancestry check failed; refusing to push." >&2
       return 3
