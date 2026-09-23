@@ -38,7 +38,7 @@ DATE_RE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}\Z")
 IMAGE_RE = re.compile(r"!\[([^\]\n]*)\]\(([^)\n]+)\)")
 LINK_RE = re.compile(r"(?<!!)\[([^\]\n]+)\]\(([^)\n]+)\)")
 SECRET_RE = re.compile(
-    r"\b(?:sk-[A-Za-z0-9_-]{12,}|gh[pousr]_[A-Za-z0-9]{20,}|"
+    r"\b(?:sk-(?!hynix-)[A-Za-z0-9_-]{12,}|gh[pousr]_[A-Za-z0-9]{20,}|"
     r"github_pat_[A-Za-z0-9_]{20,}|AKIA[A-Z0-9]{16})\b|"
     r"-----BEGIN (?:[A-Z ]+)?PRIVATE KEY-----|"
     r"\bBearer\s+[A-Za-z0-9._~+/-]{16,}|"
