@@ -301,7 +301,7 @@ def validate_payload(payload: dict, report_date: str, archive_root: Path) -> dic
     for field in ("generated_at", "model", "thesis", "summary"):
         _text(data[field], f"data.{field}")
     _text(data["search_text"], "data.search_text", maximum=150000)
-    _require(data["model"] == "gpt-5.6-sol", "data: unexpected model")
+    _require(data["model"] in {"gpt-5.6-sol", "gpt-6-astra", "Codex (GPT-6)"}, "data: unexpected model")
     try:
         generated = dt.datetime.fromisoformat(data["generated_at"])
     except ValueError:
