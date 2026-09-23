@@ -25,6 +25,7 @@ def fixture(root, rows):
     def entry(start, end):
         sources = [d for d in dates if start <= d <= end]
         return dict(start=start, end=end, title='综合主题', overview='结合各期内容后的综合判断',
+                    card_title='读懂变化。', card_deck='用简短导读，呈现重要联系。',
                     items=[dict(heading='重点', body='具体事件、意义和证据边界',
                                 source_dates=[sources[0]]) for _ in range(3)],
                     watch='待验证的问题', source_hashes={d: issue_hash(root,d) for d in sources})
@@ -52,8 +53,11 @@ class HomepageTests(unittest.TestCase):
         self.assertEqual(page.count('class="editorial-card"'), 7)
         self.assertNotIn('阅读周期回顾', page)
         self.assertIn('接下来值得留意', page)
-        period_section = page.split('<section id="weekly">')[1].split('<details id="archive">')[0]
+        period_section = page.split('<section id="weekly">')[1].split('<details id="archive"')[0]
         self.assertNotIn('<h3>2026', period_section)
+        for label in ('已归档日报', '最新一期', '月份覆盖'):
+            self.assertNotIn(label, page)
+        self.assertIn('class="primary-cta" href="2026/10/2026-10-05/Daily%20Intelligence.html"', page)
         self.assertEqual(page, _index_html(list(reversed(self.rows)),self.data))
         self.assertEqual(periods(dt.date(2026,1,5),True)[0],('2025-12-01','2025-12-31'))
         self.assertEqual(periods(dt.date(2024,3,5),True)[0],('2024-02-01','2024-02-29'))
@@ -102,7 +106,7 @@ class HomepageTests(unittest.TestCase):
             load_summaries(self.root,self.rows)
 
     def test_prose_escaped_and_company_slug_not_a_key(self):
-        self.data['daily']['2026-10-05']['title']='<script>alert(1)</script>'
+        self.data['daily']['2026-10-05']['card_title']='<script>alert(1)</script>'
         self.assertIn('&lt;script&gt;', _index_html(self.rows,self.data))
         self.assertIsNone(SECRET_RE.search('https://example.org/ai-sk-hynix-samsung-memory-market'))
         self.assertIsNotNone(SECRET_RE.search('sk-proj-' + 'x'*30))

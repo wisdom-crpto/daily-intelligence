@@ -49,6 +49,10 @@ def load_summaries(root, records):
                 raise ValueError(f'Summary source changed: {date}; review its editorial content')
         for key in ('title', 'overview'):
             text(entry[key])
+        for key, limit in [('card_title', 24), ('card_deck', 60)]:
+            text(entry.get(key))
+            if len(entry[key]) > limit:
+                raise ValueError(f'{key} exceeds the concise homepage copy limit')
         items = entry['items']
         if not isinstance(items, list) or not 3 <= len(items) <= 5:
             raise ValueError('Editorial summary needs 3–5 substantive points')
