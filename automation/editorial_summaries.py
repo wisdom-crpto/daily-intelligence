@@ -53,6 +53,8 @@ def load_summaries(root, records):
             text(entry.get(key))
             if len(entry[key]) > limit:
                 raise ValueError(f'{key} exceeds the concise homepage copy limit')
+        if '。' in entry['card_title'] or entry['card_title'].endswith('.'):
+            raise ValueError('Homepage titles must not use sentence-ending periods')
         items = entry['items']
         if not isinstance(items, list) or not 3 <= len(items) <= 5:
             raise ValueError('Editorial summary needs 3–5 substantive points')

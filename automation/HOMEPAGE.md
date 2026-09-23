@@ -22,3 +22,7 @@ python3 -B automation/refresh_homepage.py --check
 独立发布器在刷新远端、安全祖先检查和实际推送之间执行只读校验；不一致时停止，不在发布阶段修改文件或创建提交。通过 `PUBLISH_PYTHON_BIN` 指定项目 Python。无待推提交的周期检查不生成或改写内容。
 
 运行回归测试：`python3 -B -m unittest discover -s automation -p test_refresh_homepage.py`。
+
+用户 2026-09-23 阅读体验追加规则：标题不用句号，句间可用逗号，正文标点与内容保持不变；避免强制断行，支持时按中文词边界排版，英文单词不能拆开。电脑和手机均采用横向卡片浏览，电脑展示多张、手机以一张为主；保留下一张提示、页码、前后按钮、键盘导航和减少动态效果支持，不自动轮播。完整周月分析仍可展开。
+
+日报内页使用 `homepage_renderer._style_reader_page` 的银灰、白色、石墨黑和沉稳蓝色统一样式，并提供返回首页导航。新稿自动带上这套阅读样式。只有经过批准的整体样式更新，才运行 `python3 -B automation/refresh_reader_styles.py --write` 更新历史 HTML 外壳，再运行 `--check`；此操作不得改动 main 内文章、Markdown、data.json 或素材，不在每日任务中无故重写历史稿。

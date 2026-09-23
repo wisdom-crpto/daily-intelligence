@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-from homepage_renderer import _index_html, SECRET_RE
+from homepage_renderer import _index_html, _style_reader_page, SECRET_RE
 from editorial_summaries import issue_hash, load_summaries, periods
 from refresh_homepage import main
 
@@ -25,7 +25,7 @@ def fixture(root, rows):
     def entry(start, end):
         sources = [d for d in dates if start <= d <= end]
         return dict(start=start, end=end, title='综合主题', overview='结合各期内容后的综合判断',
-                    card_title='读懂变化。', card_deck='用简短导读，呈现重要联系。',
+                    card_title='读懂变化', card_deck='用简短导读，呈现重要联系。',
                     items=[dict(heading='重点', body='具体事件、意义和证据边界',
                                 source_dates=[sources[0]]) for _ in range(3)],
                     watch='待验证的问题', source_hashes={d: issue_hash(root,d) for d in sources})
@@ -110,6 +110,20 @@ class HomepageTests(unittest.TestCase):
         self.assertIn('&lt;script&gt;', _index_html(self.rows,self.data))
         self.assertIsNone(SECRET_RE.search('https://example.org/ai-sk-hynix-samsung-memory-market'))
         self.assertIsNotNone(SECRET_RE.search('sk-proj-' + 'x'*30))
+
+    def test_reader_shell_is_idempotent_and_preserves_article(self):
+        article = '<main><h1>日报</h1><p>正文。保留原文标点。</p><a href="source">来源</a></main>'
+        source = '<html><head></head><body>' + article + '</body></html>'
+        result = _style_reader_page(source)
+        self.assertIn(article, result)
+        self.assertEqual(result, _style_reader_page(result))
+        self.assertEqual(result.count('class="reader-nav"'), 1)
+
+    def test_title_punctuation_does_not_allow_old_style(self):
+        self.data['daily']['2026-10-05']['card_title'] = '读懂变化。'
+        (self.root/'homepage-summaries.json').write_text(json.dumps(self.data))
+        with self.assertRaisesRegex(ValueError, 'periods'):
+            load_summaries(self.root, self.rows)
 
 
 if __name__ == '__main__':
