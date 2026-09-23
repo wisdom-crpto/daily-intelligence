@@ -3,6 +3,7 @@ import argparse
 import sys
 from pathlib import Path
 from homepage_renderer import _archive_records, _index_html
+from editorial_summaries import load_summaries
 
 
 def main():
@@ -19,7 +20,8 @@ def main():
     target = root / 'index.html'
     if target.is_symlink():
         raise ValueError('Homepage must not be a symlink')
-    expected = _index_html(records)
+    summaries = load_summaries(root, records)
+    expected = _index_html(records, summaries)
     current = target.read_text(encoding='utf-8') if target.exists() else None
     if current == expected:
         print('Homepage current: 7 days / 4 completed weeks / 3 completed months')
@@ -35,6 +37,6 @@ def main():
 if __name__ == '__main__':
     try:
         raise SystemExit(main())
-    except (ValueError, OSError) as error:
+    except (ValueError, OSError, KeyError, TypeError) as error:
         print(str(error), file=sys.stderr)
         raise SystemExit(2)

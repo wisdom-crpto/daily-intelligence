@@ -522,32 +522,44 @@ def _cover_svg(report_date: str) -> str:
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img"><title>Daily Intelligence {report_date}</title><rect width="1200" height="630" fill="#08111f"/><path d="M0 480L1200 180V630H0Z" fill="#13243d"/><text x="80" y="190" fill="#67d4ff" font-size="28" letter-spacing="5">DAILY INTELLIGENCE</text><text x="80" y="330" fill="#ffffff" font-size="86">{report_date}</text><text x="80" y="420" fill="#a9b7c9" font-size="32">AI · Business · Macro</text></svg>'''
 
 
-def _period_reviews(records: list[dict], anchor: dt.date, monthly: bool) -> str:
-    """Deterministic archive recaps; excerpts are not new editorial claims."""
+def _summary_items(entry: dict, records_by_date: dict, daily=False) -> str:
+    parts = []
+    for item in entry['items']:
+        refs = '' if daily else '<span class="point-sources">' + ' '.join(
+            f'<a href="{html.escape(records_by_date[d]["relative_html"], quote=True)}" aria-label="阅读这条重点的来源 {n}">原文{n}</a>'
+            for n, d in enumerate(item['source_dates'], 1)) + '</span>'
+        parts.append(f'<li><h4>{html.escape(item["heading"])}</h4><p>{html.escape(item["body"])}</p>{refs}</li>')
+    return '<ul class="editorial-points">' + ''.join(parts) + '</ul>'
+
+
+def _period_reviews(records: list[dict], anchor: dt.date, monthly: bool, summaries=None) -> str:
+    """Render authored synthesis. Production refresh requires validated summaries."""
+    if summaries is None:
+        return ''
     end = anchor.replace(day=1) if monthly else anchor - dt.timedelta(days=anchor.weekday())
+    by_start = {e['start']: e for e in summaries['monthly' if monthly else 'weekly']}
+    by_date = {r['date']: r for r in records}
+    labels = ['上月', '再前一个月', '更早一个月'] if monthly else ['上周', '再前一周', '更早两周', '更早三周']
     cards = []
-    for _ in range(3 if monthly else 4):
+    for index, label in enumerate(labels):
         start = (end - dt.timedelta(days=1)).replace(day=1) if monthly else end - dt.timedelta(days=7)
-        issues = [r for r in records if start.isoformat() <= r['date'] < end.isoformat()]
-        title = f'{start.year}年{start.month:02d}月' if monthly else f'{start:%m/%d} — {end - dt.timedelta(days=1):%m/%d}'
-        topics = {}
-        for item in issues:
-            for topic in set(t for t in item.get('topics', []) if isinstance(t, str)):
-                topics[topic] = topics.get(topic, 0) + 1
-        themes = ' · '.join(t for t, count in sorted(topics.items(), key=lambda pair: (-pair[1], pair[0]))[:5])
-        count = len(issues)
-        expected = (end - start).days
-        coverage = f'{count}/{expected} 天有日报' + (' · 覆盖不完整' if count < expected else '')
-        # Evenly spaced source excerpts cover the period instead of only its last days.
-        picked = [issues[i] for i in sorted({round(n * (count - 1) / min(2, count - 1)) for n in range(min(3, count))})] if count > 1 else issues
-        excerpts = ''.join(f'<li><a href="{html.escape(r["relative_html"], quote=True)}">{r["date"]}</a><p>{html.escape(r.get("summary") or r.get("thesis", ""))}</p></li>' for r in picked)
-        sources = ''.join(f'<a href="{html.escape(r["relative_html"], quote=True)}">{r["date"]}</a> ' for r in issues)
-        cards.append(f'<article class="week-card period-card"><h3>{title}</h3><small>{coverage}</small><p>{html.escape(themes) if themes else "暂无归档内容"}</p><details><summary>阅读周期回顾</summary><p>依据本期日报主题与原摘要整理；以下为跨期选读，完整分析请见原文。</p><ol>{excerpts}</ol><details><summary>本期全部日报（{count}）</summary>{sources}</details></details></article>')
+        entry = by_start[start.isoformat()]
+        coverage = f'<p class="coverage-note">{html.escape(entry["coverage_note"])}</p>' if entry.get('coverage_note') else ''
+        cards.append(f'<article class="editorial-card"><div class="eyebrow">{label} · {"月度观察" if monthly else "一周观察"}</div><h3>{html.escape(entry["title"])}</h3><p class="editorial-lede">{html.escape(entry["overview"])}</p>{coverage}{_summary_items(entry, by_date)}<div class="watch"><strong>接下来值得留意</strong><p>{html.escape(entry["watch"])}</p></div></article>')
         end = start
     return ''.join(cards)
 
 
-def _index_html(records: list[dict]) -> str:
+def _daily_card(item: dict, summaries=None) -> str:
+    entry = (summaries or {}).get('daily', {}).get(item['date'])
+    url = html.escape(item['relative_html'], quote=True)
+    if entry is None:
+        # Staging-only rendering; refresh_homepage rejects missing authored prose.
+        return f'<article class="daily-card"><small>{item["date"]}</small><h3>{html.escape(item.get("thesis", ""))}</h3><a class="read-link" href="{url}">阅读全文 →</a></article>'
+    return f'<article class="daily-card"><small>{item["date"]}</small><h3>{html.escape(entry["title"])}</h3><p class="editorial-lede">{html.escape(entry["overview"])}</p>{_summary_items(entry, {}, daily=True)}<a class="read-link" href="{url}">阅读全文 →</a></article>'
+
+
+def _index_html(records: list[dict], summaries=None) -> str:
     records = sorted(records, key=lambda item: item['date'], reverse=True)
     groups = {}
     for record in records:
@@ -568,16 +580,18 @@ def _index_html(records: list[dict]) -> str:
     latest_title = html.escape(latest.get("thesis") or "打开最新一期")
     anchor = dt.date.fromisoformat(latest['date'])
     daily_start = (anchor - dt.timedelta(days=6)).isoformat()
-    weekly_reviews = _period_reviews(records, anchor, False)
-    monthly_reviews = _period_reviews(records, anchor, True)
+    weekly_reviews = _period_reviews(records, anchor, False, summaries)
+    monthly_reviews = _period_reviews(records, anchor, True, summaries)
     week_cards = "".join(
-        f'<a class="week-card" href="{html.escape(item["relative_html"], quote=True)}"><small>{item["date"]}</small><strong>{html.escape(item.get("thesis") or "Daily Intelligence")}</strong></a>'
+        _daily_card(item, summaries)
         for item in records if item['date'] >= daily_start)
     month_links = "".join(f'<a href="#{month}">{month} · {len(issues)} 期</a>'
                           for month, issues in groups.items())
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Daily Intelligence</title><style>
 :root{{--ink:#182033;--muted:#65708a;--paper:#fffdf9;--ground:#f4efe7;--navy:#12233f;--accent:#d85c36;--line:#dfd7c9;--wash:#f9e9df}}*{{box-sizing:border-box}}body{{margin:0;background:var(--ground);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif}}main{{max-width:1160px;margin:auto;padding:32px 22px 80px}}a{{color:inherit;text-decoration:none;overflow-wrap:anywhere;word-break:break-word}}.eyebrow{{font-size:.74rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}}.hero{{background:var(--navy);color:#fff;border-radius:28px;padding:clamp(28px,5vw,64px);box-shadow:0 20px 50px #15233b33}}h1{{font-size:clamp(2.4rem,6vw,5rem);line-height:.95;margin:.18em 0}}.sub{{max-width:670px;color:#d6ddeb}}.hero-grid{{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:28px;align-items:end}}.latest{{display:block;background:var(--paper);color:var(--ink);padding:22px;border-radius:18px;font-weight:700;line-height:1.4}}.latest small{{display:block;color:var(--accent);margin-bottom:8px}}.metrics,.week-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}}.metric,.week-card,.panel{{background:var(--paper);border:1px solid var(--line);border-radius:18px}}.metric{{padding:14px 16px}}.metric strong{{display:block;font-size:1.45rem}}.metric span,.week-card small,.issue-meta{{color:var(--muted);font-size:.86rem}}.section-head{{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:42px 0 14px}}h2{{font-size:1.45rem;margin:0}}.week-grid{{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}}.week-card{{padding:15px;transition:transform .15s,box-shadow .15s}}.week-card:hover{{transform:translateY(-2px);box-shadow:0 8px 24px #18203318}}.week-card strong{{display:block;line-height:1.35;margin-top:6px}}.month-nav{{display:flex;gap:9px;flex-wrap:wrap;margin:0 0 18px}}.month-nav a{{padding:7px 10px;border-radius:999px;background:var(--wash);color:#9b3d22;font-size:.9rem;font-weight:700}}.search-wrap{{position:sticky;top:0;z-index:5;padding:14px 0;background:#f4efe7eF}}input{{width:100%;padding:15px 18px;border-radius:14px;border:1px solid var(--line);background:#fff;font-size:16px;color:var(--ink)}}.month-group{{margin-top:34px;scroll-margin-top:75px}}h3{{margin:0 0 10px;font-size:1rem;color:var(--accent);letter-spacing:.08em}}.issue-card{{display:grid;grid-template-columns:76px 1fr;gap:20px;padding:22px 0;border-top:1px solid var(--line)}}.date-box{{height:76px;border-radius:15px;background:var(--wash);display:grid;place-content:center;text-align:center;color:#9b3d22}}.date-box span{{font-size:1.8rem;font-weight:800;line-height:1}}.date-box small{{font-size:.72rem}}.issue-body{{min-width:0}}.issue-body h2{{font-size:1.28rem;line-height:1.35;margin:.15rem 0 .35rem}}p{{color:var(--muted);margin:.25rem 0 .7rem}}.read-link{{font-weight:750;color:var(--accent)}}[hidden]{{display:none!important}}@media(max-width:720px){{main{{padding:18px 15px 60px}}.hero{{border-radius:22px}}.hero-grid{{grid-template-columns:1fr}}.metrics{{grid-template-columns:1fr 1fr}}.issue-card{{grid-template-columns:1fr;gap:10px}}.date-box{{width:76px}}.search-wrap{{position:static}}}}
-</style></head><body><main><header class="hero"><div class="eyebrow">Daily Intelligence · archive</div><div class="hero-grid"><div><h1>每天读懂<br>正在发生的事。</h1><p class="sub">AI、科技、商业与宏观的连续观察。先读最新，再回看一周与每月脉络。</p></div><a class="latest" href="{latest_url}"><small>Latest Intelligence · {latest['date']}</small>{latest_title}<br><span class="read-link">阅读本期 →</span></a></div></header><section class="metrics"><div class="metric"><strong>{len(records)}</strong><span>已归档日报</span></div><div class="metric"><strong>{latest['date']}</strong><span>最新一期</span></div><div class="metric"><strong>{len(groups)}</strong><span>月份覆盖</span></div></section><section><div class="section-head"><h2>日总结</h2><span>最近 7 天 · {daily_start} — {latest["date"]}</span></div><div class="week-grid">{week_cards}</div></section><section id="weekly"><div class="section-head"><h2>周总结</h2><span>最近 4 个完整自然周</span></div><div class="week-grid">{weekly_reviews}</div></section><section id="monthly"><div class="section-head"><h2>月总结</h2><span>最近 3 个完整自然月</span></div><div class="week-grid">{monthly_reviews}</div></section><details id="archive"><summary class="section-head">查看全部历史归档与搜索</summary><nav class="month-nav">{month_links}</nav><div class="search-wrap"><input id="q" type="search" placeholder="搜索日期、公司、主题或趋势…" aria-label="搜索归档"></div><section id="results">{''.join(sections)}</section></details></main><script>
+
+.editorial-grid,.daily-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}.editorial-card,.daily-card{{min-width:0;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:28px;overflow-wrap:anywhere}}.editorial-card h3,.daily-card h3{{font-size:1.4rem;letter-spacing:0;line-height:1.45;color:var(--ink);margin:10px 0 12px}}.editorial-lede{{font-size:1rem;line-height:1.8;color:#465167}}.editorial-points{{list-style:none;margin:20px 0;padding:0}}.editorial-points li{{padding:14px 0;border-top:1px solid #ebe5dc}}.editorial-points h4{{font-size:1rem;line-height:1.6;margin:0 0 5px;color:var(--ink)}}.editorial-points p{{font-size:.94rem;line-height:1.85;margin:0;color:#4f596b}}.point-sources{{display:flex;gap:10px;margin-top:6px;font-size:.78rem;color:var(--accent)}}.point-sources a{{text-decoration:underline;text-underline-offset:3px}}.watch{{padding:16px 18px;border-radius:12px;background:#f1f4f5}}.watch strong{{font-size:.85rem;color:#30485b}}.watch p{{font-size:.9rem;line-height:1.8;margin:6px 0 0}}.coverage-note{{font-size:.8rem;color:#8e4f32;background:var(--wash);padding:8px 12px;border-radius:8px}}.daily-card small{{font-size:.8rem;color:var(--muted)}}.daily-card .editorial-points{{margin:14px 0}}.daily-card .editorial-points li{{padding:10px 0}}.daily-card h3{{font-size:1.2rem}}.monthly-grid{{grid-template-columns:1fr}}.monthly-grid .editorial-points{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}}.monthly-grid .editorial-lede{{max-width:940px}}.section-head span{{color:var(--muted);font-size:.85rem}}a:focus-visible,summary:focus-visible{{outline:3px solid var(--accent);outline-offset:4px}}@media(max-width:720px){{.editorial-grid,.daily-grid,.monthly-grid .editorial-points{{grid-template-columns:1fr}}.editorial-card,.daily-card{{padding:22px}}.section-head{{align-items:flex-start;flex-direction:column;gap:4px}}}}
+</style></head><body><main><header class="hero"><div class="eyebrow">Daily Intelligence · archive</div><div class="hero-grid"><div><h1>每天读懂<br>正在发生的事。</h1><p class="sub">AI、科技、商业与宏观的连续观察。先读最新，再回看一周与每月脉络。</p></div><a class="latest" href="{latest_url}"><small>Latest Intelligence · {latest['date']}</small>{latest_title}<br><span class="read-link">阅读本期 →</span></a></div></header><section class="metrics"><div class="metric"><strong>{len(records)}</strong><span>已归档日报</span></div><div class="metric"><strong>{latest['date']}</strong><span>最新一期</span></div><div class="metric"><strong>{len(groups)}</strong><span>月份覆盖</span></div></section><section><div class="section-head"><h2>最近七天 · 每日重点</h2><span>事件、变化与值得记住的启发</span></div><div class="daily-grid">{week_cards}</div></section><section id="weekly"><div class="section-head"><h2>周报 · 把事件连起来看</h2><span>最近四个完整周 · 从近到远</span></div><div class="editorial-grid">{weekly_reviews}</div></section><section id="monthly"><div class="section-head"><h2>月报 · 留下重要的变化</h2><span>最近三个完整月 · 从近到远</span></div><div class="editorial-grid monthly-grid">{monthly_reviews}</div></section><details id="archive"><summary class="section-head">查看全部历史归档与搜索</summary><nav class="month-nav">{month_links}</nav><div class="search-wrap"><input id="q" type="search" placeholder="搜索日期、公司、主题或趋势…" aria-label="搜索归档"></div><section id="results">{''.join(sections)}</section></details></main><script>
 // Fixed local code only. JSON is data; no generated HTML, eval, or dynamic links.
 const cards=[...document.querySelectorAll('.issue-card')];
 let records=null;

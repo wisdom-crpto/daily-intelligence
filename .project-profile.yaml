@@ -21,6 +21,7 @@ path_roles:
     - index.html
     - latest.html
     - search-index.json
+    - homepage-summaries.json
   protected: []
 
 relationships: []
