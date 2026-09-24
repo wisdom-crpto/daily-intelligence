@@ -431,7 +431,8 @@ def _style_reader_page(page: str) -> str:
 
 def _report_html(markdown: str, title: str) -> str:
     output, paragraph, table = [], [], []
-    in_list = False
+    in_list = None
+    in_actions = False
 
     def flush() -> None:
         nonlocal paragraph, table, in_list
@@ -439,8 +440,8 @@ def _report_html(markdown: str, title: str) -> str:
             output.append("<p>" + _inline(" ".join(paragraph)) + "</p>")
             paragraph = []
         if in_list:
-            output.append("</ul>")
-            in_list = False
+            output.append(f"</{in_list}>")
+            in_list = None
         if table:
             output.append('<div class="table-wrap"><table><thead><tr>')
             output.extend("<th>" + _inline(cell) + "</th>" for cell in table[0])
@@ -467,17 +468,26 @@ def _report_html(markdown: str, title: str) -> str:
             if heading:
                 flush()
                 level = len(heading.group(1))
+                if level <= 2:
+                    in_actions = heading.group(2).lower().startswith('action items')
                 output.append(f"<h{level}>" + _inline(heading.group(2)) + f"</h{level}>")
             elif line.startswith("> "):
                 flush()
                 output.append("<blockquote>" + _inline(line[2:]) + "</blockquote>")
-            elif re.match(r"^[-*]\s+", line):
-                if paragraph:
+            elif re.match(r"^(?:[-*]\s+|[0-9]+[.)]\s+)", line):
+                item = re.match(r"^(?:([-*])|([0-9]+)[.)])\s+(.+)$", line)
+                kind = 'ul' if item.group(1) else 'ol'
+                if paragraph or (in_list and in_list != kind):
                     flush()
                 if not in_list:
-                    output.append("<ul>")
-                    in_list = True
-                output.append("<li>" + _inline(line[2:]) + "</li>")
+                    attrs = ' class="action-items"' if in_actions else ''
+                    if kind == 'ol' and item.group(2) != '1':
+                        attrs += f' start="{int(item.group(2))}"'
+                    output.append(f'<{kind}{attrs}>')
+                    in_list = kind
+                output.append('<li>' + _inline(item.group(3)) + '</li>')
+            elif in_list and line.startswith(('  ', '\t')):
+                output[-1] = output[-1][:-5] + ' ' + _inline(line.strip()) + '</li>'
             elif line == "---":
                 flush()
                 output.append("<hr>")

@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-from homepage_renderer import _index_html, _style_reader_page, SECRET_RE
+from homepage_renderer import _index_html, _style_reader_page, _report_html, SECRET_RE
 from editorial_summaries import issue_hash, load_summaries, periods
 from refresh_homepage import main
 
@@ -124,6 +124,21 @@ class HomepageTests(unittest.TestCase):
         (self.root/'homepage-summaries.json').write_text(json.dumps(self.data))
         with self.assertRaisesRegex(ValueError, 'periods'):
             load_summaries(self.root, self.rows)
+
+    def test_action_items_render_as_separate_numbered_entries(self):
+        page = _report_html('## Action Items\n1. **定义**边界。\n2. **盘点**风险。\n\n## Sources\n- 原始来源\n', 'Test')
+        section = page.split('<h2>Action Items</h2>')[1].split('<h2>Sources</h2>')[0]
+        self.assertIn('<ol class="action-items">', section)
+        self.assertEqual(section.count('<li>'), 2)
+        self.assertIn('<strong>定义</strong>', section)
+        self.assertNotIn('<p>1.', section)
+        self.assertIn('<h2>Sources</h2><ul>', page)
+
+    def test_numbered_continuation_and_list_type_changes(self):
+        page = _report_html('## Action Items\n1. 项目一\n   延续提示。\n\n2. 项目二\n- 独立项目\n\n后续段落。', 'Test')
+        self.assertIn('<li>项目一 延续提示。</li>', page)
+        self.assertIn('<ol class="action-items" start="2">', page)
+        self.assertIn('</ol><ul class="action-items">', page)
 
 
 if __name__ == '__main__':
