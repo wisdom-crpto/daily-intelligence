@@ -105,6 +105,9 @@ EOF
     if [ -f "$PAGES_REPO_DIR/automation/refresh_homepage.py" ]; then
       "${PUBLISH_PYTHON_BIN:-/usr/bin/python3}" -B "$PAGES_REPO_DIR/automation/refresh_homepage.py" --check || return 3
     fi
+    if [ -f "$PAGES_REPO_DIR/automation/check_news_freshness.py" ]; then
+      "${PUBLISH_PYTHON_BIN:-/usr/bin/python3}" -B "$PAGES_REPO_DIR/automation/check_news_freshness.py" || return 3
+    fi
     $GIT_BIN merge-base --is-ancestor "origin/$BRANCH" HEAD || {
       echo "Remote ancestry check failed; refusing to push." >&2
       return 3
