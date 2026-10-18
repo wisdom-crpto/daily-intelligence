@@ -78,13 +78,13 @@ Anthropic的报告提供了一个值得跟踪的组织切片：初级技术招�
 
 ## One Chart｜一张图
 
-图表把本期可核验信号按主题计数：AI 与产品三条、美国宏观数据两条。计数表示本期纳入的一手材料数量，不代表行业发生频率、市场份额或统计估计。
+图表展示 NVIDIA 官方文章列出的首发合作厂商数量：ASUS、Dell、HP、Lenovo、Microsoft、MSI，共 6 家。该数仅表示本次官方列举的合作厂商数量，不表示出货量、销量、市场份额或实测性能。
 
-![本期一手信号分布](assets/chart.svg)
+![RTX Spark首发合作厂商数量](assets/chart.svg)
 
 ## Quote of the Day｜今日引用
 
-> “Industrial production increased 0.7 percent in September after edging up 0.1 percent in August.”
+> “Industrial production (IP) increased 0.7 percent in September after edging up 0.1 percent in August.”
 
 — 美国联邦储备委员会，G.17 工业生产统计，2026-10-16 09:15 EDT。[原始发布](https://www.federalreserve.gov/releases/g17/20261016/g17.pdf)
 
@@ -105,3 +105,5 @@ Anthropic的报告提供了一个值得跟踪的组织切片：初级技术招�
 ## 信息边界
 
 本期报道截止于 2026-10-17，实际补编时间为 2026-10-18 07:06+08:00。Anthropic两篇研究页面标注 2026-10-16，但页面未披露小时，故保留发布日期并将精确小时列为未知；不能声称已证实落在严格 24 小时窗口。NVIDIA文章标注 2026-10-17，亦未披露小时。Fed G.17 发布时刻为 10 月 16 日 09:15 EDT，BLS 进出口价格发布时刻为 10 月 16 日 08:30 EDT，二者按官方日程换算均在本期 10 月 17 日 07:00+08:00 锚点前约 10 小时。Anthropic与NVIDIA为企业一手披露，其研究结论及产品宣传需要外部检验；宏观数字对应 2026 年 9 月，部分为初值，后续可能修订。未使用 10 月 18 日及之后材料。
+
+2026-10-19 勘误：One Chart 的文字说明已改为与图中六家首发 OEM 数量一致，未更改图表数据或相关新闻事实。
