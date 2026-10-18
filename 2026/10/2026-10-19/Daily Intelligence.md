@@ -83,11 +83,13 @@ EFTA [官方新闻列表](https://www.efta.int/media-resources/news)将越南自
 
 ## Quote of the Day｜今日引用
 
-> “The entry into force of the FTA is currently pending.”
+> “Well done is better than well said.”
 
-— European Free Trade Association，越南自由贸易协定资料页，本次核验于 2026-10-19。[原始出处](https://www.efta.int/trade-relations/free-trade-network/viet-nam)
+— Benjamin Franklin（本杰明·富兰克林）编印，《穷理查年鉴》1737年版，五月格言。[国家档案馆原文](https://founders.archives.gov/documents/Franklin/01-02-02-0028)
 
-中文：该自由贸易协定目前仍待生效。它提醒读者，签署日与可实际适用优惠的日期，需要分别记录。
+中文：做得好，胜过说得好。
+
+这句格言把评价放在完成的行动上。本期把它用于提醒自己：股权承诺、软件发布、协定签署和交易意向，仍应分别接受后续结果的检验。
 
 ## Action Items｜今天值得思考什么
 
@@ -113,3 +115,5 @@ EFTA [官方新闻列表](https://www.efta.int/media-resources/news)将越南自
 | 印尼商务部 TEI 公告 | 2026-10-18 21:16 WIB，即 22:16+08:00 | 严格处于窗口；数据参考期为展会五天，潜在交易不等于出口或收款 |
 
 本文区分公告时间、事件发生时间和数据覆盖期间。企业披露及政府活动统计未在本期获得独立审计；涉及将来批准、应用、实施和转化的内容均保留条件。除直接陈述来源外，文中的联系、评估方法和观察问题属于本报分析，不是来源证明的因果关系或已经实现的效果。
+
+修订说明（2026-10-19T07:01:59+08:00）：本次将今日引用改为有原著出处的经典名人语录，并复审全文；新闻研究锚点仍为 2026-10-19T03:04:28+08:00，本次未刷新新闻检索截点。
