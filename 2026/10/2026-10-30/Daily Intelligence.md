@@ -111,7 +111,7 @@ Anthropic 的官方更新日志在 10 月 29 日列出 Usage and Cost Analytics 
 
 人物：Ralph Waldo Emerson（拉尔夫·沃尔多·爱默生）
 
-出处：1841 年《随笔集》第一版，第二篇《自立》（Self-Reliance），印刷页码第 41 页。[原著对应页](https://en.wikisource.org/wiki/Page:Essays_(1841).djvu/53)；[该版作者、年份与目录](https://en.wikisource.org/wiki/Index:Essays_(1841).djvu)。
+出处：1841 年《随笔集》第一版，第二篇《自立》（Self-Reliance），印刷页码第 41 页。[原著对应页](https://en.wikisource.org/wiki/Page:Essays_%281841%29.djvu/53)；[该版作者、年份与目录](https://en.wikisource.org/wiki/Index:Essays_%281841%29.djvu)。
 
 上下文：爱默生批评人们为了习俗与外在认可放弃自身判断。这里的“不盲从”强调独立思考，不是为了反对而反对，也不表示可以无视事实。
 
