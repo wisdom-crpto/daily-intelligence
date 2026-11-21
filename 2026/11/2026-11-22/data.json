@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-11-22",
-  "generated_at": "2026-11-22T07:14:35+08:00",
+  "generated_at": "2026-11-22T07:18:27+08:00",
   "model": "Codex (GPT-6)",
   "mode": "model",
   "thesis": "AWS扩展企业AI工具的多语种检索和浏览器工作流；印度—加拿大贸易谈判与Shalimar拟议合并仍处于未完成阶段。",
@@ -81,5 +81,5 @@
       "source_url": "https://nsearchives.nseindia.in/corporate/SHALPAINTS_21112026003415_BSENSENov21PressRelease.pdf"
     }
   ],
-  "search_text": "AWS扩展企业AI工具的多语种检索和浏览器工作流；印度—加拿大贸易谈判与Shalimar拟议合并仍处于未完成阶段。 Bedrock网页检索新增五种语言及国家偏好；AWS Quick让浏览器代理任务跨页面继续运行。印度—加拿大结束第六轮CEPA谈判但未签约；Shalimar披露拟议合并的FY26备考收入₹19,839 crore，交易仍待批准。 Bedrock网页检索语言支持 country code 国家代码 Quick浏览器工作流 India Canada CEPA谈判 Shalimar Paints Infra.Market拟议合并 FY26备考收入 EBITDA。"
+  "search_text": "AWS扩展企业AI工具的多语种检索和浏览器工作流；印度—加拿大贸易谈判与Shalimar拟议合并仍处于未完成阶段。 Bedrock网页检索新增五种语言及国家偏好；AWS Quick让浏览器代理任务跨页面继续运行。印度—加拿大结束第六轮CEPA谈判但未签约；Shalimar披露拟议合并的FY26备考收入₹19,839 crore，交易仍待批准。 Bedrock网页检索语言支持 country code 国家代码 Quick浏览器工作流 India Canada CEPA谈判 Shalimar Paints Infra.Market拟议合并 FY26备考收入 ₹570 crore 57亿印度卢比 ₹19,839 crore 1,984亿印度卢比 ₹1,709 crore 171亿印度卢比 EBITDA。更正：统一crore换算。"
 }
