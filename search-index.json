@@ -1,6 +1,91 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-11-22",
+    "generated_at": "2026-11-22T07:14:35+08:00",
+    "model": "Codex (GPT-6)",
+    "mode": "model",
+    "thesis": "AWS扩展企业AI工具的多语种检索和浏览器工作流；印度—加拿大贸易谈判与Shalimar拟议合并仍处于未完成阶段。",
+    "summary": "Bedrock网页检索新增五种语言及国家偏好；AWS Quick让浏览器代理任务跨页面继续运行。印度—加拿大结束第六轮CEPA谈判但未签约；Shalimar披露拟议合并的FY26备考收入₹19,839 crore，交易仍待批准。",
+    "relative_html": "2026/11/2026-11-22/Daily%20Intelligence.html",
+    "topics": [
+      "Amazon Bedrock",
+      "AWS Quick",
+      "印度—加拿大 CEPA",
+      "Shalimar Paints",
+      "企业AI工作流"
+    ],
+    "quote": {
+      "english": "the life which is unexamined is not worth living",
+      "chinese": "未经审视的人生不值得过。",
+      "speaker": "苏格拉底（柏拉图《申辩篇》所记）",
+      "source_url": "https://classics.mit.edu/Plato/apology.html"
+    },
+    "sources": {
+      "ai": [
+        {
+          "title": "AWS扩展Bedrock网页检索语言支持与国家偏好",
+          "summary": "11月21日发布，小时未披露；新增西班牙语、法语、德语、意大利语、日语和非美国英语，并允许按国家代码偏向本地来源。AgentCore与Bedrock区域范围不同。",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+          "published": "2026-11-21",
+          "source": "AWS官方What's New",
+          "primary": true
+        },
+        {
+          "title": "AWS Quick推出新的网页体验",
+          "summary": "11月21日发布，小时未披露；网页端共享代理、技能与连接器，代理可在关闭浏览器后继续运行，并更新浏览器扩展和Microsoft 365插件。",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/",
+          "published": "2026-11-21",
+          "source": "AWS官方What's New",
+          "primary": true
+        }
+      ],
+      "business_macro": [
+        {
+          "title": "印度—加拿大CEPA第六轮谈判结束",
+          "summary": "印度新闻信息局于11月21日20:33 IST发布（上海时间23:03）；双方讨论六个领域并称谈判有进展，尚未公布最终协议。",
+          "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2339731&lang=1&reg=3",
+          "published": "2026-11-21",
+          "source": "印度新闻信息局",
+          "primary": true
+        },
+        {
+          "title": "Shalimar Paints说明Infra.Market拟议合并规模",
+          "summary": "11月21日提交印度交易所，小时未披露；公司披露FY26备考收入和EBITDA及网络规模，交易仍须多方批准。",
+          "url": "https://nsearchives.nseindia.in/corporate/SHALPAINTS_21112026003415_BSENSENov21PressRelease.pdf",
+          "published": "2026-11-21",
+          "source": "印度国家证券交易所（公司公告附件）",
+          "primary": true
+        }
+      ]
+    },
+    "markets": [
+      {
+        "name": "Shalimar现有业务 FY26 收入（审计）",
+        "value": 570,
+        "unit": "₹ crore",
+        "status": "actual",
+        "source_url": "https://nsearchives.nseindia.in/corporate/SHALPAINTS_21112026003415_BSENSENov21PressRelease.pdf"
+      },
+      {
+        "name": "拟议合并 FY26 收入（备考）",
+        "value": 19839,
+        "unit": "₹ crore",
+        "status": "estimate",
+        "source_url": "https://nsearchives.nseindia.in/corporate/SHALPAINTS_21112026003415_BSENSENov21PressRelease.pdf"
+      },
+      {
+        "name": "拟议合并 FY26 EBITDA（备考）",
+        "value": 1709,
+        "unit": "₹ crore",
+        "status": "estimate",
+        "source_url": "https://nsearchives.nseindia.in/corporate/SHALPAINTS_21112026003415_BSENSENov21PressRelease.pdf"
+      }
+    ],
+    "search_text": "AWS扩展企业AI工具的多语种检索和浏览器工作流；印度—加拿大贸易谈判与Shalimar拟议合并仍处于未完成阶段。 Bedrock网页检索新增五种语言及国家偏好；AWS Quick让浏览器代理任务跨页面继续运行。印度—加拿大结束第六轮CEPA谈判但未签约；Shalimar披露拟议合并的FY26备考收入₹19,839 crore，交易仍待批准。 Bedrock网页检索语言支持 country code 国家代码 Quick浏览器工作流 India Canada CEPA谈判 Shalimar Paints Infra.Market拟议合并 FY26备考收入 EBITDA。"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-11-21",
     "generated_at": "2026-11-21T07:25:25+08:00",
     "model": "Codex (GPT-6)",
